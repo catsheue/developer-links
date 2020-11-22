@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import styled from 'styled-components'
+
+const ContentWrapper = styled.div`
+    display:flex;
+    background: black;
+`
+const LeftMenu = styled.div`
+    width: 20vw;
+    
+`
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+          Developer Links
       </header>
+        <ContentWrapper>
+            <div></div>
+        </ContentWrapper>
     </div>
   );
 }
