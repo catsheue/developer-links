@@ -1,34 +1,46 @@
+import "./App.css";
+import styled from "styled-components";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import SiteList from "./components/SiteList";
+import { generallist } from "./config/list";
 
-import './App.css';
-import styled from 'styled-components'
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
 const ContentWrapper = styled.div`
-    display:flex;
-    background: black;
-        height: 90vh;
-`
+  display: flex;
+  background: black;
+  height: 90vh;
+  overflow-y: scroll;
+`;
 const LeftMenu = styled.div`
-    width: 20vw;
-    color: #fff;
-    
+  width: 10vw;
+
+  height: 100vh;
+  background: teal;
+  ul {
+    list-style: none;
+    li {
+      a {
+        padding: 1.6rem;
+        display: block;
+        font-size: 2rem;
+        color: #fff;
+      }
+    }
+  }
 `;
 const Header = styled.header`
-  min-height: 10vh;background-color: #282c34;
+  min-height: 10vh;
+  background-color: #282c34;
   font-size: calc(10px + 2vmin);
-`
+`;
+const Content = styled.div`
+  width: 100%;
+`;
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <Header className="App-header">
-          Developer Links
-        </Header>
+        <Header className="App-header">Developer Links</Header>
         <ContentWrapper>
           <LeftMenu>
             <ul>
@@ -36,20 +48,22 @@ function App() {
                 <Link to="/">Home</Link>
               </li>
               <li>
-                <Link to="/news">About</Link>
+                <Link to="/general">General</Link>
+              </li>
+              <li>
+                <Link to="/general">Youtube Channel</Link>
               </li>
             </ul>
           </LeftMenu>
-          <div>
+          <Content>
             <Switch>
-            <Route path="/test">
-              <div>test</div>
-            </Route>
+              <Route path="/general">
+                <SiteList list={generallist} />
+              </Route>
             </Switch>
-          </div>
+          </Content>
         </ContentWrapper>
       </Router>
-
     </div>
   );
 }
