@@ -7,6 +7,7 @@
   box-sizing: border-box;
 }
 body {
+  color: #fff;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -22,4 +23,5 @@ code {
 
 a {
     color: inherit;
+  text-decoration: none;
 }

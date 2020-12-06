@@ -6,18 +6,26 @@ const SiteBar = styled.a`
   color: #fff;
   width: 100%;
   padding: 2rem;
+  &:hover {
+    background: #191919;
+    cursor: pointer;
+  }
 `;
 
 const Title = styled.h2`
   font-size: 2rem;
-  padding: 0 0 1rem 3rem;
+  padding: 0 0 1rem 0;
 `;
 
 const Description = styled.div`
   font-size: 1rem;
 `;
 const ImageWrapper = styled.div`
-  width: 23rem;
+  width: 13rem;
+`;
+const DetailWrapper = styled.div`
+  padding-left: 4rem;
+  text-align: left;
 `;
 
 export default function SiteList({ list }) {
@@ -31,10 +39,10 @@ export default function SiteList({ list }) {
               <img src={image} alt="" />
             </ImageWrapper>
 
-            <div>
+            <DetailWrapper>
               <Title>{title}</Title>
-              <div>{description}</div>
-            </div>
+              <Description>{description}</Description>
+            </DetailWrapper>
           </SiteBar>
         );
       })}

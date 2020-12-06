@@ -1,8 +1,14 @@
 import "./App.css";
 import styled from "styled-components";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  NavLink,
+} from "react-router-dom";
 import SiteList from "./components/SiteList";
-import { generallist } from "./config/list";
+import { courseList, generalList, wordpressList } from "./config/list";
 
 const ContentWrapper = styled.div`
   display: flex;
@@ -11,10 +17,10 @@ const ContentWrapper = styled.div`
   overflow-y: scroll;
 `;
 const LeftMenu = styled.div`
-  width: 10vw;
+  width: 20vw;
 
   height: 100vh;
-  background: teal;
+  border-right: 1px solid gray;
   ul {
     list-style: none;
     li {
@@ -45,20 +51,35 @@ function App() {
           <LeftMenu>
             <ul>
               <li>
-                <Link to="/">Home</Link>
+                <NavLink to="/">Home</NavLink>
               </li>
               <li>
-                <Link to="/general">General</Link>
+                <NavLink to="/general">General</NavLink>
               </li>
               <li>
-                <Link to="/general">Youtube Channel</Link>
+                <NavLink to="/general">Youtube Channel</NavLink>
+              </li>
+              <li>
+                <NavLink to="/courses">Online Courses</NavLink>
+              </li>
+              <li>
+                <NavLink to="/wordpress">WordPress</NavLink>
               </li>
             </ul>
           </LeftMenu>
           <Content>
             <Switch>
               <Route path="/general">
-                <SiteList list={generallist} />
+                <SiteList list={generalList} />
+              </Route>
+              <Route path="/courses">
+                <SiteList list={courseList} />
+              </Route>
+              <Route path="/wordpress">
+                <SiteList list={wordpressList} />
+              </Route>
+              <Route path="/">
+                <Index />
               </Route>
             </Switch>
           </Content>
@@ -69,3 +90,17 @@ function App() {
 }
 
 export default App;
+
+const IndexWrapper = styled.div`
+  padding: 3rem;
+  font-size: 3rem;
+`;
+
+function Index() {
+  return (
+    <IndexWrapper>
+      <p>Hi, I collect some useful websites from web. </p>
+      <p>Contact me if you wish me put some website here.</p>
+    </IndexWrapper>
+  );
+}
