@@ -5,6 +5,16 @@ import Udemy from "../styles/images/udemy.webp";
 import WPBeginner from "../styles/images/wpbeginner.webp";
 import Morioh from "../styles/images/morioh.webp";
 import SamanthaMing from "../styles/images/samanthaming.webp";
+import Mosh from '../styles/images/mosh.webp';
+
+export const blogList = [
+  {
+    title: "Programming with Mosh",
+    link: "https://programmingwithmosh.com/",
+    image: Mosh,
+    description: "Learn the Skills to Land Your Dream Job",
+  },
+];
 
 export const generalList = [
   {
@@ -47,7 +57,7 @@ export const courseList = [
     description: "Online Courses - Anytime, Anywhere",
   },
 ];
-export const blogList = [];
+
 export const wordpressList = [
   {
     title: "WPBeginner",

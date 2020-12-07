@@ -8,7 +8,7 @@ import {
   NavLink,
 } from "react-router-dom";
 import SiteList from "./components/SiteList";
-import { courseList, generalList, wordpressList } from "./config/list";
+import {blogList, courseList, generalList, wordpressList} from "./config/list";
 
 const ContentWrapper = styled.div`
   display: flex;
@@ -57,8 +57,11 @@ function App() {
                 <NavLink to="/general">General</NavLink>
               </li>
               <li>
-                <NavLink to="/general">Youtube Channel</NavLink>
+                <NavLink to="/blog">Blog</NavLink>
               </li>
+              {/*<li>*/}
+              {/*  <NavLink to="/general">Youtube Channel</NavLink>*/}
+              {/*</li>*/}
               <li>
                 <NavLink to="/courses">Online Courses</NavLink>
               </li>
@@ -71,6 +74,9 @@ function App() {
             <Switch>
               <Route path="/general">
                 <SiteList list={generalList} />
+              </Route>
+              <Route path="/blog">
+                <SiteList list={blogList} />
               </Route>
               <Route path="/courses">
                 <SiteList list={courseList} />
