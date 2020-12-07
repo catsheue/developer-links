@@ -6,6 +6,22 @@ import WPBeginner from "../styles/images/wpbeginner.webp";
 import Morioh from "../styles/images/morioh.webp";
 import SamanthaMing from "../styles/images/samanthaming.webp";
 import Reddit from "../styles/images/reddit.webp";
+import Mosh from "../styles/images/mosh.webp";
+import InfinumFrontEnd from "../styles/images/infinumfrontend.webp";
+export const blogList = [
+  {
+    title: "Programming with Mosh",
+    link: "https://programmingwithmosh.com/",
+    image: Mosh,
+    description: "Learn the Skills to Land Your Dream Job",
+  },
+  {
+    title: "SamanthaMing.com",
+    link: "https://www.samanthaming.com/",
+    image: SamanthaMing,
+    description: "developer articles",
+  },
+];
 
 export const generalList = [
   {
@@ -38,12 +54,6 @@ export const generalList = [
     image: Reddit,
     description: "developer articles",
   },
-  {
-    title: "SamanthaMing.com",
-    link: "https://www.samanthaming.com/",
-    image: SamanthaMing,
-    description: "developer articles",
-  },
 ];
 
 export const courseList = [
@@ -54,12 +64,20 @@ export const courseList = [
     description: "Online Courses - Anytime, Anywhere",
   },
 ];
-export const blogList = [];
+
 export const wordpressList = [
   {
     title: "WPBeginner",
     link: "https://www.wpbeginner.com/",
     image: WPBeginner,
     description: "Beginner's Guide for WordPress",
+  },
+];
+export const booklList = [
+  {
+    title: "Frontend Handbook",
+    link: "https://infinum.com/handbook/books/frontend",
+    image: InfinumFrontEnd,
+    description: "Frontend Handbook",
   },
 ];
