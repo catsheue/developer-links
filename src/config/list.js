@@ -5,6 +5,7 @@ import Udemy from "../styles/images/udemy.webp";
 import WPBeginner from "../styles/images/wpbeginner.webp";
 import Morioh from "../styles/images/morioh.webp";
 import SamanthaMing from "../styles/images/samanthaming.webp";
+import Reddit from "../styles/images/reddit.webp";
 
 export const generalList = [
   {
@@ -29,6 +30,12 @@ export const generalList = [
     title: "Morioh",
     link: "https://morioh.com/",
     image: Morioh,
+    description: "developer articles",
+  },
+  {
+    title: "Reddit",
+    link: "https://www.reddit.com/",
+    image: Reddit,
     description: "developer articles",
   },
   {
