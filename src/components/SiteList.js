@@ -36,7 +36,7 @@ export default function SiteList({ list }) {
         return (
           <SiteBar href={link} target="_blank">
             <ImageWrapper>
-              <img src={image} alt="" />
+              <img src={image} alt="" loading="lazy" />
             </ImageWrapper>
 
             <DetailWrapper>

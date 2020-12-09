@@ -8,6 +8,23 @@ import SamanthaMing from "../styles/images/samanthaming.webp";
 import Reddit from "../styles/images/reddit.webp";
 import Mosh from "../styles/images/mosh.webp";
 import InfinumFrontEnd from "../styles/images/infinumfrontend.webp";
+import Hackernoon from "../styles/images/hackernoon.webp";
+import TutorialsTeacher from "../styles/images/tutorialsteacher.webp";
+import GeeksforGeeks from "../styles/images/geeksforgeeks.webp";
+import dummies from "../styles/images/dummies.webp";
+import HubSpot from "../styles/images/hubspot.webp";
+import TestManagement from "../styles/images/testmanagement.webp";
+import freeCodeCamp from "../styles/images/freecodecamp.webp";
+
+export const agileList = [
+  {
+    title: "Programming with Mosh",
+    link: "https://programmingwithmosh.com/",
+    image: Mosh,
+    description: "Learn the Skills to Land Your Dream Job",
+  },
+];
+
 export const blogList = [
   {
     title: "Programming with Mosh",
@@ -20,6 +37,18 @@ export const blogList = [
     link: "https://www.samanthaming.com/",
     image: SamanthaMing,
     description: "developer articles",
+  },
+  {
+    title: "HubSpot Blog",
+    link: "https://blog.hubspot.com/",
+    image: HubSpot,
+    description: "Marketing, Sales, Agency, and Customer Success Content",
+  },
+  {
+    title: "Test Management",
+    link: "http://www.testmanagement.com/",
+    image: TestManagement,
+    description: "",
   },
 ];
 
@@ -53,6 +82,36 @@ export const generalList = [
     link: "https://www.reddit.com/",
     image: Reddit,
     description: "developer articles",
+  },
+  {
+    title: "Hacker Noon",
+    link: "https://hackernoon.com/",
+    image: Hackernoon,
+    description: "developer articles",
+  },
+  {
+    title: "TutorialsTeacher",
+    link: "https://www.tutorialsteacher.com/",
+    image: TutorialsTeacher,
+    description: "Learn Web Technologies",
+  },
+  {
+    title: "GeeksforGeeks",
+    link: "https://www.geeksforgeeks.org/",
+    image: GeeksforGeeks,
+    description: "A computer science portal for geeks",
+  },
+  {
+    title: "dummies",
+    link: "https://www.dummies.com/",
+    image: dummies,
+    description: "Learning Made Easy",
+  },
+  {
+    title: "freeCodeCamp.org",
+    link: "https://www.freecodecamp.org/",
+    image: freeCodeCamp,
+    description: "Learn to code at home",
   },
 ];
 
