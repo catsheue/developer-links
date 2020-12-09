@@ -110,8 +110,9 @@ function App() {
 export default App;
 
 const IndexWrapper = styled.div`
-  padding: 3rem;
-  font-size: 3rem;
+  padding: 6rem 0 0 10rem;
+  font-size: 2rem;
+  text-align: left;
 `;
 
 function Index() {
@@ -119,6 +120,7 @@ function Index() {
     <IndexWrapper>
       <p>Hi, I collect some useful websites from web. </p>
       <p>Contact me if you wish me put some website here.</p>
+      <p>catsheue@gmail.com</p>
     </IndexWrapper>
   );
 }

@@ -15,7 +15,7 @@ import dummies from "../styles/images/dummies.webp";
 import HubSpot from "../styles/images/hubspot.webp";
 import TestManagement from "../styles/images/testmanagement.webp";
 import freeCodeCamp from "../styles/images/freecodecamp.webp";
-
+import SmashingMagazine from "../styles/images/smashingmagazine.webp";
 export const agileList = [
   {
     title: "Programming with Mosh",
@@ -112,6 +112,12 @@ export const generalList = [
     link: "https://www.freecodecamp.org/",
     image: freeCodeCamp,
     description: "Learn to code at home",
+  },
+  {
+    title: "Smashing Magazine",
+    link: "https://www.smashingmagazine.com/",
+    image: SmashingMagazine,
+    description: "For Web Designers And Developers",
   },
 ];
 
