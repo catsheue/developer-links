@@ -16,12 +16,45 @@ import HubSpot from "../styles/images/hubspot.webp";
 import TestManagement from "../styles/images/testmanagement.webp";
 import freeCodeCamp from "../styles/images/freecodecamp.webp";
 import SmashingMagazine from "../styles/images/smashingmagazine.webp";
+import CodinGame from '../styles/images/codingame.webp';
+import WorkLife from '../styles/images/worklife.webp';
+import RegexCrossword from '../styles/images/regexcrossword.webp';
+import DigitalOcean from '../styles/images/digitalocean.webp';
+import JavaScriptInfo from '../styles/images/javascriptinfo.webp';
+import LeetCode from '../styles/images/leetcode.webp';
+import AgileCoach from '../styles/images/agilecoach.webp';
+import JavaScriptTutorialhorizon from '../styles/images/javascripttutorialhorizon.webp';
+
+export const playAndLearn = [
+  {
+    title: "Coding Games",
+    link: "https://www.codingame.com/start",
+    image: CodinGame,
+    description: "Coding Games and Programming Challenges to Code Better",
+  },
+];
+
 export const agileList = [
   {
-    title: "Programming with Mosh",
-    link: "https://programmingwithmosh.com/",
-    image: Mosh,
-    description: "Learn the Skills to Land Your Dream Job",
+    title: "Work Life by Atlassian",
+    link: "https://www.atlassian.com/blog",
+    image: WorkLife,
+    description: "Unleashing the potential of all teams with tips, tools, and practices",
+  },
+  {
+    title: "The Agile Coach",
+    link: "https://www.atlassian.com/agile",
+    image: AgileCoach,
+    description: "Atlassian's no-nonsense guide to agile development",
+  },
+];
+
+export const regexList = [
+  {
+    title: "Regex Crossword",
+    link: "https://regexcrossword.com/",
+    image: RegexCrossword,
+    description: "Welcome to the fantastic world of nerdy regex fun",
   },
 ];
 
@@ -49,6 +82,12 @@ export const blogList = [
     link: "http://www.testmanagement.com/",
     image: TestManagement,
     description: "",
+  },
+  {
+    title: "DigitalOcean",
+    link: "https://www.digitalocean.com/",
+    image: DigitalOcean,
+    description: "The developer cloud",
   },
 ];
 
@@ -119,6 +158,12 @@ export const generalList = [
     image: SmashingMagazine,
     description: "For Web Designers And Developers",
   },
+  {
+    title: "JavaScript | @tutorialhorizon",
+    link: "https://javascript.tutorialhorizon.com/",
+    image: JavaScriptTutorialhorizon,
+    description: "JavaScript Tutorial",
+  },
 ];
 
 export const courseList = [
@@ -144,5 +189,20 @@ export const booklList = [
     link: "https://infinum.com/handbook/books/frontend",
     image: InfinumFrontEnd,
     description: "Frontend Handbook",
+  },
+  {
+    title: "The Modern JavaScript Tutorial",
+    link: "https://javascript.info/",
+    image: JavaScriptInfo,
+    description: "JavaScript Tutorial",
+  },
+];
+
+export const testList = [
+  {
+    title: "LeetCode",
+    link: "https://leetcode.com/",
+    image: LeetCode,
+    description: "The World's Leading Online Programming Learning Platform",
   },
 ];

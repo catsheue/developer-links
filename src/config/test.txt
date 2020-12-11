@@ -1,0 +1,67 @@
+e.g. SQL:
+
+SELECT TOP 100 [name], addr, phone
+FROM students WITH(NOLOCK)
+WHERE Grade > 2 AND [type] = 'english'
+ORDER BY [name], phone DESC
+
+====
+  LINQ in C#:
+
+var tests = from i in students
+where Grade > 2 && [type] == 'english'
+select new
+  {
+    name = i.name,
+    addr = i.addr,
+    phone = i.phone
+  }
+  orderby i.name thenby phone descident
+
+====
+
+public class output
+{
+  public string StudentName { get; set; }
+  public string addr { get; set; }
+  public string phone { get; set; }
+}
+
+var tests = from i in students
+where Grade > 2 && [type] == 'english'
+select new output
+orderby i.name thenby phone descident
+
+<=  multiple results;
+
+single result => .FirstOrDefault()
+
+<= IEnumerable
+
+------
+  實體化的方法: 例如: 再 .ToList()
+if to query DB:
+  e.g.
+var tests = (from r in res where resID.Equals(r.ResourceID, StringComparison.OrdinalIgnoreCase) select r.Resource_EN);
+IEnumerable
+
+List<object> tests2 = (from r in res where resID.Equals(r.ResourceID, StringComparison.OrdinalIgnoreCase) select r.Resource_EN).ToList();
+====
+
+
+2. 另一種是用 Lambda
+
+using System.Linq;
+
+res.WHERE(r => resID.Equals(r.ResourceID, StringComparison.OrdinalIgnoreCase)).SELECT(r => r.r.Resource_EN));
+
+markets = markets.Where(m => parlayDict.ContainsKey(m.bettype) && parlayDict[m.bettype].enable);
+====
+
+Luna會用LINQ嗎, 它可以查 DB, List, Array, 甚至 excel 等等, 但他是用查的, 沒有by索引, 所以會使CPU增高, 不算效能好的方法, 但好用, 一般使用沒問題
+
+List<output>
+output[] {};
+
+ConcurrentDictionary
+key, value
