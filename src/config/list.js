@@ -24,6 +24,11 @@ import JavaScriptInfo from '../styles/images/javascriptinfo.webp';
 import LeetCode from '../styles/images/leetcode.webp';
 import AgileCoach from '../styles/images/agilecoach.webp';
 import JavaScriptTutorialhorizon from '../styles/images/javascripttutorialhorizon.webp';
+import W3schools from '../styles/images/w3schools.webp';
+import TutorialsPoint from '../styles/images/tutorialspoint.webp';
+import Guru99 from '../styles/images/guru99.webp';
+import TalkingDotnet from '../styles/images/talkingdotnet.webp';
+import JavaScriptInImpatientProgrammers from '../styles/images/javascriptinimpatientprogrammers.webp';
 
 export const playAndLearn = [
   {
@@ -164,6 +169,30 @@ export const generalList = [
     image: JavaScriptTutorialhorizon,
     description: "JavaScript Tutorial",
   },
+  {
+    title: "W3Schools Online Web Tutorials",
+    link: "https://www.w3schools.com/default.asp",
+    image: W3schools,
+    description: "Web Tutorials",
+  },
+  {
+    title: "tutorialspoint",
+    link: "https://www.tutorialspoint.com/index.htm",
+    image: TutorialsPoint,
+    description: "RxJS, ggplot2, Python Data Persistence, Caffe2, PyBrain, Python Data Access, H2O, Colab, Theano, Flutter, KNime, Mean.js, Weka, Solidity",
+  },
+  {
+    title: "Guru99",
+    link: "https://www.guru99.com/",
+    image: Guru99,
+    description: "Meet Guru99 - Free Training Tutorials & Video for IT Courses",
+  },
+  {
+    title: "Talking Dotnet",
+    link: "https://www.talkingdotnet.com/",
+    image: TalkingDotnet,
+    description: "",
+  },
 ];
 
 export const courseList = [
@@ -194,6 +223,12 @@ export const booklList = [
     title: "The Modern JavaScript Tutorial",
     link: "https://javascript.info/",
     image: JavaScriptInfo,
+    description: "JavaScript Tutorial",
+  },
+  {
+    title: "JavaScript for impatient programmers (ES2020 edition)",
+    link: "https://exploringjs.com/impatient-js/index.html",
+    image: JavaScriptInImpatientProgrammers,
     description: "JavaScript Tutorial",
   },
 ];
