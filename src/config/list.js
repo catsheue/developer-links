@@ -16,21 +16,38 @@ import HubSpot from "../styles/images/hubspot.webp";
 import TestManagement from "../styles/images/testmanagement.webp";
 import freeCodeCamp from "../styles/images/freecodecamp.webp";
 import SmashingMagazine from "../styles/images/smashingmagazine.webp";
-import CodinGame from '../styles/images/codingame.webp';
-import WorkLife from '../styles/images/worklife.webp';
-import RegexCrossword from '../styles/images/regexcrossword.webp';
-import DigitalOcean from '../styles/images/digitalocean.webp';
-import JavaScriptInfo from '../styles/images/javascriptinfo.webp';
-import LeetCode from '../styles/images/leetcode.webp';
-import AgileCoach from '../styles/images/agilecoach.webp';
-import JavaScriptTutorialhorizon from '../styles/images/javascripttutorialhorizon.webp';
-import W3schools from '../styles/images/w3schools.webp';
-import TutorialsPoint from '../styles/images/tutorialspoint.webp';
-import Guru99 from '../styles/images/guru99.webp';
-import TalkingDotnet from '../styles/images/talkingdotnet.webp';
-import JavaScriptInImpatientProgrammers from '../styles/images/javascriptinimpatientprogrammers.webp';
+import CodinGame from "../styles/images/codingame.webp";
+import WorkLife from "../styles/images/worklife.webp";
+import RegexCrossword from "../styles/images/regexcrossword.webp";
+import DigitalOcean from "../styles/images/digitalocean.webp";
+import JavaScriptInfo from "../styles/images/javascriptinfo.webp";
+import LeetCode from "../styles/images/leetcode.webp";
+import AgileCoach from "../styles/images/agilecoach.webp";
+import JavaScriptTutorialhorizon from "../styles/images/javascripttutorialhorizon.webp";
+import W3schools from "../styles/images/w3schools.webp";
+import TutorialsPoint from "../styles/images/tutorialspoint.webp";
+import Guru99 from "../styles/images/guru99.webp";
+import TalkingDotnet from "../styles/images/talkingdotnet.webp";
+import JavaScriptInImpatientProgrammers from "../styles/images/javascriptinimpatientprogrammers.webp";
+import LogRocket from "../styles/images/logrocket.webp";
+import CSSTricks from "../styles/images/csstricks.webp";
+import rweruch from "../styles/images/rweruch.webp";
+import CodeWars from "../styles/images/codewars.webp";
+import CodeByte from "../styles/images/coderbyte.webp";
 
-export const playAndLearn = [
+export const interactiveLearnList = [
+  {
+    title: "Coderbyte",
+    link: "https://www.coderbyte.com/",
+    image: CodeByte,
+    description: "Code Screening, Challenges, & Interview Prep",
+  },
+  {
+    title: "Codewars",
+    link: "https://www.codewars.com/",
+    image: CodeWars,
+    description: "Achieve mastery through challenge",
+  },
   {
     title: "Coding Games",
     link: "https://www.codingame.com/start",
@@ -44,7 +61,8 @@ export const agileList = [
     title: "Work Life by Atlassian",
     link: "https://www.atlassian.com/blog",
     image: WorkLife,
-    description: "Unleashing the potential of all teams with tips, tools, and practices",
+    description:
+      "Unleashing the potential of all teams with tips, tools, and practices",
   },
   {
     title: "The Agile Coach",
@@ -64,6 +82,24 @@ export const regexList = [
 ];
 
 export const blogList = [
+  {
+    title: "LogRocket",
+    link: "https://logrocket.com/",
+    image: LogRocket,
+    description: "Logging and Session Replay for JavaScript Apps",
+  },
+  {
+    title: "DigitalOcean",
+    link: "https://www.digitalocean.com/",
+    image: DigitalOcean,
+    description: "The developer cloud",
+  },
+  {
+    title: "RWieruch",
+    link: "https://www.robinwieruch.de/",
+    image: rweruch,
+    description: "GERMAN SOFTWARE ENGINEER FOR REACT.JS, NODE.JS AND GRAPHQL",
+  },
   {
     title: "Programming with Mosh",
     link: "https://programmingwithmosh.com/",
@@ -87,12 +123,6 @@ export const blogList = [
     link: "http://www.testmanagement.com/",
     image: TestManagement,
     description: "",
-  },
-  {
-    title: "DigitalOcean",
-    link: "https://www.digitalocean.com/",
-    image: DigitalOcean,
-    description: "The developer cloud",
   },
 ];
 
@@ -158,6 +188,12 @@ export const generalList = [
     description: "Learn to code at home",
   },
   {
+    title: "CSS-Tricks",
+    link: "https://css-tricks.com/",
+    image: CSSTricks,
+    description: "Tutorials for developers",
+  },
+  {
     title: "Smashing Magazine",
     link: "https://www.smashingmagazine.com/",
     image: SmashingMagazine,
@@ -179,7 +215,8 @@ export const generalList = [
     title: "tutorialspoint",
     link: "https://www.tutorialspoint.com/index.htm",
     image: TutorialsPoint,
-    description: "RxJS, ggplot2, Python Data Persistence, Caffe2, PyBrain, Python Data Access, H2O, Colab, Theano, Flutter, KNime, Mean.js, Weka, Solidity",
+    description:
+      "RxJS, ggplot2, Python Data Persistence, Caffe2, PyBrain, Python Data Access, H2O, Colab, Theano, Flutter, KNime, Mean.js, Weka, Solidity",
   },
   {
     title: "Guru99",
