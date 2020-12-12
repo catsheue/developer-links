@@ -13,6 +13,7 @@ import {
   booklList,
   courseList,
   generalList,
+  interactiveLearnList,
   wordpressList,
 } from "./config/list";
 
@@ -65,9 +66,7 @@ function App() {
               <li>
                 <NavLink to="/blog">Blog</NavLink>
               </li>
-              {/*<li>*/}
-              {/*  <NavLink to="/general">Youtube Channel</NavLink>*/}
-              {/*</li>*/}
+
               <li>
                 <NavLink to="/courses">Online Courses</NavLink>
               </li>
@@ -77,6 +76,12 @@ function App() {
               <li>
                 <NavLink to="/wordpress">WordPress</NavLink>
               </li>
+              <li>
+                <NavLink to="/interactive">Interactive learning</NavLink>
+              </li>
+              {/*<li>*/}
+              {/*  <NavLink to="/general">Youtube Channel</NavLink>*/}
+              {/*</li>*/}
             </ul>
           </LeftMenu>
           <Content>
@@ -95,6 +100,9 @@ function App() {
               </Route>
               <Route path="/book">
                 <SiteList list={booklList} />
+              </Route>
+              <Route path="/interactive">
+                <SiteList list={interactiveLearnList} />
               </Route>
               <Route path="/">
                 <Index />

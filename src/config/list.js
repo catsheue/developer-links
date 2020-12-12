@@ -34,6 +34,9 @@ import CSSTricks from "../styles/images/csstricks.webp";
 import rweruch from "../styles/images/rweruch.webp";
 import CodeWars from "../styles/images/codewars.webp";
 import CodeByte from "../styles/images/coderbyte.webp";
+import andreasreiterer from "../styles/images/andreasreiterer.webp";
+import PUSHER from "../styles/images/pusher.webp";
+import LearnWithParam from "../styles/images/learnwithparam.webp";
 
 export const interactiveLearnList = [
   {
@@ -122,6 +125,24 @@ export const blogList = [
     title: "Test Management",
     link: "http://www.testmanagement.com/",
     image: TestManagement,
+    description: "",
+  },
+  {
+    title: "Andreas Reiterer",
+    link: "https://www.andreasreiterer.at/",
+    image: andreasreiterer,
+    description: "Andreas Reiterer » A Software Developer's Blog",
+  },
+  {
+    title: "Learn with Param",
+    link: "https://www.andreasreiterer.at/",
+    image: LearnWithParam,
+    description: "",
+  },
+  {
+    title: "Pusher Blog",
+    link: "https://blog.pusher.com/",
+    image: PUSHER,
     description: "",
   },
 ];
