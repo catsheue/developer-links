@@ -37,6 +37,11 @@ import CodeByte from "../styles/images/coderbyte.webp";
 import andreasreiterer from "../styles/images/andreasreiterer.webp";
 import PUSHER from "../styles/images/pusher.webp";
 import LearnWithParam from "../styles/images/learnwithparam.webp";
+import javatpoint from '../styles/images/javatpoint.webp';
+import CodeProject from '../styles/images/codeproject.webp';
+import DevDiary from '../styles/images/devdiary.webp';
+import TestingLibrary from '../styles/images/testinglibrary.webp';
+import acunetix from '../styles/images/acunetix.webp';
 
 export const interactiveLearnList = [
   {
@@ -145,6 +150,12 @@ export const blogList = [
     image: PUSHER,
     description: "",
   },
+  {
+    title: "Dev Diary",
+    link: "https://markoskon.com/",
+    image: DevDiary,
+    description: "",
+  },
 ];
 
 export const generalList = [
@@ -250,6 +261,35 @@ export const generalList = [
     link: "https://www.talkingdotnet.com/",
     image: TalkingDotnet,
     description: "",
+  },
+  {
+    title: "Javatpoint",
+    link: "https://www.talkingdotnet.com/",
+    image: javatpoint,
+    description: "Tutorials List",
+  },
+  {
+    title: "CodeProject",
+    link: "https://www.codeproject.com/",
+    image: CodeProject,
+    description: "For those who code",
+  },
+];
+export const libraryList = [
+  {
+    title: "Testing Library",
+    link: "https://testing-library.com/",
+    image: TestingLibrary,
+    description: "",
+  },
+];
+
+export const serviceList = [
+  {
+    title: "Acunetix",
+    link: "https://www.acunetix.com/",
+    image: acunetix,
+    description: "Web Application Security Scanner",
   },
 ];
 
