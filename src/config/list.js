@@ -42,6 +42,8 @@ import CodeProject from '../styles/images/codeproject.webp';
 import DevDiary from '../styles/images/devdiary.webp';
 import TestingLibrary from '../styles/images/testinglibrary.webp';
 import acunetix from '../styles/images/acunetix.webp';
+import Nx from '../styles/images/nx.webp';
+import learnenough from '../styles/images/learnenough.webp';
 
 export const interactiveLearnList = [
   {
@@ -282,6 +284,12 @@ export const libraryList = [
     image: TestingLibrary,
     description: "",
   },
+  {
+    title: "Nx",
+    link: "https://nx.dev/react",
+    image: Nx,
+    description: "Extensible Dev Tools for Monorepos",
+  },
 ];
 
 export const serviceList = [
@@ -299,6 +307,12 @@ export const courseList = [
     link: "https://www.udemy.com/",
     image: Udemy,
     description: "Online Courses - Anytime, Anywhere",
+  },
+  {
+    title: "Learn Enough to Be Dangerous",
+    link: "https://www.learnenough.com/",
+    image: learnenough,
+    description: "",
   },
 ];
 
