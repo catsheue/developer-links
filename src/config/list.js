@@ -44,6 +44,13 @@ import TestingLibrary from '../styles/images/testinglibrary.webp';
 import acunetix from '../styles/images/acunetix.webp';
 import Nx from '../styles/images/nx.webp';
 import learnenough from '../styles/images/learnenough.webp';
+import webalmanac from '../styles/images/webalmanac.webp';
+import webkit from '../styles/images/webkit.webp';
+import buddy from '../styles/images/buddy.webp';
+import dmitripavlutin from '../styles/images/dmitripavlutin.webp';
+import react from '../styles/images/react.webp';
+import openbase from '../styles/images/openbase.webp';
+import theoverflow from '../styles/images/theoverflow.webp';
 
 export const interactiveLearnList = [
   {
@@ -157,6 +164,24 @@ export const blogList = [
     link: "https://markoskon.com/",
     image: DevDiary,
     description: "",
+  },
+  {
+    title: "WebKit",
+    link: "https://webkit.org/",
+    image: webkit,
+    description: "",
+  },
+  {
+    title: "Dmitri Pavlutin Blog",
+    link: "https://dmitripavlutin.com/",
+    image: dmitripavlutin,
+    description: "",
+  },
+  {
+    title: "Stack Overflow Blog",
+    link: "https://stackoverflow.blog/",
+    image: theoverflow,
+    description: "Essays, opinions, and advice on the act of computer programming from Stack Overflow.",
   },
 ];
 
@@ -292,12 +317,33 @@ export const libraryList = [
   },
 ];
 
+export const statisticsList = [
+  {
+    title: "The 2020 Web Almanac",
+    link: "https://almanac.httparchive.org/en/2020/",
+    image: webalmanac,
+    description: "",
+  },
+];
+
 export const serviceList = [
   {
     title: "Acunetix",
     link: "https://www.acunetix.com/",
     image: acunetix,
     description: "Web Application Security Scanner",
+  },
+  {
+    title: "Buddy",
+    link: "https://buddy.works/",
+    image: buddy,
+    description: "The DevOps Automation Platform",
+  },
+  {
+    title: "Openbase",
+    link: "https://openbase.io/",
+    image: openbase,
+    description: "choose the right package every time",
   },
 ];
 
@@ -351,5 +397,13 @@ export const testList = [
     link: "https://leetcode.com/",
     image: LeetCode,
     description: "The World's Leading Online Programming Learning Platform",
+  },
+];
+export const reactList = [
+  {
+    title: "React",
+    link: "https://reactjs.org/",
+    image: react,
+    description: "A JavaScript library for building user interfaces",
   },
 ];
