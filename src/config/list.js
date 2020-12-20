@@ -37,6 +37,23 @@ import CodeByte from "../styles/images/coderbyte.webp";
 import andreasreiterer from "../styles/images/andreasreiterer.webp";
 import PUSHER from "../styles/images/pusher.webp";
 import LearnWithParam from "../styles/images/learnwithparam.webp";
+import javatpoint from "../styles/images/javatpoint.webp";
+import CodeProject from "../styles/images/codeproject.webp";
+import DevDiary from "../styles/images/devdiary.webp";
+import TestingLibrary from "../styles/images/testinglibrary.webp";
+import acunetix from "../styles/images/acunetix.webp";
+import Nx from "../styles/images/nx.webp";
+import learnenough from "../styles/images/learnenough.webp";
+import webalmanac from "../styles/images/webalmanac.webp";
+import webkit from "../styles/images/webkit.webp";
+import buddy from "../styles/images/buddy.webp";
+import dmitripavlutin from "../styles/images/dmitripavlutin.webp";
+import react from "../styles/images/react.webp";
+import openbase from "../styles/images/openbase.webp";
+import theoverflow from "../styles/images/theoverflow.webp";
+import MountainGoat from "../styles/images/mountaingoat.webp";
+import AgileManifesto from "../styles/images/agilemanifesto.webp";
+
 export const interactiveLearnList = [
   {
     title: "Coderbyte",
@@ -71,6 +88,18 @@ export const agileList = [
     link: "https://www.atlassian.com/agile",
     image: AgileCoach,
     description: "Atlassian's no-nonsense guide to agile development",
+  },
+  {
+    title: "Mountain Goat Software",
+    link: "https://www.mountaingoatsoftware.com/",
+    image: MountainGoat,
+    description: "Online and In-Person training to help you succeed with agile",
+  },
+  {
+    title: "Manifesto for Agile Software Development",
+    link: "https://agilemanifesto.org/",
+    image: AgileManifesto,
+    description: "",
   },
 ];
 
@@ -143,6 +172,31 @@ export const blogList = [
     link: "https://blog.pusher.com/",
     image: PUSHER,
     description: "",
+  },
+  {
+    title: "Dev Diary",
+    link: "https://markoskon.com/",
+    image: DevDiary,
+    description: "",
+  },
+  {
+    title: "WebKit",
+    link: "https://webkit.org/",
+    image: webkit,
+    description: "",
+  },
+  {
+    title: "Dmitri Pavlutin Blog",
+    link: "https://dmitripavlutin.com/",
+    image: dmitripavlutin,
+    description: "",
+  },
+  {
+    title: "Stack Overflow Blog",
+    link: "https://stackoverflow.blog/",
+    image: theoverflow,
+    description:
+      "Essays, opinions, and advice on the act of computer programming from Stack Overflow.",
   },
 ];
 
@@ -250,6 +304,62 @@ export const generalList = [
     image: TalkingDotnet,
     description: "",
   },
+  {
+    title: "Javatpoint",
+    link: "https://www.talkingdotnet.com/",
+    image: javatpoint,
+    description: "Tutorials List",
+  },
+  {
+    title: "CodeProject",
+    link: "https://www.codeproject.com/",
+    image: CodeProject,
+    description: "For those who code",
+  },
+];
+export const libraryList = [
+  {
+    title: "Testing Library",
+    link: "https://testing-library.com/",
+    image: TestingLibrary,
+    description: "",
+  },
+  {
+    title: "Nx",
+    link: "https://nx.dev/react",
+    image: Nx,
+    description: "Extensible Dev Tools for Monorepos",
+  },
+];
+
+export const statisticsList = [
+  {
+    title: "The 2020 Web Almanac",
+    link: "https://almanac.httparchive.org/en/2020/",
+    image: webalmanac,
+    description: "",
+  },
+];
+
+export const serviceList = [
+  {
+    title: "Acunetix",
+    link: "https://www.acunetix.com/",
+    image: acunetix,
+    description: "Web Application Security Scanner",
+  },
+  {
+    title: "Buddy",
+    link: "https://buddy.works/",
+    image: buddy,
+    description: "The DevOps Automation Platform",
+  },
+  {
+    title: "Openbase",
+    link: "https://openbase.io/",
+    image: openbase,
+    description: "choose the right package every time",
+  },
 ];
 
 export const courseList = [
@@ -258,6 +368,12 @@ export const courseList = [
     link: "https://www.udemy.com/",
     image: Udemy,
     description: "Online Courses - Anytime, Anywhere",
+  },
+  {
+    title: "Learn Enough to Be Dangerous",
+    link: "https://www.learnenough.com/",
+    image: learnenough,
+    description: "",
   },
 ];
 
@@ -296,5 +412,13 @@ export const testList = [
     link: "https://leetcode.com/",
     image: LeetCode,
     description: "The World's Leading Online Programming Learning Platform",
+  },
+];
+export const reactList = [
+  {
+    title: "React",
+    link: "https://reactjs.org/",
+    image: react,
+    description: "A JavaScript library for building user interfaces",
   },
 ];

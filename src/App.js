@@ -13,7 +13,12 @@ import {
   courseList,
   generalList,
   interactiveLearnList,
+  regexList,
   wordpressList,
+  testList, serviceList,
+  agileList,
+  statisticsList,
+  libraryList
 } from "./config/list";
 
 const ContentWrapper = styled.div`
@@ -78,6 +83,24 @@ function App() {
               <li>
                 <NavLink to="/interactive">Interactive learning</NavLink>
               </li>
+              <li>
+                <NavLink to="/agile">Agile</NavLink>
+              </li>
+              <li>
+                <NavLink to="/library">Library</NavLink>
+              </li>
+              <li>
+                <NavLink to="/statistics">Statistics</NavLink>
+              </li>
+              <li>
+                <NavLink to="/services">Services</NavLink>
+              </li>
+              <li>
+                <NavLink to="/regex">Regex</NavLink>
+              </li>
+              <li>
+                <NavLink to="/test">Test</NavLink>
+              </li>
               {/*<li>*/}
               {/*  <NavLink to="/general">Youtube Channel</NavLink>*/}
               {/*</li>*/}
@@ -85,6 +108,24 @@ function App() {
           </LeftMenu>
           <Content>
             <Switch>
+              <Route path="/test">
+                <SiteList list={testList} />
+              </Route>
+              <Route path="/services">
+                <SiteList list={serviceList} />
+              </Route>
+              <Route path="/statistics">
+                <SiteList list={statisticsList} />
+              </Route>
+              <Route path="/library">
+                <SiteList list={libraryList} />
+              </Route>
+              <Route path="/regex">
+                <SiteList list={regexList} />
+              </Route>
+              <Route path="/agile">
+                <SiteList list={agileList} />
+              </Route>
               <Route path="/general">
                 <SiteList list={generalList} />
               </Route>
