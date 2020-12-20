@@ -37,7 +37,6 @@ import CodeByte from "../styles/images/coderbyte.webp";
 import andreasreiterer from "../styles/images/andreasreiterer.webp";
 import PUSHER from "../styles/images/pusher.webp";
 import LearnWithParam from "../styles/images/learnwithparam.webp";
-
 export const interactiveLearnList = [
   {
     title: "Coderbyte",
