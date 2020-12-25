@@ -9,7 +9,7 @@ import {
 import SiteList from "./components/SiteList";
 import {
   blogList,
-  booklList,
+  bookList,
   courseList,
   generalList,
   interactiveLearnList,
@@ -139,7 +139,7 @@ function App() {
                 <SiteList list={wordpressList} />
               </Route>
               <Route path="/book">
-                <SiteList list={booklList} />
+                <SiteList list={bookList} />
               </Route>
               <Route path="/interactive">
                 <SiteList list={interactiveLearnList} />

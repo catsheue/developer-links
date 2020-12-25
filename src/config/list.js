@@ -53,6 +53,14 @@ import openbase from "../styles/images/openbase.webp";
 import theoverflow from "../styles/images/theoverflow.webp";
 import MountainGoat from "../styles/images/mountaingoat.webp";
 import AgileManifesto from "../styles/images/agilemanifesto.webp";
+import RedHat from '../styles/images/redhat.webp';
+import RobertCopper from '../styles/images/robertcooper.webp';
+import ParadiseTechSoftSolutions from '../styles/images/paradisetechsoft.webp';
+import LINQSamples from '../styles/images/linqsamples.webp';
+import CSharpCorner from '../styles/images/csharpcorner.webp';
+import StackShare from '../styles/images/stackshare.webp';
+import segment from '../styles/images/segment.webp';
+import circleci from '../styles/images/circleci.webp';
 
 export const interactiveLearnList = [
   {
@@ -198,6 +206,18 @@ export const blogList = [
     description:
       "Essays, opinions, and advice on the act of computer programming from Stack Overflow.",
   },
+  {
+    title: "Robert Cooper",
+    link: "https://www.robertcooper.me/",
+    image: RobertCopper,
+    description: "",
+  },
+  {
+    title: "Paradise TechSoft Solutions",
+    link: "https://blog.paradisetechsoft.com/",
+    image: ParadiseTechSoftSolutions,
+    description: "Paradise TechSoft Solutions Pvt. Ltd",
+  },
 ];
 
 export const generalList = [
@@ -316,6 +336,18 @@ export const generalList = [
     image: CodeProject,
     description: "For those who code",
   },
+  {
+    title: "LINQSamples",
+    link: "https://linqsamples.com/",
+    image: LINQSamples,
+    description: "LINQ 101 Query and Lambda Expression Samples",
+  },
+  {
+    title: "C# Corner",
+    link: "https://www.c-sharpcorner.com/",
+    image: CSharpCorner,
+    description: "Community of Software and Data Developers",
+  },
 ];
 export const libraryList = [
   {
@@ -360,6 +392,30 @@ export const serviceList = [
     image: openbase,
     description: "choose the right package every time",
   },
+  {
+    title: "Red Hat",
+    link: "https://www.redhat.com/en",
+    image: RedHat,
+    description: "We make open source technologies for the enterprise",
+  },
+  {
+    title: "StackShare",
+    link: "https://stackshare.io/",
+    image: StackShare,
+    description: "Software and technology stacks used by top companies",
+  },
+  {
+    title: "Segment",
+    link: "https://segment.com/",
+    image: segment,
+    description: "Customer Data Platform (CDP)",
+  },
+  {
+    title: "CircleCI",
+    link: "https://circleci.com/",
+    image: circleci,
+    description: "Continuous Integration and Delivery",
+  },
 ];
 
 export const courseList = [
@@ -385,7 +441,7 @@ export const wordpressList = [
     description: "Beginner's Guide for WordPress",
   },
 ];
-export const booklList = [
+export const bookList = [
   {
     title: "Frontend Handbook",
     link: "https://infinum.com/handbook/books/frontend",
