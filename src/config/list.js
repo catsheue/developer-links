@@ -61,6 +61,13 @@ import CSharpCorner from '../styles/images/csharpcorner.webp';
 import StackShare from '../styles/images/stackshare.webp';
 import segment from '../styles/images/segment.webp';
 import circleci from '../styles/images/circleci.webp';
+import FrontendJoy from '../styles/images/FrontendJoy.webp';
+import Sentry from '../styles/images/sentry.webp';
+import FlavioCopes from '../styles/images/flaviocopes.webp';
+import toptal from '../styles/images/toptal.webp';
+import MozillaHacks from '../styles/images/mozillahacks.webp';
+import Headway from '../styles/images/headway.webp';
+import learntechsystems from '../styles/images/learntechsystems.webp';
 
 export const interactiveLearnList = [
   {
@@ -121,6 +128,24 @@ export const regexList = [
 ];
 
 export const blogList = [
+  {
+    title: "Headway Blog",
+    link: "https://www.headway.io/blog",
+    image: Headway,
+    description: "Product Strategy, Design, and Development",
+  },
+  {
+    title: "Mozilla Hacks",
+    link: "https://hacks.mozilla.org/",
+    image: MozillaHacks,
+    description: "the Web developer blog",
+  },
+  {
+    title: "Toptal",
+    link: "https://www.toptal.com/developers/blog",
+    image: toptal,
+    description: "Software Engineering Blog & Programming Tutorials",
+  },
   {
     title: "LogRocket",
     link: "https://logrocket.com/",
@@ -218,6 +243,12 @@ export const blogList = [
     image: ParadiseTechSoftSolutions,
     description: "Paradise TechSoft Solutions Pvt. Ltd",
   },
+  {
+    title: "Flavio Copes",
+    link: "https://flaviocopes.com/",
+    image: FlavioCopes,
+    description: "Paradise TechSoft Solutions Pvt. Ltd",
+  },
 ];
 
 export const generalList = [
@@ -294,6 +325,12 @@ export const generalList = [
     description: "For Web Designers And Developers",
   },
   {
+    title: "Learn tech systems",
+    link: "https://learntechsystems.com/",
+    image: learntechsystems,
+    description: "",
+  },
+  {
     title: "JavaScript | @tutorialhorizon",
     link: "https://javascript.tutorialhorizon.com/",
     image: JavaScriptTutorialhorizon,
@@ -347,6 +384,12 @@ export const generalList = [
     link: "https://www.c-sharpcorner.com/",
     image: CSharpCorner,
     description: "Community of Software and Data Developers",
+  },
+  {
+    title: "FrontendJoy",
+    link: "https://frontendjoy.com/",
+    image: FrontendJoy,
+    description: "Non-boring frontend articles for overwhelmed devs",
   },
 ];
 export const libraryList = [
@@ -415,6 +458,12 @@ export const serviceList = [
     link: "https://circleci.com/",
     image: circleci,
     description: "Continuous Integration and Delivery",
+  },
+  {
+    title: "Sentry",
+    link: "https://sentry.io/welcome/",
+    image: Sentry,
+    description: "Application Monitoring and Error Tracking Software",
   },
 ];
 
