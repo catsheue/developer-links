@@ -15,10 +15,11 @@ import {
   interactiveLearnList,
   regexList,
   wordpressList,
-  testList, serviceList,
+  testList,
+  serviceList,
   agileList,
   statisticsList,
-  libraryList
+  libraryList,
 } from "./config/list";
 
 const ContentWrapper = styled.div`
@@ -55,8 +56,8 @@ const Content = styled.div`
 
 function App() {
   return (
-    <div className="App">
-      <Router>
+    <Router>
+      <div className="App">
         <Header className="App-header">Developer Links</Header>
         <ContentWrapper>
           <LeftMenu>
@@ -150,8 +151,8 @@ function App() {
             </Switch>
           </Content>
         </ContentWrapper>
-      </Router>
-    </div>
+      </div>
+    </Router>
   );
 }
 
