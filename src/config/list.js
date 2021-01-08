@@ -68,6 +68,11 @@ import toptal from '../styles/images/toptal.webp';
 import MozillaHacks from '../styles/images/mozillahacks.webp';
 import Headway from '../styles/images/headway.webp';
 import learntechsystems from '../styles/images/learntechsystems.webp';
+import README from '../styles/images/readme.webp';
+import DevResources from '../styles/images/devresources.webp';
+import JavaFX from '../styles/images/javafx.webp';
+import OpenLiberty from '../styles/images/openliberty.webp';
+import Brilliant from '../styles/images/brilliant.webp';
 
 export const interactiveLearnList = [
   {
@@ -313,6 +318,12 @@ export const generalList = [
     description: "Learn to code at home",
   },
   {
+    title: "Dev Resources",
+    link: "https://devresourc.es/",
+    image: DevResources,
+    description: "",
+  },
+  {
     title: "CSS-Tricks",
     link: "https://css-tricks.com/",
     image: CSSTricks,
@@ -400,10 +411,22 @@ export const libraryList = [
     description: "",
   },
   {
+    title: "Open Liberty",
+    link: "https://openliberty.io/",
+    image: OpenLiberty,
+    description: "",
+  },
+  {
     title: "Nx",
     link: "https://nx.dev/react",
     image: Nx,
     description: "Extensible Dev Tools for Monorepos",
+  },
+  {
+    title: "JavaFX",
+    link: "https://openjfx.io/",
+    image: JavaFX,
+    description: "OpenJFX is an open source, next generation client application platform for desktop, mobile and embedded systems built on Java.",
   },
 ];
 
@@ -417,6 +440,12 @@ export const statisticsList = [
 ];
 
 export const serviceList = [
+  {
+    title: "README",
+    link: "https://readme.com/",
+    image: README,
+    description: "",
+  },
   {
     title: "Acunetix",
     link: "https://www.acunetix.com/",
@@ -479,6 +508,12 @@ export const courseList = [
     link: "https://www.learnenough.com/",
     image: learnenough,
     description: "",
+  },
+  {
+    title: "Brilliant",
+    link: "https://brilliant.org/",
+    image: Brilliant,
+    description: "Learn to think",
   },
 ];
 
