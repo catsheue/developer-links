@@ -20,6 +20,7 @@ import {
   agileList,
   statisticsList,
   libraryList,
+  forDummiesList
 } from "./config/list";
 
 const ContentWrapper = styled.div`
