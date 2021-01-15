@@ -73,7 +73,38 @@ import DevResources from '../styles/images/devresources.webp';
 import JavaFX from '../styles/images/javafx.webp';
 import OpenLiberty from '../styles/images/openliberty.webp';
 import Brilliant from '../styles/images/brilliant.webp';
+import StackAbuse from '../styles/images/stackabuse.webp';
+import image60devs from '../styles/images/60devs.webp';
+import MakeUseOf from '../styles/images/makeuseof.webp';
+import fluffy from '../styles/images/fluffy.webp';
+import replit from '../styles/images/replit.webp';
+import hackr from '../styles/images/hackr.webp';
+import scotch from '../styles/images/scotch.webp';
+import HeartofAgile from '../styles/images/heartofagile.webp';
+import ReactSchool from '../styles/images/reactschool.webp';
+import MariusSchulz from '../styles/images/mariusschulz.webp';
+import twoAlity from '../styles/images/2ality.webp';
+import RisingStars from '../styles/images/risingstars.webp';
+import Scrum from '../styles/images/scrum.webp';
+import ScrumAlliance from '../styles/images/scrumalliance.webp';
 
+
+export const forDummiesList = [
+  {
+    title: "2020 JavaScript Rising Stars",
+    link: "https://risingstars.js.org/2020/en/",
+    image: RisingStars,
+    description: "2020 JavaScript Rising Stars",
+  },
+];
+export const toolList = [
+  {
+    title: "fluffy",
+    link: "https://fluffy.cc/",
+    image: fluffy,
+    description: "paste source code instead",
+  },
+];
 export const interactiveLearnList = [
   {
     title: "Coderbyte",
@@ -96,6 +127,27 @@ export const interactiveLearnList = [
 ];
 
 export const agileList = [
+  {
+    title: "The Heart of Agile",
+    link: "https://heartofagile.com/",
+    image: HeartofAgile,
+    description:
+      "More powerful, More human",
+  },
+  {
+    title: "Scrum.org",
+    link: "https://www.scrum.org/",
+    image: Scrum,
+    description:
+      "",
+  },
+  {
+    title: "Scrum Alliance Certification",
+    link: "https://www.scrumalliance.org/",
+    image: ScrumAlliance,
+    description:
+      "Transform your workplace‎",
+  },
   {
     title: "Work Life by Atlassian",
     link: "https://www.atlassian.com/blog",
@@ -133,6 +185,30 @@ export const regexList = [
 ];
 
 export const blogList = [
+  {
+    title: "Marius Schulz",
+    link: "https://mariusschulz.com/",
+    image: MariusSchulz,
+    description: "How to Squash the First Two Commits in a Git Repository",
+  },
+  {
+    title: "MakeUseOf",
+    link: "https://www.makeuseof.com/category/programming/",
+    image: MakeUseOf,
+    description: "",
+  },
+  {
+    title: "60devs",
+    link: "https://60devs.com/",
+    image: image60devs,
+    description: "",
+  },
+  {
+    title: "Stack Abuse",
+    link: "https://stackabuse.com/",
+    image: StackAbuse,
+    description: "",
+  },
   {
     title: "Headway Blog",
     link: "https://www.headway.io/blog",
@@ -318,6 +394,18 @@ export const generalList = [
     description: "Learn to code at home",
   },
   {
+    title: "Hackr.io",
+    link: "https://hackr.io/",
+    image: hackr,
+    description: "Find the best online Programming courses and Tutorials",
+  },
+  {
+    title: "Scotch.io",
+    link: "https://scotch.io/",
+    image: scotch,
+    description: "Top Shelf Web Development Training",
+  },
+  {
     title: "Dev Resources",
     link: "https://devresourc.es/",
     image: DevResources,
@@ -402,6 +490,12 @@ export const generalList = [
     image: FrontendJoy,
     description: "Non-boring frontend articles for overwhelmed devs",
   },
+  {
+    title: "React School",
+    link: "https://react.school/",
+    image: ReactSchool,
+    description: "React School for Frontend Engineering | Courses and Tutorials",
+  },
 ];
 export const libraryList = [
   {
@@ -440,6 +534,12 @@ export const statisticsList = [
 ];
 
 export const serviceList = [
+  {
+    title: "Repl.it",
+    link: "https://repl.it/",
+    image: replit,
+    description: "The collaborative browser based IDE",
+  },
   {
     title: "README",
     link: "https://readme.com/",
@@ -526,6 +626,12 @@ export const wordpressList = [
   },
 ];
 export const bookList = [
+  {
+    title: "2ality",
+    link: "https://2ality.com/index.html",
+    image: twoAlity,
+    description: "JavaScript and more",
+  },
   {
     title: "Frontend Handbook",
     link: "https://infinum.com/handbook/books/frontend",

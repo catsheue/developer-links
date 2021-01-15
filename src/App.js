@@ -102,6 +102,9 @@ function App() {
               <li>
                 <NavLink to="/test">Test</NavLink>
               </li>
+              <li>
+                <NavLink to="/dummies">Dummies</NavLink>
+              </li>
               {/*<li>*/}
               {/*  <NavLink to="/general">Youtube Channel</NavLink>*/}
               {/*</li>*/}
@@ -144,6 +147,9 @@ function App() {
               </Route>
               <Route path="/interactive">
                 <SiteList list={interactiveLearnList} />
+              </Route>
+              <Route path="/dummies">
+                <SiteList list={forDummiesList} />
               </Route>
               <Route path="/">
                 <Index />
