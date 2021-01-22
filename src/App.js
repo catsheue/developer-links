@@ -19,8 +19,7 @@ import {
   serviceList,
   agileList,
   statisticsList,
-  libraryList,
-  forDummiesList
+  libraryList
 } from "./config/list";
 
 const ContentWrapper = styled.div`
@@ -54,6 +53,10 @@ const Header = styled.header`
 const Content = styled.div`
   width: 100%;
 `;
+
+const routeList = [
+  {},
+]
 
 function App() {
   return (
@@ -103,9 +106,7 @@ function App() {
               <li>
                 <NavLink to="/test">Test</NavLink>
               </li>
-              <li>
-                <NavLink to="/dummies">Dummies</NavLink>
-              </li>
+
               {/*<li>*/}
               {/*  <NavLink to="/general">Youtube Channel</NavLink>*/}
               {/*</li>*/}
@@ -148,9 +149,6 @@ function App() {
               </Route>
               <Route path="/interactive">
                 <SiteList list={interactiveLearnList} />
-              </Route>
-              <Route path="/dummies">
-                <SiteList list={forDummiesList} />
               </Route>
               <Route path="/">
                 <Index />

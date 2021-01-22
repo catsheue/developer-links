@@ -87,16 +87,28 @@ import twoAlity from '../styles/images/2ality.webp';
 import RisingStars from '../styles/images/risingstars.webp';
 import Scrum from '../styles/images/scrum.webp';
 import ScrumAlliance from '../styles/images/scrumalliance.webp';
+import GitKraken from '../styles/images/gitkraken.webp';
+import devconnected from '../styles/images/devconnected.webp';
+import Git from '../styles/images/git.webp';
+import linuxhint from '../styles/images/linuxhint.webp';
+import async from '../styles/images/async.webp';
+import StateOfJS2020 from '../styles/images/stateofjs.webp';
 
-
-export const forDummiesList = [
+export const gitList = [
   {
-    title: "2020 JavaScript Rising Stars",
-    link: "https://risingstars.js.org/2020/en/",
-    image: RisingStars,
-    description: "2020 JavaScript Rising Stars",
+    title: "Git",
+    link: "https://git-scm.com/",
+    image: Git,
+    description: "",
+  },
+  {
+    title: "GitKraken",
+    link: "https://www.gitkraken.com/",
+    image: GitKraken,
+    description: "Free Git GUI for Windows, Mac, Linux",
   },
 ];
+
 export const toolList = [
   {
     title: "fluffy",
@@ -185,6 +197,12 @@ export const regexList = [
 ];
 
 export const blogList = [
+  {
+    title: "LoginRadius Engineering",
+    link: "https://www.loginradius.com/blog/async/",
+    image: async,
+    description: "",
+  },
   {
     title: "Marius Schulz",
     link: "https://mariusschulz.com/",
@@ -491,6 +509,18 @@ export const generalList = [
     description: "Non-boring frontend articles for overwhelmed devs",
   },
   {
+    title: "Linux Hint",
+    link: "https://linuxhint.com//",
+    image: linuxhint,
+    description: "Exploring and Master Linux Ecosystem",
+  },
+  {
+    title: "devconnected",
+    link: "https://devconnected.com/",
+    image: devconnected,
+    description: "Software Engineering Articles, Guides & Tips",
+  },
+  {
     title: "React School",
     link: "https://react.school/",
     image: ReactSchool,
@@ -525,6 +555,18 @@ export const libraryList = [
 ];
 
 export const statisticsList = [
+  {
+    title: "2020 JavaScript Rising Stars",
+    link: "https://risingstars.js.org/2020/en/",
+    image: RisingStars,
+    description: "2020 JavaScript Rising Stars",
+  },
+  {
+    title: "State of JS 2020",
+    link: "https://2020.stateofjs.com/en-US/",
+    image: StateOfJS2020,
+    description: "",
+  },
   {
     title: "The 2020 Web Almanac",
     link: "https://almanac.httparchive.org/en/2020/",
