@@ -93,6 +93,20 @@ import Git from '../styles/images/git.webp';
 import linuxhint from '../styles/images/linuxhint.webp';
 import async from '../styles/images/async.webp';
 import StateOfJS2020 from '../styles/images/stateofjs.webp';
+import SonarQube from '../styles/images/sonarqube.webp';
+import WhiteSource from '../styles/images/whitesource.webp';
+import CodeinWP from '../styles/images/codeinwp.webp';
+import CodeCombat from '../styles/images/codecombat.webp';
+import StackBlitz from '../styles/images/stackblitz.webp'
+import java5cript from '../styles/images/java5cript.webp';
+import Prime from '../styles/images/prime.webp';
+import JackFranklin from '../styles/images/jackfranklin.webp';
+import FrontendArmory from '../styles/images/frontendarmory.webp';
+import thirtySecondsOfCode from '../styles/images/thirtysecondsofcode.webp';
+import TobiasLindström from '../styles/images/tobbelindstrom.webp';
+import useHooks from '../styles/images/usehooks.webp';
+import EDUCBA from '../styles/images/educba.webp';
+import interviewBit from '../styles/images/interviewbit.webp';
 
 export const gitList = [
   {
@@ -116,6 +130,12 @@ export const toolList = [
     image: fluffy,
     description: "paste source code instead",
   },
+  {
+    title: "StackBlitz",
+    link: "https://stackblitz.com/",
+    image: StackBlitz,
+    description: "The online code editor for web apps. Powered by Visual Studio Code.",
+  },
 ];
 export const interactiveLearnList = [
   {
@@ -135,6 +155,12 @@ export const interactiveLearnList = [
     link: "https://www.codingame.com/start",
     image: CodinGame,
     description: "Coding Games and Programming Challenges to Code Better",
+  },
+  {
+    title: "CodeCombat",
+    link: "https://codecombat.com/",
+    image: CodeCombat,
+    description: "Coding games to learn Python and JavaScript",
   },
 ];
 
@@ -186,7 +212,14 @@ export const agileList = [
     description: "",
   },
 ];
-
+export const reactList = [
+  {
+    title: "useHooks",
+    link: "https://usehooks.com/",
+    image: useHooks,
+    description: "Easy to understand React Hook recipes",
+  },
+]
 export const regexList = [
   {
     title: "Regex Crossword",
@@ -204,10 +237,22 @@ export const blogList = [
     description: "",
   },
   {
+    title: "Tobias Lindström",
+    link: "https://tobbelindstrom.com/",
+    image: TobiasLindström,
+    description: "Frontend developer in Uppsala ",
+  },
+  {
+    title: "Jack Franklin",
+    link: "https://www.jackfranklin.co.uk/blog/",
+    image: JackFranklin,
+    description: "",
+  },
+  {
     title: "Marius Schulz",
     link: "https://mariusschulz.com/",
     image: MariusSchulz,
-    description: "How to Squash the First Two Commits in a Git Repository",
+    description: "",
   },
   {
     title: "MakeUseOf",
@@ -430,6 +475,12 @@ export const generalList = [
     description: "",
   },
   {
+    title: "Free JavaScript Resources",
+    link: "https://www.java5cript.com/",
+    image: java5cript,
+    description: "Learn JavaScript for free",
+  },
+  {
     title: "CSS-Tricks",
     link: "https://css-tricks.com/",
     image: CSSTricks,
@@ -465,6 +516,12 @@ export const generalList = [
     image: TutorialsPoint,
     description:
       "RxJS, ggplot2, Python Data Persistence, Caffe2, PyBrain, Python Data Access, H2O, Colab, Theano, Flutter, KNime, Mean.js, Weka, Solidity",
+  },
+  {
+    title: "30 seconds of code",
+    link: "https://www.30secondsofcode.org/",
+    image: thirtySecondsOfCode,
+    description: "",
   },
   {
     title: "Guru99",
@@ -503,6 +560,12 @@ export const generalList = [
     description: "Community of Software and Data Developers",
   },
   {
+    title: "Frontend Armory",
+    link: "https://frontarm.com/",
+    image: FrontendArmory,
+    description: "",
+  },
+  {
     title: "FrontendJoy",
     link: "https://frontendjoy.com/",
     image: FrontendJoy,
@@ -515,17 +578,18 @@ export const generalList = [
     description: "Exploring and Master Linux Ecosystem",
   },
   {
+    title: "InterviewBit",
+    link: "https://www.interviewbit.com/",
+    image: interviewBit,
+    description: "Coding Interview Questions",
+  },
+  {
     title: "devconnected",
     link: "https://devconnected.com/",
     image: devconnected,
     description: "Software Engineering Articles, Guides & Tips",
   },
-  {
-    title: "React School",
-    link: "https://react.school/",
-    image: ReactSchool,
-    description: "React School for Frontend Engineering | Courses and Tutorials",
-  },
+
 ];
 export const libraryList = [
   {
@@ -583,10 +647,34 @@ export const serviceList = [
     description: "The collaborative browser based IDE",
   },
   {
+    title: "SonarQube",
+    link: "https://www.sonarqube.org/",
+    image: replit,
+    description: "Code Quality and Security",
+  },
+  {
+    title: "WhiteSource",
+    link: "https://www.whitesourcesoftware.com/",
+    image: WhiteSource,
+    description: "Open Source Security and License Management Solution",
+  },
+  {
+    title: "CodeinWP",
+    link: "https://www.codeinwp.com/",
+    image: CodeinWP,
+    description: "A Hub for WordPress Freelancers, Bloggers & Creators",
+  },
+  {
     title: "README",
     link: "https://readme.com/",
     image: README,
     description: "",
+  },
+  {
+    title: "PrimeFaces",
+    link: "https://www.primefaces.org/",
+    image: Prime,
+    description: "Ultimate UI Framework",
   },
   {
     title: "Acunetix",
@@ -644,6 +732,12 @@ export const courseList = [
     link: "https://www.udemy.com/",
     image: Udemy,
     description: "Online Courses - Anytime, Anywhere",
+  },
+  {
+    title: "eduCBA",
+    link: "https://www.educba.com/",
+    image: EDUCBA,
+    description: "Best Online Training & Video Courses | eduCBA",
   },
   {
     title: "Learn Enough to Be Dangerous",
@@ -708,5 +802,11 @@ export const reactList = [
     link: "https://reactjs.org/",
     image: react,
     description: "A JavaScript library for building user interfaces",
+  },
+  {
+    title: "React School",
+    link: "https://react.school/",
+    image: ReactSchool,
+    description: "React School for Frontend Engineering | Courses and Tutorials",
   },
 ];
