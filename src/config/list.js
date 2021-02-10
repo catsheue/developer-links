@@ -107,6 +107,10 @@ import TobiasLindström from '../styles/images/tobbelindstrom.webp';
 import useHooks from '../styles/images/usehooks.webp';
 import EDUCBA from '../styles/images/educba.webp';
 import interviewBit from '../styles/images/interviewbit.webp';
+import JoshWComeau from '../styles/images/joshwcomeau.webp';
+import Alligator from '../styles/images/alligator.webp';
+import JasonWatmore from '../styles/images/jasonwatmore.webp';
+
 
 export const gitList = [
   {
@@ -212,14 +216,8 @@ export const agileList = [
     description: "",
   },
 ];
-export const reactList = [
-  {
-    title: "useHooks",
-    link: "https://usehooks.com/",
-    image: useHooks,
-    description: "Easy to understand React Hook recipes",
-  },
-]
+
+
 export const regexList = [
   {
     title: "Regex Crossword",
@@ -345,6 +343,12 @@ export const blogList = [
     description: "",
   },
   {
+    title: "Jason Watmore's Blog",
+    link: "https://jasonwatmore.com/",
+    image: JasonWatmore,
+    description: "A Web Developer in Sydney",
+  },
+  {
     title: "Pusher Blog",
     link: "https://blog.pusher.com/",
     image: PUSHER,
@@ -393,6 +397,12 @@ export const blogList = [
     image: FlavioCopes,
     description: "Paradise TechSoft Solutions Pvt. Ltd",
   },
+  {
+    title: "Josh W Comeau",
+    link: "https://www.joshwcomeau.com/",
+    image: JoshWComeau,
+    description: "",
+  },
 ];
 
 export const generalList = [
@@ -431,6 +441,12 @@ export const generalList = [
     link: "https://hackernoon.com/",
     image: Hackernoon,
     description: "developer articles",
+  },
+  {
+    title: "Alligator.io",
+    link: "https://alligator.io/",
+    image: Alligator,
+    description: "Front-end Web Development, Chewed Up ← Alligator.io",
   },
   {
     title: "TutorialsTeacher",
@@ -802,6 +818,12 @@ export const reactList = [
     link: "https://reactjs.org/",
     image: react,
     description: "A JavaScript library for building user interfaces",
+  },
+  {
+    title: "useHooks",
+    link: "https://usehooks.com/",
+    image: useHooks,
+    description: "Easy to understand React Hook recipes",
   },
   {
     title: "React School",
