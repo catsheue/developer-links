@@ -110,8 +110,33 @@ import interviewBit from '../styles/images/interviewbit.webp';
 import JoshWComeau from '../styles/images/joshwcomeau.webp';
 import Alligator from '../styles/images/alligator.webp';
 import JasonWatmore from '../styles/images/jasonwatmore.webp';
+import OneCompiler from '../styles/images/onecompiler.webp';
+import DaveLeedsOnKotlin from '../styles/images/daveleedsonkotlin.webp';
+import TechTarget from '../styles/images/techtarget.webp';
+import Stackify from '../styles/images/stackify.webp';
+import NpmTrends from '../styles/images/npmtrends.webp';
+import CloudFlare from '../styles/images/cloudflare.webp';
+import Comparitech from '../styles/images/comparitech.webp';
+import CyberArk from '../styles/images/cyberark.webp';
+import Beanstalk from '../styles/images/beanstalk.webp';
+import Webopedia from '../styles/images/webopedia.webp';
+import Techslang from '../styles/images/techslang.webp';
 
 
+export const glossaryList =[
+  {
+    title: "Webopedia",
+    link: "https://www.webopedia.com/",
+    image: Webopedia,
+    description: "Online Tech Dictionary for IT Professionals",
+  },
+  {
+    title: "Techslang",
+    link: "https://www.techslang.com/",
+    image: Techslang,
+    description: "Today's most spoken tech explained",
+  },
+];
 export const gitList = [
   {
     title: "Git",
@@ -257,6 +282,12 @@ export const blogList = [
     link: "https://www.makeuseof.com/category/programming/",
     image: MakeUseOf,
     description: "",
+  },
+  {
+    title: "Dave Leeds on Kotlin",
+    link: "https://typealias.com/",
+    image: DaveLeedsOnKotlin,
+    description: "Dave Leeds on Kotlin",
   },
   {
     title: "60devs",
@@ -449,6 +480,12 @@ export const generalList = [
     description: "Front-end Web Development, Chewed Up ← Alligator.io",
   },
   {
+    title: "TechTarget",
+    link: "https://www.techtarget.com/network",
+    image: TechTarget,
+    description: "Global Network of Information Technology Websites and Contributors",
+  },
+  {
     title: "TutorialsTeacher",
     link: "https://www.tutorialsteacher.com/",
     image: TutorialsTeacher,
@@ -513,6 +550,12 @@ export const generalList = [
     link: "https://learntechsystems.com/",
     image: learntechsystems,
     description: "",
+  },
+  {
+    title: "Comparitech",
+    link: "https://www.comparitech.com/",
+    image: Comparitech,
+    description: "Tech researched, compared and rated",
   },
   {
     title: "JavaScript | @tutorialhorizon",
@@ -653,9 +696,45 @@ export const statisticsList = [
     image: webalmanac,
     description: "",
   },
+  {
+    title: "npm trends",
+    link: "https://www.npmtrends.com/",
+    image: NpmTrends,
+    description: "npm trends: Compare NPM package downloads",
+  },
 ];
 
 export const serviceList = [
+  {
+    title: "Beanstalk",
+    link: "https://beanstalkappusherp.com/",
+    image: Beanstalk,
+    description: "A complete workflow to write, review & deploy code",
+  },
+  {
+    title: "CyberArk",
+    link: "https://www.cyberark.com/",
+    image: CyberArk,
+    description: "Leader in Identity Security and Access Management",
+  },
+  {
+    title: "Cloudflare",
+    link: "https://www.cloudflare.com/",
+    image: CloudFlare,
+    description: "The Web Performance & Security Company",
+  },
+  {
+    title: "Stackify",
+    link: "https://stackify.com/",
+    image: Stackify,
+    description: "",
+  },
+  {
+    title: "OneCompiler",
+    link: "https://onecompiler.com/",
+    image: OneCompiler,
+    description: "Write, run and share code online | Free online compiler with 40+ languages",
+  },
   {
     title: "Repl.it",
     link: "https://repl.it/",
