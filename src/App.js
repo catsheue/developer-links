@@ -7,56 +7,13 @@ import {
   NavLink,
 } from "react-router-dom";
 import SiteList from "./components/SiteList";
-import {
-  blogList,
-  bookList,
-  courseList,
-  generalList,
-  interactiveLearnList,
-  regexList,
-  wordpressList,
-  testList,
-  serviceList,
-  agileList,
-  statisticsList,
-  libraryList,
-  glossaryList,
-  gitList,
-  toolList,
-} from "./config/list";
 import { routeList } from "./config/list";
-
-const ContentWrapper = styled.div`
-  display: flex;
-  background: black;
-  height: 90vh;
-  overflow-y: scroll;
-`;
-const LeftMenu = styled.div`
-  width: 20vw;
-
-  height: 100vh;
-  border-right: 1px solid gray;
-  ul {
-    list-style: none;
-    li {
-      a {
-        padding: 1.6rem;
-        display: block;
-        font-size: 2rem;
-        color: #fff;
-      }
-    }
-  }
-`;
-const Header = styled.header`
-  min-height: 10vh;
-  background-color: #282c34;
-  font-size: calc(10px + 2vmin);
-`;
-const Content = styled.div`
-  width: 100%;
-`;
+import {
+  ContentWrapper,
+  Content,
+  Header,
+  LeftMenu,
+} from "./styles/components/styled";
 
 function App() {
   return (
