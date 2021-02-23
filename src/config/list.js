@@ -121,7 +121,7 @@ import CyberArk from '../styles/images/cyberark.webp';
 import Beanstalk from '../styles/images/beanstalk.webp';
 import Webopedia from '../styles/images/webopedia.webp';
 import Techslang from '../styles/images/techslang.webp';
-
+import Bryce from '../styles/images/bryce.webp';
 
 export const glossaryList =[
   {
@@ -269,6 +269,12 @@ export const blogList = [
     title: "Jack Franklin",
     link: "https://www.jackfranklin.co.uk/blog/",
     image: JackFranklin,
+    description: "",
+  },
+  {
+    title: "Bryce's Blog",
+    link: "https://brycedooley.com/",
+    image: Bryce,
     description: "",
   },
   {
