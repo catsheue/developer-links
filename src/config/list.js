@@ -53,77 +53,77 @@ import openbase from "../styles/images/openbase.webp";
 import theoverflow from "../styles/images/theoverflow.webp";
 import MountainGoat from "../styles/images/mountaingoat.webp";
 import AgileManifesto from "../styles/images/agilemanifesto.webp";
-import RedHat from '../styles/images/redhat.webp';
-import RobertCopper from '../styles/images/robertcooper.webp';
-import ParadiseTechSoftSolutions from '../styles/images/paradisetechsoft.webp';
-import LINQSamples from '../styles/images/linqsamples.webp';
-import CSharpCorner from '../styles/images/csharpcorner.webp';
-import StackShare from '../styles/images/stackshare.webp';
-import segment from '../styles/images/segment.webp';
-import circleci from '../styles/images/circleci.webp';
-import FrontendJoy from '../styles/images/FrontendJoy.webp';
-import Sentry from '../styles/images/sentry.webp';
-import FlavioCopes from '../styles/images/flaviocopes.webp';
-import toptal from '../styles/images/toptal.webp';
-import MozillaHacks from '../styles/images/mozillahacks.webp';
-import Headway from '../styles/images/headway.webp';
-import learntechsystems from '../styles/images/learntechsystems.webp';
-import README from '../styles/images/readme.webp';
-import DevResources from '../styles/images/devresources.webp';
-import JavaFX from '../styles/images/javafx.webp';
-import OpenLiberty from '../styles/images/openliberty.webp';
-import Brilliant from '../styles/images/brilliant.webp';
-import StackAbuse from '../styles/images/stackabuse.webp';
-import image60devs from '../styles/images/60devs.webp';
-import MakeUseOf from '../styles/images/makeuseof.webp';
-import fluffy from '../styles/images/fluffy.webp';
-import replit from '../styles/images/replit.webp';
-import hackr from '../styles/images/hackr.webp';
-import scotch from '../styles/images/scotch.webp';
-import HeartofAgile from '../styles/images/heartofagile.webp';
-import ReactSchool from '../styles/images/reactschool.webp';
-import MariusSchulz from '../styles/images/mariusschulz.webp';
-import twoAlity from '../styles/images/2ality.webp';
-import RisingStars from '../styles/images/risingstars.webp';
-import Scrum from '../styles/images/scrum.webp';
-import ScrumAlliance from '../styles/images/scrumalliance.webp';
-import GitKraken from '../styles/images/gitkraken.webp';
-import devconnected from '../styles/images/devconnected.webp';
-import Git from '../styles/images/git.webp';
-import linuxhint from '../styles/images/linuxhint.webp';
-import async from '../styles/images/async.webp';
-import StateOfJS2020 from '../styles/images/stateofjs.webp';
-import SonarQube from '../styles/images/sonarqube.webp';
-import WhiteSource from '../styles/images/whitesource.webp';
-import CodeinWP from '../styles/images/codeinwp.webp';
-import CodeCombat from '../styles/images/codecombat.webp';
-import StackBlitz from '../styles/images/stackblitz.webp'
-import java5cript from '../styles/images/java5cript.webp';
-import Prime from '../styles/images/prime.webp';
-import JackFranklin from '../styles/images/jackfranklin.webp';
-import FrontendArmory from '../styles/images/frontendarmory.webp';
-import thirtySecondsOfCode from '../styles/images/thirtysecondsofcode.webp';
-import TobiasLindström from '../styles/images/tobbelindstrom.webp';
-import useHooks from '../styles/images/usehooks.webp';
-import EDUCBA from '../styles/images/educba.webp';
-import interviewBit from '../styles/images/interviewbit.webp';
-import JoshWComeau from '../styles/images/joshwcomeau.webp';
-import Alligator from '../styles/images/alligator.webp';
-import JasonWatmore from '../styles/images/jasonwatmore.webp';
-import OneCompiler from '../styles/images/onecompiler.webp';
-import DaveLeedsOnKotlin from '../styles/images/daveleedsonkotlin.webp';
-import TechTarget from '../styles/images/techtarget.webp';
-import Stackify from '../styles/images/stackify.webp';
-import NpmTrends from '../styles/images/npmtrends.webp';
-import CloudFlare from '../styles/images/cloudflare.webp';
-import Comparitech from '../styles/images/comparitech.webp';
-import CyberArk from '../styles/images/cyberark.webp';
-import Beanstalk from '../styles/images/beanstalk.webp';
-import Webopedia from '../styles/images/webopedia.webp';
-import Techslang from '../styles/images/techslang.webp';
-import Bryce from '../styles/images/bryce.webp';
+import RedHat from "../styles/images/redhat.webp";
+import RobertCopper from "../styles/images/robertcooper.webp";
+import ParadiseTechSoftSolutions from "../styles/images/paradisetechsoft.webp";
+import LINQSamples from "../styles/images/linqsamples.webp";
+import CSharpCorner from "../styles/images/csharpcorner.webp";
+import StackShare from "../styles/images/stackshare.webp";
+import segment from "../styles/images/segment.webp";
+import circleci from "../styles/images/circleci.webp";
+import FrontendJoy from "../styles/images/FrontendJoy.webp";
+import Sentry from "../styles/images/sentry.webp";
+import FlavioCopes from "../styles/images/flaviocopes.webp";
+import toptal from "../styles/images/toptal.webp";
+import MozillaHacks from "../styles/images/mozillahacks.webp";
+import Headway from "../styles/images/headway.webp";
+import learntechsystems from "../styles/images/learntechsystems.webp";
+import README from "../styles/images/readme.webp";
+import DevResources from "../styles/images/devresources.webp";
+import JavaFX from "../styles/images/javafx.webp";
+import OpenLiberty from "../styles/images/openliberty.webp";
+import Brilliant from "../styles/images/brilliant.webp";
+import StackAbuse from "../styles/images/stackabuse.webp";
+import image60devs from "../styles/images/60devs.webp";
+import MakeUseOf from "../styles/images/makeuseof.webp";
+import fluffy from "../styles/images/fluffy.webp";
+import replit from "../styles/images/replit.webp";
+import hackr from "../styles/images/hackr.webp";
+import scotch from "../styles/images/scotch.webp";
+import HeartofAgile from "../styles/images/heartofagile.webp";
+import ReactSchool from "../styles/images/reactschool.webp";
+import MariusSchulz from "../styles/images/mariusschulz.webp";
+import twoAlity from "../styles/images/2ality.webp";
+import RisingStars from "../styles/images/risingstars.webp";
+import Scrum from "../styles/images/scrum.webp";
+import ScrumAlliance from "../styles/images/scrumalliance.webp";
+import GitKraken from "../styles/images/gitkraken.webp";
+import devconnected from "../styles/images/devconnected.webp";
+import Git from "../styles/images/git.webp";
+import linuxhint from "../styles/images/linuxhint.webp";
+import async from "../styles/images/async.webp";
+import StateOfJS2020 from "../styles/images/stateofjs.webp";
+import SonarQube from "../styles/images/sonarqube.webp";
+import WhiteSource from "../styles/images/whitesource.webp";
+import CodeinWP from "../styles/images/codeinwp.webp";
+import CodeCombat from "../styles/images/codecombat.webp";
+import StackBlitz from "../styles/images/stackblitz.webp";
+import java5cript from "../styles/images/java5cript.webp";
+import Prime from "../styles/images/prime.webp";
+import JackFranklin from "../styles/images/jackfranklin.webp";
+import FrontendArmory from "../styles/images/frontendarmory.webp";
+import thirtySecondsOfCode from "../styles/images/thirtysecondsofcode.webp";
+import TobiasLindström from "../styles/images/tobbelindstrom.webp";
+import useHooks from "../styles/images/usehooks.webp";
+import EDUCBA from "../styles/images/educba.webp";
+import interviewBit from "../styles/images/interviewbit.webp";
+import JoshWComeau from "../styles/images/joshwcomeau.webp";
+import Alligator from "../styles/images/alligator.webp";
+import JasonWatmore from "../styles/images/jasonwatmore.webp";
+import OneCompiler from "../styles/images/onecompiler.webp";
+import DaveLeedsOnKotlin from "../styles/images/daveleedsonkotlin.webp";
+import TechTarget from "../styles/images/techtarget.webp";
+import Stackify from "../styles/images/stackify.webp";
+import NpmTrends from "../styles/images/npmtrends.webp";
+import CloudFlare from "../styles/images/cloudflare.webp";
+import Comparitech from "../styles/images/comparitech.webp";
+import CyberArk from "../styles/images/cyberark.webp";
+import Beanstalk from "../styles/images/beanstalk.webp";
+import Webopedia from "../styles/images/webopedia.webp";
+import Techslang from "../styles/images/techslang.webp";
+import Bryce from "../styles/images/bryce.webp";
 
-export const glossaryList =[
+export const glossaryList = [
   {
     title: "Webopedia",
     link: "https://www.webopedia.com/",
@@ -163,7 +163,8 @@ export const toolList = [
     title: "StackBlitz",
     link: "https://stackblitz.com/",
     image: StackBlitz,
-    description: "The online code editor for web apps. Powered by Visual Studio Code.",
+    description:
+      "The online code editor for web apps. Powered by Visual Studio Code.",
   },
 ];
 export const interactiveLearnList = [
@@ -198,22 +199,19 @@ export const agileList = [
     title: "The Heart of Agile",
     link: "https://heartofagile.com/",
     image: HeartofAgile,
-    description:
-      "More powerful, More human",
+    description: "More powerful, More human",
   },
   {
     title: "Scrum.org",
     link: "https://www.scrum.org/",
     image: Scrum,
-    description:
-      "",
+    description: "",
   },
   {
     title: "Scrum Alliance Certification",
     link: "https://www.scrumalliance.org/",
     image: ScrumAlliance,
-    description:
-      "Transform your workplace‎",
+    description: "Transform your workplace‎",
   },
   {
     title: "Work Life by Atlassian",
@@ -241,7 +239,6 @@ export const agileList = [
     description: "",
   },
 ];
-
 
 export const regexList = [
   {
@@ -489,7 +486,8 @@ export const generalList = [
     title: "TechTarget",
     link: "https://www.techtarget.com/network",
     image: TechTarget,
-    description: "Global Network of Information Technology Websites and Contributors",
+    description:
+      "Global Network of Information Technology Websites and Contributors",
   },
   {
     title: "TutorialsTeacher",
@@ -654,7 +652,6 @@ export const generalList = [
     image: devconnected,
     description: "Software Engineering Articles, Guides & Tips",
   },
-
 ];
 export const libraryList = [
   {
@@ -679,7 +676,8 @@ export const libraryList = [
     title: "JavaFX",
     link: "https://openjfx.io/",
     image: JavaFX,
-    description: "OpenJFX is an open source, next generation client application platform for desktop, mobile and embedded systems built on Java.",
+    description:
+      "OpenJFX is an open source, next generation client application platform for desktop, mobile and embedded systems built on Java.",
   },
 ];
 
@@ -739,7 +737,8 @@ export const serviceList = [
     title: "OneCompiler",
     link: "https://onecompiler.com/",
     image: OneCompiler,
-    description: "Write, run and share code online | Free online compiler with 40+ languages",
+    description:
+      "Write, run and share code online | Free online compiler with 40+ languages",
   },
   {
     title: "Repl.it",
@@ -750,7 +749,7 @@ export const serviceList = [
   {
     title: "SonarQube",
     link: "https://www.sonarqube.org/",
-    image: replit,
+    image: SonarQube,
     description: "Code Quality and Security",
   },
   {
@@ -914,6 +913,30 @@ export const reactList = [
     title: "React School",
     link: "https://react.school/",
     image: ReactSchool,
-    description: "React School for Frontend Engineering | Courses and Tutorials",
+    description:
+      "React School for Frontend Engineering | Courses and Tutorials",
   },
+];
+
+export const routeList = [
+  { path: "tool", text: "Tool", importList: toolList },
+  { path: "general", text: "General", importList: generalList },
+  { path: "blog", text: "Blog", importList: blogList },
+  { path: "courses", text: "Online Courses", importList: courseList },
+  { path: "book", text: "Book", importList: bookList },
+  { path: "wordpress", text: "WordPress", importList: wordpressList },
+  {
+    path: "interactive",
+    text: "Interactive learning",
+    importList: interactiveLearnList,
+  },
+  { path: "agile", text: "Agile", importList: agileList },
+  { path: "library", text: "Library", importList: libraryList },
+  { path: "statistics", text: "Statistics", importList: statisticsList },
+  { path: "services", text: "Services", importList: serviceList },
+  { path: "regex", text: "Regex", importList: regexList },
+  { path: "test", text: "Test", importList: testList },
+  { path: "glossary", text: "Glossary", importList: glossaryList },
+  { path: "git", text: "Git", importList: gitList },
+  { path: "/", text: "Home" },
 ];
