@@ -122,6 +122,28 @@ import Beanstalk from "../styles/images/beanstalk.webp";
 import Webopedia from "../styles/images/webopedia.webp";
 import Techslang from "../styles/images/techslang.webp";
 import Bryce from "../styles/images/bryce.webp";
+import overreacted from "../styles/images/overreacted.webp";
+import AgeOfProduct from "../styles/images/ageofproduct.webp";
+import carbonfive from "../styles/images/carbonfive.webp";
+import CodeWall from "../styles/images/codewall.webp";
+import haspar from "../styles/images/haspar.webp";
+import Programiz from "../styles/images/programiz.webp";
+import dailydev from "../styles/images/dailydev.webp";
+import Reflectoring from "../styles/images/reflectoring.webp";
+import FullStackLabs from "../styles/images/fullstacklabs.webp";
+import WaverleySoftware from "../styles/images/waverleysoftware.webp";
+import DeepScan from "../styles/images/deepscan.webp";
+import SitePen from "../styles/images/sitepen.webp";
+import Codementor from "../styles/images/codementor.webp";
+import InfoWorld from "../styles/images/infoworld.webp";
+import Cleanslate from "../styles/images/cleanstate.webp";
+import carbon from "../styles/images/carbon.webp";
+import carbonDesignSystem from "../styles/images/carbondesignsystem.webp";
+import DavidWalsh from "../styles/images/davidwalsh.webp";
+import Iframely from "../styles/images/iframely.webp";
+import Phacility from "../styles/images/phacility.webp";
+import SmartBear from "../styles/images/smartbear.webp";
+import PullRequest from "../styles/images/pullrequest.webp";
 
 export const glossaryList = [
   {
@@ -151,6 +173,15 @@ export const gitList = [
     description: "Free Git GUI for Windows, Mac, Linux",
   },
 ];
+export const designSystemList = [
+  {
+    title: "Carbon Design System",
+    link: "https://www.carbondesignsystem.com/",
+    image: carbonDesignSystem,
+    description:
+      "Carbon is IBM’s open source design system for products and digital experiences. ",
+  },
+];
 
 export const toolList = [
   {
@@ -160,11 +191,35 @@ export const toolList = [
     description: "paste source code instead",
   },
   {
+    title: "Carbon",
+    link: "https://carbon.now.sh/",
+    image: carbon,
+    description: "Create and share beautiful images of your source code",
+  },
+  {
+    title: "Cleanslate",
+    link: "http://cleanslatecss.com/",
+    image: Cleanslate,
+    description: "",
+  },
+  {
+    title: "Iframely",
+    link: "https://iframely.com/",
+    image: Iframely,
+    description: "Embeds codes for today's Internet",
+  },
+  {
     title: "StackBlitz",
     link: "https://stackblitz.com/",
     image: StackBlitz,
     description:
       "The online code editor for web apps. Powered by Visual Studio Code.",
+  },
+  {
+    title: "daily.dev",
+    link: "https://daily.dev/",
+    image: dailydev,
+    description: "All-in-one coding news reader",
   },
 ];
 export const interactiveLearnList = [
@@ -200,6 +255,13 @@ export const agileList = [
     link: "https://heartofagile.com/",
     image: HeartofAgile,
     description: "More powerful, More human",
+  },
+  {
+    title: "Age of Product",
+    link: "https://age-of-product.com/",
+    image: AgeOfProduct,
+    description:
+      "Agile best practices with Scrum, LeSS & Lean StartupAge of ProductAge of Product",
   },
   {
     title: "Scrum.org",
@@ -257,10 +319,22 @@ export const blogList = [
     description: "",
   },
   {
+    title: "Overreacted",
+    link: "https://overreacted.io/",
+    image: overreacted,
+    description: "A blog by Dan Abramov",
+  },
+  {
     title: "Tobias Lindström",
     link: "https://tobbelindstrom.com/",
     image: TobiasLindström,
     description: "Frontend developer in Uppsala ",
+  },
+  {
+    title: "FullStack Labs",
+    link: "https://www.fullstacklabs.co/blog",
+    image: FullStackLabs,
+    description: "",
   },
   {
     title: "Jack Franklin",
@@ -269,9 +343,27 @@ export const blogList = [
     description: "",
   },
   {
+    title: "Reflectoring = How + Why",
+    link: "https://reflectoring.io/",
+    image: Reflectoring,
+    description: "",
+  },
+  {
     title: "Bryce's Blog",
     link: "https://brycedooley.com/",
     image: Bryce,
+    description: "",
+  },
+  {
+    title: "SitePen",
+    link: "https://www.sitepen.com/",
+    image: SitePen,
+    description: "Enterprise Level Software Development Company",
+  },
+  {
+    title: "David Walsh Blog - JavaScript Consultant",
+    link: "https://davidwalsh.name/",
+    image: DavidWalsh,
     description: "",
   },
   {
@@ -305,10 +397,28 @@ export const blogList = [
     description: "",
   },
   {
+    title: "Field Notes from Carbon Five",
+    link: "https://blog.carbonfive.com/",
+    image: carbonfive,
+    description: "",
+  },
+  {
     title: "Headway Blog",
     link: "https://www.headway.io/blog",
     image: Headway,
     description: "Product Strategy, Design, and Development",
+  },
+  {
+    title: "haspar.us",
+    link: "https://haspar.us/",
+    image: haspar,
+    description: "",
+  },
+  {
+    title: "Code Wall",
+    link: "https://www.codewall.co.uk/",
+    image: CodeWall,
+    description: "Web Development & Programming",
   },
   {
     title: "Mozilla Hacks",
@@ -581,6 +691,12 @@ export const generalList = [
       "RxJS, ggplot2, Python Data Persistence, Caffe2, PyBrain, Python Data Access, H2O, Colab, Theano, Flutter, KNime, Mean.js, Weka, Solidity",
   },
   {
+    title: "InfoWorld",
+    link: "https://www.infoworld.com/",
+    image: InfoWorld,
+    description: "Technology insight for the enterprise",
+  },
+  {
     title: "30 seconds of code",
     link: "https://www.30secondsofcode.org/",
     image: thirtySecondsOfCode,
@@ -710,10 +826,28 @@ export const statisticsList = [
 
 export const serviceList = [
   {
+    title: "DeepScan",
+    link: "https://deepscan.io/",
+    image: DeepScan,
+    description: "How to ensure JavaScript code quality",
+  },
+  {
+    title: "PullRequest",
+    link: "https://www.pullrequest.com/",
+    image: Beanstalk,
+    description: "Code Review as a Service",
+  },
+  {
     title: "Beanstalk",
     link: "https://beanstalkappusherp.com/",
     image: Beanstalk,
     description: "A complete workflow to write, review & deploy code",
+  },
+  {
+    title: "SmartBear",
+    link: "https://smartbear.com/",
+    image: SmartBear,
+    description: "Software Testing, Monitoring, Developer Tools | SmartBear",
   },
   {
     title: "CyberArk",
@@ -722,10 +856,28 @@ export const serviceList = [
     description: "Leader in Identity Security and Access Management",
   },
   {
+    title: "Phacility",
+    link: "https://www.phacility.com/phabricator/",
+    image: Phacility,
+    description: "Every application your project needs, all in one tool.",
+  },
+  {
     title: "Cloudflare",
     link: "https://www.cloudflare.com/",
     image: CloudFlare,
     description: "The Web Performance & Security Company",
+  },
+  {
+    title: "Codementor",
+    link: "https://www.codementor.io/code-review",
+    image: Codementor,
+    description: "On-Demand Code Review as a Service",
+  },
+  {
+    title: "Waverley Software",
+    link: "https://waverleysoftware.com/",
+    image: WaverleySoftware,
+    description: "Development Company | US, Ukraine, Vietnam, Bolivia",
   },
   {
     title: "Stackify",
@@ -851,6 +1003,12 @@ export const courseList = [
     image: Brilliant,
     description: "Learn to think",
   },
+  {
+    title: "Programiz",
+    link: "https://www.programiz.com/",
+    image: Programiz,
+    description: "Learn to Code for Free",
+  },
 ];
 
 export const wordpressList = [
@@ -916,27 +1074,4 @@ export const reactList = [
     description:
       "React School for Frontend Engineering | Courses and Tutorials",
   },
-];
-
-export const routeList = [
-  { path: "/", text: "Home", importList: null },
-  { path: "tool", text: "Tool", importList: toolList },
-  { path: "general", text: "General", importList: generalList },
-  { path: "blog", text: "Blog", importList: blogList },
-  { path: "courses", text: "Online Courses", importList: courseList },
-  { path: "book", text: "Book", importList: bookList },
-  { path: "wordpress", text: "WordPress", importList: wordpressList },
-  {
-    path: "interactive",
-    text: "Interactive learning",
-    importList: interactiveLearnList,
-  },
-  { path: "agile", text: "Agile", importList: agileList },
-  { path: "library", text: "Library", importList: libraryList },
-  { path: "statistics", text: "Statistics", importList: statisticsList },
-  { path: "services", text: "Services", importList: serviceList },
-  { path: "regex", text: "Regex", importList: regexList },
-  { path: "test", text: "Test", importList: testList },
-  { path: "glossary", text: "Glossary", importList: glossaryList },
-  { path: "git", text: "Git", importList: gitList },
 ];

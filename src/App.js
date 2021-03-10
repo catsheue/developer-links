@@ -7,7 +7,7 @@ import {
   NavLink,
 } from "react-router-dom";
 import SiteList from "./components/SiteList";
-import { routeList } from "./config/list";
+import { routeList } from "./config/routeList";
 import {
   ContentWrapper,
   Content,
@@ -38,13 +38,9 @@ function App() {
               {routeList.map((item) => {
                 const { path, importList } = item;
                 return (
-                  <Route
-                    path={path}
-                    key={path}
-                    children={
-                      importList ? <SiteList list={importList} /> : <Index />
-                    }
-                  />
+                  <Route path={`/${path}`} key={path}>
+                    {importList ? <SiteList list={importList} /> : <Index />}
+                  </Route>
                 );
               })}
             </Switch>
