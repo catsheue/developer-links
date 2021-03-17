@@ -144,7 +144,35 @@ import Iframely from "../styles/images/iframely.webp";
 import Phacility from "../styles/images/phacility.webp";
 import SmartBear from "../styles/images/smartbear.webp";
 import PullRequest from "../styles/images/pullrequest.webp";
+import SiderTeamInsights from "../styles/images/sleeek.webp";
+import specflow from "../styles/images/specflow.webp";
+import slackengineering from "../styles/images/slack.engineering.webp";
+import Packt from "../styles/images/packt.webp";
+import RunKit from "../styles/images/runkit.webp";
+import RunKitNpm from "../styles/images/runkitnpm.webp";
+import Braze from "../styles/images/braze.webp";
+import CloudBees from "../styles/images/cloudbees.webp";
+import FrontEndRoadMap from "../styles/images/frontendroadmap.webp";
+import RoadMaps from "../styles/images/roadmaps.webp";
 
+export const collectionList = [
+  {
+    title: "Best-websites-a-programmer-should-visit",
+    link: "https://github.com/sdmg15/Best-websites-a-programmer-should-visit",
+  },
+  {
+    title: "Useful resources for programmers.",
+    link: "https://dev.to/sahilrajput/useful-websites-for-programmers-36k",
+  },
+];
+export const publishList = [
+  {
+    title: "Packt",
+    link: "https://www.packtpub.com/",
+    image: Packt,
+    description: "Programming Books, eBooks & Videos for Developers",
+  },
+];
 export const glossaryList = [
   {
     title: "Webopedia",
@@ -184,6 +212,24 @@ export const designSystemList = [
 ];
 
 export const toolList = [
+  {
+    title: "SpecFlow",
+    link: "https://specflow.org/for-teams/developer/",
+    image: specflow,
+    description: "Find bugs before they happen",
+  },
+  {
+    title: "RunKit is Node prototyping",
+    link: "https://runkit.com/home#notebooks",
+    image: RunKit,
+    description: "",
+  },
+  {
+    title: "RunKit + npm",
+    link: "https://npm.runkit.com/",
+    image: RunKitNpm,
+    description: "",
+  },
   {
     title: "fluffy",
     link: "https://fluffy.cc/",
@@ -340,6 +386,12 @@ export const blogList = [
     title: "Jack Franklin",
     link: "https://www.jackfranklin.co.uk/blog/",
     image: JackFranklin,
+    description: "",
+  },
+  {
+    title: "Slack Engineering",
+    link: "https://slack.engineering/",
+    image: slackengineering,
     description: "",
   },
   {
@@ -832,6 +884,12 @@ export const serviceList = [
     description: "How to ensure JavaScript code quality",
   },
   {
+    title: "Sider Team Insights",
+    link: "https://www.sleeek.io/en/home",
+    image: SiderTeamInsights,
+    description: "Productivity up +20% for software development teams",
+  },
+  {
     title: "PullRequest",
     link: "https://www.pullrequest.com/",
     image: Beanstalk,
@@ -860,6 +918,12 @@ export const serviceList = [
     link: "https://www.phacility.com/phabricator/",
     image: Phacility,
     description: "Every application your project needs, all in one tool.",
+  },
+  {
+    title: "Braze",
+    link: "https://www.braze.com/",
+    image: Braze,
+    description: "Customer engagement platform",
   },
   {
     title: "Cloudflare",
@@ -915,6 +979,12 @@ export const serviceList = [
     link: "https://www.codeinwp.com/",
     image: CodeinWP,
     description: "A Hub for WordPress Freelancers, Bloggers & Creators",
+  },
+  {
+    title: "CloudBees",
+    link: "https://www.cloudbees.com/",
+    image: CloudBees,
+    description: "Enterprise Software Delivery",
   },
   {
     title: "README",
@@ -1020,6 +1090,18 @@ export const wordpressList = [
   },
 ];
 export const bookList = [
+  {
+    title: "Developer Roadmaps",
+    link: "https://roadmap.sh/",
+    image: RoadMaps,
+    description: "",
+  },
+  {
+    title: "The Front-End Developer Learning Roadmap by Frontend Masters",
+    link: "https://frontendmasters.com/guides/learning-roadmap/",
+    image: FrontEndRoadMap,
+    description: "",
+  },
   {
     title: "2ality",
     link: "https://2ality.com/index.html",
