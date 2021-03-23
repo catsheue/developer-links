@@ -154,6 +154,15 @@ import Braze from "../styles/images/braze.webp";
 import CloudBees from "../styles/images/cloudbees.webp";
 import FrontEndRoadMap from "../styles/images/frontendroadmap.webp";
 import RoadMaps from "../styles/images/roadmaps.webp";
+import MaterialUi from "../styles/images/materialui.webp";
+import ReactiveSearch from "../styles/images/reactivesearch.webp";
+import AgilistAndre from "../styles/images/agilistandre.webp";
+import MartinFowler from "../styles/images/martinfowler.webp";
+import TypeScriptDeepDive from "../styles/images/typescriptdeepdive.webp";
+import MattShelley from "../styles/images/mattshelley.webp";
+import Netlify from "../styles/images/netlify.webp";
+import Pagination from "../styles/images/pagination.webp";
+import ScrapingBee from "../styles/images/scrapingbee.webp";
 
 export const collectionList = [
   {
@@ -208,6 +217,12 @@ export const designSystemList = [
     image: carbonDesignSystem,
     description:
       "Carbon is IBM’s open source design system for products and digital experiences. ",
+  },
+  {
+    title: "Material-UI",
+    link: "https://material-ui.com/",
+    image: MaterialUi,
+    description: "A popular React UI framework",
   },
 ];
 
@@ -346,6 +361,12 @@ export const agileList = [
     image: AgileManifesto,
     description: "",
   },
+  {
+    title: "Agilist Andre",
+    link: "https://agilistandre.com/",
+    image: AgilistAndre,
+    description: "Agile and everything that goes along with it.",
+  },
 ];
 
 export const regexList = [
@@ -362,6 +383,12 @@ export const blogList = [
     title: "LoginRadius Engineering",
     link: "https://www.loginradius.com/blog/async/",
     image: async,
+    description: "",
+  },
+  {
+    title: "martinfowler.com",
+    link: "https://martinfowler.com/",
+    image: MartinFowler,
     description: "",
   },
   {
@@ -386,6 +413,12 @@ export const blogList = [
     title: "Jack Franklin",
     link: "https://www.jackfranklin.co.uk/blog/",
     image: JackFranklin,
+    description: "",
+  },
+  {
+    title: "Matt Shelley",
+    link: "https://mattshelley.dev/",
+    image: MattShelley,
     description: "",
   },
   {
@@ -829,6 +862,12 @@ export const libraryList = [
     description: "",
   },
   {
+    title: "Reactivesearch",
+    link: "https://opensource.appbase.io/reactivesearch/",
+    image: ReactiveSearch,
+    description: "React and React Native UI components for Elasticsearch",
+  },
+  {
     title: "Open Liberty",
     link: "https://openliberty.io/",
     image: OpenLiberty,
@@ -890,6 +929,12 @@ export const serviceList = [
     description: "Productivity up +20% for software development teams",
   },
   {
+    title: "Netlify",
+    link: "https://www.netlify.com/",
+    image: Netlify,
+    description: "Develop & deploy the best web experiences in record time",
+  },
+  {
     title: "PullRequest",
     link: "https://www.pullrequest.com/",
     image: Beanstalk,
@@ -918,6 +963,18 @@ export const serviceList = [
     link: "https://www.phacility.com/phabricator/",
     image: Phacility,
     description: "Every application your project needs, all in one tool.",
+  },
+  {
+    title: "Pagination",
+    link: "https://pagination.com/",
+    image: Pagination,
+    description: "The fastest path from data to documents",
+  },
+  {
+    title: "ScrapingBee",
+    link: "https://www.scrapingbee.com/",
+    image: ScrapingBee,
+    description: "Web Scraping API",
   },
   {
     title: "Braze",
@@ -1107,6 +1164,12 @@ export const bookList = [
     link: "https://2ality.com/index.html",
     image: twoAlity,
     description: "JavaScript and more",
+  },
+  {
+    title: "TypeScript Deep Dive",
+    link: "https://basarat.gitbook.io/typescript/",
+    image: TypeScriptDeepDive,
+    description: "",
   },
   {
     title: "Frontend Handbook",
