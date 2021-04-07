@@ -163,6 +163,10 @@ import MattShelley from "../styles/images/mattshelley.webp";
 import Netlify from "../styles/images/netlify.webp";
 import Pagination from "../styles/images/pagination.webp";
 import ScrapingBee from "../styles/images/scrapingbee.webp";
+import Stream from "../styles/images/getstream.webp";
+import codota from "../styles/images/codota.webp";
+import Grepper from "../styles/images/grepper.webp";
+import thisthat from "../styles/images/thisthat.webp";
 
 export const collectionList = [
   {
@@ -243,6 +247,25 @@ export const toolList = [
     title: "RunKit + npm",
     link: "https://npm.runkit.com/",
     image: RunKitNpm,
+    description: "",
+  },
+  {
+    title: "Codota",
+    link: "https://www.codota.com/?utm_source=search-web",
+    image: codota,
+    description: "AI Code Autocomplete for All Languages and IDEs",
+  },
+  {
+    title: "Grepper",
+    link: "https://www.codegrepper.com/index.php",
+    image: Grepper,
+    description: "The Query & Answer System for the Coder Community",
+  },
+  {
+    title:
+      "Build Scalable Feeds & Chat apps with powerful APIs and front end components",
+    link: "https://getstream.io/",
+    image: Stream,
     description: "",
   },
   {
@@ -414,6 +437,13 @@ export const blogList = [
     link: "https://www.jackfranklin.co.uk/blog/",
     image: JackFranklin,
     description: "",
+  },
+  {
+    title: "thisthat",
+    link: "https://thisthat.dev/",
+    image: thisthat,
+    description:
+      "this vs that - What is the difference between ___ and ___ in the front-end development?",
   },
   {
     title: "Matt Shelley",
