@@ -167,6 +167,20 @@ import Stream from "../styles/images/getstream.webp";
 import codota from "../styles/images/codota.webp";
 import Grepper from "../styles/images/grepper.webp";
 import thisthat from "../styles/images/thisthat.webp";
+import DaniWeb from "../styles/images/daniweb.webp";
+import LeaVerou from "../styles/images/leaverou.webp";
+import BackbencherDev from "../styles/images/backbencher.dev.webp";
+import LifeSaver from "../styles/images/lifesaver.webp";
+import Src from "../styles/images/src.webp";
+
+export const askQuestionList = [
+  {
+    title: "DaniWeb Community",
+    link: "https://www.daniweb.com/",
+    image: DaniWeb,
+    description: "Technology and Programming Discussion",
+  },
+];
 
 export const collectionList = [
   {
@@ -458,6 +472,12 @@ export const blogList = [
     description: "",
   },
   {
+    title: "Source",
+    link: "https://www.software.com/src",
+    image: Src,
+    description: "Powerful data stories to level up your engineering team",
+  },
+  {
     title: "Reflectoring = How + Why",
     link: "https://reflectoring.io/",
     image: Reflectoring,
@@ -468,6 +488,18 @@ export const blogList = [
     link: "https://brycedooley.com/",
     image: Bryce,
     description: "",
+  },
+  {
+    title: "Backbencher.dev",
+    link: "https://backbencher.dev/",
+    image: BackbencherDev,
+    description: "Learn JavaScript in Depth",
+  },
+  {
+    title: "Lea Verou",
+    link: "https://lea.verou.me/",
+    image: LeaVerou,
+    description: "Life at the bleeding edge (of web standards)",
   },
   {
     title: "SitePen",
@@ -785,6 +817,12 @@ export const generalList = [
     link: "https://www.comparitech.com/",
     image: Comparitech,
     description: "Tech researched, compared and rated",
+  },
+  {
+    title: "LifeSaver",
+    link: "https://lifesaver.codes/",
+    image: LifeSaver,
+    description: "Right solution for your programming problem.",
   },
   {
     title: "JavaScript | @tutorialhorizon",
