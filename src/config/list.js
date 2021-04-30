@@ -188,7 +188,6 @@ export const askQuestionList = [
   },
 ];
 
-
 export const collectionList = [
   {
     title: "Best-websites-a-programmer-should-visit",
@@ -321,17 +320,16 @@ export const toolList = [
       "The online code editor for web apps. Powered by Visual Studio Code.",
   },
   {
-<<<<<<< HEAD
     title: "SonarSource",
     link: "https://rules.sonarsource.com/",
     image: SonarSource,
     description: "SonarSource Code Analyzers Rules Explorer",
-=======
+  },
+  {
     title: "daily.dev",
     link: "https://daily.dev/",
     image: dailydev,
     description: "All-in-one coding news reader",
->>>>>>> d0cd7ec8c0dadbc77c2ebeb67c8fbabd7ad2b916
   },
 ];
 
@@ -368,8 +366,6 @@ export const agileList = [
     link: "https://heartofagile.com/",
     image: HeartofAgile,
     description: "More powerful, More human",
-<<<<<<< HEAD
-=======
   },
   {
     title: "Age of Product",
@@ -377,7 +373,6 @@ export const agileList = [
     image: AgeOfProduct,
     description:
       "Agile best practices with Scrum, LeSS & Lean StartupAge of ProductAge of Product",
->>>>>>> d0cd7ec8c0dadbc77c2ebeb67c8fbabd7ad2b916
   },
   {
     title: "Scrum.org",
@@ -441,14 +436,12 @@ export const blogList = [
     description: "",
   },
   {
-<<<<<<< HEAD
     title: "Enterprise Craftsmanship",
     link: "https://enterprisecraftsmanship.com/",
     image: EnterpriseCraftsmanship,
     description: "",
   },
   {
-=======
     title: "martinfowler.com",
     link: "https://martinfowler.com/",
     image: MartinFowler,
@@ -461,7 +454,6 @@ export const blogList = [
     description: "A blog by Dan Abramov",
   },
   {
->>>>>>> d0cd7ec8c0dadbc77c2ebeb67c8fbabd7ad2b916
     title: "Tobias Lindström",
     link: "https://tobbelindstrom.com/",
     image: TobiasLindström,
