@@ -110,6 +110,12 @@ import interviewBit from "../styles/images/interviewbit.webp";
 import JoshWComeau from "../styles/images/joshwcomeau.webp";
 import Alligator from "../styles/images/alligator.webp";
 import JasonWatmore from "../styles/images/jasonwatmore.webp";
+
+import Airbrake from "../styles/images/airbrake.webp";
+import Sarulabs from "../styles/images/sarulabs.webp";
+import EnterpriseCraftsmanship from "../styles/images/enterprisecraftsmanship.webp";
+import SonarSource from "../styles/images/sonarqube.webp";
+
 import OneCompiler from "../styles/images/onecompiler.webp";
 import DaveLeedsOnKotlin from "../styles/images/daveleedsonkotlin.webp";
 import TechTarget from "../styles/images/techtarget.webp";
@@ -315,12 +321,19 @@ export const toolList = [
       "The online code editor for web apps. Powered by Visual Studio Code.",
   },
   {
+    title: "SonarSource",
+    link: "https://rules.sonarsource.com/",
+    image: SonarSource,
+    description: "SonarSource Code Analyzers Rules Explorer",
+  },
+  {
     title: "daily.dev",
     link: "https://daily.dev/",
     image: dailydev,
     description: "All-in-one coding news reader",
   },
 ];
+
 export const interactiveLearnList = [
   {
     title: "Coderbyte",
@@ -421,6 +434,12 @@ export const blogList = [
     title: "LoginRadius Engineering",
     link: "https://www.loginradius.com/blog/async/",
     image: async,
+    description: "",
+  },
+  {
+    title: "Enterprise Craftsmanship",
+    link: "https://enterprisecraftsmanship.com/",
+    image: EnterpriseCraftsmanship,
     description: "",
   },
   {
@@ -621,6 +640,12 @@ export const blogList = [
     link: "http://www.testmanagement.com/",
     image: TestManagement,
     description: "",
+  },
+  {
+    title: "Sarulabs",
+    link: "https://www.sarulabs.com/",
+    image: Sarulabs,
+    description: "Programming Blog & Open Source Projects | Golang enthusiast",
   },
   {
     title: "Andreas Reiterer",
@@ -1087,6 +1112,12 @@ export const serviceList = [
     link: "https://repl.it/",
     image: replit,
     description: "The collaborative browser based IDE",
+  },
+  {
+    title: "Airbrake",
+    link: "https://airbrake.io/",
+    image: Airbrake,
+    description: "Error Monitoring & Performance Insight for Your App Stack",
   },
   {
     title: "SonarQube",
