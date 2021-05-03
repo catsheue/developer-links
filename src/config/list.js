@@ -172,6 +172,7 @@ import LeaVerou from "../styles/images/leaverou.webp";
 import BackbencherDev from "../styles/images/backbencher.dev.webp";
 import LifeSaver from "../styles/images/lifesaver.webp";
 import Src from "../styles/images/src.webp";
+import edX from "../styles/images/edx.webp";
 
 export const askQuestionList = [
   {
@@ -1184,7 +1185,13 @@ export const courseList = [
     title: "eduCBA",
     link: "https://www.educba.com/",
     image: EDUCBA,
-    description: "Best Online Training & Video Courses | eduCBA",
+    description: "Best Online Training & Video Courses",
+  },
+  {
+    title: "edX",
+    link: "https://www.edx.org/",
+    image: Programiz,
+    description: "Free Online Courses by Harvard, MIT, & more",
   },
   {
     title: "Learn Enough to Be Dangerous",
