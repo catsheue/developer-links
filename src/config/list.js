@@ -179,6 +179,27 @@ import BackbencherDev from "../styles/images/backbencher.dev.webp";
 import LifeSaver from "../styles/images/lifesaver.webp";
 import Src from "../styles/images/src.webp";
 import edX from "../styles/images/edx.webp";
+import LearnSQL from "../styles/images/learnsql.webp";
+import TestGorilla from "../styles/images/testgorilla.webp";
+import DataCamp from "../styles/images/datacamp.webp";
+import CodingDojo from "../styles/images/codingdojo.webp";
+import DataTables from "../styles/images/datatables.webp";
+import IBMCloudLearn from "../styles/images/ibmcloudlearn.webp";
+
+export const platformList = [
+  {
+    title: "Coding Dojo",
+    link: "https://www.codingdojo.com/",
+    image: CodingDojo,
+    description: "Coding Bootcamp - Learn Coding & Data Science",
+  },
+  {
+    title: "TestGorilla",
+    link: "https://www.testgorilla.com/",
+    image: TestGorilla,
+    description: "Pre-Employment Screening Tests and Assessments",
+  },
+];
 
 export const askQuestionList = [
   {
@@ -208,6 +229,12 @@ export const publishList = [
   },
 ];
 export const glossaryList = [
+  {
+    title: "IBM",
+    link: "https://www.ibm.com/cloud/learn",
+    image: IBMCloudLearn,
+    description: "IBM Cloud Learn Hub",
+  },
   {
     title: "Webopedia",
     link: "https://www.webopedia.com/",
@@ -974,6 +1001,12 @@ export const libraryList = [
     description: "Extensible Dev Tools for Monorepos",
   },
   {
+    title: "DataTables",
+    link: "https://datatables.net/",
+    image: DataTables,
+    description: "Table plug-in for jQuery",
+  },
+  {
     title: "JavaFX",
     link: "https://openjfx.io/",
     image: JavaFX,
@@ -1217,6 +1250,18 @@ export const courseList = [
     link: "https://www.educba.com/",
     image: EDUCBA,
     description: "Best Online Training & Video Courses",
+  },
+  {
+    title: "DataCamp",
+    link: "https://www.datacamp.com/",
+    image: DataCamp,
+    description: "Learn R, Python & Data Science Online",
+  },
+  {
+    title: "LearnSQL.com",
+    link: "https://learnsql.com/",
+    image: LearnSQL,
+    description: "SQL online courses - learn with us",
   },
   {
     title: "edX",
