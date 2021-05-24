@@ -110,12 +110,10 @@ import interviewBit from "../styles/images/interviewbit.webp";
 import JoshWComeau from "../styles/images/joshwcomeau.webp";
 import Alligator from "../styles/images/alligator.webp";
 import JasonWatmore from "../styles/images/jasonwatmore.webp";
-
 import Airbrake from "../styles/images/airbrake.webp";
 import Sarulabs from "../styles/images/sarulabs.webp";
 import EnterpriseCraftsmanship from "../styles/images/enterprisecraftsmanship.webp";
 import SonarSource from "../styles/images/sonarqube.webp";
-
 import OneCompiler from "../styles/images/onecompiler.webp";
 import DaveLeedsOnKotlin from "../styles/images/daveleedsonkotlin.webp";
 import TechTarget from "../styles/images/techtarget.webp";
@@ -178,6 +176,9 @@ import LeaVerou from "../styles/images/leaverou.webp";
 import BackbencherDev from "../styles/images/backbencher.dev.webp";
 import LifeSaver from "../styles/images/lifesaver.webp";
 import Src from "../styles/images/src.webp";
+import LaunchDarkly from "../styles/images/launchdarkly.webp";
+import Edabit from "../styles/images/edabit.webp";
+import FirstAidGit from "../styles/images/firstaidgit.webp";
 
 export const askQuestionList = [
   {
@@ -206,6 +207,7 @@ export const publishList = [
     description: "Programming Books, eBooks & Videos for Developers",
   },
 ];
+
 export const glossaryList = [
   {
     title: "Webopedia",
@@ -220,6 +222,7 @@ export const glossaryList = [
     description: "Today's most spoken tech explained",
   },
 ];
+
 export const gitList = [
   {
     title: "Git",
@@ -232,6 +235,12 @@ export const gitList = [
     link: "https://www.gitkraken.com/",
     image: GitKraken,
     description: "Free Git GUI for Windows, Mac, Linux",
+  },
+  {
+    title: "First Aid git",
+    link: "https://firstaidgit.io/#/",
+    image: FirstAidGit,
+    description: "First Aid git",
   },
 ];
 export const designSystemList = [
@@ -334,6 +343,12 @@ export const toolList = [
 ];
 
 export const interactiveLearnList = [
+  {
+    title: "Edabit",
+    link: "https://edabit.com/",
+    image: CodeByte,
+    description: "Learn to Code with 10,000+ Interactive Challenges",
+  },
   {
     title: "Coderbyte",
     link: "https://www.coderbyte.com/",
@@ -1028,9 +1043,15 @@ export const serviceList = [
     description: "Develop & deploy the best web experiences in record time",
   },
   {
+    title: "LaunchDarkly",
+    link: "https://launchdarkly.com/",
+    image: LaunchDarkly,
+    description: "Feature Flag & Toggle Management",
+  },
+  {
     title: "PullRequest",
     link: "https://www.pullrequest.com/",
-    image: Beanstalk,
+    image: PullRequest,
     description: "Code Review as a Service",
   },
   {
