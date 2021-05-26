@@ -179,6 +179,8 @@ import Src from "../styles/images/src.webp";
 import LaunchDarkly from "../styles/images/launchdarkly.webp";
 import Edabit from "../styles/images/edabit.webp";
 import FirstAidGit from "../styles/images/firstaidgit.webp";
+import JFrog from "../styles/images/jfrog.webp";
+import OutSystems from "../styles/images/outsystems.webp";
 
 export const askQuestionList = [
   {
@@ -1037,10 +1039,22 @@ export const serviceList = [
     description: "Productivity up +20% for software development teams",
   },
   {
+    title: "OutSystems",
+    link: "https://www.outsystems.com/",
+    image: OutSystems,
+    description: "Build Applications Fast, Right and For the Future | ",
+  },
+  {
     title: "Netlify",
     link: "https://www.netlify.com/",
     image: Netlify,
     description: "Develop & deploy the best web experiences in record time",
+  },
+  {
+    title: "JFrog",
+    link: "https://jfrog.com/",
+    image: JFrog,
+    description: "Universal Artifact Management for DevOps Acceleration",
   },
   {
     title: "LaunchDarkly",
