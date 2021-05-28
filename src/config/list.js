@@ -181,6 +181,18 @@ import Edabit from "../styles/images/edabit.webp";
 import FirstAidGit from "../styles/images/firstaidgit.webp";
 import JFrog from "../styles/images/jfrog.webp";
 import OutSystems from "../styles/images/outsystems.webp";
+import ExchangeRatesAPI from "../styles/images/exchangeratesapi.webp";
+import CodeytekAcademy from "../styles/images/codeytekacademy.webp";
+import JavaScriptLA from "../styles/images/javascriptla.webp";
+
+export const apiList = [
+  {
+    title: "Exchange Rates API",
+    link: "https://exchangeratesapi.io/",
+    image: ExchangeRatesAPI,
+    description: "",
+  },
+];
 
 export const askQuestionList = [
   {
@@ -475,6 +487,12 @@ export const blogList = [
     link: "https://tobbelindstrom.com/",
     image: TobiasLindström,
     description: "Frontend developer in Uppsala ",
+  },
+  {
+    title: "JavaScriptLA",
+    link: "https://javascriptla.net/blog/",
+    image: JavaScriptLA,
+    description: "",
   },
   {
     title: "FullStack Labs",
@@ -1247,10 +1265,16 @@ export const courseList = [
     description: "Online Courses - Anytime, Anywhere",
   },
   {
+    title: "Codeytek Academy",
+    link: "https://codeytek.com/",
+    image: CodeytekAcademy,
+    description: "",
+  },
+  {
     title: "eduCBA",
     link: "https://www.educba.com/",
     image: EDUCBA,
-    description: "Best Online Training & Video Courses | eduCBA",
+    description: "Best Online Training & Video Courses",
   },
   {
     title: "Learn Enough to Be Dangerous",

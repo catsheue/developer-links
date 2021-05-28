@@ -64,7 +64,7 @@ function Index() {
     <IndexWrapper>
       <p>Hi, I collect some useful websites from web. </p>
       <p>Contact me if you wish me put some website here.</p>
-      <p>catsheue@gmail.com</p>
+      <p>javaspringtea@gmail.com</p>
     </IndexWrapper>
   );
 }
