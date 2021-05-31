@@ -184,6 +184,48 @@ import OutSystems from "../styles/images/outsystems.webp";
 import ExchangeRatesAPI from "../styles/images/exchangeratesapi.webp";
 import CodeytekAcademy from "../styles/images/codeytekacademy.webp";
 import JavaScriptLA from "../styles/images/javascriptla.webp";
+import CleverProgrammer from "../styles/images/cleverprogrammer.webp";
+import Academind from "../styles/images/academind.webp";
+import TraversyMedia from "../styles/images/traversymedia.webp";
+import Cheatography from "../styles/images/cheatography.webp";
+import Socratica from "../styles/images/socratica.webp";
+
+export const youtubeList = [
+  {
+    title: "Socratica",
+    link: "https://www.youtube.com/channel/UCW6TXMZ5Pq6yL6_k5NZ2e0Q",
+    image: Socratica,
+    description: "",
+  },
+  {
+    title: "Academind",
+    link: "https://www.youtube.com/channel/UCSJbGtTlrDami-tDGPUV9-w",
+    image: Academind,
+    description: "",
+  },
+  {
+    title: "Traversy Media",
+    link: "https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA",
+    image: TraversyMedia,
+    description: "",
+  },
+  {
+    title: "Clever Programmer",
+    link: "https://www.youtube.com/channel/UCqrILQNl5Ed9Dz6CGMyvMTQ",
+    image: CleverProgrammer,
+    description: "",
+  },
+];
+
+export const cheatSheetsList = [
+  {
+    title: "Cheatography",
+    link: "https://cheatography.com/",
+    image: Cheatography,
+    description:
+      "Download Free Cheat Sheets or Create Your Own! Cheat Sheets For Every Occasion",
+  },
+];
 
 export const apiList = [
   {
