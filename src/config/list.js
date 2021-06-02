@@ -189,6 +189,8 @@ import Academind from "../styles/images/academind.webp";
 import TraversyMedia from "../styles/images/traversymedia.webp";
 import Cheatography from "../styles/images/cheatography.webp";
 import Socratica from "../styles/images/socratica.webp";
+import GitTheSimpleGuide from "../styles/images/gitthesimpleguide.webp";
+import snappify from "../styles/images/snappify.webp";
 
 export const youtubeList = [
   {
@@ -293,6 +295,12 @@ export const gitList = [
     description: "Free Git GUI for Windows, Mac, Linux",
   },
   {
+    title: "git - the simple guide - no deep shit!",
+    link: "https://rogerdudler.github.io/git-guide/",
+    image: GitTheSimpleGuide,
+    description: "",
+  },
+  {
     title: "First Aid git",
     link: "https://firstaidgit.io/#/",
     image: FirstAidGit,
@@ -358,6 +366,12 @@ export const toolList = [
     link: "https://fluffy.cc/",
     image: fluffy,
     description: "paste source code instead",
+  },
+  {
+    title: "snappify",
+    link: "https://snappify.io/",
+    image: snappify,
+    description: "",
   },
   {
     title: "Carbon",

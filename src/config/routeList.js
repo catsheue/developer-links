@@ -14,6 +14,7 @@ import {
   testList,
   toolList,
   wordpressList,
+  youtubeList,
 } from "./list";
 
 export const routeList = [
@@ -21,6 +22,7 @@ export const routeList = [
   { path: "tool", text: "Tool", importList: toolList },
   { path: "general", text: "General", importList: generalList },
   { path: "blog", text: "Blog", importList: blogList },
+  { path: "youtube", text: "Youtube", importList: youtubeList },
   { path: "courses", text: "Online Courses", importList: courseList },
   { path: "book", text: "Book", importList: bookList },
   { path: "wordpress", text: "WordPress", importList: wordpressList },
