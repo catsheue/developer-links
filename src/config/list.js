@@ -191,8 +191,17 @@ import Cheatography from "../styles/images/cheatography.webp";
 import Socratica from "../styles/images/socratica.webp";
 import GitTheSimpleGuide from "../styles/images/gitthesimpleguide.webp";
 import snappify from "../styles/images/snappify.webp";
+import RTKQuery from "../styles/images/rtkquery.webp";
+import LearnWebCode from "../styles/images/learnwebcode.webp";
+import SonnySangha from "../styles/images/sonnysangha.webp";
 
 export const youtubeList = [
+  {
+    title: "Sonny Sangha",
+    link: "https://www.youtube.com/channel/UCW6TXMZ5Pq6yL6_k5NZ2e0Q",
+    image: SonnySangha,
+    description: "",
+  },
   {
     title: "Socratica",
     link: "https://www.youtube.com/channel/UCW6TXMZ5Pq6yL6_k5NZ2e0Q",
@@ -203,6 +212,12 @@ export const youtubeList = [
     title: "Academind",
     link: "https://www.youtube.com/channel/UCSJbGtTlrDami-tDGPUV9-w",
     image: Academind,
+    description: "",
+  },
+  {
+    title: "LearnWebCode",
+    link: "https://www.youtube.com/user/LearnWebCode",
+    image: LearnWebCode,
     description: "",
   },
   {
@@ -329,6 +344,12 @@ export const toolList = [
     link: "https://specflow.org/for-teams/developer/",
     image: specflow,
     description: "Find bugs before they happen",
+  },
+  {
+    title: "RTK Query",
+    link: "https://rtk-query-docs.netlify.app/",
+    image: RTKQuery,
+    description: "Powerful data fetching and caching for Redux",
   },
   {
     title: "RunKit is Node prototyping",
