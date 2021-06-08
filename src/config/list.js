@@ -194,8 +194,21 @@ import snappify from "../styles/images/snappify.webp";
 import RTKQuery from "../styles/images/rtkquery.webp";
 import LearnWebCode from "../styles/images/learnwebcode.webp";
 import SonnySangha from "../styles/images/sonnysangha.webp";
+import ActiveBatch from "../styles/images/activebatch.webp";
+import RoomService from "../styles/images/roomservice.webp";
+import JSVisualizer9000 from "../styles/images/jsvisualizer9000.webp";
+import RealPython from "../styles/images/realpython.webp";
+import FireShip from "../styles/images/fireship.webp";
+import Slidev from "../styles/images/slidev.webp";
+import Fastly from "../styles/images/fastly.webp";
 
 export const youtubeList = [
+  {
+    title: "Fireship",
+    link: "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
+    image: FireShip,
+    description: "",
+  },
   {
     title: "Sonny Sangha",
     link: "https://www.youtube.com/channel/UCW6TXMZ5Pq6yL6_k5NZ2e0Q",
@@ -280,6 +293,14 @@ export const publishList = [
     description: "Programming Books, eBooks & Videos for Developers",
   },
 ];
+export const tutorialList = [
+  {
+    title: "Real Python",
+    link: "https://realpython.com/",
+    image: RealPython,
+    description: "Python Tutorials",
+  },
+];
 
 export const glossaryList = [
   {
@@ -340,6 +361,12 @@ export const designSystemList = [
 
 export const toolList = [
   {
+    title: "Slidev",
+    link: "https://sli.dev/",
+    image: Slidev,
+    description: "",
+  },
+  {
     title: "SpecFlow",
     link: "https://specflow.org/for-teams/developer/",
     image: specflow,
@@ -355,6 +382,12 @@ export const toolList = [
     title: "RunKit is Node prototyping",
     link: "https://runkit.com/home#notebooks",
     image: RunKit,
+    description: "",
+  },
+  {
+    title: "JS Visualizer 9000",
+    link: "https://www.jsv9000.app/",
+    image: JSVisualizer9000,
     description: "",
   },
   {
@@ -1067,6 +1100,12 @@ export const libraryList = [
     description: "",
   },
   {
+    title: "Room Service",
+    link: "https://www.roomservice.dev/",
+    image: RoomService,
+    description: "React JS Library & Infra For Real-Time Collaboration",
+  },
+  {
     title: "Reactivesearch",
     link: "https://opensource.appbase.io/reactivesearch/",
     image: ReactiveSearch,
@@ -1134,10 +1173,22 @@ export const serviceList = [
     description: "Productivity up +20% for software development teams",
   },
   {
+    title: "Advanced Systems Concepts",
+    link: "https://www.advsyscon.com/",
+    image: ActiveBatch,
+    description: "ActiveBatch Workload Automation",
+  },
+  {
+    title: "Fastly",
+    link: "https://www.fastly.com/",
+    image: Fastly,
+    description: "Fastly | The edge cloud platform behind the best of the web",
+  },
+  {
     title: "OutSystems",
     link: "https://www.outsystems.com/",
     image: OutSystems,
-    description: "Build Applications Fast, Right and For the Future | ",
+    description: "Build Applications Fast, Right and For the Future ",
   },
   {
     title: "Netlify",
