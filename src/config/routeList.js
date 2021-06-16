@@ -7,6 +7,7 @@ import {
   gitList,
   glossaryList,
   interactiveLearnList,
+  jobList,
   libraryList,
   regexList,
   serviceList,
@@ -18,7 +19,6 @@ import {
 } from "./list";
 
 export const routeList = [
-  { path: "/", text: "Home", importList: null },
   { path: "tool", text: "Tool", importList: toolList },
   { path: "general", text: "General", importList: generalList },
   { path: "blog", text: "Blog", importList: blogList },
@@ -39,4 +39,6 @@ export const routeList = [
   { path: "test", text: "Test", importList: testList },
   { path: "glossary", text: "Glossary", importList: glossaryList },
   { path: "git", text: "Git", importList: gitList },
+  { path: "job", text: "Job", importList: jobList },
+  { path: "/", text: "Home", importList: null },
 ];

@@ -201,6 +201,23 @@ import RealPython from "../styles/images/realpython.webp";
 import FireShip from "../styles/images/fireship.webp";
 import Slidev from "../styles/images/slidev.webp";
 import Fastly from "../styles/images/fastly.webp";
+import WeWorkRemotely from "../styles/images/weworkremotely.webp";
+import TestGorilla from "../styles/images/testgorilla.webp";
+
+export const jobList = [
+  {
+    title: "We Work Remotely",
+    link: "https://weworkremotely.com/",
+    image: WeWorkRemotely,
+    description: "Remote jobs in design, programming, marketing and more",
+  },
+  {
+    title: "TestGorilla",
+    link: "https://www.testgorilla.com/",
+    image: TestGorilla,
+    description: "Pre-Employment Screening Tests and Assessments",
+  },
+];
 
 export const youtubeList = [
   {
@@ -285,6 +302,7 @@ export const collectionList = [
     link: "https://dev.to/sahilrajput/useful-websites-for-programmers-36k",
   },
 ];
+
 export const publishList = [
   {
     title: "Packt",
@@ -293,6 +311,7 @@ export const publishList = [
     description: "Programming Books, eBooks & Videos for Developers",
   },
 ];
+
 export const tutorialList = [
   {
     title: "Real Python",
@@ -343,6 +362,7 @@ export const gitList = [
     description: "First Aid git",
   },
 ];
+
 export const designSystemList = [
   {
     title: "Carbon Design System",
@@ -1092,6 +1112,7 @@ export const generalList = [
     description: "Software Engineering Articles, Guides & Tips",
   },
 ];
+
 export const libraryList = [
   {
     title: "Testing Library",
@@ -1432,6 +1453,7 @@ export const wordpressList = [
     description: "Beginner's Guide for WordPress",
   },
 ];
+
 export const bookList = [
   {
     title: "Developer Roadmaps",
@@ -1485,6 +1507,7 @@ export const testList = [
     description: "The World's Leading Online Programming Learning Platform",
   },
 ];
+
 export const reactList = [
   {
     title: "React",
