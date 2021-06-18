@@ -203,6 +203,8 @@ import Slidev from "../styles/images/slidev.webp";
 import Fastly from "../styles/images/fastly.webp";
 import WeWorkRemotely from "../styles/images/weworkremotely.webp";
 import TestGorilla from "../styles/images/testgorilla.webp";
+import AnyAPI from '../styles/images/anyapi.webp';
+import APIList from '../styles/images/apilist.webp';
 
 export const jobList = [
   {
@@ -275,6 +277,18 @@ export const cheatSheetsList = [
 ];
 
 export const apiList = [
+  {
+    title: "AnyAPI",
+    link: "https://any-api.com/",
+    image: AnyAPI,
+    description: "",
+  },
+  {
+    title: "API List",
+    link: "https://apilist.fun/",
+    image: APIList,
+    description: "A public list of free APIs for programmers",
+  },
   {
     title: "Exchange Rates API",
     link: "https://exchangeratesapi.io/",
