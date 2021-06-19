@@ -205,6 +205,8 @@ import WeWorkRemotely from "../styles/images/weworkremotely.webp";
 import TestGorilla from "../styles/images/testgorilla.webp";
 import AnyAPI from '../styles/images/anyapi.webp';
 import APIList from '../styles/images/apilist.webp';
+import Tabnine from '../styles/images/tabnine.webp';
+import mockAPI from '../styles/images/mockapi.webp';
 
 export const jobList = [
   {
@@ -394,6 +396,18 @@ export const designSystemList = [
 ];
 
 export const toolList = [
+  {
+    title: "mockAPI",
+    link: "https://www.mockapi.io/",
+    image: mockAPI,
+    description: "",
+  },
+  {
+    title: "Tabnine",
+    link: "https://www.tabnine.com/",
+    image: Tabnine,
+    description: "Code Faster with AI Code Completions",
+  },
   {
     title: "Slidev",
     link: "https://sli.dev/",
