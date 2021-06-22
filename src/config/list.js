@@ -203,10 +203,13 @@ import Slidev from "../styles/images/slidev.webp";
 import Fastly from "../styles/images/fastly.webp";
 import WeWorkRemotely from "../styles/images/weworkremotely.webp";
 import TestGorilla from "../styles/images/testgorilla.webp";
-import AnyAPI from '../styles/images/anyapi.webp';
-import APIList from '../styles/images/apilist.webp';
-import Tabnine from '../styles/images/tabnine.webp';
-import mockAPI from '../styles/images/mockapi.webp';
+import AnyAPI from "../styles/images/anyapi.webp";
+import APIList from "../styles/images/apilist.webp";
+import Tabnine from "../styles/images/tabnine.webp";
+import mockAPI from "../styles/images/mockapi.webp";
+import HackerRank from "../styles/images/hackerrank.webp";
+import Codecademy from "../styles/images/codecademy.webp";
+import Coursera from "../styles/images/coursera.webp";
 
 export const jobList = [
   {
@@ -396,6 +399,12 @@ export const designSystemList = [
 ];
 
 export const toolList = [
+  {
+    title: "HackerRank",
+    link: "https://www.hackerrank.com/",
+    image: HackerRank,
+    description: "",
+  },
   {
     title: "mockAPI",
     link: "https://www.mockapi.io/",
@@ -1440,6 +1449,18 @@ export const courseList = [
     link: "https://www.udemy.com/",
     image: Udemy,
     description: "Online Courses - Anytime, Anywhere",
+  },
+  {
+    title: "Coursera",
+    link: "https://www.coursera.org/",
+    image: Coursera,
+    description: "Build Skills with Online Courses from Top Institutions",
+  },
+  {
+    title: "Codecademy",
+    link: "https://www.codecademy.com/",
+    image: Codecademy,
+    description: "Learn to Code - for Free",
   },
   {
     title: "Codeytek Academy",
