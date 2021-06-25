@@ -210,6 +210,7 @@ import mockAPI from "../styles/images/mockapi.webp";
 import HackerRank from "../styles/images/hackerrank.webp";
 import Codecademy from "../styles/images/codecademy.webp";
 import Coursera from "../styles/images/coursera.webp";
+import CollaborationSuperpowers from "../styles/images/collaborationsuperpowers.webp";
 
 export const jobList = [
   {
@@ -1442,7 +1443,14 @@ export const serviceList = [
     description: "Application Monitoring and Error Tracking Software",
   },
 ];
-
+export const remoteList = [
+  {
+    title: "Collaboration Superpowers",
+    link: "https://www.collaborationsuperpowers.com/",
+    image: CollaborationSuperpowers,
+    description: "",
+  },
+];
 export const courseList = [
   {
     title: "Udemy",
