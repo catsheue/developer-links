@@ -211,6 +211,7 @@ import HackerRank from "../styles/images/hackerrank.webp";
 import Codecademy from "../styles/images/codecademy.webp";
 import Coursera from "../styles/images/coursera.webp";
 import CollaborationSuperpowers from "../styles/images/collaborationsuperpowers.webp";
+import shitcode from "../styles/images/shitcode.webp";
 
 export const jobList = [
   {
@@ -1033,6 +1034,12 @@ export const generalList = [
     link: "https://www.smashingmagazine.com/",
     image: SmashingMagazine,
     description: "For Web Designers And Developers",
+  },
+  {
+    title: "shitcode",
+    link: "https://shitcode.net/",
+    image: shitcode,
+    description: "home of shitty code",
   },
   {
     title: "Learn tech systems",
