@@ -212,6 +212,7 @@ import Codecademy from "../styles/images/codecademy.webp";
 import Coursera from "../styles/images/coursera.webp";
 import CollaborationSuperpowers from "../styles/images/collaborationsuperpowers.webp";
 import shitcode from "../styles/images/shitcode.webp";
+import VentureBeat from "../styles/images/venturebeat.webp";
 
 export const jobList = [
   {
@@ -1052,6 +1053,12 @@ export const generalList = [
     link: "https://www.comparitech.com/",
     image: Comparitech,
     description: "Tech researched, compared and rated",
+  },
+  {
+    title: "VentureBeat",
+    link: "https://venturebeat.com/",
+    image: VentureBeat,
+    description: "Transformative tech coverage that matters",
   },
   {
     title: "LifeSaver",
