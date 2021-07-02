@@ -9,11 +9,13 @@ import {
   interactiveLearnList,
   jobList,
   libraryList,
+  marketingList,
   regexList,
   serviceList,
   statisticsList,
   testList,
   toolList,
+  uiuxList,
   wordpressList,
   youtubeList,
 } from "./list";
@@ -40,5 +42,7 @@ export const routeList = [
   { path: "glossary", text: "Glossary", importList: glossaryList },
   { path: "git", text: "Git", importList: gitList },
   { path: "job", text: "Job", importList: jobList },
+  { path: "marketing", text: "Marketing", importList: marketingList },
+  { path: "uiux", text: "UI UX", importList: uiuxList },
   { path: "/", text: "Home", importList: null },
 ];

@@ -213,6 +213,43 @@ import Coursera from "../styles/images/coursera.webp";
 import CollaborationSuperpowers from "../styles/images/collaborationsuperpowers.webp";
 import shitcode from "../styles/images/shitcode.webp";
 import VentureBeat from "../styles/images/venturebeat.webp";
+import Hongkiat from "../styles/images/hongkiat.webp";
+import Cucumber from "../styles/images/cucumber.webp";
+import Docusaurus from "../styles/images/docusaurus.webp";
+import AnalyticsMania from "../styles/images/analyticsmania.webp";
+import Supabase from "../styles/images/supabase.webp";
+import UIDesign from "../styles/images/uidesign.webp";
+import ClickUp from "../styles/images/clickup.webp";
+import RailswareProductAcademy from "../styles/images/railswareproductacademy.webp";
+import devRant from "../styles/images/devrant.webp";
+
+export const uiuxList = [
+  {
+    title: "UI & UX Design Tips",
+    link: "https://www.uidesign.tips/",
+    image: UIDesign,
+    description: "UI & UX Design Tips by Jim Raptis.",
+  },
+];
+
+export const communityList = [
+  {
+    title: "devRant",
+    link: "https://devrant.com/",
+    image: devRant,
+    description:
+      "A fun community for developers to connect over code, tech & life as a programmer",
+  },
+];
+
+export const marketingList = [
+  {
+    title: "Analytics Mania",
+    link: "https://www.analyticsmania.com/",
+    image: AnalyticsMania,
+    description: "Google Tag Manager and Google Analytics",
+  },
+];
 
 export const jobList = [
   {
@@ -258,6 +295,12 @@ export const youtubeList = [
     title: "LearnWebCode",
     link: "https://www.youtube.com/user/LearnWebCode",
     image: LearnWebCode,
+    description: "",
+  },
+  {
+    title: "Railsware Product Academy",
+    link: "https://www.youtube.com/channel/UCS0ZTW6ynY34OZodixxwb7w",
+    image: RailswareProductAcademy,
     description: "",
   },
   {
@@ -403,6 +446,31 @@ export const designSystemList = [
 
 export const toolList = [
   {
+    title: "Docusaurus",
+    link: "https://docusaurus.io/",
+    image: Docusaurus,
+    tab: "document",
+    description: "Build optimized websites quickly, focus on your content",
+  },
+  {
+    title: "ClickUp™",
+    link: "https://clickup.com/",
+    image: ClickUp,
+    description: "One app to replace them all",
+  },
+  {
+    title: "Cucumber",
+    link: "https://cucumber.io/",
+    image: Cucumber,
+    description: "BDD Testing & Collaboration Tools for Teams",
+  },
+  {
+    title: "Supabase",
+    link: "https://supabase.io/",
+    image: Supabase,
+    description: "The Open Source Firebase Alternative",
+  },
+  {
     title: "HackerRank",
     link: "https://www.hackerrank.com/",
     image: HackerRank,
@@ -530,7 +598,7 @@ export const interactiveLearnList = [
   {
     title: "Edabit",
     link: "https://edabit.com/",
-    image: CodeByte,
+    image: Edabit,
     description: "Learn to Code with 10,000+ Interactive Challenges",
   },
   {
@@ -1053,6 +1121,12 @@ export const generalList = [
     link: "https://www.comparitech.com/",
     image: Comparitech,
     description: "Tech researched, compared and rated",
+  },
+  {
+    title: "Hongkiat",
+    link: "https://www.hongkiat.com/blog/",
+    image: Hongkiat,
+    description: "Tech and Design Tips",
   },
   {
     title: "VentureBeat",
