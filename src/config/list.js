@@ -222,6 +222,9 @@ import UIDesign from "../styles/images/uidesign.webp";
 import ClickUp from "../styles/images/clickup.webp";
 import RailswareProductAcademy from "../styles/images/railswareproductacademy.webp";
 import devRant from "../styles/images/devrant.webp";
+import RecodeHive from "../styles/images/recodehive.webp";
+import TECHSCHOOL from "../styles/images/techschool.webp";
+import LambdaTest from "../styles/images/lambdatest.webp";
 
 export const uiuxList = [
   {
@@ -283,6 +286,12 @@ export const youtubeList = [
     title: "Socratica",
     link: "https://www.youtube.com/channel/UCW6TXMZ5Pq6yL6_k5NZ2e0Q",
     image: Socratica,
+    description: "",
+  },
+  {
+    title: "TECH SCHOOL",
+    link: "https://www.youtube.com/channel/UC6MtKoJrZLNELkS96F99eIQ",
+    image: TECHSCHOOL,
     description: "",
   },
   {
@@ -1038,6 +1047,12 @@ export const generalList = [
     description: "Front-end Web Development, Chewed Up ← Alligator.io",
   },
   {
+    title: "Recode Hive",
+    link: "https://recodehive.com/",
+    image: RecodeHive,
+    description: "",
+  },
+  {
     title: "TechTarget",
     link: "https://www.techtarget.com/network",
     image: TechTarget,
@@ -1342,6 +1357,12 @@ export const serviceList = [
     link: "https://www.netlify.com/",
     image: Netlify,
     description: "Develop & deploy the best web experiences in record time",
+  },
+  {
+    title: "LambdaTest",
+    link: "https://www.lambdatest.com/",
+    image: LambdaTest,
+    description: "Most Powerful Cross Browser Testing Tool Online",
   },
   {
     title: "JFrog",
