@@ -225,6 +225,12 @@ import devRant from "../styles/images/devrant.webp";
 import RecodeHive from "../styles/images/recodehive.webp";
 import TECHSCHOOL from "../styles/images/techschool.webp";
 import LambdaTest from "../styles/images/lambdatest.webp";
+import AgilityinMind from "../styles/images/agilityim.webp";
+import Gitter from "../styles/images/gitter.webp";
+import AzatAI from "../styles/images/azatai.webp";
+import Datadog from "../styles/images/datadoghq.webp";
+import PythonTutor from "../styles/images/pythontutor.webp";
+import BuiltIn from "../styles/images/builtin.webp";
 
 export const uiuxList = [
   {
@@ -242,6 +248,12 @@ export const communityList = [
     image: devRant,
     description:
       "A fun community for developers to connect over code, tech & life as a programmer",
+  },
+  {
+    title: "Gitter",
+    link: "https://gitter.im/",
+    image: Gitter,
+    description: "Where developers come to talk.",
   },
 ];
 
@@ -266,6 +278,12 @@ export const jobList = [
     link: "https://www.testgorilla.com/",
     image: TestGorilla,
     description: "Pre-Employment Screening Tests and Assessments",
+  },
+  {
+    title: "Built In National",
+    link: "https://builtin.com/",
+    image: BuiltIn,
+    description: "National Tech & Startups",
   },
 ];
 
@@ -486,6 +504,13 @@ export const toolList = [
     description: "",
   },
   {
+    title: "Python Tutor",
+    link: "http://pythontutor.com/",
+    image: PythonTutor,
+    description:
+      "Visualize Python, Java, C, C++, JavaScript, TypeScript, and Ruby code execution",
+  },
+  {
     title: "mockAPI",
     link: "https://www.mockapi.io/",
     image: mockAPI,
@@ -686,6 +711,12 @@ export const agileList = [
     link: "https://agilemanifesto.org/",
     image: AgileManifesto,
     description: "",
+  },
+  {
+    title: "Agility in Mind",
+    link: "https://agility.im/",
+    image: AgilityinMind,
+    description: "Business Agility Transformation Consultancy",
   },
   {
     title: "Agilist Andre",
@@ -1329,6 +1360,12 @@ export const serviceList = [
     description: "How to ensure JavaScript code quality",
   },
   {
+    title: "Datadog",
+    link: "https://www.datadoghq.com/",
+    image: Datadog,
+    description: "Cloud Monitoring as a Service",
+  },
+  {
     title: "Sider Team Insights",
     link: "https://www.sleeek.io/en/home",
     image: SiderTeamInsights,
@@ -1363,6 +1400,12 @@ export const serviceList = [
     link: "https://www.lambdatest.com/",
     image: LambdaTest,
     description: "Most Powerful Cross Browser Testing Tool Online",
+  },
+  {
+    title: "AzatAI",
+    link: "https://azat.ai/",
+    image: AzatAI,
+    description: "Build, Design, Learn || Azat Artificial Intelligence, LLP",
   },
   {
     title: "JFrog",
