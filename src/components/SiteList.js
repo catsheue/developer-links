@@ -21,11 +21,26 @@ const Description = styled.div`
   font-size: 1rem;
 `;
 const ImageWrapper = styled.div`
-  width: 13rem;
+  max-width: 13rem;
+  height: 9rem;
+  overflow: hidden;
+
+  background: pink;
+  img {
+    min-width: 100%;
+    height: 100%;
+    max-width: 100%;
+  }
 `;
 const DetailWrapper = styled.div`
   padding-left: 4rem;
   text-align: left;
+  flex-grow: 1;
+  width: 28rem;
+
+  @media only screen and (max-width: 768px) {
+    padding-left: 2.5rem;
+  }
 `;
 
 export default function SiteList({ list }) {
