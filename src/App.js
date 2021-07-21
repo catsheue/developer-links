@@ -15,11 +15,13 @@ import {
   LeftMenu,
 } from "./styles/components/styled";
 import { Hamburger } from "./Hamburger";
+import { MobileMenu } from "./MobileMenu";
 
 function App() {
   return (
     <Router>
       <div className="App">
+        <MobileMenu />
         <Header className="App-header">
           <h2>Developer Links</h2>
           <Hamburger />
