@@ -12,6 +12,7 @@ export const LeftMenu = styled.div`
   border-right: 1px solid gray;
   overflow-y: scroll;
   padding-bottom: 12rem;
+
   ::-webkit-scrollbar {
     width: 8px;
     background-color: #8f8f8f;
@@ -55,4 +56,14 @@ export const Content = styled.div`
   width: 100%;
   height: 90vh;
   overflow-y: scroll;
+
+  ::-webkit-scrollbar {
+    width: 8px;
+    background-color: #8f8f8f;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #494949;
+    border-radius: 5px;
+  }
 `;
