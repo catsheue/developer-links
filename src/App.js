@@ -14,12 +14,16 @@ import {
   Header,
   LeftMenu,
 } from "./styles/components/styled";
+import { Hamburger } from "./Hamburger";
 
 function App() {
   return (
     <Router>
       <div className="App">
-        <Header className="App-header">Developer Links</Header>
+        <Header className="App-header">
+          <h2>Developer Links</h2>
+          <Hamburger />
+        </Header>
         <ContentWrapper>
           <LeftMenu>
             <ul>
@@ -57,6 +61,10 @@ const IndexWrapper = styled.div`
   padding: 6rem 0 0 10rem;
   font-size: 2rem;
   text-align: left;
+
+  @media only screen and (max-width: 768px) {
+    padding: 2rem;
+  }
 `;
 
 function Index() {

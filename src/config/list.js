@@ -231,6 +231,7 @@ import AzatAI from "../styles/images/azatai.webp";
 import Datadog from "../styles/images/datadoghq.webp";
 import PythonTutor from "../styles/images/pythontutor.webp";
 import BuiltIn from "../styles/images/builtin.webp";
+import MindMeister from "../styles/images/mindmeister.webp";
 
 export const uiuxList = [
   {
@@ -509,6 +510,12 @@ export const toolList = [
     image: PythonTutor,
     description:
       "Visualize Python, Java, C, C++, JavaScript, TypeScript, and Ruby code execution",
+  },
+  {
+    title: "MindMeister",
+    link: "https://www.mindmeister.com/mind-map-examples",
+    image: MindMeister,
+    description: "Public Mind Map Examples ",
   },
   {
     title: "mockAPI",

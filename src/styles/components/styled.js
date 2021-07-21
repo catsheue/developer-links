@@ -34,11 +34,22 @@ export const LeftMenu = styled.div`
       }
     }
   }
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
 `;
 export const Header = styled.header`
   min-height: 10vh;
   background-color: #282c34;
-  font-size: calc(10px + 2vmin);
+
+  h2 {
+    font-size: calc(10px + 2vmin);
+  }
+  @media only screen and (max-width: 768px) {
+    align-items: flex-start;
+
+    padding-left: 2rem;
+  }
 `;
 export const Content = styled.div`
   width: 100%;
