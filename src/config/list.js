@@ -1,3 +1,5 @@
+import { languageList } from "./languageList";
+
 import devto from "../styles/images/dev.webp";
 import Medium from "../styles/images/medium.webp";
 import WebDev from "../styles/images/webdev.webp";
@@ -232,6 +234,28 @@ import Datadog from "../styles/images/datadoghq.webp";
 import PythonTutor from "../styles/images/pythontutor.webp";
 import BuiltIn from "../styles/images/builtin.webp";
 import MindMeister from "../styles/images/mindmeister.webp";
+import InstabugBlog from "../styles/images/instabugblog.webp";
+import Instabug from "../styles/images/instabug.webp";
+import testsigma from "../styles/images/testsigma.webp";
+import DeveloperTechNews from "../styles/images/developertech.webp";
+import SciTechDaily from "../styles/images/scitechdaily.webp";
+import ZetCode from "../styles/images/zetcode.webp";
+import DotNetPerls from "../styles/images/dotnetperls.webp";
+
+export const newsList = [
+  {
+    title: "Developer Tech News",
+    link: "https://developer-tech.com/",
+    image: DeveloperTechNews,
+    description: "Latest App Developer News & Insights",
+  },
+  {
+    title: "SciTechDaily",
+    link: "https://scitechdaily.com/",
+    image: SciTechDaily,
+    description: "Science, Space and Technology News 2021",
+  },
+];
 
 export const uiuxList = [
   {
@@ -411,6 +435,25 @@ export const tutorialList = [
     link: "https://realpython.com/",
     image: RealPython,
     description: "Python Tutorials",
+  },
+  {
+    title: "ZetCode",
+    link: "https://zetcode.com/",
+    image: ZetCode,
+    tag: [
+      languageList.csharp,
+      languageList.java,
+      languageList.javaScript,
+      languageList.go,
+    ],
+    description: "C#, Python, Java, JavaScript, Go programming",
+  },
+  {
+    title: "Dot Net Perls",
+    link: "https://www.dotnetperls.com/",
+    image: DotNetPerls,
+    tag: [languageList.csharp],
+    description: "",
   },
 ];
 
@@ -772,6 +815,12 @@ export const blogList = [
     link: "https://tobbelindstrom.com/",
     image: TobiasLindström,
     description: "Frontend developer in Uppsala ",
+  },
+  {
+    title: "App quality resources",
+    link: "https://instabug.com/blog/",
+    image: InstabugBlog,
+    description: "Instabug Blog",
   },
   {
     title: "JavaScriptLA",
@@ -1415,6 +1464,13 @@ export const serviceList = [
     description: "Build, Design, Learn || Azat Artificial Intelligence, LLP",
   },
   {
+    title: "Instabug",
+    link: "https://instabug.com/",
+    image: Instabug,
+    description:
+      "Ship your app confidently with the best quality & performance",
+  },
+  {
     title: "JFrog",
     link: "https://jfrog.com/",
     image: JFrog,
@@ -1716,6 +1772,16 @@ export const bookList = [
 ];
 
 export const testList = [
+  {
+    title: "testsigma",
+    link: "https://testsigma.com/",
+    image: testsigma,
+    description:
+      "A Complete, Cloud-based Test Automation Platform for Agile Teams",
+  },
+];
+
+export const quizList = [
   {
     title: "LeetCode",
     link: "https://leetcode.com/",

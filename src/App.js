@@ -49,6 +49,9 @@ function App() {
                   </Route>
                 );
               })}
+              <Route path="/index.html" key="home">
+                <Index />
+              </Route>
             </Switch>
           </Content>
         </ContentWrapper>

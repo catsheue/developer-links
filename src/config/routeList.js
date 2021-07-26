@@ -10,6 +10,8 @@ import {
   jobList,
   libraryList,
   marketingList,
+  newsList,
+  quizList,
   regexList,
   serviceList,
   statisticsList,
@@ -22,6 +24,7 @@ import {
 
 export const routeList = [
   { path: "tool", text: "Tool", importList: toolList },
+  { path: "news", text: "News", importList: newsList },
   { path: "general", text: "General", importList: generalList },
   { path: "blog", text: "Blog", importList: blogList },
   { path: "youtube", text: "Youtube", importList: youtubeList },
@@ -38,6 +41,7 @@ export const routeList = [
   { path: "statistics", text: "Statistics", importList: statisticsList },
   { path: "services", text: "Services", importList: serviceList },
   { path: "regex", text: "Regex", importList: regexList },
+  { path: "quiz", text: "Quiz", importList: quizList },
   { path: "test", text: "Test", importList: testList },
   { path: "glossary", text: "Glossary", importList: glossaryList },
   { path: "git", text: "Git", importList: gitList },
