@@ -241,6 +241,13 @@ import DeveloperTechNews from "../styles/images/developertech.webp";
 import SciTechDaily from "../styles/images/scitechdaily.webp";
 import ZetCode from "../styles/images/zetcode.webp";
 import DotNetPerls from "../styles/images/dotnetperls.webp";
+import infiniteEducation from "../styles/images/infiniteeducation.webp";
+import Slant from "../styles/images/slant.webp";
+import Devart from "../styles/images/devart.webp";
+import StackExchange from "../styles/images/stackexchange.webp";
+import CsharpInANutshell from "../styles/images/nutshell.webp";
+import CodingSight from "../styles/images/{coding}Sight.webp";
+import CSharpExamples from "../styles/images/csharpexamples.webp";
 
 export const newsList = [
   {
@@ -407,6 +414,12 @@ export const askQuestionList = [
     image: DaniWeb,
     description: "Technology and Programming Discussion",
   },
+  {
+    title: "Stack Exchange",
+    link: "https://stackexchange.com/",
+    image: StackExchange,
+    description: "",
+  },
 ];
 
 export const collectionList = [
@@ -437,6 +450,12 @@ export const tutorialList = [
     description: "Python Tutorials",
   },
   {
+    title: "TutorialsTeacher",
+    link: "https://www.tutorialsteacher.com/",
+    image: TutorialsTeacher,
+    description: "Learn Web Technologies",
+  },
+  {
     title: "ZetCode",
     link: "https://zetcode.com/",
     image: ZetCode,
@@ -452,6 +471,20 @@ export const tutorialList = [
     title: "Dot Net Perls",
     link: "https://www.dotnetperls.com/",
     image: DotNetPerls,
+    tag: [languageList.csharp],
+    description: "",
+  },
+  {
+    title: "C# in a Nutshell",
+    link: "http://www.albahari.com/nutshell/",
+    image: CsharpInANutshell,
+    tag: [languageList.csharp],
+    description: "",
+  },
+  {
+    title: "C# Examples",
+    link: "https://www.csharp-examples.net/",
+    image: CSharpExamples,
     tag: [languageList.csharp],
     description: "",
   },
@@ -540,6 +573,12 @@ export const toolList = [
     link: "https://supabase.io/",
     image: Supabase,
     description: "The Open Source Firebase Alternative",
+  },
+  {
+    title: "Devart",
+    link: "https://www.devart.com/",
+    image: Devart,
+    description: "Database Management Software and Developer Tools",
   },
   {
     title: "HackerRank",
@@ -814,7 +853,13 @@ export const blogList = [
     title: "Tobias Lindström",
     link: "https://tobbelindstrom.com/",
     image: TobiasLindström,
-    description: "Frontend developer in Uppsala ",
+    description: "Frontend developer in Uppsala",
+  },
+  {
+    title: "{coding}Sight",
+    link: "https://codingsight.com/",
+    image: CodingSight,
+    description: "Blog for SQL Server DBAs and Developers",
   },
   {
     title: "App quality resources",
@@ -1140,6 +1185,12 @@ export const generalList = [
     description: "",
   },
   {
+    title: "infinite.education",
+    link: "https://infinite.education/",
+    image: infiniteEducation,
+    description: "Roadmaps and human skills",
+  },
+  {
     title: "TechTarget",
     link: "https://www.techtarget.com/network",
     image: TechTarget,
@@ -1147,10 +1198,11 @@ export const generalList = [
       "Global Network of Information Technology Websites and Contributors",
   },
   {
-    title: "TutorialsTeacher",
-    link: "https://www.tutorialsteacher.com/",
-    image: TutorialsTeacher,
-    description: "Learn Web Technologies",
+    title: "Slant",
+    link: "https://www.slant.co/",
+    image: Slant,
+    description:
+      "Each month, over 2.8 Million people use Slant to find the best products and share their knowledge",
   },
   {
     title: "GeeksforGeeks",
