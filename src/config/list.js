@@ -248,6 +248,10 @@ import StackExchange from "../styles/images/stackexchange.webp";
 import CsharpInANutshell from "../styles/images/nutshell.webp";
 import CodingSight from "../styles/images/{coding}Sight.webp";
 import CSharpExamples from "../styles/images/csharpexamples.webp";
+import UltimateQA from "../styles/images/ultimateqa.webp";
+import lukaszlawicki from "../styles/images/lukaszlawicki.webp";
+import continuousimprover from "../styles/images/continuousimprover.webp";
+import IBMCloud from "../styles/images/ibmcloud.webp";
 
 export const newsList = [
   {
@@ -324,6 +328,12 @@ export const youtubeList = [
     title: "Fireship",
     link: "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
     image: FireShip,
+    description: "",
+  },
+  {
+    title: "IBM Cloud",
+    link: "https://www.youtube.com/channel/UCKWaEZ-_VweaEx1j62do_vQ",
+    image: IBMCloud,
     description: "",
   },
   {
@@ -826,12 +836,6 @@ export const regexList = [
 
 export const blogList = [
   {
-    title: "LoginRadius Engineering",
-    link: "https://www.loginradius.com/blog/async/",
-    image: async,
-    description: "",
-  },
-  {
     title: "Enterprise Craftsmanship",
     link: "https://enterprisecraftsmanship.com/",
     image: EnterpriseCraftsmanship,
@@ -968,6 +972,24 @@ export const blogList = [
     title: "60devs",
     link: "https://60devs.com/",
     image: image60devs,
+    description: "",
+  },
+  {
+    title: "Łukasz Ławicki",
+    link: "https://lukaszlawicki.pl/",
+    image: lukaszlawicki,
+    description: "",
+  },
+  {
+    title: "LoginRadius Engineering",
+    link: "https://www.loginradius.com/blog/async/",
+    image: async,
+    description: "",
+  },
+  {
+    title: "The Continuous Improver",
+    link: "https://www.continuousimprover.com/",
+    image: continuousimprover,
     description: "",
   },
   {
@@ -1830,6 +1852,12 @@ export const testList = [
     image: testsigma,
     description:
       "A Complete, Cloud-based Test Automation Platform for Agile Teams",
+  },
+  {
+    title: "Ultimate QA",
+    link: "https://ultimateqa.com/",
+    image: UltimateQA,
+    description: "",
   },
 ];
 
