@@ -252,6 +252,10 @@ import UltimateQA from "../styles/images/ultimateqa.webp";
 import lukaszlawicki from "../styles/images/lukaszlawicki.webp";
 import continuousimprover from "../styles/images/continuousimprover.webp";
 import IBMCloud from "../styles/images/ibmcloud.webp";
+import BleepingComputer from "../styles/images/bleepingcomputer.webp";
+import TechRadar from "../styles/images/techradar.webp";
+import SeleniumHQ from "../styles/images/selenium.webp";
+import TechBeacon from "../styles/images/techbeacon.webp";
 
 export const newsList = [
   {
@@ -259,6 +263,25 @@ export const newsList = [
     link: "https://developer-tech.com/",
     image: DeveloperTechNews,
     description: "Latest App Developer News & Insights",
+  },
+  {
+    title: "BleepingComputer.com",
+    link: "https://www.bleepingcomputer.com/",
+    image: BleepingComputer,
+    description: "Technology news and support",
+  },
+  {
+    title: "TechRadar",
+    link: "https://www.techradar.com/pro",
+    image: TechRadar,
+    description: "",
+  },
+  {
+    title: "TechBeacon",
+    link: "https://techbeacon.com/",
+    image: TechBeacon,
+    description:
+      "App Dev & Testing, DevOps, Enterprise IT, and Security: Experts share practical knowledge",
   },
   {
     title: "SciTechDaily",
@@ -1846,6 +1869,12 @@ export const bookList = [
 ];
 
 export const testList = [
+  {
+    title: "SeleniumHQ Browser Automation",
+    link: "https://www.selenium.dev/",
+    image: SeleniumHQ,
+    description: "",
+  },
   {
     title: "testsigma",
     link: "https://testsigma.com/",
