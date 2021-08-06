@@ -256,6 +256,10 @@ import BleepingComputer from "../styles/images/bleepingcomputer.webp";
 import TechRadar from "../styles/images/techradar.webp";
 import SeleniumHQ from "../styles/images/selenium.webp";
 import TechBeacon from "../styles/images/techbeacon.webp";
+import Sweetcode from "../styles/images/sweetcode.webp";
+import Naukri from "../styles/images/naukri.webp";
+import SeleniumEasy from "../styles/images/seleniumeasy.webp";
+import TOOLSQA from "../styles/images/toolsqa.webp";
 
 export const newsList = [
   {
@@ -337,6 +341,12 @@ export const jobList = [
     link: "https://www.testgorilla.com/",
     image: TestGorilla,
     description: "Pre-Employment Screening Tests and Assessments",
+  },
+  {
+    title: "Naukri.com",
+    link: "https://www.naukri.com/",
+    image: Naukri,
+    description: "Jobs - Recruitment - Job Search - Employment -Job Vacancies",
   },
   {
     title: "Built In National",
@@ -858,6 +868,12 @@ export const regexList = [
 ];
 
 export const blogList = [
+  {
+    title: "Sweetcode.io",
+    link: "https://enterprisecraftsmanship.com/",
+    image: Sweetcode,
+    description: "All Tech, No Fluff.",
+  },
   {
     title: "Enterprise Craftsmanship",
     link: "https://enterprisecraftsmanship.com/",
@@ -1595,7 +1611,7 @@ export const serviceList = [
     title: "SmartBear",
     link: "https://smartbear.com/",
     image: SmartBear,
-    description: "Software Testing, Monitoring, Developer Tools | SmartBear",
+    description: "Software Testing, Monitoring, Developer Tools",
   },
   {
     title: "CyberArk",
@@ -1874,6 +1890,19 @@ export const testList = [
     link: "https://www.selenium.dev/",
     image: SeleniumHQ,
     description: "",
+  },
+  {
+    title: "Selenium Easy",
+    link: "https://www.seleniumeasy.com/",
+    image: SeleniumEasy,
+    description: "Learn Selenium with Best Practices and Examples",
+  },
+  {
+    title: "TOOLSQA",
+    link: "https://www.toolsqa.com/",
+    image: TOOLSQA,
+    description:
+      "Free QA Automation Tools Tutorial for Beginners with Examples",
   },
   {
     title: "testsigma",
