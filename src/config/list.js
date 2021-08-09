@@ -1,3 +1,5 @@
+import { languageList } from "./languageList";
+
 import devto from "../styles/images/dev.webp";
 import Medium from "../styles/images/medium.webp";
 import WebDev from "../styles/images/webdev.webp";
@@ -110,12 +112,10 @@ import interviewBit from "../styles/images/interviewbit.webp";
 import JoshWComeau from "../styles/images/joshwcomeau.webp";
 import Alligator from "../styles/images/alligator.webp";
 import JasonWatmore from "../styles/images/jasonwatmore.webp";
-
 import Airbrake from "../styles/images/airbrake.webp";
 import Sarulabs from "../styles/images/sarulabs.webp";
 import EnterpriseCraftsmanship from "../styles/images/enterprisecraftsmanship.webp";
 import SonarSource from "../styles/images/sonarqube.webp";
-
 import OneCompiler from "../styles/images/onecompiler.webp";
 import DaveLeedsOnKotlin from "../styles/images/daveleedsonkotlin.webp";
 import TechTarget from "../styles/images/techtarget.webp";
@@ -180,11 +180,96 @@ import LifeSaver from "../styles/images/lifesaver.webp";
 import Src from "../styles/images/src.webp";
 import edX from "../styles/images/edx.webp";
 import LearnSQL from "../styles/images/learnsql.webp";
-import TestGorilla from "../styles/images/testgorilla.webp";
 import DataCamp from "../styles/images/datacamp.webp";
 import CodingDojo from "../styles/images/codingdojo.webp";
 import DataTables from "../styles/images/datatables.webp";
 import IBMCloudLearn from "../styles/images/ibmcloudlearn.webp";
+import LaunchDarkly from "../styles/images/launchdarkly.webp";
+import Edabit from "../styles/images/edabit.webp";
+import FirstAidGit from "../styles/images/firstaidgit.webp";
+import JFrog from "../styles/images/jfrog.webp";
+import OutSystems from "../styles/images/outsystems.webp";
+import ExchangeRatesAPI from "../styles/images/exchangeratesapi.webp";
+import CodeytekAcademy from "../styles/images/codeytekacademy.webp";
+import JavaScriptLA from "../styles/images/javascriptla.webp";
+import CleverProgrammer from "../styles/images/cleverprogrammer.webp";
+import Academind from "../styles/images/academind.webp";
+import TraversyMedia from "../styles/images/traversymedia.webp";
+import Cheatography from "../styles/images/cheatography.webp";
+import Socratica from "../styles/images/socratica.webp";
+import GitTheSimpleGuide from "../styles/images/gitthesimpleguide.webp";
+import snappify from "../styles/images/snappify.webp";
+import RTKQuery from "../styles/images/rtkquery.webp";
+import LearnWebCode from "../styles/images/learnwebcode.webp";
+import SonnySangha from "../styles/images/sonnysangha.webp";
+import ActiveBatch from "../styles/images/activebatch.webp";
+import RoomService from "../styles/images/roomservice.webp";
+import JSVisualizer9000 from "../styles/images/jsvisualizer9000.webp";
+import RealPython from "../styles/images/realpython.webp";
+import FireShip from "../styles/images/fireship.webp";
+import Slidev from "../styles/images/slidev.webp";
+import Fastly from "../styles/images/fastly.webp";
+import WeWorkRemotely from "../styles/images/weworkremotely.webp";
+import TestGorilla from "../styles/images/testgorilla.webp";
+import AnyAPI from "../styles/images/anyapi.webp";
+import APIList from "../styles/images/apilist.webp";
+import Tabnine from "../styles/images/tabnine.webp";
+import mockAPI from "../styles/images/mockapi.webp";
+import HackerRank from "../styles/images/hackerrank.webp";
+import Codecademy from "../styles/images/codecademy.webp";
+import Coursera from "../styles/images/coursera.webp";
+import CollaborationSuperpowers from "../styles/images/collaborationsuperpowers.webp";
+import shitcode from "../styles/images/shitcode.webp";
+import VentureBeat from "../styles/images/venturebeat.webp";
+import Hongkiat from "../styles/images/hongkiat.webp";
+import Cucumber from "../styles/images/cucumber.webp";
+import Docusaurus from "../styles/images/docusaurus.webp";
+import AnalyticsMania from "../styles/images/analyticsmania.webp";
+import Supabase from "../styles/images/supabase.webp";
+import UIDesign from "../styles/images/uidesign.webp";
+import ClickUp from "../styles/images/clickup.webp";
+import RailswareProductAcademy from "../styles/images/railswareproductacademy.webp";
+import devRant from "../styles/images/devrant.webp";
+import RecodeHive from "../styles/images/recodehive.webp";
+import TECHSCHOOL from "../styles/images/techschool.webp";
+import LambdaTest from "../styles/images/lambdatest.webp";
+import AgilityinMind from "../styles/images/agilityim.webp";
+import Gitter from "../styles/images/gitter.webp";
+import AzatAI from "../styles/images/azatai.webp";
+import Datadog from "../styles/images/datadoghq.webp";
+import PythonTutor from "../styles/images/pythontutor.webp";
+import BuiltIn from "../styles/images/builtin.webp";
+import MindMeister from "../styles/images/mindmeister.webp";
+import InstabugBlog from "../styles/images/instabugblog.webp";
+import Instabug from "../styles/images/instabug.webp";
+import testsigma from "../styles/images/testsigma.webp";
+import DeveloperTechNews from "../styles/images/developertech.webp";
+import SciTechDaily from "../styles/images/scitechdaily.webp";
+import ZetCode from "../styles/images/zetcode.webp";
+import DotNetPerls from "../styles/images/dotnetperls.webp";
+import infiniteEducation from "../styles/images/infiniteeducation.webp";
+import Slant from "../styles/images/slant.webp";
+import Devart from "../styles/images/devart.webp";
+import StackExchange from "../styles/images/stackexchange.webp";
+import CsharpInANutshell from "../styles/images/nutshell.webp";
+import CodingSight from "../styles/images/{coding}Sight.webp";
+import CSharpExamples from "../styles/images/csharpexamples.webp";
+import UltimateQA from "../styles/images/ultimateqa.webp";
+import lukaszlawicki from "../styles/images/lukaszlawicki.webp";
+import continuousimprover from "../styles/images/continuousimprover.webp";
+import IBMCloud from "../styles/images/ibmcloud.webp";
+import BleepingComputer from "../styles/images/bleepingcomputer.webp";
+import TechRadar from "../styles/images/techradar.webp";
+import SeleniumHQ from "../styles/images/selenium.webp";
+import TechBeacon from "../styles/images/techbeacon.webp";
+import Sweetcode from "../styles/images/sweetcode.webp";
+import Naukri from "../styles/images/naukri.webp";
+import SeleniumEasy from "../styles/images/seleniumeasy.webp";
+import TOOLSQA from "../styles/images/toolsqa.webp";
+import Katalon from "../styles/images/katalon.webp";
+import Abstracta from "../styles/images/abstracta.webp";
+import Testim from "../styles/images/testim.webp";
+import TestProject from "../styles/images/testproject.webp";
 
 export const platformList = [
   {
@@ -193,11 +278,194 @@ export const platformList = [
     image: CodingDojo,
     description: "Coding Bootcamp - Learn Coding & Data Science",
   },
+];
+
+export const newsList = [
+  {
+    title: "Developer Tech News",
+    link: "https://developer-tech.com/",
+    image: DeveloperTechNews,
+    description: "Latest App Developer News & Insights",
+  },
+  {
+    title: "BleepingComputer.com",
+    link: "https://www.bleepingcomputer.com/",
+    image: BleepingComputer,
+    description: "Technology news and support",
+  },
+  {
+    title: "TechRadar",
+    link: "https://www.techradar.com/pro",
+    image: TechRadar,
+    description: "",
+  },
+  {
+    title: "TechBeacon",
+    link: "https://techbeacon.com/",
+    image: TechBeacon,
+    description:
+      "App Dev & Testing, DevOps, Enterprise IT, and Security: Experts share practical knowledge",
+  },
+  {
+    title: "SciTechDaily",
+    link: "https://scitechdaily.com/",
+    image: SciTechDaily,
+    description: "Science, Space and Technology News 2021",
+  },
+];
+
+export const uiuxList = [
+  {
+    title: "UI & UX Design Tips",
+    link: "https://www.uidesign.tips/",
+    image: UIDesign,
+    description: "UI & UX Design Tips by Jim Raptis.",
+  },
+];
+
+export const communityList = [
+  {
+    title: "devRant",
+    link: "https://devrant.com/",
+    image: devRant,
+    description:
+      "A fun community for developers to connect over code, tech & life as a programmer",
+  },
+  {
+    title: "Gitter",
+    link: "https://gitter.im/",
+    image: Gitter,
+    description: "Where developers come to talk.",
+  },
+];
+
+export const marketingList = [
+  {
+    title: "Analytics Mania",
+    link: "https://www.analyticsmania.com/",
+    image: AnalyticsMania,
+    description: "Google Tag Manager and Google Analytics",
+  },
+];
+
+export const jobList = [
+  {
+    title: "We Work Remotely",
+    link: "https://weworkremotely.com/",
+    image: WeWorkRemotely,
+    description: "Remote jobs in design, programming, marketing and more",
+  },
   {
     title: "TestGorilla",
     link: "https://www.testgorilla.com/",
     image: TestGorilla,
     description: "Pre-Employment Screening Tests and Assessments",
+  },
+  {
+    title: "Naukri.com",
+    link: "https://www.naukri.com/",
+    image: Naukri,
+    description: "Jobs - Recruitment - Job Search - Employment -Job Vacancies",
+  },
+  {
+    title: "Built In National",
+    link: "https://builtin.com/",
+    image: BuiltIn,
+    description: "National Tech & Startups",
+  },
+];
+
+export const youtubeList = [
+  {
+    title: "Fireship",
+    link: "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
+    image: FireShip,
+    description: "",
+  },
+  {
+    title: "IBM Cloud",
+    link: "https://www.youtube.com/channel/UCKWaEZ-_VweaEx1j62do_vQ",
+    image: IBMCloud,
+    description: "",
+  },
+  {
+    title: "Sonny Sangha",
+    link: "https://www.youtube.com/channel/UCW6TXMZ5Pq6yL6_k5NZ2e0Q",
+    image: SonnySangha,
+    description: "",
+  },
+  {
+    title: "Socratica",
+    link: "https://www.youtube.com/channel/UCW6TXMZ5Pq6yL6_k5NZ2e0Q",
+    image: Socratica,
+    description: "",
+  },
+  {
+    title: "TECH SCHOOL",
+    link: "https://www.youtube.com/channel/UC6MtKoJrZLNELkS96F99eIQ",
+    image: TECHSCHOOL,
+    description: "",
+  },
+  {
+    title: "Academind",
+    link: "https://www.youtube.com/channel/UCSJbGtTlrDami-tDGPUV9-w",
+    image: Academind,
+    description: "",
+  },
+  {
+    title: "LearnWebCode",
+    link: "https://www.youtube.com/user/LearnWebCode",
+    image: LearnWebCode,
+    description: "",
+  },
+  {
+    title: "Railsware Product Academy",
+    link: "https://www.youtube.com/channel/UCS0ZTW6ynY34OZodixxwb7w",
+    image: RailswareProductAcademy,
+    description: "",
+  },
+  {
+    title: "Traversy Media",
+    link: "https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA",
+    image: TraversyMedia,
+    description: "",
+  },
+  {
+    title: "Clever Programmer",
+    link: "https://www.youtube.com/channel/UCqrILQNl5Ed9Dz6CGMyvMTQ",
+    image: CleverProgrammer,
+    description: "",
+  },
+];
+
+export const cheatSheetsList = [
+  {
+    title: "Cheatography",
+    link: "https://cheatography.com/",
+    image: Cheatography,
+    description:
+      "Download Free Cheat Sheets or Create Your Own! Cheat Sheets For Every Occasion",
+  },
+];
+
+export const apiList = [
+  {
+    title: "AnyAPI",
+    link: "https://any-api.com/",
+    image: AnyAPI,
+    description: "",
+  },
+  {
+    title: "API List",
+    link: "https://apilist.fun/",
+    image: APIList,
+    description: "A public list of free APIs for programmers",
+  },
+  {
+    title: "Exchange Rates API",
+    link: "https://exchangeratesapi.io/",
+    image: ExchangeRatesAPI,
+    description: "",
   },
 ];
 
@@ -207,6 +475,12 @@ export const askQuestionList = [
     link: "https://www.daniweb.com/",
     image: DaniWeb,
     description: "Technology and Programming Discussion",
+  },
+  {
+    title: "Stack Exchange",
+    link: "https://stackexchange.com/",
+    image: StackExchange,
+    description: "",
   },
 ];
 
@@ -220,6 +494,7 @@ export const collectionList = [
     link: "https://dev.to/sahilrajput/useful-websites-for-programmers-36k",
   },
 ];
+
 export const publishList = [
   {
     title: "Packt",
@@ -228,6 +503,55 @@ export const publishList = [
     description: "Programming Books, eBooks & Videos for Developers",
   },
 ];
+
+export const tutorialList = [
+  {
+    title: "Real Python",
+    link: "https://realpython.com/",
+    image: RealPython,
+    description: "Python Tutorials",
+  },
+  {
+    title: "TutorialsTeacher",
+    link: "https://www.tutorialsteacher.com/",
+    image: TutorialsTeacher,
+    description: "Learn Web Technologies",
+  },
+  {
+    title: "ZetCode",
+    link: "https://zetcode.com/",
+    image: ZetCode,
+    tag: [
+      languageList.csharp,
+      languageList.java,
+      languageList.javaScript,
+      languageList.go,
+    ],
+    description: "C#, Python, Java, JavaScript, Go programming",
+  },
+  {
+    title: "Dot Net Perls",
+    link: "https://www.dotnetperls.com/",
+    image: DotNetPerls,
+    tag: [languageList.csharp],
+    description: "",
+  },
+  {
+    title: "C# in a Nutshell",
+    link: "http://www.albahari.com/nutshell/",
+    image: CsharpInANutshell,
+    tag: [languageList.csharp],
+    description: "",
+  },
+  {
+    title: "C# Examples",
+    link: "https://www.csharp-examples.net/",
+    image: CSharpExamples,
+    tag: [languageList.csharp],
+    description: "",
+  },
+];
+
 export const glossaryList = [
   {
     title: "IBM",
@@ -248,6 +572,7 @@ export const glossaryList = [
     description: "Today's most spoken tech explained",
   },
 ];
+
 export const gitList = [
   {
     title: "Git",
@@ -261,7 +586,20 @@ export const gitList = [
     image: GitKraken,
     description: "Free Git GUI for Windows, Mac, Linux",
   },
+  {
+    title: "git - the simple guide - no deep shit!",
+    link: "https://rogerdudler.github.io/git-guide/",
+    image: GitTheSimpleGuide,
+    description: "",
+  },
+  {
+    title: "First Aid git",
+    link: "https://firstaidgit.io/#/",
+    image: FirstAidGit,
+    description: "First Aid git",
+  },
 ];
+
 export const designSystemList = [
   {
     title: "Carbon Design System",
@@ -280,15 +618,95 @@ export const designSystemList = [
 
 export const toolList = [
   {
+    title: "Docusaurus",
+    link: "https://docusaurus.io/",
+    image: Docusaurus,
+    tab: "document",
+    description: "Build optimized websites quickly, focus on your content",
+  },
+  {
+    title: "ClickUp™",
+    link: "https://clickup.com/",
+    image: ClickUp,
+    description: "One app to replace them all",
+  },
+  {
+    title: "Cucumber",
+    link: "https://cucumber.io/",
+    image: Cucumber,
+    description: "BDD Testing & Collaboration Tools for Teams",
+  },
+  {
+    title: "Supabase",
+    link: "https://supabase.io/",
+    image: Supabase,
+    description: "The Open Source Firebase Alternative",
+  },
+  {
+    title: "Devart",
+    link: "https://www.devart.com/",
+    image: Devart,
+    description: "Database Management Software and Developer Tools",
+  },
+  {
+    title: "HackerRank",
+    link: "https://www.hackerrank.com/",
+    image: HackerRank,
+    description: "",
+  },
+  {
+    title: "Python Tutor",
+    link: "http://pythontutor.com/",
+    image: PythonTutor,
+    description:
+      "Visualize Python, Java, C, C++, JavaScript, TypeScript, and Ruby code execution",
+  },
+  {
+    title: "MindMeister",
+    link: "https://www.mindmeister.com/mind-map-examples",
+    image: MindMeister,
+    description: "Public Mind Map Examples ",
+  },
+  {
+    title: "mockAPI",
+    link: "https://www.mockapi.io/",
+    image: mockAPI,
+    description: "",
+  },
+  {
+    title: "Tabnine",
+    link: "https://www.tabnine.com/",
+    image: Tabnine,
+    description: "Code Faster with AI Code Completions",
+  },
+  {
+    title: "Slidev",
+    link: "https://sli.dev/",
+    image: Slidev,
+    description: "",
+  },
+  {
     title: "SpecFlow",
     link: "https://specflow.org/for-teams/developer/",
     image: specflow,
     description: "Find bugs before they happen",
   },
   {
+    title: "RTK Query",
+    link: "https://rtk-query-docs.netlify.app/",
+    image: RTKQuery,
+    description: "Powerful data fetching and caching for Redux",
+  },
+  {
     title: "RunKit is Node prototyping",
     link: "https://runkit.com/home#notebooks",
     image: RunKit,
+    description: "",
+  },
+  {
+    title: "JS Visualizer 9000",
+    link: "https://www.jsv9000.app/",
+    image: JSVisualizer9000,
     description: "",
   },
   {
@@ -321,6 +739,12 @@ export const toolList = [
     link: "https://fluffy.cc/",
     image: fluffy,
     description: "paste source code instead",
+  },
+  {
+    title: "snappify",
+    link: "https://snappify.io/",
+    image: snappify,
+    description: "",
   },
   {
     title: "Carbon",
@@ -362,6 +786,12 @@ export const toolList = [
 ];
 
 export const interactiveLearnList = [
+  {
+    title: "Edabit",
+    link: "https://edabit.com/",
+    image: Edabit,
+    description: "Learn to Code with 10,000+ Interactive Challenges",
+  },
   {
     title: "Coderbyte",
     link: "https://www.coderbyte.com/",
@@ -440,6 +870,12 @@ export const agileList = [
     description: "",
   },
   {
+    title: "Agility in Mind",
+    link: "https://agility.im/",
+    image: AgilityinMind,
+    description: "Business Agility Transformation Consultancy",
+  },
+  {
     title: "Agilist Andre",
     link: "https://agilistandre.com/",
     image: AgilistAndre,
@@ -458,10 +894,10 @@ export const regexList = [
 
 export const blogList = [
   {
-    title: "LoginRadius Engineering",
-    link: "https://www.loginradius.com/blog/async/",
-    image: async,
-    description: "",
+    title: "Sweetcode.io",
+    link: "https://enterprisecraftsmanship.com/",
+    image: Sweetcode,
+    description: "All Tech, No Fluff.",
   },
   {
     title: "Enterprise Craftsmanship",
@@ -485,7 +921,25 @@ export const blogList = [
     title: "Tobias Lindström",
     link: "https://tobbelindstrom.com/",
     image: TobiasLindström,
-    description: "Frontend developer in Uppsala ",
+    description: "Frontend developer in Uppsala",
+  },
+  {
+    title: "{coding}Sight",
+    link: "https://codingsight.com/",
+    image: CodingSight,
+    description: "Blog for SQL Server DBAs and Developers",
+  },
+  {
+    title: "App quality resources",
+    link: "https://instabug.com/blog/",
+    image: InstabugBlog,
+    description: "Instabug Blog",
+  },
+  {
+    title: "JavaScriptLA",
+    link: "https://javascriptla.net/blog/",
+    image: JavaScriptLA,
+    description: "",
   },
   {
     title: "FullStack Labs",
@@ -582,6 +1036,24 @@ export const blogList = [
     title: "60devs",
     link: "https://60devs.com/",
     image: image60devs,
+    description: "",
+  },
+  {
+    title: "Łukasz Ławicki",
+    link: "https://lukaszlawicki.pl/",
+    image: lukaszlawicki,
+    description: "",
+  },
+  {
+    title: "LoginRadius Engineering",
+    link: "https://www.loginradius.com/blog/async/",
+    image: async,
+    description: "",
+  },
+  {
+    title: "The Continuous Improver",
+    link: "https://www.continuousimprover.com/",
+    image: continuousimprover,
     description: "",
   },
   {
@@ -793,6 +1265,18 @@ export const generalList = [
     description: "Front-end Web Development, Chewed Up ← Alligator.io",
   },
   {
+    title: "Recode Hive",
+    link: "https://recodehive.com/",
+    image: RecodeHive,
+    description: "",
+  },
+  {
+    title: "infinite.education",
+    link: "https://infinite.education/",
+    image: infiniteEducation,
+    description: "Roadmaps and human skills",
+  },
+  {
     title: "TechTarget",
     link: "https://www.techtarget.com/network",
     image: TechTarget,
@@ -800,10 +1284,11 @@ export const generalList = [
       "Global Network of Information Technology Websites and Contributors",
   },
   {
-    title: "TutorialsTeacher",
-    link: "https://www.tutorialsteacher.com/",
-    image: TutorialsTeacher,
-    description: "Learn Web Technologies",
+    title: "Slant",
+    link: "https://www.slant.co/",
+    image: Slant,
+    description:
+      "Each month, over 2.8 Million people use Slant to find the best products and share their knowledge",
   },
   {
     title: "GeeksforGeeks",
@@ -860,6 +1345,12 @@ export const generalList = [
     description: "For Web Designers And Developers",
   },
   {
+    title: "shitcode",
+    link: "https://shitcode.net/",
+    image: shitcode,
+    description: "home of shitty code",
+  },
+  {
     title: "Learn tech systems",
     link: "https://learntechsystems.com/",
     image: learntechsystems,
@@ -870,6 +1361,18 @@ export const generalList = [
     link: "https://www.comparitech.com/",
     image: Comparitech,
     description: "Tech researched, compared and rated",
+  },
+  {
+    title: "Hongkiat",
+    link: "https://www.hongkiat.com/blog/",
+    image: Hongkiat,
+    description: "Tech and Design Tips",
+  },
+  {
+    title: "VentureBeat",
+    link: "https://venturebeat.com/",
+    image: VentureBeat,
+    description: "Transformative tech coverage that matters",
   },
   {
     title: "LifeSaver",
@@ -975,12 +1478,19 @@ export const generalList = [
     description: "Software Engineering Articles, Guides & Tips",
   },
 ];
+
 export const libraryList = [
   {
     title: "Testing Library",
     link: "https://testing-library.com/",
     image: TestingLibrary,
     description: "",
+  },
+  {
+    title: "Room Service",
+    link: "https://www.roomservice.dev/",
+    image: RoomService,
+    description: "React JS Library & Infra For Real-Time Collaboration",
   },
   {
     title: "Reactivesearch",
@@ -1050,10 +1560,34 @@ export const serviceList = [
     description: "How to ensure JavaScript code quality",
   },
   {
+    title: "Datadog",
+    link: "https://www.datadoghq.com/",
+    image: Datadog,
+    description: "Cloud Monitoring as a Service",
+  },
+  {
     title: "Sider Team Insights",
     link: "https://www.sleeek.io/en/home",
     image: SiderTeamInsights,
     description: "Productivity up +20% for software development teams",
+  },
+  {
+    title: "Advanced Systems Concepts",
+    link: "https://www.advsyscon.com/",
+    image: ActiveBatch,
+    description: "ActiveBatch Workload Automation",
+  },
+  {
+    title: "Fastly",
+    link: "https://www.fastly.com/",
+    image: Fastly,
+    description: "Fastly | The edge cloud platform behind the best of the web",
+  },
+  {
+    title: "OutSystems",
+    link: "https://www.outsystems.com/",
+    image: OutSystems,
+    description: "Build Applications Fast, Right and For the Future ",
   },
   {
     title: "Netlify",
@@ -1062,9 +1596,40 @@ export const serviceList = [
     description: "Develop & deploy the best web experiences in record time",
   },
   {
+    title: "LambdaTest",
+    link: "https://www.lambdatest.com/",
+    image: LambdaTest,
+    description: "Most Powerful Cross Browser Testing Tool Online",
+  },
+  {
+    title: "AzatAI",
+    link: "https://azat.ai/",
+    image: AzatAI,
+    description: "Build, Design, Learn || Azat Artificial Intelligence, LLP",
+  },
+  {
+    title: "Instabug",
+    link: "https://instabug.com/",
+    image: Instabug,
+    description:
+      "Ship your app confidently with the best quality & performance",
+  },
+  {
+    title: "JFrog",
+    link: "https://jfrog.com/",
+    image: JFrog,
+    description: "Universal Artifact Management for DevOps Acceleration",
+  },
+  {
+    title: "LaunchDarkly",
+    link: "https://launchdarkly.com/",
+    image: LaunchDarkly,
+    description: "Feature Flag & Toggle Management",
+  },
+  {
     title: "PullRequest",
     link: "https://www.pullrequest.com/",
-    image: Beanstalk,
+    image: PullRequest,
     description: "Code Review as a Service",
   },
   {
@@ -1077,7 +1642,7 @@ export const serviceList = [
     title: "SmartBear",
     link: "https://smartbear.com/",
     image: SmartBear,
-    description: "Software Testing, Monitoring, Developer Tools | SmartBear",
+    description: "Software Testing, Monitoring, Developer Tools",
   },
   {
     title: "CyberArk",
@@ -1237,13 +1802,38 @@ export const serviceList = [
     description: "Application Monitoring and Error Tracking Software",
   },
 ];
-
+export const remoteList = [
+  {
+    title: "Collaboration Superpowers",
+    link: "https://www.collaborationsuperpowers.com/",
+    image: CollaborationSuperpowers,
+    description: "",
+  },
+];
 export const courseList = [
   {
     title: "Udemy",
     link: "https://www.udemy.com/",
     image: Udemy,
     description: "Online Courses - Anytime, Anywhere",
+  },
+  {
+    title: "Coursera",
+    link: "https://www.coursera.org/",
+    image: Coursera,
+    description: "Build Skills with Online Courses from Top Institutions",
+  },
+  {
+    title: "Codecademy",
+    link: "https://www.codecademy.com/",
+    image: Codecademy,
+    description: "Learn to Code - for Free",
+  },
+  {
+    title: "Codeytek Academy",
+    link: "https://codeytek.com/",
+    image: CodeytekAcademy,
+    description: "",
   },
   {
     title: "eduCBA",
@@ -1297,6 +1887,7 @@ export const wordpressList = [
     description: "Beginner's Guide for WordPress",
   },
 ];
+
 export const bookList = [
   {
     title: "Developer Roadmaps",
@@ -1344,12 +1935,72 @@ export const bookList = [
 
 export const testList = [
   {
+    title: "SeleniumHQ Browser Automation",
+    link: "https://www.selenium.dev/",
+    image: SeleniumHQ,
+    description: "",
+  },
+  {
+    title: "Selenium Easy",
+    link: "https://www.seleniumeasy.com/",
+    image: SeleniumEasy,
+    description: "Learn Selenium with Best Practices and Examples",
+  },
+  {
+    title: "TestProject",
+    link: "https://testproject.io/",
+    image: TestProject,
+    description: "Free Test Automation For All",
+  },
+  {
+    title: "Testim",
+    link: "https://www.testim.io/",
+    image: Testim,
+    description: "Automated Functional Testing - Software Testing Tool",
+  },
+  {
+    title: "Abstracta",
+    link: "https://abstracta.us/",
+    image: Abstracta,
+    description: "Software Testing Company - Leading QA Services",
+  },
+  {
+    title: "TOOLSQA",
+    link: "https://www.toolsqa.com/",
+    image: TOOLSQA,
+    description:
+      "Free QA Automation Tools Tutorial for Beginners with Examples",
+  },
+  {
+    title: "testsigma",
+    link: "https://testsigma.com/",
+    image: testsigma,
+    description:
+      "A Complete, Cloud-based Test Automation Platform for Agile Teams",
+  },
+  {
+    title: "Ultimate QA",
+    link: "https://ultimateqa.com/",
+    image: UltimateQA,
+    description: "",
+  },
+  {
+    title: "Katalon Solution",
+    link: "https://www.katalon.com/homepage/?pk_abe=home_8_21&pk_abv=layout2",
+    image: Katalon,
+    description: "The Best Software are Tested at Scale, Automatically",
+  },
+];
+
+export const quizList = [
+  {
     title: "LeetCode",
     link: "https://leetcode.com/",
     image: LeetCode,
     description: "The World's Leading Online Programming Learning Platform",
   },
 ];
+
 export const reactList = [
   {
     title: "React",

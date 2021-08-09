@@ -14,12 +14,18 @@ import {
   Header,
   LeftMenu,
 } from "./styles/components/styled";
+import { Hamburger } from "./Hamburger";
+import { MobileMenu } from "./MobileMenu";
 
 function App() {
   return (
     <Router>
       <div className="App">
-        <Header className="App-header">Developer Links</Header>
+        <MobileMenu />
+        <Header className="App-header">
+          <h2>Developer Links</h2>
+          <Hamburger />
+        </Header>
         <ContentWrapper>
           <LeftMenu>
             <ul>
@@ -43,6 +49,9 @@ function App() {
                   </Route>
                 );
               })}
+              <Route path="/index.html" key="home">
+                <Index />
+              </Route>
             </Switch>
           </Content>
         </ContentWrapper>
@@ -57,6 +66,10 @@ const IndexWrapper = styled.div`
   padding: 6rem 0 0 10rem;
   font-size: 2rem;
   text-align: left;
+
+  @media only screen and (max-width: 768px) {
+    padding: 2rem;
+  }
 `;
 
 function Index() {
@@ -64,7 +77,7 @@ function Index() {
     <IndexWrapper>
       <p>Hi, I collect some useful websites from web. </p>
       <p>Contact me if you wish me put some website here.</p>
-      <p>catsheue@gmail.com</p>
+      <p>javaspringtea@gmail.com</p>
     </IndexWrapper>
   );
 }
