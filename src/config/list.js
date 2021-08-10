@@ -274,6 +274,7 @@ import TestGuild from "../styles/images/testguild.webp";
 import Smartsheet from "../styles/images/smartsheet.webp";
 import TestMatick from "../styles/images/testmatick.webp";
 import SoftwareTestingHelp from "../styles/images/softwaretestinghelp.webp";
+import GitNation from "../styles/images/gitnation.webp";
 
 export const platformList = [
   {
@@ -938,6 +939,13 @@ export const blogList = [
     link: "https://instabug.com/blog/",
     image: InstabugBlog,
     description: "Instabug Blog",
+  },
+  {
+    title: "GitNation",
+    link: "https://portal.gitnation.org/",
+    image: GitNation,
+    description:
+      "Open source technology events: JavaScript, React, Vue, NodeJS",
   },
   {
     title: "JavaScriptLA",

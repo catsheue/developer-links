@@ -57,6 +57,11 @@
       <meta property="twitter:title" content="Developer Links">
       <meta property="twitter:description" content="Collections of useful links for developer">
       <meta property="twitter:image" content="%PUBLIC_URL%/ogimage.png">
+      <script>
+        if ( window.self !== window.top ) {
+          window.top.location.href = window.location.href;
+        }
+      </script>
   </head>
   <body>
     <!-- Google Tag Manager (noscript) -->
