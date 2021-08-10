@@ -270,6 +270,10 @@ import Katalon from "../styles/images/katalon.webp";
 import Abstracta from "../styles/images/abstracta.webp";
 import Testim from "../styles/images/testim.webp";
 import TestProject from "../styles/images/testproject.webp";
+import TestGuild from "../styles/images/testguild.webp";
+import Smartsheet from "../styles/images/smartsheet.webp";
+import TestMatick from "../styles/images/testmatick.webp";
+import SoftwareTestingHelp from "../styles/images/softwaretestinghelp.webp";
 
 export const platformList = [
   {
@@ -1947,10 +1951,35 @@ export const testList = [
     description: "Learn Selenium with Best Practices and Examples",
   },
   {
+    title: "Smartsheet",
+    link: "https://www.smartsheet.com/",
+    image: Smartsheet,
+    description: "Work Collaboration Software & Solutions",
+  },
+  {
+    title: "TestGuild",
+    link: "https://testguild.com/",
+    image: TestGuild,
+    description:
+      "Automation Testing Made Easy Tools Tips and Training | Helping you succeed with all things software test automation performance & security",
+  },
+  {
     title: "TestProject",
     link: "https://testproject.io/",
     image: TestProject,
     description: "Free Test Automation For All",
+  },
+  {
+    title: "TestMatick",
+    link: "https://testmatick.com/",
+    image: TestMatick,
+    description: "Quality is Never too Much",
+  },
+  {
+    title: "Software Testing Help",
+    link: "https://www.softwaretestinghelp.com/",
+    image: SoftwareTestingHelp,
+    description: "Free Software Testing & Development Courses",
   },
   {
     title: "Testim",
