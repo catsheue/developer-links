@@ -154,6 +154,7 @@ import SiderTeamInsights from "../styles/images/sleeek.webp";
 import specflow from "../styles/images/specflow.webp";
 import slackengineering from "../styles/images/slack.engineering.webp";
 import Packt from "../styles/images/packt.webp";
+import PacktNews from "../styles/images/packtnews.webp";
 import RunKit from "../styles/images/runkit.webp";
 import RunKitNpm from "../styles/images/runkitnpm.webp";
 import Braze from "../styles/images/braze.webp";
@@ -275,6 +276,17 @@ import Smartsheet from "../styles/images/smartsheet.webp";
 import TestMatick from "../styles/images/testmatick.webp";
 import SoftwareTestingHelp from "../styles/images/softwaretestinghelp.webp";
 import GitNation from "../styles/images/gitnation.webp";
+import remoteok from "../styles/images/remoteok.webp";
+import WebDesignerNews from "../styles/images/webdesignernews.webp";
+import xkcd from "../styles/images/xkcd.webp";
+import FirstSiteGuide from "../styles/images/firstsiteguide.webp";
+import BrowserStack from "../styles/images/browserstack.webp";
+import GlobalAppTesting from "../styles/images/globalapptesting.webp";
+import Applitools from "../styles/images/applitools.webp";
+import RemoteCo from "../styles/images/remoteco.webp";
+import αlphαrithms from "../styles/images/alpharithms.webp";
+import TheQALead from "../styles/images/theqalead.webp";
+import remotive from "../styles/images/remotive.webp";
 
 export const platformList = [
   {
@@ -310,6 +322,18 @@ export const newsList = [
     image: TechBeacon,
     description:
       "App Dev & Testing, DevOps, Enterprise IT, and Security: Experts share practical knowledge",
+  },
+  {
+    title: "Web Designer News",
+    link: "https://www.webdesignernews.com/",
+    image: WebDesignerNews,
+    description: "The best curated news for designers",
+  },
+  {
+    title: "Packt Hub",
+    link: "Web Development & Developer News, Insights & Tutorials",
+    image: PacktNews,
+    description: "",
   },
   {
     title: "SciTechDaily",
@@ -359,6 +383,25 @@ export const jobList = [
     link: "https://weworkremotely.com/",
     image: WeWorkRemotely,
     description: "Remote jobs in design, programming, marketing and more",
+  },
+  {
+    title: "remoteok",
+    link: "https://remoteok.io/",
+    image: remoteok,
+    description:
+      "Remote Jobs in Programming, Design, Sales and more #OpenSalaries",
+  },
+  {
+    title: "remotive",
+    link: "https://remotive.io/",
+    image: remotive,
+    description: "Remote Jobs in Programming, Support, Design and more",
+  },
+  {
+    title: "Remote.co",
+    link: "https://remote.co/",
+    image: RemoteCo,
+    description: "Remote Work: Jobs, Companies & Virtual Teams",
   },
   {
     title: "TestGorilla",
@@ -521,6 +564,12 @@ export const tutorialList = [
     link: "https://www.tutorialsteacher.com/",
     image: TutorialsTeacher,
     description: "Learn Web Technologies",
+  },
+  {
+    title: "αlphαrithms",
+    link: "https://www.alpharithms.com/",
+    image: αlphαrithms,
+    description: "Staying Ahead of the Curve",
   },
   {
     title: "ZetCode",
@@ -1466,6 +1515,18 @@ export const generalList = [
     description: "",
   },
   {
+    title: "xkcd",
+    link: "https://xkcd.com/",
+    image: xkcd,
+    description: "Global Temperature Over My Lifetime",
+  },
+  {
+    title: "FirstSiteGuide",
+    link: "https://firstsiteguide.com/",
+    image: FirstSiteGuide,
+    description: "Online Business & Side Hustle Advice",
+  },
+  {
     title: "FrontendJoy",
     link: "https://frontendjoy.com/",
     image: FrontendJoy,
@@ -2022,10 +2083,34 @@ export const testList = [
     description: "",
   },
   {
+    title: "BrowserStack",
+    link: "https://www.browserstack.com/",
+    image: BrowserStack,
+    description: "Most Reliable App & Cross Browser Testing Platform",
+  },
+  {
+    title: "Global App Testing",
+    link: "https://www.globalapptesting.com/",
+    image: GlobalAppTesting,
+    description: "Crowd Testing QA for Web and Mobile",
+  },
+  {
+    title: "The QA Lead",
+    link: "https://theqalead.com/",
+    image: TheQALead,
+    description: "Exploring the latest and best of automation and testing",
+  },
+  {
     title: "Katalon Solution",
     link: "https://www.katalon.com/homepage/?pk_abe=home_8_21&pk_abv=layout2",
     image: Katalon,
     description: "The Best Software are Tested at Scale, Automatically",
+  },
+  {
+    title: "Applitools",
+    link: "https://testautomationu.applitools.com/",
+    image: Applitools,
+    description: "Test Automation University",
   },
 ];
 
