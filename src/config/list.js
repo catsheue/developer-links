@@ -287,6 +287,37 @@ import RemoteCo from "../styles/images/remoteco.webp";
 import αlphαrithms from "../styles/images/alpharithms.webp";
 import TheQALead from "../styles/images/theqalead.webp";
 import remotive from "../styles/images/remotive.webp";
+import MonkeyUser from "../styles/images/monkeyuser.webp";
+import Tutorialzine from "../styles/images/tutorialzine.webp";
+import turnoff from "../styles/images/turnoff.webp";
+import CommitStrip from "../styles/images/commitstrip.webp";
+
+export const comicList = [
+  {
+    title: "MonkeyUser",
+    link: "https://www.monkeyuser.com/",
+    image: MonkeyUser,
+    description: "",
+  },
+  {
+    title: "xkcd",
+    link: "https://xkcd.com/",
+    image: xkcd,
+    description: "Global Temperature Over My Lifetime",
+  },
+  {
+    title: "turnoff",
+    link: "https://turnoff.us/",
+    image: turnoff,
+    description: "geek comic site",
+  },
+  {
+    title: "CommitStrip",
+    link: "https://www.commitstrip.com/en/?",
+    image: CommitStrip,
+    description: "The blog relating the daily life of web agency developers",
+  },
+];
 
 export const platformList = [
   {
@@ -558,6 +589,12 @@ export const tutorialList = [
     link: "https://realpython.com/",
     image: RealPython,
     description: "Python Tutorials",
+  },
+  {
+    title: "Tutorialzine",
+    link: "https://tutorialzine.com/",
+    image: Tutorialzine,
+    description: "Learn, Code and Share on Tutorialzine",
   },
   {
     title: "TutorialsTeacher",
@@ -952,6 +989,12 @@ export const blogList = [
     link: "https://enterprisecraftsmanship.com/",
     image: Sweetcode,
     description: "All Tech, No Fluff.",
+  },
+  {
+    title: "Geekflare",
+    link: "https://geekflare.com/",
+    image: EnterpriseCraftsmanship,
+    description: "Technical Articles, Tools, API and Awesome Resources",
   },
   {
     title: "Enterprise Craftsmanship",
@@ -1513,12 +1556,6 @@ export const generalList = [
     link: "https://frontarm.com/",
     image: FrontendArmory,
     description: "",
-  },
-  {
-    title: "xkcd",
-    link: "https://xkcd.com/",
-    image: xkcd,
-    description: "Global Temperature Over My Lifetime",
   },
   {
     title: "FirstSiteGuide",
