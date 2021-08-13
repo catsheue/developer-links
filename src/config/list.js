@@ -291,6 +291,8 @@ import MonkeyUser from "../styles/images/monkeyuser.webp";
 import Tutorialzine from "../styles/images/tutorialzine.webp";
 import turnoff from "../styles/images/turnoff.webp";
 import CommitStrip from "../styles/images/commitstrip.webp";
+import TheRegister from "../styles/images/theregister.webp";
+import Datanami from "../styles/images/datanami.webp";
 
 export const comicList = [
   {
@@ -365,6 +367,18 @@ export const newsList = [
     link: "Web Development & Developer News, Insights & Tutorials",
     image: PacktNews,
     description: "",
+  },
+  {
+    title: "TheRegister",
+    link: "https://www.theregister.com/",
+    image: TheRegister,
+    description: "The Register: Enterprise Technology News and Analysis",
+  },
+  {
+    title: "Datanami",
+    link: "https://www.datanami.com/",
+    image: Datanami,
+    description: "Big Data, Big Analytics, Big Insights",
   },
   {
     title: "SciTechDaily",
