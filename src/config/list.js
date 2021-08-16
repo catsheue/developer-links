@@ -291,6 +291,9 @@ import MonkeyUser from "../styles/images/monkeyuser.webp";
 import Tutorialzine from "../styles/images/tutorialzine.webp";
 import turnoff from "../styles/images/turnoff.webp";
 import CommitStrip from "../styles/images/commitstrip.webp";
+import JSIsWeird from "../styles/images/jsisweird.webp";
+import swc from "../styles/images/swc.webp";
+import Techopedia from "../styles/images/techopedia.webp";
 
 export const comicList = [
   {
@@ -661,6 +664,12 @@ export const glossaryList = [
     link: "https://www.techslang.com/",
     image: Techslang,
     description: "Today's most spoken tech explained",
+  },
+  {
+    title: "Techopedia",
+    link: "https://www.techopedia.com/",
+    image: Techopedia,
+    description: "Educating IT Professionals To Make Smarter Decisions",
   },
 ];
 
@@ -1603,6 +1612,12 @@ export const libraryList = [
     description: "React JS Library & Infra For Real-Time Collaboration",
   },
   {
+    title: "swc",
+    link: "https://swc.rs/",
+    image: swc,
+    description: "",
+  },
+  {
     title: "Reactivesearch",
     link: "https://opensource.appbase.io/reactivesearch/",
     image: ReactiveSearch,
@@ -2157,6 +2172,12 @@ export const quizList = [
     link: "https://leetcode.com/",
     image: LeetCode,
     description: "The World's Leading Online Programming Learning Platform",
+  },
+  {
+    title: "JS Is Weird",
+    link: "https://jsisweird.com/",
+    image: JSIsWeird,
+    description: "",
   },
 ];
 
