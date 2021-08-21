@@ -294,6 +294,12 @@ import CommitStrip from "../styles/images/commitstrip.webp";
 import JSIsWeird from "../styles/images/jsisweird.webp";
 import swc from "../styles/images/swc.webp";
 import Techopedia from "../styles/images/techopedia.webp";
+import Gitpod from "../styles/images/gitpod.webp";
+import BetterExplained from "../styles/images/betterexplained.webp";
+import DigitalTrends from "../styles/images/digitaltrends.webp";
+import icons8 from "../styles/images/icons8.webp";
+import QuickSprout from "../styles/images/quicksprout.webp";
+import Semrush from "../styles/images/semrush.webp";
 
 export const comicList = [
   {
@@ -337,6 +343,12 @@ export const newsList = [
     link: "https://developer-tech.com/",
     image: DeveloperTechNews,
     description: "Latest App Developer News & Insights",
+  },
+  {
+    title: "Digital Trends",
+    link: "https://www.digitaltrends.com/",
+    image: DigitalTrends,
+    description: "Technology News and Product Reviews",
   },
   {
     title: "BleepingComputer.com",
@@ -384,6 +396,12 @@ export const uiuxList = [
     image: UIDesign,
     description: "UI & UX Design Tips by Jim Raptis.",
   },
+  {
+    title: "icons8",
+    link: "https://icons8.com/",
+    image: icons8,
+    description: "Free Icons, Clipart Illustrations, Photos, and Music",
+  },
 ];
 
 export const communityList = [
@@ -408,6 +426,18 @@ export const marketingList = [
     link: "https://www.analyticsmania.com/",
     image: AnalyticsMania,
     description: "Google Tag Manager and Google Analytics",
+  },
+  {
+    title: "QuickSprout",
+    link: "https://www.quicksprout.com/",
+    image: QuickSprout,
+    description: "",
+  },
+  {
+    title: "Semrush",
+    link: "https://www.semrush.com/",
+    image: Semrush,
+    description: "Online Visibility Management Platform",
   },
 ];
 
@@ -624,6 +654,12 @@ export const tutorialList = [
     description: "C#, Python, Java, JavaScript, Go programming",
   },
   {
+    title: "BetterExplained",
+    link: "https://betterexplained.com/",
+    image: BetterExplained,
+    description: "Math lessons that click",
+  },
+  {
     title: "Dot Net Perls",
     link: "https://www.dotnetperls.com/",
     image: DotNetPerls,
@@ -664,6 +700,13 @@ export const glossaryList = [
     link: "https://www.techslang.com/",
     image: Techslang,
     description: "Today's most spoken tech explained",
+  },
+  {
+    title: "TechTarget",
+    link: "https://www.techtarget.com/network",
+    image: TechTarget,
+    description:
+      "Global Network of Information Technology Websites and Contributors",
   },
   {
     title: "Techopedia",
@@ -735,6 +778,12 @@ export const toolList = [
     link: "https://cucumber.io/",
     image: Cucumber,
     description: "BDD Testing & Collaboration Tools for Teams",
+  },
+  {
+    title: "Gitpod",
+    link: "https://www.gitpod.io/",
+    image: Gitpod,
+    description: "Always ready to code",
   },
   {
     title: "Supabase",
@@ -1389,13 +1438,7 @@ export const generalList = [
     image: infiniteEducation,
     description: "Roadmaps and human skills",
   },
-  {
-    title: "TechTarget",
-    link: "https://www.techtarget.com/network",
-    image: TechTarget,
-    description:
-      "Global Network of Information Technology Websites and Contributors",
-  },
+
   {
     title: "Slant",
     link: "https://www.slant.co/",
