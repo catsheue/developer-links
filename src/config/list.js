@@ -300,6 +300,9 @@ import DigitalTrends from "../styles/images/digitaltrends.webp";
 import icons8 from "../styles/images/icons8.webp";
 import QuickSprout from "../styles/images/quicksprout.webp";
 import Semrush from "../styles/images/semrush.webp";
+import ArtOfTesting from "../styles/images/artoftesting.webp";
+import UltimateCourses from "../styles/images/ultimatecoursesblog.webp";
+import StackOverflowDeveloperSurvey2021 from "../styles/images/stackoverflow2021.webp";
 
 export const comicList = [
   {
@@ -572,6 +575,12 @@ export const apiList = [
     link: "https://apilist.fun/",
     image: APIList,
     description: "A public list of free APIs for programmers",
+  },
+  {
+    title: "Exchange Rates API",
+    link: "https://exchangeratesapi.io/",
+    image: ExchangeRatesAPI,
+    description: "",
   },
   {
     title: "Exchange Rates API",
@@ -1102,6 +1111,13 @@ export const blogList = [
     link: "https://javascriptla.net/blog/",
     image: JavaScriptLA,
     description: "",
+  },
+  {
+    title: "Ultimate Courses™",
+    link: "https://ultimatecourses.com/blog/",
+    image: UltimateCourses,
+    description:
+      "Blogs and tutorials on Angular, NGRX, TypeScript, RxJS, React and everything web!",
   },
   {
     title: "FullStack Labs",
@@ -1695,6 +1711,12 @@ export const libraryList = [
 
 export const statisticsList = [
   {
+    title: "Stack Overflow Developer Survey 2021",
+    link: "https://insights.stackoverflow.com/survey/2021",
+    image: StackOverflowDeveloperSurvey2021,
+    description: "",
+  },
+  {
     title: "2020 JavaScript Rising Stars",
     link: "https://risingstars.js.org/2020/en/",
     image: RisingStars,
@@ -2206,6 +2228,12 @@ export const testList = [
     link: "https://testautomationu.applitools.com/",
     image: Applitools,
     description: "Test Automation University",
+  },
+  {
+    title: "ArtOfTesting",
+    link: "https://artoftesting.com/",
+    image: ArtOfTesting,
+    description: "Learn Testing Online with Free Tutorials",
   },
 ];
 
