@@ -307,6 +307,7 @@ import UltimateCourses from "../styles/images/ultimatecoursesblog.webp";
 import StackOverflowDeveloperSurvey2021 from "../styles/images/stackoverflow2021.webp";
 import letsmakebettersoftware from "../styles/images/letsmakebettersoftware.webp";
 import Jenkov from "../styles/images/jenkov.webp";
+import Datanyze from "../styles/images/datanyze.webp";
 
 export const comicList = [
   {
@@ -1797,10 +1798,16 @@ export const serviceList = [
     description: "ActiveBatch Workload Automation",
   },
   {
+    title: "Datanyze",
+    link: "https://www.datanyze.com/",
+    image: Datanyze,
+    description: "Find Business Contact Info for B2B Sales Prospects",
+  },
+  {
     title: "Fastly",
     link: "https://www.fastly.com/",
     image: Fastly,
-    description: "Fastly | The edge cloud platform behind the best of the web",
+    description: "The edge cloud platform behind the best of the web",
   },
   {
     title: "OutSystems",
