@@ -293,6 +293,20 @@ import turnoff from "../styles/images/turnoff.webp";
 import CommitStrip from "../styles/images/commitstrip.webp";
 import TheRegister from "../styles/images/theregister.webp";
 import Datanami from "../styles/images/datanami.webp";
+import JSIsWeird from "../styles/images/jsisweird.webp";
+import swc from "../styles/images/swc.webp";
+import Techopedia from "../styles/images/techopedia.webp";
+import Gitpod from "../styles/images/gitpod.webp";
+import BetterExplained from "../styles/images/betterexplained.webp";
+import DigitalTrends from "../styles/images/digitaltrends.webp";
+import icons8 from "../styles/images/icons8.webp";
+import QuickSprout from "../styles/images/quicksprout.webp";
+import Semrush from "../styles/images/semrush.webp";
+import ArtOfTesting from "../styles/images/artoftesting.webp";
+import UltimateCourses from "../styles/images/ultimatecoursesblog.webp";
+import StackOverflowDeveloperSurvey2021 from "../styles/images/stackoverflow2021.webp";
+import letsmakebettersoftware from "../styles/images/letsmakebettersoftware.webp";
+import Jenkov from "../styles/images/jenkov.webp";
 
 export const comicList = [
   {
@@ -336,6 +350,12 @@ export const newsList = [
     link: "https://developer-tech.com/",
     image: DeveloperTechNews,
     description: "Latest App Developer News & Insights",
+  },
+  {
+    title: "Digital Trends",
+    link: "https://www.digitaltrends.com/",
+    image: DigitalTrends,
+    description: "Technology News and Product Reviews",
   },
   {
     title: "BleepingComputer.com",
@@ -395,6 +415,12 @@ export const uiuxList = [
     image: UIDesign,
     description: "UI & UX Design Tips by Jim Raptis.",
   },
+  {
+    title: "icons8",
+    link: "https://icons8.com/",
+    image: icons8,
+    description: "Free Icons, Clipart Illustrations, Photos, and Music",
+  },
 ];
 
 export const communityList = [
@@ -419,6 +445,18 @@ export const marketingList = [
     link: "https://www.analyticsmania.com/",
     image: AnalyticsMania,
     description: "Google Tag Manager and Google Analytics",
+  },
+  {
+    title: "QuickSprout",
+    link: "https://www.quicksprout.com/",
+    image: QuickSprout,
+    description: "",
+  },
+  {
+    title: "Semrush",
+    link: "https://www.semrush.com/",
+    image: Semrush,
+    description: "Online Visibility Management Platform",
   },
 ];
 
@@ -560,6 +598,12 @@ export const apiList = [
     image: ExchangeRatesAPI,
     description: "",
   },
+  {
+    title: "Exchange Rates API",
+    link: "https://exchangeratesapi.io/",
+    image: ExchangeRatesAPI,
+    description: "",
+  },
 ];
 
 export const askQuestionList = [
@@ -635,6 +679,12 @@ export const tutorialList = [
     description: "C#, Python, Java, JavaScript, Go programming",
   },
   {
+    title: "BetterExplained",
+    link: "https://betterexplained.com/",
+    image: BetterExplained,
+    description: "Math lessons that click",
+  },
+  {
     title: "Dot Net Perls",
     link: "https://www.dotnetperls.com/",
     image: DotNetPerls,
@@ -653,6 +703,13 @@ export const tutorialList = [
     link: "https://www.csharp-examples.net/",
     image: CSharpExamples,
     tag: [languageList.csharp],
+    description: "",
+  },
+  {
+    title: "Jenkov.com",
+    link: "http://tutorials.jenkov.com/",
+    image: Jenkov,
+    tag: [languageList.java],
     description: "",
   },
 ];
@@ -675,6 +732,19 @@ export const glossaryList = [
     link: "https://www.techslang.com/",
     image: Techslang,
     description: "Today's most spoken tech explained",
+  },
+  {
+    title: "TechTarget",
+    link: "https://www.techtarget.com/network",
+    image: TechTarget,
+    description:
+      "Global Network of Information Technology Websites and Contributors",
+  },
+  {
+    title: "Techopedia",
+    link: "https://www.techopedia.com/",
+    image: Techopedia,
+    description: "Educating IT Professionals To Make Smarter Decisions",
   },
 ];
 
@@ -740,6 +810,12 @@ export const toolList = [
     link: "https://cucumber.io/",
     image: Cucumber,
     description: "BDD Testing & Collaboration Tools for Teams",
+  },
+  {
+    title: "Gitpod",
+    link: "https://www.gitpod.io/",
+    image: Gitpod,
+    description: "Always ready to code",
   },
   {
     title: "Supabase",
@@ -1041,6 +1117,12 @@ export const blogList = [
     description: "Blog for SQL Server DBAs and Developers",
   },
   {
+    title: "Let's make better software",
+    link: "https://www.letsmakebettersoftware.com/",
+    image: letsmakebettersoftware,
+    description: "",
+  },
+  {
     title: "App quality resources",
     link: "https://instabug.com/blog/",
     image: InstabugBlog,
@@ -1058,6 +1140,13 @@ export const blogList = [
     link: "https://javascriptla.net/blog/",
     image: JavaScriptLA,
     description: "",
+  },
+  {
+    title: "Ultimate Courses™",
+    link: "https://ultimatecourses.com/blog/",
+    image: UltimateCourses,
+    description:
+      "Blogs and tutorials on Angular, NGRX, TypeScript, RxJS, React and everything web!",
   },
   {
     title: "FullStack Labs",
@@ -1394,13 +1483,7 @@ export const generalList = [
     image: infiniteEducation,
     description: "Roadmaps and human skills",
   },
-  {
-    title: "TechTarget",
-    link: "https://www.techtarget.com/network",
-    image: TechTarget,
-    description:
-      "Global Network of Information Technology Websites and Contributors",
-  },
+
   {
     title: "Slant",
     link: "https://www.slant.co/",
@@ -1617,6 +1700,12 @@ export const libraryList = [
     description: "React JS Library & Infra For Real-Time Collaboration",
   },
   {
+    title: "swc",
+    link: "https://swc.rs/",
+    image: swc,
+    description: "",
+  },
+  {
     title: "Reactivesearch",
     link: "https://opensource.appbase.io/reactivesearch/",
     image: ReactiveSearch,
@@ -1650,6 +1739,12 @@ export const libraryList = [
 ];
 
 export const statisticsList = [
+  {
+    title: "Stack Overflow Developer Survey 2021",
+    link: "https://insights.stackoverflow.com/survey/2021",
+    image: StackOverflowDeveloperSurvey2021,
+    description: "",
+  },
   {
     title: "2020 JavaScript Rising Stars",
     link: "https://risingstars.js.org/2020/en/",
@@ -2163,6 +2258,12 @@ export const testList = [
     image: Applitools,
     description: "Test Automation University",
   },
+  {
+    title: "ArtOfTesting",
+    link: "https://artoftesting.com/",
+    image: ArtOfTesting,
+    description: "Learn Testing Online with Free Tutorials",
+  },
 ];
 
 export const quizList = [
@@ -2171,6 +2272,12 @@ export const quizList = [
     link: "https://leetcode.com/",
     image: LeetCode,
     description: "The World's Leading Online Programming Learning Platform",
+  },
+  {
+    title: "JS Is Weird",
+    link: "https://jsisweird.com/",
+    image: JSIsWeird,
+    description: "",
   },
 ];
 
