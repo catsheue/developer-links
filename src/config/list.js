@@ -308,6 +308,10 @@ import StackOverflowDeveloperSurvey2021 from "../styles/images/stackoverflow2021
 import letsmakebettersoftware from "../styles/images/letsmakebettersoftware.webp";
 import Jenkov from "../styles/images/jenkov.webp";
 import Datanyze from "../styles/images/datanyze.webp";
+import Caylent from "../styles/images/caylent.webp";
+import SlideShare from "../styles/images/slideshare.webp";
+import QuickScrum from "../styles/images/quickscrum.webp";
+import IEEESpectrum from "../styles/images/spectrumieee.webp";
 
 export const comicList = [
   {
@@ -368,6 +372,12 @@ export const newsList = [
     title: "TechRadar",
     link: "https://www.techradar.com/pro",
     image: TechRadar,
+    description: "",
+  },
+  {
+    title: "IEEE Spectrum",
+    link: "https://spectrum.ieee.org/",
+    image: IEEESpectrum,
     description: "",
   },
   {
@@ -1052,6 +1062,12 @@ export const agileList = [
     description: "",
   },
   {
+    title: "QuickScrum",
+    link: "https://www.quickscrum.com/",
+    image: QuickScrum,
+    description: "Project Management Software for Agile Teams",
+  },
+  {
     title: "Agility in Mind",
     link: "https://agility.im/",
     image: AgilityinMind,
@@ -1505,6 +1521,12 @@ export const generalList = [
     description: "Learning Made Easy",
   },
   {
+    title: "SlideShare",
+    link: "https://www.slideshare.net/",
+    image: SlideShare,
+    description: "Share and Discover Knowledge on SlideShare",
+  },
+  {
     title: "freeCodeCamp.org",
     link: "https://www.freecodecamp.org/",
     image: freeCodeCamp,
@@ -1790,6 +1812,12 @@ export const serviceList = [
     link: "https://www.sleeek.io/en/home",
     image: SiderTeamInsights,
     description: "Productivity up +20% for software development teams",
+  },
+  {
+    title: "Caylent",
+    link: "https://caylent.com/",
+    image: Caylent,
+    description: "DevOps On Demand",
   },
   {
     title: "Advanced Systems Concepts",
