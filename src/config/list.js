@@ -314,6 +314,9 @@ import QuickScrum from "../styles/images/quickscrum.webp";
 import IEEESpectrum from "../styles/images/spectrumieee.webp";
 import ExceptionNotFound from "../styles/images/exceptionnotfound.webp";
 import AutomateThePlanet from "../styles/images/automatetheplanet.webp";
+import InfoQ from "../styles/images/infoq.webp";
+import Gartner from "../styles/images/gartner.webp";
+import Meziantou from "../styles/images/meziantou.webp";
 
 export const comicList = [
   {
@@ -388,6 +391,12 @@ export const newsList = [
     image: TechBeacon,
     description:
       "App Dev & Testing, DevOps, Enterprise IT, and Security: Experts share practical knowledge",
+  },
+  {
+    title: "InfoQ",
+    link: "https://www.infoq.com/",
+    image: InfoQ,
+    description: "Software Development News, Trends & Best Practices",
   },
   {
     title: "Web Designer News",
@@ -1155,6 +1164,12 @@ export const blogList = [
       "Open source technology events: JavaScript, React, Vue, NodeJS",
   },
   {
+    title: "Meziantou's blog",
+    link: "https://www.meziantou.net/",
+    image: Meziantou,
+    description: "",
+  },
+  {
     title: "JavaScriptLA",
     link: "https://javascriptla.net/blog/",
     image: JavaScriptLA,
@@ -1862,6 +1877,12 @@ export const serviceList = [
     link: "https://azat.ai/",
     image: AzatAI,
     description: "Build, Design, Learn || Azat Artificial Intelligence, LLP",
+  },
+  {
+    title: "Gartner",
+    link: "https://www.gartner.com/en",
+    image: Gartner,
+    description: "Global Research and Advisory Company",
   },
   {
     title: "Instabug",
