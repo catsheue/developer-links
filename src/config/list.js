@@ -312,6 +312,8 @@ import Caylent from "../styles/images/caylent.webp";
 import SlideShare from "../styles/images/slideshare.webp";
 import QuickScrum from "../styles/images/quickscrum.webp";
 import IEEESpectrum from "../styles/images/spectrumieee.webp";
+import ExceptionNotFound from "../styles/images/exceptionnotfound.webp";
+import AutomateThePlanet from "../styles/images/automatetheplanet.webp";
 
 export const comicList = [
   {
@@ -2256,6 +2258,18 @@ export const testList = [
     image: testsigma,
     description:
       "A Complete, Cloud-based Test Automation Platform for Agile Teams",
+  },
+  {
+    title: "Exception Not Found",
+    link: "https://exceptionnotfound.net/",
+    image: ExceptionNotFound,
+    description: "",
+  },
+  {
+    title: "Automate The Planet",
+    link: "https://www.automatetheplanet.com/",
+    image: AutomateThePlanet,
+    description: "",
   },
   {
     title: "Ultimate QA",
