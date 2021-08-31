@@ -319,6 +319,7 @@ import Gartner from "../styles/images/gartner.webp";
 import Meziantou from "../styles/images/meziantou.webp";
 import ElementalSelenium from "../styles/images/elementalselenium.webp";
 import DigitalAi from "../styles/images/digitalai.webp";
+import CodeGym from "../styles/images/codegym.webp";
 
 export const comicList = [
   {
