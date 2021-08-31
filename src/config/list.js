@@ -317,6 +317,8 @@ import AutomateThePlanet from "../styles/images/automatetheplanet.webp";
 import InfoQ from "../styles/images/infoq.webp";
 import Gartner from "../styles/images/gartner.webp";
 import Meziantou from "../styles/images/meziantou.webp";
+import ElementalSelenium from "../styles/images/elementalselenium.webp";
+import DigitalAi from "../styles/images/digitalai.webp";
 
 export const comicList = [
   {
@@ -994,6 +996,12 @@ export const interactiveLearnList = [
     link: "https://edabit.com/",
     image: Edabit,
     description: "Learn to Code with 10,000+ Interactive Challenges",
+  },
+  {
+    title: "CodeGym",
+    link: "https://codegym.cc/",
+    image: CodeGym,
+    description: "Online Tutorial to Learn Java",
   },
   {
     title: "Coderbyte",
@@ -1873,6 +1881,12 @@ export const serviceList = [
     description: "Most Powerful Cross Browser Testing Tool Online",
   },
   {
+    title: "Digital.ai",
+    link: "https://digital.ai/",
+    image: DigitalAi,
+    description: "Intelligent Value Stream Management Platform",
+  },
+  {
     title: "AzatAI",
     link: "https://azat.ai/",
     image: AzatAI,
@@ -2077,6 +2091,12 @@ export const serviceList = [
     link: "https://sentry.io/welcome/",
     image: Sentry,
     description: "Application Monitoring and Error Tracking Software",
+  },
+  {
+    title: "Elemental Selenium",
+    link: "http://elementalselenium.com/",
+    image: ElementalSelenium,
+    description: "Receive a Free, Weekly Tip on Using Selenium like a Pro",
   },
 ];
 export const remoteList = [
