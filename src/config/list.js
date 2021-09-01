@@ -320,6 +320,8 @@ import Meziantou from "../styles/images/meziantou.webp";
 import ElementalSelenium from "../styles/images/elementalselenium.webp";
 import DigitalAi from "../styles/images/digitalai.webp";
 import CodeGym from "../styles/images/codegym.webp";
+import phoenixNAP from "../styles/images/phoenixnap.webp";
+import SoftwareTestingMaterial from "../styles/images/softwaretestingmaterial.webp";
 
 export const comicList = [
   {
@@ -1882,6 +1884,12 @@ export const serviceList = [
     description: "Most Powerful Cross Browser Testing Tool Online",
   },
   {
+    title: "phoenixNAP",
+    link: "https://phoenixnap.com/kb/",
+    image: phoenixNAP,
+    description: "Knowledge Base by phoenixNAP",
+  },
+  {
     title: "Digital.ai",
     link: "https://digital.ai/",
     image: DigitalAi,
@@ -2274,6 +2282,12 @@ export const testList = [
     link: "https://www.softwaretestinghelp.com/",
     image: SoftwareTestingHelp,
     description: "Free Software Testing & Development Courses",
+  },
+  {
+    title: "Software Testing Material",
+    link: "https://www.softwaretestingmaterial.com/",
+    image: SoftwareTestingMaterial,
+    description: "Free Software Testing & Development Material",
   },
   {
     title: "Testim",
