@@ -323,6 +323,9 @@ import CodeGym from "../styles/images/codegym.webp";
 import phoenixNAP from "../styles/images/phoenixnap.webp";
 import SoftwareTestingMaterial from "../styles/images/softwaretestingmaterial.webp";
 import dotnetmemoryexpert from "../styles/images/dotnetmemoryexpert.webp";
+import TNW from "../styles/images/thenextweb.webp";
+import ADTmag from "../styles/images/adtmag.webp";
+import MAKOLYTE from "../styles/images/makolyte.webp";
 
 export const comicList = [
   {
@@ -412,7 +415,7 @@ export const newsList = [
   },
   {
     title: "Packt Hub",
-    link: "Web Development & Developer News, Insights & Tutorials",
+    link: "https://hub.packtpub.com/",
     image: PacktNews,
     description: "",
   },
@@ -423,10 +426,22 @@ export const newsList = [
     description: "The Register: Enterprise Technology News and Analysis",
   },
   {
+    title: "ADTmag",
+    link: "https://adtmag.com/home.aspx",
+    image: PacktNews,
+    description: "Application Development Trends Home (ADTmag.com)",
+  },
+  {
     title: "Datanami",
     link: "https://www.datanami.com/",
     image: Datanami,
     description: "Big Data, Big Analytics, Big Insights",
+  },
+  {
+    title: "TNW",
+    link: "https://thenextweb.com/",
+    image: TNW,
+    description: "The heart of tech",
   },
   {
     title: "SciTechDaily",
@@ -1266,6 +1281,12 @@ export const blogList = [
     link: "https://davidwalsh.name/",
     image: DavidWalsh,
     description: "",
+  },
+  {
+    title: "MAKOLYTE",
+    link: "https://makolyte.com/",
+    image: MAKOLYTE,
+    description: "Solve real coding problems",
   },
   {
     title: "Marius Schulz",
