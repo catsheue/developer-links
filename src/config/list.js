@@ -322,6 +322,7 @@ import DigitalAi from "../styles/images/digitalai.webp";
 import CodeGym from "../styles/images/codegym.webp";
 import phoenixNAP from "../styles/images/phoenixnap.webp";
 import SoftwareTestingMaterial from "../styles/images/softwaretestingmaterial.webp";
+import dotnetmemoryexpert from "../styles/images/dotnetmemoryexpert.webp";
 
 export const comicList = [
   {
@@ -2377,6 +2378,12 @@ export const quizList = [
     link: "https://leetcode.com/",
     image: LeetCode,
     description: "The World's Leading Online Programming Learning Platform",
+  },
+  {
+    title: "dotnetmemoryexpert",
+    link: "https://quiz.dotnetmemoryexpert.com/",
+    image: LeetCode,
+    description: "Evaluate you .NET memory management skills",
   },
   {
     title: "JS Is Weird",
