@@ -326,6 +326,11 @@ import dotnetmemoryexpert from "../styles/images/dotnetmemoryexpert.webp";
 import TNW from "../styles/images/thenextweb.webp";
 import ADTmag from "../styles/images/adtmag.webp";
 import MAKOLYTE from "../styles/images/makolyte.webp";
+import itsfoss from "../styles/images/itsfoss.webp";
+import LinuxOrg from "../styles/images/linuxorg.webp";
+import LinuxCom from "../styles/images/linuxcom.webp";
+import Tecmint from "../styles/images/tecmint.webp";
+import landscapecncf from "../styles/images/landscapecncf.webp";
 
 export const comicList = [
   {
@@ -360,6 +365,33 @@ export const platformList = [
     link: "https://www.codingdojo.com/",
     image: CodingDojo,
     description: "Coding Bootcamp - Learn Coding & Data Science",
+  },
+];
+
+export const linuxList = [
+  {
+    title: "It's FOSS",
+    link: "https://itsfoss.com/",
+    image: itsfoss,
+    description: "World's Leading Linux & Open Source Web Portal",
+  },
+  {
+    title: "Linux.org",
+    link: "https://linux.org/",
+    image: LinuxOrg,
+    description: "",
+  },
+  {
+    title: "Tecmint",
+    link: "https://www.tecmint.com/",
+    image: Tecmint,
+    description: "Tecmint: Linux Howtos, Tutorials & Guides",
+  },
+  {
+    title: "Linux.com",
+    link: "https://www.linux.com/",
+    image: LinuxCom,
+    description: "News For Open Source Professionals",
   },
 ];
 
@@ -1131,10 +1163,11 @@ export const regexList = [
 export const blogList = [
   {
     title: "Sweetcode.io",
-    link: "https://enterprisecraftsmanship.com/",
+    link: "https://sweetcode.io/",
     image: Sweetcode,
     description: "All Tech, No Fluff.",
   },
+
   {
     title: "Geekflare",
     link: "https://geekflare.com/",
@@ -1537,6 +1570,12 @@ export const generalList = [
     link: "https://alligator.io/",
     image: Alligator,
     description: "Front-end Web Development, Chewed Up ← Alligator.io",
+  },
+  {
+    title: "CNCF Cloud Native Interactive Landscape",
+    link: "https://landscape.cncf.io/",
+    image: landscapecncf,
+    description: "",
   },
   {
     title: "Recode Hive",
