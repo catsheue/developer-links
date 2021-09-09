@@ -331,6 +331,7 @@ import LinuxOrg from "../styles/images/linuxorg.webp";
 import LinuxCom from "../styles/images/linuxcom.webp";
 import Tecmint from "../styles/images/tecmint.webp";
 import landscapecncf from "../styles/images/landscapecncf.webp";
+import SmolCSS from "../styles/images/smolcss.webp";
 
 export const comicList = [
   {
@@ -460,7 +461,7 @@ export const newsList = [
   {
     title: "ADTmag",
     link: "https://adtmag.com/home.aspx",
-    image: PacktNews,
+    image: ADTmag,
     description: "Application Development Trends Home (ADTmag.com)",
   },
   {
@@ -946,6 +947,12 @@ export const toolList = [
     link: "https://specflow.org/for-teams/developer/",
     image: specflow,
     description: "Find bugs before they happen",
+  },
+  {
+    title: "SmolCSS",
+    link: "https://smolcss.dev/",
+    image: SmolCSS,
+    description: "",
   },
   {
     title: "RTK Query",
@@ -2223,7 +2230,7 @@ export const courseList = [
   {
     title: "edX",
     link: "https://www.edx.org/",
-    image: Programiz,
+    image: edX,
     description: "Free Online Courses by Harvard, MIT, & more",
   },
   {
@@ -2442,7 +2449,7 @@ export const quizList = [
   {
     title: "dotnetmemoryexpert",
     link: "https://quiz.dotnetmemoryexpert.com/",
-    image: LeetCode,
+    image: dotnetmemoryexpert,
     description: "Evaluate you .NET memory management skills",
   },
   {
