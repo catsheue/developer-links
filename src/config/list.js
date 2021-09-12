@@ -332,6 +332,8 @@ import LinuxCom from "../styles/images/linuxcom.webp";
 import Tecmint from "../styles/images/tecmint.webp";
 import landscapecncf from "../styles/images/landscapecncf.webp";
 import SmolCSS from "../styles/images/smolcss.webp";
+import Bit from "../styles/images/bit.webp";
+import DBDesigner from "../styles/images/dbdesigner.webp";
 
 export const comicList = [
   {
@@ -869,6 +871,12 @@ export const designSystemList = [
 
 export const toolList = [
   {
+    title: "Bit",
+    link: "The platform for the modular web",
+    image: Bit,
+    description: "",
+  },
+  {
     title: "Docusaurus",
     link: "https://docusaurus.io/",
     image: Docusaurus,
@@ -904,6 +912,12 @@ export const toolList = [
     link: "https://www.devart.com/",
     image: Devart,
     description: "Database Management Software and Developer Tools",
+  },
+  {
+    title: "DB Designer",
+    link: "https://www.dbdesigner.net/",
+    image: DBDesigner,
+    description: "#1 Database Design & Modeling Tool Online",
   },
   {
     title: "HackerRank",
