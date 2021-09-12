@@ -334,6 +334,8 @@ import landscapecncf from "../styles/images/landscapecncf.webp";
 import SmolCSS from "../styles/images/smolcss.webp";
 import Bit from "../styles/images/bit.webp";
 import DBDesigner from "../styles/images/dbdesigner.webp";
+import Plutora from "../styles/images/plutora.webp";
+import RedMonk from "../styles/images/redmonk.webp";
 
 export const comicList = [
   {
@@ -422,6 +424,12 @@ export const newsList = [
     link: "https://www.techradar.com/pro",
     image: TechRadar,
     description: "",
+  },
+  {
+    title: "RedMonk",
+    link: "https://redmonk.com/",
+    image: RedMonk,
+    description: "The developer-focused analyst firm",
   },
   {
     title: "IEEE Spectrum",
@@ -1970,6 +1978,13 @@ export const serviceList = [
     link: "https://phoenixnap.com/kb/",
     image: phoenixNAP,
     description: "Knowledge Base by phoenixNAP",
+  },
+  {
+    title: "Plutora",
+    link: "https://www.plutora.com/",
+    image: Plutora,
+    description:
+      "Plutora: Deliver Better Software Faster - Value Stream Management",
   },
   {
     title: "Digital.ai",
