@@ -336,6 +336,10 @@ import Bit from "../styles/images/bit.webp";
 import DBDesigner from "../styles/images/dbdesigner.webp";
 import Plutora from "../styles/images/plutora.webp";
 import RedMonk from "../styles/images/redmonk.webp";
+import Lifewire from "../styles/images/lifewire.webp";
+import StaticVoid from "../styles/images/staticvoid.webp";
+import LearnEntityFrameworkCore from "../styles/images/learnentityframeworkcore.webp";
+import TheNewStack from "../styles/images/thenewstack.webp";
 
 export const comicList = [
   {
@@ -426,6 +430,12 @@ export const newsList = [
     description: "",
   },
   {
+    title: "The New Stack",
+    link: "https://thenewstack.io/",
+    image: TheNewStack,
+    description: "",
+  },
+  {
     title: "RedMonk",
     link: "https://redmonk.com/",
     image: RedMonk,
@@ -479,6 +489,12 @@ export const newsList = [
     link: "https://www.datanami.com/",
     image: Datanami,
     description: "Big Data, Big Analytics, Big Insights",
+  },
+  {
+    title: "Lifewire",
+    link: "https://www.lifewire.com/",
+    image: Lifewire,
+    description: "Tech News, Reviews, Help & How-Tos",
   },
   {
     title: "TNW",
@@ -790,6 +806,13 @@ export const tutorialList = [
     image: CSharpExamples,
     tag: [languageList.csharp],
     description: "",
+  },
+  {
+    title: "Learn Entity Framework Core",
+    link: "https://www.learnentityframeworkcore.com/",
+    image: LearnEntityFrameworkCore,
+    tag: [languageList.csharp],
+    description: "Entity Framework Core Documentation And Tutorials",
   },
   {
     title: "Jenkov.com",
@@ -1196,7 +1219,6 @@ export const blogList = [
     image: Sweetcode,
     description: "All Tech, No Fluff.",
   },
-
   {
     title: "Geekflare",
     link: "https://geekflare.com/",
@@ -1307,6 +1329,12 @@ export const blogList = [
     link: "https://www.software.com/src",
     image: Src,
     description: "Powerful data stories to level up your engineering team",
+  },
+  {
+    title: "StaticVoid",
+    link: "https://blog.staticvoid.co.nz/",
+    image: StaticVoid,
+    description: "",
   },
   {
     title: "Reflectoring = How + Why",
