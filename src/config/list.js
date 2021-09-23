@@ -340,6 +340,8 @@ import Lifewire from "../styles/images/lifewire.webp";
 import StaticVoid from "../styles/images/staticvoid.webp";
 import LearnEntityFrameworkCore from "../styles/images/learnentityframeworkcore.webp";
 import TheNewStack from "../styles/images/thenewstack.webp";
+import devecosystem2021 from "../styles/images/devecosystem2021.webp";
+import UsabilityGeek from "../styles/images/usabilitygeek.webp";
 
 export const comicList = [
   {
@@ -516,6 +518,12 @@ export const uiuxList = [
     link: "https://www.uidesign.tips/",
     image: UIDesign,
     description: "UI & UX Design Tips by Jim Raptis.",
+  },
+  {
+    title: "Usability Geek",
+    link: "https://usabilitygeek.com/",
+    image: UsabilityGeek,
+    description: "",
   },
   {
     title: "icons8",
@@ -1913,6 +1921,12 @@ export const statisticsList = [
     link: "https://insights.stackoverflow.com/survey/2021",
     image: StackOverflowDeveloperSurvey2021,
     description: "",
+  },
+  {
+    title: "The State of Developer Ecosystem in 2021 Infographic",
+    link: "https://www.jetbrains.com/lp/devecosystem-2021/",
+    image: devecosystem2021,
+    description: "JetBrains: Developer Tools for Professionals and Teams",
   },
   {
     title: "2020 JavaScript Rising Stars",
