@@ -342,6 +342,7 @@ import LearnEntityFrameworkCore from "../styles/images/learnentityframeworkcore.
 import TheNewStack from "../styles/images/thenewstack.webp";
 import devecosystem2021 from "../styles/images/devecosystem2021.webp";
 import UsabilityGeek from "../styles/images/usabilitygeek.webp";
+import ACloudGuru from "../styles/images/acloudguru.webp";
 
 export const comicList = [
   {
@@ -1966,6 +1967,13 @@ export const serviceList = [
     link: "https://www.datadoghq.com/",
     image: Datadog,
     description: "Cloud Monitoring as a Service",
+  },
+  {
+    title: "A Cloud Guru",
+    link: "https://acloudguru.com/",
+    image: ACloudGuru,
+    description:
+      "World's #1 Digital Cloud Certification Course & Training Provider",
   },
   {
     title: "Sider Team Insights",
