@@ -343,6 +343,8 @@ import TheNewStack from "../styles/images/thenewstack.webp";
 import devecosystem2021 from "../styles/images/devecosystem2021.webp";
 import UsabilityGeek from "../styles/images/usabilitygeek.webp";
 import ACloudGuru from "../styles/images/acloudguru.webp";
+import CareerKarma from "../styles/images/careerkarma.webp";
+import PeterHilton from "../styles/images/peterhilton.webp";
 
 export const comicList = [
   {
@@ -596,6 +598,12 @@ export const jobList = [
     link: "https://remote.co/",
     image: RemoteCo,
     description: "Remote Work: Jobs, Companies & Virtual Teams",
+  },
+  {
+    title: "CareerKarma",
+    link: "https://careerkarma.com/",
+    image: CareerKarma,
+    description: "Discover the Best Job Training Programs and Career Advice",
   },
   {
     title: "TestGorilla",
@@ -1251,6 +1259,12 @@ export const blogList = [
     link: "https://overreacted.io/",
     image: overreacted,
     description: "A blog by Dan Abramov",
+  },
+  {
+    title: "Peter Hilton",
+    link: "https://hilton.org.uk/",
+    image: PeterHilton,
+    description: "",
   },
   {
     title: "Tobias Lindström",
