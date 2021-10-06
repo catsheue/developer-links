@@ -342,6 +342,7 @@ import LearnEntityFrameworkCore from "../styles/images/learnentityframeworkcore.
 import TheNewStack from "../styles/images/thenewstack.webp";
 import devecosystem2021 from "../styles/images/devecosystem2021.webp";
 import UsabilityGeek from "../styles/images/usabilitygeek.webp";
+import UpbeatCode from "../styles/images/upbeatcode.webp";
 
 export const comicList = [
   {
@@ -1300,6 +1301,12 @@ export const blogList = [
     image: UltimateCourses,
     description:
       "Blogs and tutorials on Angular, NGRX, TypeScript, RxJS, React and everything web!",
+  },
+  {
+    title: "Upbeat Code",
+    link: "https://www.upbeatcode.com/",
+    image: UpbeatCode,
+    description: "",
   },
   {
     title: "FullStack Labs",
