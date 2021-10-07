@@ -343,6 +343,7 @@ import TheNewStack from "../styles/images/thenewstack.webp";
 import devecosystem2021 from "../styles/images/devecosystem2021.webp";
 import UsabilityGeek from "../styles/images/usabilitygeek.webp";
 import UpbeatCode from "../styles/images/upbeatcode.webp";
+import EltonsBlog from "../styles/images/eltonsblog.webp";
 
 export const comicList = [
   {
@@ -1275,6 +1276,12 @@ export const blogList = [
     link: "https://instabug.com/blog/",
     image: InstabugBlog,
     description: "Instabug Blog",
+  },
+  {
+    title: "Elton's Blog",
+    link: "https://blog.sixeyed.com/",
+    image: EltonsBlog,
+    description: "",
   },
   {
     title: "GitNation",
