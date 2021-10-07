@@ -344,6 +344,7 @@ import devecosystem2021 from "../styles/images/devecosystem2021.webp";
 import UsabilityGeek from "../styles/images/usabilitygeek.webp";
 import UpbeatCode from "../styles/images/upbeatcode.webp";
 import EltonsBlog from "../styles/images/eltonsblog.webp";
+import LearnXinYMinutes from "../styles/images/learnxinyminutes.webp";
 
 export const comicList = [
   {
@@ -789,6 +790,12 @@ export const tutorialList = [
       languageList.go,
     ],
     description: "C#, Python, Java, JavaScript, Go programming",
+  },
+  {
+    title: "Learn X in Y Minutes",
+    link: "https://learnxinyminutes.com/",
+    image: LearnXinYMinutes,
+    description: "Scenic Programming Language Tours",
   },
   {
     title: "BetterExplained",
