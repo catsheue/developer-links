@@ -346,6 +346,7 @@ import UpbeatCode from "../styles/images/upbeatcode.webp";
 import EltonsBlog from "../styles/images/eltonsblog.webp";
 import LearnXinYMinutes from "../styles/images/learnxinyminutes.webp";
 import PrepAway from "../styles/images/prepaway.webp";
+import eventdriven from "../styles/images/eventdriven.webp";
 
 export const comicList = [
   {
@@ -1282,6 +1283,12 @@ export const blogList = [
     link: "https://codingsight.com/",
     image: CodingSight,
     description: "Blog for SQL Server DBAs and Developers",
+  },
+  {
+    title: "Event-Driven by Oskar Dudycz",
+    link: "https://event-driven.io/en/",
+    image: eventdriven,
+    description: "",
   },
   {
     title: "Let's make better software",
