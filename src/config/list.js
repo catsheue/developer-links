@@ -347,6 +347,7 @@ import EltonsBlog from "../styles/images/eltonsblog.webp";
 import LearnXinYMinutes from "../styles/images/learnxinyminutes.webp";
 import PrepAway from "../styles/images/prepaway.webp";
 import eventdriven from "../styles/images/eventdriven.webp";
+import CodeGuru from "../styles/images/codeguru.webp";
 
 export const comicList = [
   {
@@ -1345,6 +1346,12 @@ export const blogList = [
     link: "https://www.fullstacklabs.co/blog",
     image: FullStackLabs,
     description: "",
+  },
+  {
+    title: "CodeGuru",
+    link: "https://www.codeguru.com/",
+    image: CodeGuru,
+    description: "Microsoft Developer News | C++,C# & .NET Framework & More",
   },
   {
     title: "Jack Franklin",
