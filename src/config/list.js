@@ -345,6 +345,7 @@ import UsabilityGeek from "../styles/images/usabilitygeek.webp";
 import UpbeatCode from "../styles/images/upbeatcode.webp";
 import EltonsBlog from "../styles/images/eltonsblog.webp";
 import LearnXinYMinutes from "../styles/images/learnxinyminutes.webp";
+import PrepAway from "../styles/images/prepaway.webp";
 
 export const comicList = [
   {
@@ -370,6 +371,16 @@ export const comicList = [
     link: "https://www.commitstrip.com/en/?",
     image: CommitStrip,
     description: "The blog relating the daily life of web agency developers",
+  },
+];
+
+export const examList = [
+  {
+    title: "PrepAway",
+    link: "https://www.prepaway.com/",
+    image: PrepAway,
+    description:
+      "Free Certification Exam Questions & Online Courses - PrepAway",
   },
 ];
 
