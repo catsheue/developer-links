@@ -348,6 +348,8 @@ import LearnXinYMinutes from "../styles/images/learnxinyminutes.webp";
 import PrepAway from "../styles/images/prepaway.webp";
 import eventdriven from "../styles/images/eventdriven.webp";
 import CodeGuru from "../styles/images/codeguru.webp";
+import ArekNawo from "../styles/images/areknawo.webp";
+import FrontEndNexus from "../styles/images/frontendnexus.webp";
 
 export const comicList = [
   {
@@ -495,6 +497,12 @@ export const newsList = [
     link: "https://www.theregister.com/",
     image: TheRegister,
     description: "The Register: Enterprise Technology News and Analysis",
+  },
+  {
+    title: "Front End Nexus",
+    link: "https://frontendnexus.com/",
+    image: FrontEndNexus,
+    description: "News and resources for web developers",
   },
   {
     title: "ADTmag",
@@ -1302,6 +1310,12 @@ export const blogList = [
     link: "https://instabug.com/blog/",
     image: InstabugBlog,
     description: "Instabug Blog",
+  },
+  {
+    title: "Arek Nawo",
+    link: "https://areknawo.com/",
+    image: ArekNawo,
+    description: "",
   },
   {
     title: "Elton's Blog",
