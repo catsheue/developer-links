@@ -350,6 +350,8 @@ import eventdriven from "../styles/images/eventdriven.webp";
 import CodeGuru from "../styles/images/codeguru.webp";
 import ArekNawo from "../styles/images/areknawo.webp";
 import FrontEndNexus from "../styles/images/frontendnexus.webp";
+import Jscrambler from "../styles/images/jscrambler.webp";
+import TutorialsDojo from "../styles/images/tutorialsdojo.webp";
 
 export const comicList = [
   {
@@ -851,6 +853,12 @@ export const tutorialList = [
     image: LearnEntityFrameworkCore,
     tag: [languageList.csharp],
     description: "Entity Framework Core Documentation And Tutorials",
+  },
+  {
+    title: "Tutorials Dojo",
+    link: "https://tutorialsdojo.com/",
+    image: TutorialsDojo,
+    description: "Your One-Stop Learning Portal",
   },
   {
     title: "Jenkov.com",
@@ -2080,6 +2088,12 @@ export const serviceList = [
     link: "https://phoenixnap.com/kb/",
     image: phoenixNAP,
     description: "Knowledge Base by phoenixNAP",
+  },
+  {
+    title: "Jscrambler",
+    link: "https://jscrambler.com/",
+    image: Plutora,
+    description: "JavaScript Protection and Webpage Monitoring",
   },
   {
     title: "Plutora",
