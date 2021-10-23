@@ -345,6 +345,8 @@ import UsabilityGeek from "../styles/images/usabilitygeek.webp";
 import ACloudGuru from "../styles/images/acloudguru.webp";
 import CareerKarma from "../styles/images/careerkarma.webp";
 import PeterHilton from "../styles/images/peterhilton.webp";
+import RefactoringGuru from "../styles/images/refactoringguru.webp";
+import SourceMaking from "../styles/images/sourcemaking.webp";
 
 export const comicList = [
   {
@@ -761,6 +763,18 @@ export const publishList = [
 ];
 
 export const tutorialList = [
+  {
+    title: "SourceMaking",
+    link: "https://sourcemaking.com/",
+    image: SourceMaking,
+    description: "",
+  },
+  {
+    title: "RefactoringGuru",
+    link: "https://refactoring.guru/",
+    image: RealPython,
+    description: "Refactoring and Design Patterns",
+  },
   {
     title: "Real Python",
     link: "https://realpython.com/",
