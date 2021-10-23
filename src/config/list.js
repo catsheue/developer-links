@@ -347,6 +347,16 @@ import CareerKarma from "../styles/images/careerkarma.webp";
 import PeterHilton from "../styles/images/peterhilton.webp";
 import RefactoringGuru from "../styles/images/refactoringguru.webp";
 import SourceMaking from "../styles/images/sourcemaking.webp";
+import UpbeatCode from "../styles/images/upbeatcode.webp";
+import EltonsBlog from "../styles/images/eltonsblog.webp";
+import LearnXinYMinutes from "../styles/images/learnxinyminutes.webp";
+import PrepAway from "../styles/images/prepaway.webp";
+import eventdriven from "../styles/images/eventdriven.webp";
+import CodeGuru from "../styles/images/codeguru.webp";
+import ArekNawo from "../styles/images/areknawo.webp";
+import FrontEndNexus from "../styles/images/frontendnexus.webp";
+import Jscrambler from "../styles/images/jscrambler.webp";
+import TutorialsDojo from "../styles/images/tutorialsdojo.webp";
 
 export const comicList = [
   {
@@ -372,6 +382,16 @@ export const comicList = [
     link: "https://www.commitstrip.com/en/?",
     image: CommitStrip,
     description: "The blog relating the daily life of web agency developers",
+  },
+];
+
+export const examList = [
+  {
+    title: "PrepAway",
+    link: "https://www.prepaway.com/",
+    image: PrepAway,
+    description:
+      "Free Certification Exam Questions & Online Courses - PrepAway",
   },
 ];
 
@@ -484,6 +504,12 @@ export const newsList = [
     link: "https://www.theregister.com/",
     image: TheRegister,
     description: "The Register: Enterprise Technology News and Analysis",
+  },
+  {
+    title: "Front End Nexus",
+    link: "https://frontendnexus.com/",
+    image: FrontEndNexus,
+    description: "News and resources for web developers",
   },
   {
     title: "ADTmag",
@@ -812,6 +838,12 @@ export const tutorialList = [
     description: "C#, Python, Java, JavaScript, Go programming",
   },
   {
+    title: "Learn X in Y Minutes",
+    link: "https://learnxinyminutes.com/",
+    image: LearnXinYMinutes,
+    description: "Scenic Programming Language Tours",
+  },
+  {
     title: "BetterExplained",
     link: "https://betterexplained.com/",
     image: BetterExplained,
@@ -844,6 +876,12 @@ export const tutorialList = [
     image: LearnEntityFrameworkCore,
     tag: [languageList.csharp],
     description: "Entity Framework Core Documentation And Tutorials",
+  },
+  {
+    title: "Tutorials Dojo",
+    link: "https://tutorialsdojo.com/",
+    image: TutorialsDojo,
+    description: "Your One-Stop Learning Portal",
   },
   {
     title: "Jenkov.com",
@@ -1293,6 +1331,12 @@ export const blogList = [
     description: "Blog for SQL Server DBAs and Developers",
   },
   {
+    title: "Event-Driven by Oskar Dudycz",
+    link: "https://event-driven.io/en/",
+    image: eventdriven,
+    description: "",
+  },
+  {
     title: "Let's make better software",
     link: "https://www.letsmakebettersoftware.com/",
     image: letsmakebettersoftware,
@@ -1303,6 +1347,18 @@ export const blogList = [
     link: "https://instabug.com/blog/",
     image: InstabugBlog,
     description: "Instabug Blog",
+  },
+  {
+    title: "Arek Nawo",
+    link: "https://areknawo.com/",
+    image: ArekNawo,
+    description: "",
+  },
+  {
+    title: "Elton's Blog",
+    link: "https://blog.sixeyed.com/",
+    image: EltonsBlog,
+    description: "",
   },
   {
     title: "GitNation",
@@ -1331,10 +1387,22 @@ export const blogList = [
       "Blogs and tutorials on Angular, NGRX, TypeScript, RxJS, React and everything web!",
   },
   {
+    title: "Upbeat Code",
+    link: "https://www.upbeatcode.com/",
+    image: UpbeatCode,
+    description: "",
+  },
+  {
     title: "FullStack Labs",
     link: "https://www.fullstacklabs.co/blog",
     image: FullStackLabs,
     description: "",
+  },
+  {
+    title: "CodeGuru",
+    link: "https://www.codeguru.com/",
+    image: CodeGuru,
+    description: "Microsoft Developer News | C++,C# & .NET Framework & More",
   },
   {
     title: "Jack Franklin",
@@ -2056,6 +2124,12 @@ export const serviceList = [
     link: "https://phoenixnap.com/kb/",
     image: phoenixNAP,
     description: "Knowledge Base by phoenixNAP",
+  },
+  {
+    title: "Jscrambler",
+    link: "https://jscrambler.com/",
+    image: Plutora,
+    description: "JavaScript Protection and Webpage Monitoring",
   },
   {
     title: "Plutora",
