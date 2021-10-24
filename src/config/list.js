@@ -357,6 +357,8 @@ import ArekNawo from "../styles/images/areknawo.webp";
 import FrontEndNexus from "../styles/images/frontendnexus.webp";
 import Jscrambler from "../styles/images/jscrambler.webp";
 import TutorialsDojo from "../styles/images/tutorialsdojo.webp";
+import CodingHorror from "../styles/images/codinghorror.webp";
+import VEXXHOST from "../styles/images/vexxhost.webp";
 
 export const comicList = [
   {
@@ -1313,6 +1315,12 @@ export const blogList = [
     description: "A blog by Dan Abramov",
   },
   {
+    title: "Coding Horror",
+    link: "https://blog.codinghorror.com/",
+    image: CodingHorror,
+    description: "",
+  },
+  {
     title: "Peter Hilton",
     link: "https://hilton.org.uk/",
     image: PeterHilton,
@@ -2100,6 +2108,12 @@ export const serviceList = [
     link: "https://www.fastly.com/",
     image: Fastly,
     description: "The edge cloud platform behind the best of the web",
+  },
+  {
+    title: "VEXXHOST",
+    link: "https://vexxhost.com/",
+    image: VEXXHOST,
+    description: "Cloud Computing - High Performing Cloud Solutions",
   },
   {
     title: "OutSystems",
