@@ -342,6 +342,11 @@ import LearnEntityFrameworkCore from "../styles/images/learnentityframeworkcore.
 import TheNewStack from "../styles/images/thenewstack.webp";
 import devecosystem2021 from "../styles/images/devecosystem2021.webp";
 import UsabilityGeek from "../styles/images/usabilitygeek.webp";
+import ACloudGuru from "../styles/images/acloudguru.webp";
+import CareerKarma from "../styles/images/careerkarma.webp";
+import PeterHilton from "../styles/images/peterhilton.webp";
+import RefactoringGuru from "../styles/images/refactoringguru.webp";
+import SourceMaking from "../styles/images/sourcemaking.webp";
 import UpbeatCode from "../styles/images/upbeatcode.webp";
 import EltonsBlog from "../styles/images/eltonsblog.webp";
 import LearnXinYMinutes from "../styles/images/learnxinyminutes.webp";
@@ -354,6 +359,8 @@ import Jscrambler from "../styles/images/jscrambler.webp";
 import TutorialsDojo from "../styles/images/tutorialsdojo.webp";
 import DBEngines from "../styles/images/dbengines.webp";
 import ScyllaDB from "../styles/images/scylladb.webp";
+import CodingHorror from "../styles/images/codinghorror.webp";
+import VEXXHOST from "../styles/images/vexxhost.webp";
 
 export const databaseList = [
   {
@@ -634,6 +641,12 @@ export const jobList = [
     description: "Remote Work: Jobs, Companies & Virtual Teams",
   },
   {
+    title: "CareerKarma",
+    link: "https://careerkarma.com/",
+    image: CareerKarma,
+    description: "Discover the Best Job Training Programs and Career Advice",
+  },
+  {
     title: "TestGorilla",
     link: "https://www.testgorilla.com/",
     image: TestGorilla,
@@ -789,6 +802,18 @@ export const publishList = [
 ];
 
 export const tutorialList = [
+  {
+    title: "SourceMaking",
+    link: "https://sourcemaking.com/",
+    image: SourceMaking,
+    description: "",
+  },
+  {
+    title: "RefactoringGuru",
+    link: "https://refactoring.guru/",
+    image: RealPython,
+    description: "Refactoring and Design Patterns",
+  },
   {
     title: "Real Python",
     link: "https://realpython.com/",
@@ -1299,6 +1324,18 @@ export const blogList = [
     link: "https://overreacted.io/",
     image: overreacted,
     description: "A blog by Dan Abramov",
+  },
+  {
+    title: "Coding Horror",
+    link: "https://blog.codinghorror.com/",
+    image: CodingHorror,
+    description: "",
+  },
+  {
+    title: "Peter Hilton",
+    link: "https://hilton.org.uk/",
+    image: PeterHilton,
+    description: "",
   },
   {
     title: "Tobias Lindström",
@@ -2054,6 +2091,13 @@ export const serviceList = [
     description: "Cloud Monitoring as a Service",
   },
   {
+    title: "A Cloud Guru",
+    link: "https://acloudguru.com/",
+    image: ACloudGuru,
+    description:
+      "World's #1 Digital Cloud Certification Course & Training Provider",
+  },
+  {
     title: "Sider Team Insights",
     link: "https://www.sleeek.io/en/home",
     image: SiderTeamInsights,
@@ -2082,6 +2126,12 @@ export const serviceList = [
     link: "https://www.fastly.com/",
     image: Fastly,
     description: "The edge cloud platform behind the best of the web",
+  },
+  {
+    title: "VEXXHOST",
+    link: "https://vexxhost.com/",
+    image: VEXXHOST,
+    description: "Cloud Computing - High Performing Cloud Solutions",
   },
   {
     title: "OutSystems",
