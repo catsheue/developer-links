@@ -352,6 +352,17 @@ import ArekNawo from "../styles/images/areknawo.webp";
 import FrontEndNexus from "../styles/images/frontendnexus.webp";
 import Jscrambler from "../styles/images/jscrambler.webp";
 import TutorialsDojo from "../styles/images/tutorialsdojo.webp";
+import DBEngines from "../styles/images/dbengines.webp";
+import ScyllaDB from "../styles/images/scylladb.webp";
+
+export const databaseList = [
+  {
+    title: "ScyllaDB",
+    link: "https://www.scylladb.com/",
+    image: ScyllaDB,
+    description: "The Real-Time Big Data Database",
+  },
+];
 
 export const comicList = [
   {
@@ -1697,6 +1708,13 @@ export const generalList = [
     link: "https://hackernoon.com/",
     image: Hackernoon,
     description: "developer articles",
+  },
+  {
+    title: "DB-Engines",
+    link: "https://db-engines.com/en/",
+    image: DBEngines,
+    description:
+      "Knowledge Base of Relational and NoSQL Database Management Systems",
   },
   {
     title: "Alligator.io",
