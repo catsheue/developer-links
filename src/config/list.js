@@ -361,6 +361,8 @@ import DBEngines from "../styles/images/dbengines.webp";
 import ScyllaDB from "../styles/images/scylladb.webp";
 import CodingHorror from "../styles/images/codinghorror.webp";
 import VEXXHOST from "../styles/images/vexxhost.webp";
+import NoDesk from "../styles/images/nodesk.webp";
+import Bridgecrew from "../styles/images/bridgecrew.webp";
 
 export const databaseList = [
   {
@@ -639,6 +641,12 @@ export const jobList = [
     link: "https://remote.co/",
     image: RemoteCo,
     description: "Remote Work: Jobs, Companies & Virtual Teams",
+  },
+  {
+    title: "NoDesk",
+    link: "https://nodesk.co/",
+    image: NoDesk,
+    description: "Where Everyone Works Remote",
   },
   {
     title: "CareerKarma",
@@ -2108,6 +2116,12 @@ export const serviceList = [
     link: "https://caylent.com/",
     image: Caylent,
     description: "DevOps On Demand",
+  },
+  {
+    title: "Bridgecrew",
+    link: "https://bridgecrew.io/",
+    image: Bridgecrew,
+    description: "Automated Cloud Security Codified for DevOps",
   },
   {
     title: "Advanced Systems Concepts",
