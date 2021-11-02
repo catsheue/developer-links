@@ -364,6 +364,7 @@ import VEXXHOST from "../styles/images/vexxhost.webp";
 import NoDesk from "../styles/images/nodesk.webp";
 import Bridgecrew from "../styles/images/bridgecrew.webp";
 import VisualStudioMagazine from "../styles/images/visualstudiomagazine.webp";
+import DBAParadise from "../styles/images/dbaparadise.webp";
 
 export const databaseList = [
   {
@@ -1779,6 +1780,12 @@ export const generalList = [
     link: "https://landscape.cncf.io/",
     image: landscapecncf,
     description: "",
+  },
+  {
+    title: "DBA Paradise",
+    link: "http://dbaparadise.com/",
+    image: DBAParadise,
+    description: "The place where DBAs grow",
   },
   {
     title: "Recode Hive",
