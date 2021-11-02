@@ -363,6 +363,7 @@ import CodingHorror from "../styles/images/codinghorror.webp";
 import VEXXHOST from "../styles/images/vexxhost.webp";
 import NoDesk from "../styles/images/nodesk.webp";
 import Bridgecrew from "../styles/images/bridgecrew.webp";
+import VisualStudioMagazine from "../styles/images/visualstudiomagazine.webp";
 
 export const databaseList = [
   {
@@ -507,6 +508,12 @@ export const newsList = [
     link: "https://www.webdesignernews.com/",
     image: WebDesignerNews,
     description: "The best curated news for designers",
+  },
+  {
+    title: "Visual Studio Magazine",
+    link: "https://visualstudiomagazine.com/Home.aspx",
+    image: VisualStudioMagazine,
+    description: "",
   },
   {
     title: "Packt Hub",
