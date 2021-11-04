@@ -365,6 +365,7 @@ import NoDesk from "../styles/images/nodesk.webp";
 import Bridgecrew from "../styles/images/bridgecrew.webp";
 import VisualStudioMagazine from "../styles/images/visualstudiomagazine.webp";
 import DBAParadise from "../styles/images/dbaparadise.webp";
+import Okta from "../styles/images/okta.webp";
 
 export const databaseList = [
   {
@@ -2192,11 +2193,16 @@ export const serviceList = [
     description: "JavaScript Protection and Webpage Monitoring",
   },
   {
+    title: "Okta",
+    link: "https://www.okta.com/",
+    image: Okta,
+    description: "Identity for the internet",
+  },
+  {
     title: "Plutora",
     link: "https://www.plutora.com/",
     image: Plutora,
-    description:
-      "Plutora: Deliver Better Software Faster - Value Stream Management",
+    description: "Deliver Better Software Faster - Value Stream Management",
   },
   {
     title: "Digital.ai",
