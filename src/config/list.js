@@ -366,6 +366,7 @@ import Bridgecrew from "../styles/images/bridgecrew.webp";
 import VisualStudioMagazine from "../styles/images/visualstudiomagazine.webp";
 import DBAParadise from "../styles/images/dbaparadise.webp";
 import Okta from "../styles/images/okta.webp";
+import Baeldung from "../styles/images/baeldung.webp";
 
 export const databaseList = [
   {
@@ -1432,6 +1433,12 @@ export const blogList = [
     title: "FullStack Labs",
     link: "https://www.fullstacklabs.co/blog",
     image: FullStackLabs,
+    description: "",
+  },
+  {
+    title: "Baeldung",
+    link: "https://www.baeldung.com/",
+    image: Baeldung,
     description: "",
   },
   {
