@@ -2140,6 +2140,12 @@ export const serviceList = [
     description: "DevOps On Demand",
   },
   {
+    title: "Executech",
+    link: "https://www.executech.com/",
+    image: Executech,
+    description: "Managed IT Support: IT Services Utah, California, Washington",
+  },
+  {
     title: "Bridgecrew",
     link: "https://bridgecrew.io/",
     image: Bridgecrew,
