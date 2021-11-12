@@ -368,6 +368,8 @@ import DBAParadise from "../styles/images/dbaparadise.webp";
 import Okta from "../styles/images/okta.webp";
 import Baeldung from "../styles/images/baeldung.webp";
 import Xplenty from "../styles/images/xplenty.webp";
+import Zenlayer from "../styles/images/zenlayer.webp";
+import Adaptive from "../styles/images/weareadaptive.webp";
 
 export const databaseList = [
   {
@@ -2187,6 +2189,18 @@ export const serviceList = [
     link: "https://www.xplenty.com/",
     image: Xplenty,
     description: "Simplified ETL & Reverse ETL",
+  },
+  {
+    title: "Zenlayer",
+    link: "https://www.zenlayer.com/",
+    image: Zenlayer,
+    description: "Improve digital experiences. Instantly.",
+  },
+  {
+    title: "Adaptive Financial Consulting",
+    link: "https://weareadaptive.com/",
+    image: Adaptive,
+    description: "Accelerating your trading solution",
   },
   {
     title: "Netlify",
