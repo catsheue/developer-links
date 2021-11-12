@@ -370,6 +370,7 @@ import Baeldung from "../styles/images/baeldung.webp";
 import Xplenty from "../styles/images/xplenty.webp";
 import Zenlayer from "../styles/images/zenlayer.webp";
 import Adaptive from "../styles/images/weareadaptive.webp";
+import Husarnet from "../styles/images/husarnet.webp";
 
 export const databaseList = [
   {
@@ -2147,6 +2148,12 @@ export const serviceList = [
     link: "https://www.executech.com/",
     image: Executech,
     description: "Managed IT Support: IT Services Utah, California, Washington",
+  },
+  {
+    title: "Husarnet",
+    link: "https://husarnet.com/",
+    image: Husarnet,
+    description: "Operate At The Edge Of Latency",
   },
   {
     title: "Bridgecrew",
