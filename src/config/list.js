@@ -367,6 +367,7 @@ import VisualStudioMagazine from "../styles/images/visualstudiomagazine.webp";
 import DBAParadise from "../styles/images/dbaparadise.webp";
 import Okta from "../styles/images/okta.webp";
 import Baeldung from "../styles/images/baeldung.webp";
+import Xplenty from "../styles/images/xplenty.webp";
 
 export const databaseList = [
   {
@@ -2180,6 +2181,12 @@ export const serviceList = [
     link: "https://www.outsystems.com/",
     image: OutSystems,
     description: "Build Applications Fast, Right and For the Future ",
+  },
+  {
+    title: "Xplenty",
+    link: "https://www.xplenty.com/",
+    image: Xplenty,
+    description: "Simplified ETL & Reverse ETL",
   },
   {
     title: "Netlify",
