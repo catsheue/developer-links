@@ -371,6 +371,7 @@ import Xplenty from "../styles/images/xplenty.webp";
 import Zenlayer from "../styles/images/zenlayer.webp";
 import Adaptive from "../styles/images/weareadaptive.webp";
 import Husarnet from "../styles/images/husarnet.webp";
+import bitio from "../styles/images/bitio.webp";
 
 export const databaseList = [
   {
@@ -1006,10 +1007,16 @@ export const designSystemList = [
 
 export const toolList = [
   {
-    title: "Bit",
-    link: "The platform for the modular web",
-    image: Bit,
+    title: "bit.io",
+    link: "",
+    image: bitio,
     description: "",
+  },
+  {
+    title: "Bit",
+    link: "https://bit.dev/",
+    image: Bit,
+    description: "The platform for the modular web",
   },
   {
     title: "Docusaurus",
