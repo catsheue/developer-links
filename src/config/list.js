@@ -1,5 +1,7 @@
 import { languageList } from "./languageList";
 
+import SHALB from "../styles/images/shalb.webp";
+import OpsMx from "../styles/images/opsmx.webp";
 import devto from "../styles/images/dev.webp";
 import Medium from "../styles/images/medium.webp";
 import WebDev from "../styles/images/webdev.webp";
@@ -374,6 +376,7 @@ import Husarnet from "../styles/images/husarnet.webp";
 import bitio from "../styles/images/bitio.webp";
 import SlideGeeks from "../styles/images/slidegeeks.webp";
 import Slides from "../styles/images/slides.webp";
+import Splunk from "../styles/images/splunk.webp";
 
 export const databaseList = [
   {
@@ -2141,6 +2144,18 @@ export const serviceList = [
     description: "Productivity up +20% for software development teams",
   },
   {
+    title: "Splunk",
+    link: "https://www.splunk.com/",
+    image: Splunk,
+    description: "Turn Data Into Doing",
+  },
+  {
+    title: "SHALB",
+    link: "https://www.shalb.com/",
+    image: SHALB,
+    description: "DevOps development and consulting company. DevOps firm",
+  },
+  {
     title: "Caylent",
     link: "https://caylent.com/",
     image: Caylent,
@@ -2170,6 +2185,12 @@ export const serviceList = [
     link: "https://www.executech.com/",
     image: Executech,
     description: "Managed IT Support: IT Services Utah, California, Washington",
+  },
+  {
+    title: "OpsMx Enterprise for Spinnaker",
+    link: "https://www.opsmx.com/",
+    image: OpsMx,
+    description: "Intelligent Continuous Delivery Platform",
   },
   {
     title: "Husarnet",
