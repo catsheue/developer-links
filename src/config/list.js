@@ -372,6 +372,8 @@ import Zenlayer from "../styles/images/zenlayer.webp";
 import Adaptive from "../styles/images/weareadaptive.webp";
 import Husarnet from "../styles/images/husarnet.webp";
 import bitio from "../styles/images/bitio.webp";
+import SlideGeeks from "../styles/images/slidegeeks.webp";
+import Slides from "../styles/images/slides.webp";
 
 export const databaseList = [
   {
@@ -1839,12 +1841,6 @@ export const generalList = [
     description: "Learning Made Easy",
   },
   {
-    title: "SlideShare",
-    link: "https://www.slideshare.net/",
-    image: SlideShare,
-    description: "Share and Discover Knowledge on SlideShare",
-  },
-  {
     title: "freeCodeCamp.org",
     link: "https://www.freecodecamp.org/",
     image: freeCodeCamp,
@@ -2149,6 +2145,25 @@ export const serviceList = [
     link: "https://caylent.com/",
     image: Caylent,
     description: "DevOps On Demand",
+  },
+  {
+    title: "Slide Geeks",
+    link: "https://www.slidegeeks.com/",
+    image: SlideGeeks,
+    description:
+      "PowerPoint Templates and Themes | PPT Slide Templates | PowerPoint Slide Designs | Presentation Backgrounds | PPT Icon",
+  },
+  {
+    title: "Slides",
+    link: "https://slides.com/",
+    image: Slides,
+    description: "Create and share presentations online",
+  },
+  {
+    title: "SlideShare",
+    link: "https://www.slideshare.net/",
+    image: SlideShare,
+    description: "Share and Discover Knowledge on SlideShare",
   },
   {
     title: "Executech",
