@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Justinmind from "../styles/images/justinmind.webp";
 import SHALB from "../styles/images/shalb.webp";
 import OpsMx from "../styles/images/opsmx.webp";
 import devto from "../styles/images/dev.webp";
@@ -377,6 +378,16 @@ import bitio from "../styles/images/bitio.webp";
 import SlideGeeks from "../styles/images/slidegeeks.webp";
 import Slides from "../styles/images/slides.webp";
 import Splunk from "../styles/images/splunk.webp";
+import ModalWindowEffects from "../styles/images/modalwindoweffects.webp";
+
+export const animationList = [
+  {
+    title: "Nifty Modal Window Effects",
+    link: "https://tympanus.net/Development/ModalWindowEffects/",
+    image: ModalWindowEffects,
+    description: "",
+  },
+];
 
 export const databaseList = [
   {
@@ -596,6 +607,12 @@ export const uiuxList = [
     link: "https://icons8.com/",
     image: icons8,
     description: "Free Icons, Clipart Illustrations, Photos, and Music",
+  },
+  {
+    title: "Justinmind",
+    link: "https://www.justinmind.com/",
+    image: Justinmind,
+    description: "Free prototyping tool for web & mobile apps",
   },
 ];
 
