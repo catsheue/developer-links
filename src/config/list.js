@@ -1,5 +1,7 @@
 import { languageList } from "./languageList";
 
+import Executech from "../styles/images/executech.webp";
+import theStateOfCSS2021 from "../styles/images/theStateofCSS2021.webp";
 import Fiverr from "../styles/images/fiverr.webp";
 import EBSIntegrator from "../styles/images/ebsintegrator.webp";
 import Justinmind from "../styles/images/justinmind.webp";
@@ -2127,6 +2129,12 @@ export const statisticsList = [
     link: "https://risingstars.js.org/2020/en/",
     image: RisingStars,
     description: "2020 JavaScript Rising Stars",
+  },
+  {
+    title: "The State of CSS 2021",
+    link: "https://2021.stateofcss.com/en-US/",
+    image: theStateOfCSS2021,
+    description: "",
   },
   {
     title: "State of JS 2020",
