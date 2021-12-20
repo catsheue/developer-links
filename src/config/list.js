@@ -1,5 +1,7 @@
 import { languageList } from "./languageList";
 
+import Fiverr from "../styles/images/fiverr.webp";
+import EBSIntegrator from "../styles/images/ebsintegrator.webp";
 import Justinmind from "../styles/images/justinmind.webp";
 import SHALB from "../styles/images/shalb.webp";
 import OpsMx from "../styles/images/opsmx.webp";
@@ -698,6 +700,12 @@ export const jobList = [
     description: "Pre-Employment Screening Tests and Assessments",
   },
   {
+    title: "Fiverr",
+    link: "https://www.fiverr.com/",
+    image: Fiverr,
+    description: "Freelance Services Marketplace for Businesses",
+  },
+  {
     title: "Naukri.com",
     link: "https://www.naukri.com/",
     image: Naukri,
@@ -1030,7 +1038,7 @@ export const designSystemList = [
 export const toolList = [
   {
     title: "bit.io",
-    link: "",
+    link: "https://bit.io/",
     image: bitio,
     description: "",
   },
@@ -1346,6 +1354,12 @@ export const regexList = [
 ];
 
 export const blogList = [
+  {
+    title: "EBS Integrator",
+    link: "https://ebs-integrator.com/#next-level",
+    image: EBSIntegrator,
+    description: "",
+  },
   {
     title: "Sweetcode.io",
     link: "https://sweetcode.io/",
