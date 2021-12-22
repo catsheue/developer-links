@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Patterns from "../styles/images/patterns.webp";
 import Executech from "../styles/images/executech.webp";
 import theStateOfCSS2021 from "../styles/images/theStateofCSS2021.webp";
 import Fiverr from "../styles/images/fiverr.webp";
@@ -2849,5 +2850,11 @@ export const reactList = [
     image: ReactSchool,
     description:
       "React School for Frontend Engineering | Courses and Tutorials",
+  },
+  {
+    title: "Patterns.dev",
+    link: "https://www.patterns.dev/",
+    image: Patterns,
+    description: "Modern Web App Design Patterns",
   },
 ];
