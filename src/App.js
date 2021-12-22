@@ -39,21 +39,31 @@ function App() {
               })}
             </ul>
           </LeftMenu>
-          <Content>
-            <Switch>
-              {routeList.map((item) => {
-                const { path, importList } = item;
-                return (
-                  <Route path={`/${path}`} key={path}>
-                    {importList ? <SiteList list={importList} /> : <Index />}
-                  </Route>
-                );
-              })}
-              <Route path="/index.html" key="home">
+
+          <Switch>
+            {routeList.map((item) => {
+              const { path, importList } = item;
+              return (
+                <Route path={`/${path}`} key={path}>
+                  {importList ? (
+                    <Content>
+                      <SiteList list={importList} />
+                    </Content>
+                  ) : (
+                    <Content>
+                      <Index />
+                    </Content>
+                  )}
+                </Route>
+              );
+            })}
+
+            <Route path="/index.html" key="home">
+              <Content>
                 <Index />
-              </Route>
-            </Switch>
-          </Content>
+              </Content>
+            </Route>
+          </Switch>
         </ContentWrapper>
       </div>
     </Router>
