@@ -384,6 +384,17 @@ import SlideGeeks from "../styles/images/slidegeeks.webp";
 import Slides from "../styles/images/slides.webp";
 import Splunk from "../styles/images/splunk.webp";
 import ModalWindowEffects from "../styles/images/modalwindoweffects.webp";
+import CiscoNetworkingAcademy from "../styles/images/netacad.webp";
+import CS50 from "../styles/images/cs50.webp";
+
+export const computerScienceList = [
+  {
+    title: "CS50",
+    link: "https://cs50.harvard.edu/",
+    image: CS50,
+    description: "",
+  },
+];
 
 export const animationList = [
   {
@@ -2561,6 +2572,13 @@ export const courseList = [
     link: "https://www.udemy.com/",
     image: Udemy,
     description: "Online Courses - Anytime, Anywhere",
+  },
+  {
+    title: "Cisco Networking Academy",
+    link: "https://www.netacad.com/",
+    image: CiscoNetworkingAcademy,
+    description:
+      "Cisco Networking Academy Builds IT Skills & Education For Future Careers",
   },
   {
     title: "Coursera",
