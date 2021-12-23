@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import KhanAcademy from "../styles/images/khanacademy.webp";
 import Patterns from "../styles/images/patterns.webp";
 import Executech from "../styles/images/executech.webp";
 import theStateOfCSS2021 from "../styles/images/theStateofCSS2021.webp";
@@ -2579,6 +2580,12 @@ export const courseList = [
     image: CiscoNetworkingAcademy,
     description:
       "Cisco Networking Academy Builds IT Skills & Education For Future Careers",
+  },
+  {
+    title: "Khan Academy",
+    link: "https://www.khanacademy.org/",
+    image: KhanAcademy,
+    description: "Free Online Courses, Lessons & Practice",
   },
   {
     title: "Coursera",
