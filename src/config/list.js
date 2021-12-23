@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import EasyTechJunkie from "../styles/images/easytechjunkie.webp";
 import KhanAcademy from "../styles/images/khanacademy.webp";
 import Patterns from "../styles/images/patterns.webp";
 import Executech from "../styles/images/executech.webp";
@@ -998,6 +999,12 @@ export const glossaryList = [
     image: TechTarget,
     description:
       "Global Network of Information Technology Websites and Contributors",
+  },
+  {
+    title: "EasyTechJunkie",
+    link: "https://www.easytechjunkie.com/",
+    image: EasyTechJunkie,
+    description: "",
   },
   {
     title: "Techopedia",
