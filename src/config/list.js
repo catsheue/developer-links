@@ -1,5 +1,7 @@
 import { languageList } from "./languageList";
 
+import computerweekly from "../styles/images/computerweekly.webp";
+import tericcabrel from "../styles/images/tericcabrel.webp";
 import EasyTechJunkie from "../styles/images/easytechjunkie.webp";
 import KhanAcademy from "../styles/images/khanacademy.webp";
 import Patterns from "../styles/images/patterns.webp";
@@ -562,6 +564,12 @@ export const newsList = [
     link: "https://hub.packtpub.com/",
     image: PacktNews,
     description: "",
+  },
+  {
+    title: "ComputerWeekly.com",
+    link: "https://www.computerweekly.com/",
+    image: computerweekly,
+    description: "Information Technology (IT) News, UK IT Jobs, Industry News",
   },
   {
     title: "TheRegister",
@@ -1381,6 +1389,12 @@ export const blogList = [
     link: "https://ebs-integrator.com/#next-level",
     image: EBSIntegrator,
     description: "",
+  },
+  {
+    title: "Teco Tutorials",
+    link: "https://blog.tericcabrel.com/",
+    image: tericcabrel,
+    description: "Backend Web Application Development Tutorials",
   },
   {
     title: "Sweetcode.io",
