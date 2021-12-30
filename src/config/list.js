@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import CloudSavvyIT from "../styles/images/cloudsavvyit.webp";
 import WebdesignerDepot from "../styles/images/webdesignerdepot.webp";
 import computerweekly from "../styles/images/computerweekly.webp";
 import tericcabrel from "../styles/images/tericcabrel.webp";
@@ -1414,6 +1415,12 @@ export const blogList = [
     link: "https://geekflare.com/",
     image: EnterpriseCraftsmanship,
     description: "Technical Articles, Tools, API and Awesome Resources",
+  },
+  {
+    title: "CloudSavvy IT",
+    link: "https://www.cloudsavvyit.com/",
+    image: CloudSavvyIT,
+    description: "AWS, Linux, Microsoft, CyberSecurity, Cloud Computing",
   },
   {
     title: "Enterprise Craftsmanship",
