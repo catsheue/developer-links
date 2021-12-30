@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import WebdesignerDepot from "../styles/images/webdesignerdepot.webp";
 import computerweekly from "../styles/images/computerweekly.webp";
 import tericcabrel from "../styles/images/tericcabrel.webp";
 import EasyTechJunkie from "../styles/images/easytechjunkie.webp";
@@ -1384,6 +1385,12 @@ export const regexList = [
 ];
 
 export const blogList = [
+  {
+    title: "Web Design Blog",
+    link: "https://www.webdesignerdepot.com/",
+    image: WebdesignerDepot,
+    description: "Webdesigner Depot Webdesigner Depot",
+  },
   {
     title: "EBS Integrator",
     link: "https://ebs-integrator.com/#next-level",
