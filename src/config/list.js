@@ -1,5 +1,7 @@
 import { languageList } from "./languageList";
 
+import SSH from "../styles/images/ssh.webp";
+import Pantheon from "../styles/images/pantheon.webp";
 import CloudSavvyIT from "../styles/images/cloudsavvyit.webp";
 import WebdesignerDepot from "../styles/images/webdesignerdepot.webp";
 import computerweekly from "../styles/images/computerweekly.webp";
@@ -1832,6 +1834,12 @@ export const blogList = [
 
 export const generalList = [
   {
+    title: "SSH",
+    link: "https://www.ssh.com/",
+    image: SSH,
+    description: "PAM solutions, Key Management Systems, Secure File Transfers",
+  },
+  {
     title: "DEV Community 👩‍💻👨‍💻",
     link: "https://dev.to/",
     image: devto,
@@ -2205,6 +2213,12 @@ export const statisticsList = [
 ];
 
 export const serviceList = [
+  {
+    title: "Pantheon",
+    link: "https://pantheon.io/",
+    image: Pantheon,
+    description: "WebOps SaaS Platform for High Impact Websites",
+  },
   {
     title: "DeepScan",
     link: "https://deepscan.io/",
