@@ -1,5 +1,7 @@
 import { languageList } from "./languageList";
 
+import XenonStack from "../styles/images/xenonstack.webp";
+import Raygun from "../styles/images/raygun.webp";
 import SSH from "../styles/images/ssh.webp";
 import Pantheon from "../styles/images/pantheon.webp";
 import CloudSavvyIT from "../styles/images/cloudsavvyit.webp";
@@ -2218,6 +2220,18 @@ export const serviceList = [
     link: "https://pantheon.io/",
     image: Pantheon,
     description: "WebOps SaaS Platform for High Impact Websites",
+  },
+  {
+    title: "Raygun",
+    link: "https://raygun.com/",
+    image: Raygun,
+    description: "Application Monitoring For Web & Mobile Apps",
+  },
+  {
+    title: "XenonStack",
+    link: "https://www.xenonstack.com/",
+    image: XenonStack,
+    description: "Cloud Native and Data Intelligence Company",
   },
   {
     title: "DeepScan",
