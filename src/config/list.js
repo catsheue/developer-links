@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import AngelListTalent from "../styles/images/angel.webp";
 import VolareSoftware from "../styles/images/volaresoftware.webp";
 import UXArmy from "../styles/images/uxarmy.webp";
 import LipsumGeneratorv3 from "../styles/images/lipsumgenerator.webp";
@@ -721,6 +722,12 @@ export const jobList = [
     link: "https://remote.co/",
     image: RemoteCo,
     description: "Remote Work: Jobs, Companies & Virtual Teams",
+  },
+  {
+    title: "AngelList Talent",
+    link: "https://angel.co/",
+    image: AngelListTalent,
+    description: "Remote Job and Startup Job Search",
   },
   {
     title: "NoDesk",
