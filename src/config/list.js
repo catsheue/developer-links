@@ -1,5 +1,10 @@
 import { languageList } from "./languageList";
 
+import VolareSoftware from "../styles/images/volaresoftware.webp";
+import UXArmy from "../styles/images/uxarmy.webp";
+import LipsumGeneratorv3 from "../styles/images/lipsumgenerator.webp";
+import TeamCode from "../styles/images/teamcode.webp";
+import PatternPad from "../styles/images/patternpad.webp";
 import XenonStack from "../styles/images/xenonstack.webp";
 import Raygun from "../styles/images/raygun.webp";
 import SSH from "../styles/images/ssh.webp";
@@ -623,6 +628,12 @@ export const newsList = [
 
 export const uiuxList = [
   {
+    title: "UXArmy",
+    link: "https://www.uxarmy.com/",
+    image: UXArmy,
+    description: "Remote user research platform, Asia's first",
+  },
+  {
     title: "UI & UX Design Tips",
     link: "https://www.uidesign.tips/",
     image: UIDesign,
@@ -1162,6 +1173,19 @@ export const toolList = [
     title: "Slidev",
     link: "https://sli.dev/",
     image: Slidev,
+    description: "",
+  },
+  {
+    title: "PatternPad",
+    link: "https://patternpad.com/",
+    image: PatternPad,
+    description:
+      "Create beautiful patterns for presentations, social media or branding.",
+  },
+  {
+    title: "Lipsum Generator v3",
+    link: "https://lipsum-generator.netlify.app/",
+    image: LipsumGeneratorv3,
     description: "",
   },
   {
@@ -2253,6 +2277,12 @@ export const serviceList = [
       "World's #1 Digital Cloud Certification Course & Training Provider",
   },
   {
+    title: "Volare Software",
+    link: "https://volaresoftware.com/en",
+    image: VolareSoftware,
+    description: "Denver App Development, Custom Software",
+  },
+  {
     title: "Sider Team Insights",
     link: "https://www.sleeek.io/en/home",
     image: SiderTeamInsights,
@@ -2282,6 +2312,12 @@ export const serviceList = [
     image: SlideGeeks,
     description:
       "PowerPoint Templates and Themes | PPT Slide Templates | PowerPoint Slide Designs | Presentation Backgrounds | PPT Icon",
+  },
+  {
+    title: "TeamCode",
+    link: "https://www.teamcode.com/",
+    image: TeamCode,
+    description: "Cloud Collaborative Dev Platform",
   },
   {
     title: "Slides",
