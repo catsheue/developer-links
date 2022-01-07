@@ -1,5 +1,7 @@
 import { languageList } from "./languageList";
 
+import ITProToday from "../styles/images/itprotoday.webp";
+import CrashCourse from "../styles/images/crashcourse.webp";
 import AngelListTalent from "../styles/images/angel.webp";
 import VolareSoftware from "../styles/images/volaresoftware.webp";
 import UXArmy from "../styles/images/uxarmy.webp";
@@ -541,6 +543,12 @@ export const newsList = [
     description: "The developer-focused analyst firm",
   },
   {
+    title: "ITPro Today",
+    link: "https://www.itprotoday.com/",
+    image: ITProToday,
+    description: "IT News, How-Tos, Trends, Case Studies, Career Tips, More",
+  },
+  {
     title: "IEEE Spectrum",
     link: "https://spectrum.ieee.org/",
     image: IEEESpectrum,
@@ -768,6 +776,12 @@ export const jobList = [
 ];
 
 export const youtubeList = [
+  {
+    title: "CrashCourse",
+    link: "https://www.youtube.com/channel/UCX6b17PVsYBQ0ip5gyeme-Q",
+    image: CrashCourse,
+    description: "",
+  },
   {
     title: "Fireship",
     link: "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
