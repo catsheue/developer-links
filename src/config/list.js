@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import CodeOrg from "../styles/images/codeorg.webp";
 import ITProToday from "../styles/images/itprotoday.webp";
 import CrashCourse from "../styles/images/crashcourse.webp";
 import AngelListTalent from "../styles/images/angel.webp";
@@ -780,6 +781,12 @@ export const youtubeList = [
     title: "CrashCourse",
     link: "https://www.youtube.com/channel/UCX6b17PVsYBQ0ip5gyeme-Q",
     image: CrashCourse,
+    description: "",
+  },
+  {
+    title: "Code.org",
+    link: "https://www.youtube.com/channel/UCJyEBMU1xVP2be1-AoGS1BA",
+    image: CodeOrg,
     description: "",
   },
   {
