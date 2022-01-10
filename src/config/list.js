@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Protocol from "../styles/images/protocol.webp";
 import Calculator from "../styles/images/calculator.webp";
 import Opensource from "../styles/images/opensource.webp";
 import Auvik from "../styles/images/auvik.webp";
@@ -555,6 +556,12 @@ export const newsList = [
     link: "https://www.itprotoday.com/",
     image: ITProToday,
     description: "IT News, How-Tos, Trends, Case Studies, Career Tips, More",
+  },
+  {
+    title: "Protocol",
+    link: "https://www.protocol.com/",
+    image: Protocol,
+    description: "The people, power and politics of tech",
   },
   {
     title: "IEEE Spectrum",
