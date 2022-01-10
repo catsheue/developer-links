@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Calculator from "../styles/images/calculator.webp";
 import Opensource from "../styles/images/opensource.webp";
 import Auvik from "../styles/images/auvik.webp";
 import HostPapa from "../styles/images/hostpapasupport.webp";
@@ -1177,6 +1178,12 @@ export const toolList = [
     link: "https://supabase.io/",
     image: Supabase,
     description: "The Open Source Firebase Alternative",
+  },
+  {
+    title: "Calculator",
+    link: "https://www.calculator.net/",
+    image: Devart,
+    description: "Free Online Calculators - Math, Fitness, Finance, Science",
   },
   {
     title: "Devart",
