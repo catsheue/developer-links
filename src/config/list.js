@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import HostPapa from "../styles/images/hostpapasupport.webp";
 import Termius from "../styles/images/termius.webp";
 import Pulumi from "../styles/images/pulumi.webp";
 import Terraform from "../styles/images/terraform.webp";
@@ -1949,6 +1950,12 @@ export const generalList = [
     link: "https://hackernoon.com/",
     image: Hackernoon,
     description: "developer articles",
+  },
+  {
+    title: "HostPapa Knowledge Base",
+    link: "https://hostpapasupport.com/",
+    image: HostPapa,
+    description: "",
   },
   {
     title: "DB-Engines",
