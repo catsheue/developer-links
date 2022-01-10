@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Auvik from "../styles/images/auvik.webp";
 import HostPapa from "../styles/images/hostpapasupport.webp";
 import Termius from "../styles/images/termius.webp";
 import Pulumi from "../styles/images/pulumi.webp";
@@ -2306,6 +2307,12 @@ export const serviceList = [
     link: "https://raygun.com/",
     image: Raygun,
     description: "Application Monitoring For Web & Mobile Apps",
+  },
+  {
+    title: "Auvik Networks",
+    link: "https://www.auvik.com/",
+    image: Auvik,
+    description: "Network Management Software and Tools",
   },
   {
     title: "XenonStack",
