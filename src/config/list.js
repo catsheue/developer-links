@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Opensource from "../styles/images/opensource.webp";
 import Auvik from "../styles/images/auvik.webp";
 import HostPapa from "../styles/images/hostpapasupport.webp";
 import Termius from "../styles/images/termius.webp";
@@ -1915,6 +1916,12 @@ export const generalList = [
     link: "https://www.ssh.com/",
     image: SSH,
     description: "PAM solutions, Key Management Systems, Secure File Transfers",
+  },
+  {
+    title: "Opensource",
+    link: "https://opensource.com/",
+    image: Opensource,
+    description: "",
   },
   {
     title: "DEV Community 👩‍💻👨‍💻",
