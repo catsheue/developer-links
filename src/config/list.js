@@ -1,5 +1,8 @@
 import { languageList } from "./languageList";
 
+import Termius from "../styles/images/termius.webp";
+import Pulumi from "../styles/images/pulumi.webp";
+import Terraform from "../styles/images/terraform.webp";
 import CodeOrg from "../styles/images/codeorg.webp";
 import ITProToday from "../styles/images/itprotoday.webp";
 import CrashCourse from "../styles/images/crashcourse.webp";
@@ -1111,6 +1114,24 @@ export const designSystemList = [
 ];
 
 export const toolList = [
+  {
+    title: "Terraform by HashiCorp",
+    link: "https://www.terraform.io/",
+    image: Terraform,
+    description: "",
+  },
+  {
+    title: "Pulumi",
+    link: "https://www.pulumi.com/",
+    image: Terraform,
+    description: "Modern Infrastructure as Code",
+  },
+  {
+    title: "Termius",
+    link: "https://termius.com/",
+    image: Termius,
+    description: "SSH platform for Mobile and Desktop",
+  },
   {
     title: "bit.io",
     link: "https://bit.io/",
