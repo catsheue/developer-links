@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Linuxmanpages from "../styles/images/linuxmanpages.webp";
 import Protocol from "../styles/images/protocol.webp";
 import Calculator from "../styles/images/calculator.webp";
 import Opensource from "../styles/images/opensource.webp";
@@ -493,6 +494,12 @@ export const linuxList = [
     link: "https://itsfoss.com/",
     image: itsfoss,
     description: "World's Leading Linux & Open Source Web Portal",
+  },
+  {
+    title: "Linux man pages",
+    link: "https://linux.die.net/man/",
+    image: Linuxmanpages,
+    description: "",
   },
   {
     title: "Linux.org",
