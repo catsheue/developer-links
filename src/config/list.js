@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import WindowsReport from "../styles/images/windowsreport.webp";
 import Linuxmanpages from "../styles/images/linuxmanpages.webp";
 import Protocol from "../styles/images/protocol.webp";
 import Calculator from "../styles/images/calculator.webp";
@@ -594,6 +595,12 @@ export const newsList = [
     link: "https://www.webdesignernews.com/",
     image: WebDesignerNews,
     description: "The best curated news for designers",
+  },
+  {
+    title: "Windows Report",
+    link: "https://windowsreport.com/",
+    image: WindowsReport,
+    description: "Error-free Tech Life",
   },
   {
     title: "Visual Studio Magazine",
