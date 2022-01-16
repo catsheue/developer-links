@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import okyrylchuk from "../styles/images/okyrylchuk.webp";
 import Exercism from "../styles/images/exercism.webp";
 import WindowsReport from "../styles/images/windowsreport.webp";
 import Linuxmanpages from "../styles/images/linuxmanpages.webp";
@@ -1501,6 +1502,12 @@ export const regexList = [
 ];
 
 export const blogList = [
+  {
+    title: "Oleg Kyrylchuk's Blog",
+    link: "https://blog.okyrylchuk.dev/",
+    image: okyrylchuk,
+    description: "",
+  },
   {
     title: "Web Design Blog",
     link: "https://www.webdesignerdepot.com/",
