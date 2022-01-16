@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Exercism from "../styles/images/exercism.webp";
 import WindowsReport from "../styles/images/windowsreport.webp";
 import Linuxmanpages from "../styles/images/linuxmanpages.webp";
 import Protocol from "../styles/images/protocol.webp";
@@ -1375,6 +1376,12 @@ export const toolList = [
 ];
 
 export const interactiveLearnList = [
+  {
+    title: "Exercism",
+    link: "https://exercism.org/",
+    image: Edabit,
+    description: "",
+  },
   {
     title: "Edabit",
     link: "https://edabit.com/",
