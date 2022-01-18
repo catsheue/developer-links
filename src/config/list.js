@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import stitcher from "../styles/images/stitcher.webp";
 import okyrylchuk from "../styles/images/okyrylchuk.webp";
 import Exercism from "../styles/images/exercism.webp";
 import WindowsReport from "../styles/images/windowsreport.webp";
@@ -1506,6 +1507,12 @@ export const blogList = [
     title: "Oleg Kyrylchuk's Blog",
     link: "https://blog.okyrylchuk.dev/",
     image: okyrylchuk,
+    description: "",
+  },
+  {
+    title: "stitcher.io",
+    link: "https://stitcher.io/",
+    image: stitcher,
     description: "",
   },
   {
