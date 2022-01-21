@@ -1,5 +1,7 @@
 import { languageList } from "./languageList";
 
+import InterWorks from "../styles/images/interworks.webp";
+import elearnsecurity from "../styles/images/elearnsecurity.webp";
 import stitcher from "../styles/images/stitcher.webp";
 import okyrylchuk from "../styles/images/okyrylchuk.webp";
 import Exercism from "../styles/images/exercism.webp";
@@ -1967,6 +1969,12 @@ export const generalList = [
     description: "PAM solutions, Key Management Systems, Secure File Transfers",
   },
   {
+    title: "eLearnSecurity",
+    link: "https://elearnsecurity.com/",
+    image: elearnsecurity,
+    description: "Cyber Security Certifications",
+  },
+  {
     title: "Opensource",
     link: "https://opensource.com/",
     image: Opensource,
@@ -2375,6 +2383,12 @@ export const serviceList = [
     link: "https://www.xenonstack.com/",
     image: XenonStack,
     description: "Cloud Native and Data Intelligence Company",
+  },
+  {
+    title: "InterWorks",
+    link: "https://interworks.com/",
+    image: InterWorks,
+    description: "",
   },
   {
     title: "DeepScan",
