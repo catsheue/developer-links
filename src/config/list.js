@@ -1,5 +1,7 @@
 import { languageList } from "./languageList";
 
+import regex101 from "../styles/images/regex101.webp";
+import LoremPicsum from "../styles/images/picsum.webp";
 import FontAwesome from "../styles/images/fontawesome.webp";
 import InterWorks from "../styles/images/interworks.webp";
 import elearnsecurity from "../styles/images/elearnsecurity.webp";
@@ -1146,6 +1148,12 @@ export const designSystemList = [
 
 export const toolList = [
   {
+    title: "Lorem Picsum",
+    link: "https://picsum.photos/",
+    image: LoremPicsum,
+    description: "",
+  },
+  {
     title: "Font Awesome",
     link: "https://fontawesome.com/",
     image: FontAwesome,
@@ -1508,6 +1516,12 @@ export const regexList = [
     link: "https://regexcrossword.com/",
     image: RegexCrossword,
     description: "Welcome to the fantastic world of nerdy regex fun",
+  },
+  {
+    title: "regex101",
+    link: "https://regex101.com/",
+    image: regex101,
+    description: "regex101: build, test, and debug regex",
   },
 ];
 
