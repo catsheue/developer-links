@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import FontAwesome from "../styles/images/fontawesome.webp";
 import InterWorks from "../styles/images/interworks.webp";
 import elearnsecurity from "../styles/images/elearnsecurity.webp";
 import stitcher from "../styles/images/stitcher.webp";
@@ -1145,6 +1146,12 @@ export const designSystemList = [
 
 export const toolList = [
   {
+    title: "Font Awesome",
+    link: "https://fontawesome.com/",
+    image: FontAwesome,
+    description: "",
+  },
+  {
     title: "Terraform by HashiCorp",
     link: "https://www.terraform.io/",
     image: Terraform,
@@ -1153,7 +1160,7 @@ export const toolList = [
   {
     title: "Pulumi",
     link: "https://www.pulumi.com/",
-    image: Terraform,
+    image: Pulumi,
     description: "Modern Infrastructure as Code",
   },
   {
