@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import EverythingCurl from "../styles/images/everythingcurl.webp";
 import regex101 from "../styles/images/regex101.webp";
 import LoremPicsum from "../styles/images/picsum.webp";
 import FontAwesome from "../styles/images/fontawesome.webp";
@@ -527,6 +528,12 @@ export const linuxList = [
     link: "https://www.linux.com/",
     image: LinuxCom,
     description: "News For Open Source Professionals",
+  },
+  {
+    title: "Everything curl",
+    link: "https://everything.curl.dev/",
+    image: EverythingCurl,
+    description: "",
   },
 ];
 
