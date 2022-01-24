@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Document360 from '../styles/images/document360.webp'
 import NodeSource from "../styles/images/nodesource.webp";
 import EverythingCurl from "../styles/images/everythingcurl.webp";
 import regex101 from "../styles/images/regex101.webp";
@@ -1200,6 +1201,13 @@ export const toolList = [
     link: "https://bit.dev/",
     image: Bit,
     description: "The platform for the modular web",
+  },
+  {
+    title: "Document360",
+    link: "https://document360.com/",
+    image: Document360,
+    tab: "document",
+    description: "Knowledge Base Software That Scales With Your Product-Document360",
   },
   {
     title: "Docusaurus",
