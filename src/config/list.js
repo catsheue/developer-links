@@ -956,6 +956,10 @@ export const collectionList = [
     title: "Useful resources for programmers.",
     link: "https://dev.to/sahilrajput/useful-websites-for-programmers-36k",
   },
+  {
+    title: "Developer-Y/cs-video-courses: List of Computer Science courses with video lectures.",
+    link: "https://github.com/Developer-Y/cs-video-courses",
+  },
 ];
 
 export const publishList = [
