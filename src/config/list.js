@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import NodeSource from "../styles/images/nodesource.webp";
 import EverythingCurl from "../styles/images/everythingcurl.webp";
 import regex101 from "../styles/images/regex101.webp";
 import LoremPicsum from "../styles/images/picsum.webp";
@@ -1990,6 +1991,12 @@ export const blogList = [
 ];
 
 export const generalList = [
+  {
+    title: "NodeSource",
+    link: "https://nodesource.com/",
+    image: NodeSource,
+    description: "For mission-critical Node.js applications",
+  },
   {
     title: "SSH",
     link: "https://www.ssh.com/",
