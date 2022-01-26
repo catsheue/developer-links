@@ -1,6 +1,7 @@
 import { languageList } from "./languageList";
 
-import Document360 from '../styles/images/document360.webp'
+import VMware from "../styles/images/vmware.webp";
+import Document360 from "../styles/images/document360.webp";
 import NodeSource from "../styles/images/nodesource.webp";
 import EverythingCurl from "../styles/images/everythingcurl.webp";
 import regex101 from "../styles/images/regex101.webp";
@@ -958,7 +959,8 @@ export const collectionList = [
     link: "https://dev.to/sahilrajput/useful-websites-for-programmers-36k",
   },
   {
-    title: "Developer-Y/cs-video-courses: List of Computer Science courses with video lectures.",
+    title:
+      "Developer-Y/cs-video-courses: List of Computer Science courses with video lectures.",
     link: "https://github.com/Developer-Y/cs-video-courses",
   },
 ];
@@ -1207,7 +1209,8 @@ export const toolList = [
     link: "https://document360.com/",
     image: Document360,
     tab: "document",
-    description: "Knowledge Base Software That Scales With Your Product-Document360",
+    description:
+      "Knowledge Base Software That Scales With Your Product-Document360",
   },
   {
     title: "Docusaurus",
@@ -2407,6 +2410,12 @@ export const statisticsList = [
 ];
 
 export const serviceList = [
+  {
+    title: "VMware",
+    link: "https://www.vmware.com/",
+    image: VMware,
+    description: "Delivering a Digital Foundation For Businesses",
+  },
   {
     title: "Pantheon",
     link: "https://pantheon.io/",
