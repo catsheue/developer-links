@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import HowDNSworks from "../styles/images/howdns.webp";
 import VMware from "../styles/images/vmware.webp";
 import Document360 from "../styles/images/document360.webp";
 import NodeSource from "../styles/images/nodesource.webp";
@@ -2011,6 +2012,12 @@ export const generalList = [
     link: "https://nodesource.com/",
     image: NodeSource,
     description: "For mission-critical Node.js applications",
+  },
+  {
+    title: "How DNS works",
+    link: "https://howdns.works/",
+    image: HowDNSworks,
+    description: "",
   },
   {
     title: "SSH",
