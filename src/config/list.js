@@ -1,5 +1,7 @@
 import { languageList } from "./languageList";
 
+import Similarweb from "../styles/images/similarweb.webp";
+import Hostinger from "../styles/images/hostinger.webp";
 import PCMag from "../styles/images/pcmag.webp";
 import HowDNSworks from "../styles/images/howdns.webp";
 import VMware from "../styles/images/vmware.webp";
@@ -430,6 +432,7 @@ import ModalWindowEffects from "../styles/images/modalwindoweffects.webp";
 import CiscoNetworkingAcademy from "../styles/images/netacad.webp";
 import CS50 from "../styles/images/cs50.webp";
 import AdGuardVPN from "../styles/images/adguardvpn.webp";
+
 export const computerScienceList = [
   {
     title: "CS50",
@@ -447,12 +450,13 @@ export const vpnList = [
     description: "AdGuard VPN for your privacy and security",
   },
 ];
+
 export const hostingList = [
   {
-    title: "AdGuard VPN",
-    link: "https://adguard-vpn.com/en/welcome.html",
-    image: AdGuardVPN,
-    description: "AdGuard VPN for your privacy and security",
+    title: "Hostinger",
+    link: "https://www.hostinger.com/",
+    image: Hostinger,
+    description: "The Hosting Platform Made For You - Go Online With Hostinger",
   },
 ];
 
@@ -1198,6 +1202,12 @@ export const toolList = [
     link: "https://fontawesome.com/",
     image: FontAwesome,
     description: "",
+  },
+  {
+    title: "Similarweb",
+    link: "https://www.similarweb.com/",
+    image: Similarweb,
+    description: "Website Traffic - Check and Analyze Any Website",
   },
   {
     title: "Terraform by HashiCorp",
