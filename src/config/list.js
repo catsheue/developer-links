@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import PCMag from "../styles/images/pcmag.webp";
 import HowDNSworks from "../styles/images/howdns.webp";
 import VMware from "../styles/images/vmware.webp";
 import Document360 from "../styles/images/document360.webp";
@@ -428,13 +429,30 @@ import Splunk from "../styles/images/splunk.webp";
 import ModalWindowEffects from "../styles/images/modalwindoweffects.webp";
 import CiscoNetworkingAcademy from "../styles/images/netacad.webp";
 import CS50 from "../styles/images/cs50.webp";
-
+import AdGuardVPN from "../styles/images/adguardvpn.webp";
 export const computerScienceList = [
   {
     title: "CS50",
     link: "https://cs50.harvard.edu/",
     image: CS50,
     description: "",
+  },
+];
+
+export const vpnList = [
+  {
+    title: "AdGuard VPN",
+    link: "https://adguard-vpn.com/en/welcome.html",
+    image: AdGuardVPN,
+    description: "AdGuard VPN for your privacy and security",
+  },
+];
+export const hostingList = [
+  {
+    title: "AdGuard VPN",
+    link: "https://adguard-vpn.com/en/welcome.html",
+    image: AdGuardVPN,
+    description: "AdGuard VPN for your privacy and security",
   },
 ];
 
@@ -559,6 +577,12 @@ export const newsList = [
     link: "https://www.bleepingcomputer.com/",
     image: BleepingComputer,
     description: "Technology news and support",
+  },
+  {
+    title: "PCMag",
+    link: "https://www.pcmag.com/",
+    image: PCMag,
+    description: "The Latest Technology Product Reviews, News, Tips, and Deals",
   },
   {
     title: "TechRadar",
