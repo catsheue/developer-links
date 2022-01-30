@@ -82,19 +82,27 @@ const IndexWrapper = styled.div`
   }
 `;
 
+const CoffeeButton = styled.a`
+  margin-top: 2rem;
+  display: block;
+`;
+
 function Index() {
   return (
     <IndexWrapper>
       <p>Hi, I collect some useful websites from web. </p>
       <p>Contact me if you wish me put some website here.</p>
       <p>javaspringtea@gmail.com</p>
-      <a href="https://www.buymeacoffee.com/lunaCute" target="_blank">
+      <CoffeeButton
+        href="https://www.buymeacoffee.com/lunaCute"
+        target="_blank"
+      >
         <img
-          src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png"
+          src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
           alt="Buy Me A Coffee"
-          style="height: 60px !important;width: 217px !important;"
+          style={{ height: "60px", width: "217px" }}
         />
-      </a>
+      </CoffeeButton>
     </IndexWrapper>
   );
 }
