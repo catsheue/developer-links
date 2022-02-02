@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import VisualCapitalist from "../styles/images/visualcapitalist.webp";
 import Similarweb from "../styles/images/similarweb.webp";
 import Hostinger from "../styles/images/hostinger.webp";
 import PCMag from "../styles/images/pcmag.webp";
@@ -2041,6 +2042,12 @@ export const blogList = [
 ];
 
 export const generalList = [
+  {
+    title: "Visual Capitalist",
+    link: "https://www.visualcapitalist.com/",
+    image: VisualCapitalist,
+    description: "",
+  },
   {
     title: "NodeSource",
     link: "https://nodesource.com/",
