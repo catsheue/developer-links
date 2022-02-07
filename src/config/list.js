@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Cadena from "../styles/images/cadena.webp";
 import VisualCapitalist from "../styles/images/visualcapitalist.webp";
 import Similarweb from "../styles/images/similarweb.webp";
 import Hostinger from "../styles/images/hostinger.webp";
@@ -2042,6 +2043,12 @@ export const blogList = [
 ];
 
 export const generalList = [
+  {
+    title: "Cadena",
+    link: "https://cadena.incl.us/",
+    image: Cadena,
+    description: "Become a Blockchain Developer",
+  },
   {
     title: "Visual Capitalist",
     link: "https://www.visualcapitalist.com/",
