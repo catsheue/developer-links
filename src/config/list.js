@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import HostGator from "../styles/images/hostgator.webp";
 import Cadena from "../styles/images/cadena.webp";
 import VisualCapitalist from "../styles/images/visualcapitalist.webp";
 import Similarweb from "../styles/images/similarweb.webp";
@@ -459,6 +460,12 @@ export const hostingList = [
     link: "https://www.hostinger.com/",
     image: Hostinger,
     description: "The Hosting Platform Made For You - Go Online With Hostinger",
+  },
+  {
+    title: "HostGator",
+    link: "https://www.hostgator.com/",
+    image: HostGator,
+    description: "Web Hosting - 2022's Best Website Hosting",
   },
 ];
 
