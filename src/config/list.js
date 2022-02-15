@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import DreamHost from '../styles/images/dreamhost.webp'
 import WebsiteBuilderExpert from "../styles/images/websitebuilderexpert.webp";
 import DotnetMart from "../styles/images/dotnetmart.webp";
 import SharkASP from "../styles/images/sharkasp.webp";
@@ -489,6 +490,12 @@ export const hostingList = [
     link: "https://www.websitebuilderexpert.com/",
     image: WebsiteBuilderExpert,
     description: "The Best Resource to Get You Online",
+  }
+  {
+    title: "DreamHost",
+    link: "https://www.dreamhost.com/",
+    image: DreamHost,
+    description: "Web Hosting For Your Purpose",
   },
 ];
 
