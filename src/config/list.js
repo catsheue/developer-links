@@ -1,5 +1,7 @@
 import { languageList } from "./languageList";
 
+import WebsiteBuilderExpert from "../styles/images/websitebuilderexpert.webp";
+import DotnetMart from "../styles/images/dotnetmart.webp";
 import SharkASP from "../styles/images/sharkasp.webp";
 import HostGator from "../styles/images/hostgator.webp";
 import Cadena from "../styles/images/cadena.webp";
@@ -474,6 +476,19 @@ export const hostingList = [
     image: SharkASP,
     description:
       "Affortable ASP.NET Hosting, Core Hosting, MVC Hosting, Free ASP.NET Hosting",
+  },
+  {
+    title: "DOT NET MARK",
+    link: "https://www.dotnetmart.com/",
+    image: DotnetMart,
+    description:
+      "Windows Hosting, ASP.NET Hosting, DotNet Web Hosting, IIS Hosting",
+  },
+  {
+    title: "Website Builder Expert",
+    link: "https://www.websitebuilderexpert.com/",
+    image: WebsiteBuilderExpert,
+    description: "The Best Resource to Get You Online",
   },
 ];
 
