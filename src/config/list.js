@@ -1,6 +1,7 @@
 import { languageList } from "./languageList";
 
-import DreamHost from '../styles/images/dreamhost.webp'
+import Auth0 from "../styles/images/auth0.webp";
+import DreamHost from "../styles/images/dreamhost.webp";
 import WebsiteBuilderExpert from "../styles/images/websitebuilderexpert.webp";
 import DotnetMart from "../styles/images/dotnetmart.webp";
 import SharkASP from "../styles/images/sharkasp.webp";
@@ -490,7 +491,7 @@ export const hostingList = [
     link: "https://www.websitebuilderexpert.com/",
     image: WebsiteBuilderExpert,
     description: "The Best Resource to Get You Online",
-  }
+  },
   {
     title: "DreamHost",
     link: "https://www.dreamhost.com/",
@@ -2080,6 +2081,12 @@ export const blogList = [
 ];
 
 export const generalList = [
+  {
+    title: "Auth0",
+    link: "https://auth0.com/",
+    image: Auth0,
+    description: "Secure access for everyone. But not just anyone.",
+  },
   {
     title: "Cadena",
     link: "https://cadena.incl.us/",
