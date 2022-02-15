@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import SharkASP from "../styles/images/sharkasp.webp";
 import HostGator from "../styles/images/hostgator.webp";
 import Cadena from "../styles/images/cadena.webp";
 import VisualCapitalist from "../styles/images/visualcapitalist.webp";
@@ -466,6 +467,13 @@ export const hostingList = [
     link: "https://www.hostgator.com/",
     image: HostGator,
     description: "Web Hosting - 2022's Best Website Hosting",
+  },
+  {
+    title: "SharkASP.NET",
+    link: "https://www.sharkasp.net/",
+    image: SharkASP,
+    description:
+      "Affortable ASP.NET Hosting, Core Hosting, MVC Hosting, Free ASP.NET Hosting",
   },
 ];
 
