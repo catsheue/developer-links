@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import WebWiz from "../styles/images/webwiz.webp";
 import Auth0 from "../styles/images/auth0.webp";
 import DreamHost from "../styles/images/dreamhost.webp";
 import WebsiteBuilderExpert from "../styles/images/websitebuilderexpert.webp";
@@ -497,6 +498,12 @@ export const hostingList = [
     link: "https://www.dreamhost.com/",
     image: DreamHost,
     description: "Web Hosting For Your Purpose",
+  },
+  {
+    title: "Web Wiz",
+    link: "https://www.webwiz.net/",
+    image: WebWiz,
+    description: "Managed Hosting | Green Web Hosting & Cloud Servers",
   },
 ];
 
