@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import GoMakeThings from "../styles/images/gomakethings.webp";
 import WebWiz from "../styles/images/webwiz.webp";
 import Auth0 from "../styles/images/auth0.webp";
 import DreamHost from "../styles/images/dreamhost.webp";
@@ -1631,6 +1632,12 @@ export const regexList = [
 ];
 
 export const blogList = [
+  {
+    title: "Go Make Things",
+    link: "https://gomakethings.com/",
+    image: GoMakeThings,
+    description: "",
+  },
   {
     title: "Oleg Kyrylchuk's Blog",
     link: "https://blog.okyrylchuk.dev/",
