@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Winhost from "../styles/images/winhost.webp";
 import WebWiz from "../styles/images/webwiz.webp";
 import Auth0 from "../styles/images/auth0.webp";
 import DreamHost from "../styles/images/dreamhost.webp";
@@ -504,6 +505,13 @@ export const hostingList = [
     link: "https://www.webwiz.net/",
     image: WebWiz,
     description: "Managed Hosting | Green Web Hosting & Cloud Servers",
+  },
+  {
+    title: "Winhost",
+    link: "https://www.winhost.com/",
+    image: Winhost,
+    description:
+      "ASP.NET Hosting | .NET Core Hosting | Windows Hosting at Winhost",
   },
 ];
 
