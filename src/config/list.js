@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Zety from "../styles/images/zety.webp";
 import GoMakeThings from "../styles/images/gomakethings.webp";
 import WebWiz from "../styles/images/webwiz.webp";
 import Auth0 from "../styles/images/auth0.webp";
@@ -449,6 +450,33 @@ export const computerScienceList = [
     link: "https://cs50.harvard.edu/",
     image: CS50,
     description: "",
+  },
+];
+
+export const resumeList = [
+  {
+    title: "Zety",
+    link: "https://zety.com/",
+    image: Zety,
+    description: "Zety Online Resume Maker: Quick, Effective, Try for Free",
+  },
+];
+
+export const documentList = [
+  {
+    title: "Document360",
+    link: "https://document360.com/",
+    image: Document360,
+    tab: "document",
+    description:
+      "Knowledge Base Software That Scales With Your Product-Document360",
+  },
+  {
+    title: "Docusaurus",
+    link: "https://docusaurus.io/",
+    image: Docusaurus,
+    tab: "document",
+    description: "Build optimized websites quickly, focus on your content",
   },
 ];
 
@@ -1286,21 +1314,6 @@ export const toolList = [
     link: "https://bit.dev/",
     image: Bit,
     description: "The platform for the modular web",
-  },
-  {
-    title: "Document360",
-    link: "https://document360.com/",
-    image: Document360,
-    tab: "document",
-    description:
-      "Knowledge Base Software That Scales With Your Product-Document360",
-  },
-  {
-    title: "Docusaurus",
-    link: "https://docusaurus.io/",
-    image: Docusaurus,
-    tab: "document",
-    description: "Build optimized websites quickly, focus on your content",
   },
   {
     title: "ClickUp™",
