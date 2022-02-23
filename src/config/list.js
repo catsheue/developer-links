@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Jobseeker from "../styles/images/jobseeker.webp";
 import Novorésumé from "../styles/images/novoresume.webp";
 import Resume from "../styles/images/resume.webp";
 import Wordtune from "../styles/images/wordtune.webp";
@@ -476,6 +477,12 @@ export const resumeList = [
     link: "https://novoresume.com/",
     image: Novorésumé,
     description: "Resume Builder for 2022 | Free Resume Builder",
+  },
+  {
+    title: "Jobseeker",
+    link: "https://www.jobseeker.com/en",
+    image: Jobseeker,
+    description: "Online tools to get you hired",
   },
 ];
 
