@@ -1,6 +1,8 @@
 import { languageList } from "./languageList";
 
+import Wordtune from "../styles/images/wordtune.webp";
 import Zety from "../styles/images/zety.webp";
+import Winhost from "../styles/images/winhost.webp";
 import GoMakeThings from "../styles/images/gomakethings.webp";
 import WebWiz from "../styles/images/webwiz.webp";
 import Auth0 from "../styles/images/auth0.webp";
@@ -533,6 +535,13 @@ export const hostingList = [
     link: "https://www.webwiz.net/",
     image: WebWiz,
     description: "Managed Hosting | Green Web Hosting & Cloud Servers",
+  },
+  {
+    title: "Winhost",
+    link: "https://www.winhost.com/",
+    image: Winhost,
+    description:
+      "ASP.NET Hosting | .NET Core Hosting | Windows Hosting at Winhost",
   },
 ];
 
@@ -1267,6 +1276,12 @@ export const designSystemList = [
 ];
 
 export const toolList = [
+  {
+    title: "Wordtune",
+    link: "https://www.wordtune.com/",
+    image: Wordtune,
+    description: "Your thoughts, in words.",
+  },
   {
     title: "Lorem Picsum",
     link: "https://picsum.photos/",

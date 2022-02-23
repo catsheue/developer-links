@@ -1,5 +1,6 @@
 import {
   agileList,
+  askQuestionList,
   blogList,
   bookList,
   comicList,
@@ -40,6 +41,7 @@ export const routeList = [
   { path: "vpn", text: "VPN", importList: vpnList },
   { path: "document", text: "Document", importList: documentList },
   { path: "resume", text: "Resume", importList: resumeList },
+  { path: "ask", text: "Ask", importList: askQuestionList },
   {
     path: "computerScience",
     text: "Computer Science",
