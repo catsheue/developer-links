@@ -1,5 +1,7 @@
 import { languageList } from "./languageList";
 
+import Novorésumé from "../styles/images/novoresume.webp";
+import Resume from "../styles/images/resume.webp";
 import Wordtune from "../styles/images/wordtune.webp";
 import Zety from "../styles/images/zety.webp";
 import Winhost from "../styles/images/winhost.webp";
@@ -461,6 +463,19 @@ export const resumeList = [
     link: "https://zety.com/",
     image: Zety,
     description: "Zety Online Resume Maker: Quick, Effective, Try for Free",
+  },
+  {
+    title: "Resume",
+    link: "https://resume.io/",
+    image: Resume,
+    description:
+      "Create Your Job-winning Resume - (Free) Resume maker · Resume.io",
+  },
+  {
+    title: "Novorésumé",
+    link: "https://novoresume.com/",
+    image: Novorésumé,
+    description: "Resume Builder for 2022 | Free Resume Builder",
   },
 ];
 
