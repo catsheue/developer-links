@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import OVHcloud from "../styles/images/ovhcloud.webp";
 import Jobseeker from "../styles/images/jobseeker.webp";
 import Novorésumé from "../styles/images/novoresume.webp";
 import Resume from "../styles/images/resume.webp";
@@ -564,6 +565,13 @@ export const hostingList = [
     image: Winhost,
     description:
       "ASP.NET Hosting | .NET Core Hosting | Windows Hosting at Winhost",
+  },
+  {
+    title: "OVHcloud",
+    link: "https://www.ovhcloud.com/en/",
+    image: OVHcloud,
+    description:
+      "Web hosting, cloud computing and dedicated servers | OVHcloud (ovh.com)",
   },
 ];
 
