@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import MaxRozen from "../styles/images/maxrozen.webp";
 import Flatlogic from "../styles/images/flatlogic.webp";
 import OVHcloud from "../styles/images/ovhcloud.webp";
 import Jobseeker from "../styles/images/jobseeker.webp";
@@ -1691,6 +1692,12 @@ export const regexList = [
 ];
 
 export const blogList = [
+  {
+    title: "Max Rozen",
+    link: "https://maxrozen.com/",
+    image: MaxRozen,
+    description: "",
+  },
   {
     title: "Flatlogic",
     link: "https://flatlogic.com/",
