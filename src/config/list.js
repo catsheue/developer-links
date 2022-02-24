@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Flatlogic from "../styles/images/flatlogic.webp";
 import Jobseeker from "../styles/images/jobseeker.webp";
 import Novorésumé from "../styles/images/novoresume.webp";
 import Resume from "../styles/images/resume.webp";
@@ -1682,6 +1683,13 @@ export const regexList = [
 ];
 
 export const blogList = [
+  {
+    title: "Flatlogic",
+    link: "https://flatlogic.com/",
+    image: Flatlogic,
+    description:
+      "The easiest way to start React, Angular and Vue web applications",
+  },
   {
     title: "Go Make Things",
     link: "https://gomakethings.com/",
