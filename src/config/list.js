@@ -1,5 +1,7 @@
 import { languageList } from "./languageList";
 
+import NodeChef from "../styles/images/nodechef.webp";
+import TheSoftwareHouse from "../styles/images/tsh.webp";
 import MaxRozen from "../styles/images/maxrozen.webp";
 import Flatlogic from "../styles/images/flatlogic.webp";
 import OVHcloud from "../styles/images/ovhcloud.webp";
@@ -567,6 +569,12 @@ export const hostingList = [
     image: Winhost,
     description:
       "ASP.NET Hosting | .NET Core Hosting | Windows Hosting at Winhost",
+  },
+  {
+    title: "NodeChef",
+    link: "https://www.nodechef.com/",
+    image: NodeChef,
+    description: "NodeChef Platform | Deploy Cloud-Native apps",
   },
   {
     title: "OVHcloud",
@@ -2596,6 +2604,13 @@ export const statisticsList = [
 ];
 
 export const serviceList = [
+  {
+    title: "The Software House",
+    link: "https://tsh.io/",
+    image: TheSoftwareHouse,
+    description:
+      "The Software House: custom software development company from Poland",
+  },
   {
     title: "VMware",
     link: "https://www.vmware.com/",
