@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Everleap from "../styles/images/everleap.webp";
 import NodeChef from "../styles/images/nodechef.webp";
 import TheSoftwareHouse from "../styles/images/tsh.webp";
 import MaxRozen from "../styles/images/maxrozen.webp";
@@ -582,6 +583,13 @@ export const hostingList = [
     image: OVHcloud,
     description:
       "Web hosting, cloud computing and dedicated servers | OVHcloud (ovh.com)",
+  },
+  {
+    title: "Everleap",
+    link: "https://www.everleap.com/",
+    image: Everleap,
+    description:
+      "ASP.NET Hosting, .NET Core Hosting, Shared Cloud, Custom Cloud, Cybersecurity for SMBs",
   },
 ];
 
