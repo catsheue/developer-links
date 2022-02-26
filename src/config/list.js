@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import ASPHostPortal from "../styles/images/asphostportal.webp";
 import Everleap from "../styles/images/everleap.webp";
 import NodeChef from "../styles/images/nodechef.webp";
 import TheSoftwareHouse from "../styles/images/tsh.webp";
@@ -590,6 +591,13 @@ export const hostingList = [
     image: Everleap,
     description:
       "ASP.NET Hosting, .NET Core Hosting, Shared Cloud, Custom Cloud, Cybersecurity for SMBs",
+  },
+  {
+    title: "ASPHostPortal",
+    link: "https://asphostportal.com/",
+    image: ASPHostPortal,
+    description:
+      "ASPHostPortal.com - Best, Cheap and Reliable Windows 2019/2016/2012 Hosting, .NET 5 / .NET Core Hosting, WebMatrix Hosting and SQL 2019 Hosting Provider with FREE Trial SSD Hosting",
   },
 ];
 
