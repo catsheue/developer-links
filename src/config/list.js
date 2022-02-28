@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import OpenAPIHub from "../styles/images/openapihub.webp";
 import ASPHostPortal from "../styles/images/asphostportal.webp";
 import Everleap from "../styles/images/everleap.webp";
 import NodeChef from "../styles/images/nodechef.webp";
@@ -2620,6 +2621,12 @@ export const statisticsList = [
 ];
 
 export const serviceList = [
+  {
+    title: "OpenAPIHub",
+    link: "https://www.openapihub.com/",
+    image: OpenAPIHub,
+    description: "B2B API Platform",
+  },
   {
     title: "The Software House",
     link: "https://tsh.io/",
