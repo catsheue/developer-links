@@ -1,6 +1,11 @@
 import { languageList } from "./languageList";
 
 import AGEEK from "../styles/images/ageek.webp";
+import OpenAPIHub from "../styles/images/openapihub.webp";
+import ASPHostPortal from "../styles/images/asphostportal.webp";
+import Everleap from "../styles/images/everleap.webp";
+import NodeChef from "../styles/images/nodechef.webp";
+import TheSoftwareHouse from "../styles/images/tsh.webp";
 import MaxRozen from "../styles/images/maxrozen.webp";
 import Flatlogic from "../styles/images/flatlogic.webp";
 import OVHcloud from "../styles/images/ovhcloud.webp";
@@ -570,11 +575,31 @@ export const hostingList = [
       "ASP.NET Hosting | .NET Core Hosting | Windows Hosting at Winhost",
   },
   {
+    title: "NodeChef",
+    link: "https://www.nodechef.com/",
+    image: NodeChef,
+    description: "NodeChef Platform | Deploy Cloud-Native apps",
+  },
+  {
     title: "OVHcloud",
     link: "https://www.ovhcloud.com/en/",
     image: OVHcloud,
     description:
       "Web hosting, cloud computing and dedicated servers | OVHcloud (ovh.com)",
+  },
+  {
+    title: "Everleap",
+    link: "https://www.everleap.com/",
+    image: Everleap,
+    description:
+      "ASP.NET Hosting, .NET Core Hosting, Shared Cloud, Custom Cloud, Cybersecurity for SMBs",
+  },
+  {
+    title: "ASPHostPortal",
+    link: "https://asphostportal.com/",
+    image: ASPHostPortal,
+    description:
+      "ASPHostPortal.com - Best, Cheap and Reliable Windows 2019/2016/2012 Hosting, .NET 5 / .NET Core Hosting, WebMatrix Hosting and SQL 2019 Hosting Provider with FREE Trial SSD Hosting",
   },
 ];
 
@@ -2603,6 +2628,19 @@ export const statisticsList = [
 ];
 
 export const serviceList = [
+  {
+    title: "OpenAPIHub",
+    link: "https://www.openapihub.com/",
+    image: OpenAPIHub,
+    description: "B2B API Platform",
+  },
+  {
+    title: "The Software House",
+    link: "https://tsh.io/",
+    image: TheSoftwareHouse,
+    description:
+      "The Software House: custom software development company from Poland",
+  },
   {
     title: "VMware",
     link: "https://www.vmware.com/",
