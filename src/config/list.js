@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import AGEEK from "../styles/images/ageek.webp";
 import MaxRozen from "../styles/images/maxrozen.webp";
 import Flatlogic from "../styles/images/flatlogic.webp";
 import OVHcloud from "../styles/images/ovhcloud.webp";
@@ -1692,6 +1693,12 @@ export const regexList = [
 ];
 
 export const blogList = [
+  {
+    title: "AGEEK",
+    link: "https://ageek.dev/",
+    image: AGEEK,
+    description: "React Event Handling",
+  },
   {
     title: "Max Rozen",
     link: "https://maxrozen.com/",
