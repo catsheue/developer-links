@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import ItsLinuxFOSS from "../styles/images/itslinuxfoss.webp";
 import AGEEK from "../styles/images/ageek.webp";
 import OpenAPIHub from "../styles/images/openapihub.webp";
 import ASPHostPortal from "../styles/images/asphostportal.webp";
@@ -673,6 +674,12 @@ export const linuxList = [
     link: "https://itsfoss.com/",
     image: itsfoss,
     description: "World's Leading Linux & Open Source Web Portal",
+  },
+  {
+    title: "Its Linux FOSS",
+    link: "https://itslinuxfoss.com/",
+    image: ItsLinuxFOSS,
+    description: "THE BEST LINUX Tutorials and Blogs Website.",
   },
   {
     title: "Linux man pages",
