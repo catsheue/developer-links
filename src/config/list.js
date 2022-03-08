@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import KodeKloud from "../styles/images/kodekloud.webp";
 import AGEEK from "../styles/images/ageek.webp";
 import OpenAPIHub from "../styles/images/openapihub.webp";
 import ASPHostPortal from "../styles/images/asphostportal.webp";
@@ -2628,6 +2629,12 @@ export const statisticsList = [
 ];
 
 export const serviceList = [
+  {
+    title: "Kode Kloud",
+    link: "https://kodekloud.com/",
+    image: KodeKloud,
+    description: "Learn DevOps Online",
+  },
   {
     title: "OpenAPIHub",
     link: "https://www.openapihub.com/",
