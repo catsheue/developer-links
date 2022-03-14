@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Fusebit from "../styles/images/fusebit.webp";
 import KodeKloud from "../styles/images/kodekloud.webp";
 import ItsLinuxFOSS from "../styles/images/itslinuxfoss.webp";
 import AGEEK from "../styles/images/ageek.webp";
@@ -2636,6 +2637,12 @@ export const statisticsList = [
 ];
 
 export const serviceList = [
+  {
+    title: "Fusebit",
+    link: "https://fusebit.io/",
+    image: Fusebit,
+    description: "Build integrations for your app with ease",
+  },
   {
     title: "Kode Kloud",
     link: "https://kodekloud.com/",
