@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import InformIT from "../styles/images/informit.webp";
 import Fusebit from "../styles/images/fusebit.webp";
 import KodeKloud from "../styles/images/kodekloud.webp";
 import ItsLinuxFOSS from "../styles/images/itslinuxfoss.webp";
@@ -2226,6 +2227,12 @@ export const generalList = [
     link: "https://www.visualcapitalist.com/",
     image: VisualCapitalist,
     description: "",
+  },
+  {
+    title: "InformIT",
+    link: "https://www.informit.com/",
+    image: InformIT,
+    description: "The Trusted Technology Source for IT Pros and Developers",
   },
   {
     title: "NodeSource",
