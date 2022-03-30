@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import JSONDiff from "../styles/images/jsondiff.webp";
 import InformIT from "../styles/images/informit.webp";
 import Fusebit from "../styles/images/fusebit.webp";
 import KodeKloud from "../styles/images/kodekloud.webp";
@@ -1344,6 +1345,12 @@ export const designSystemList = [
 ];
 
 export const toolList = [
+  {
+    title: "JSON Diff",
+    link: "http://www.jsondiff.com/",
+    image: JSONDiff,
+    description: "The semantic JSON compare tool",
+  },
   {
     title: "Wordtune",
     link: "https://www.wordtune.com/",
