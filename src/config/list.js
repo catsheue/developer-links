@@ -1,6 +1,10 @@
 import { languageList } from "./languageList";
 
 import Wellsb from "../styles/images/wellsb.webp";
+import JSONDiff from "../styles/images/jsondiff.webp";
+import InformIT from "../styles/images/informit.webp";
+import Fusebit from "../styles/images/fusebit.webp";
+import KodeKloud from "../styles/images/kodekloud.webp";
 import ItsLinuxFOSS from "../styles/images/itslinuxfoss.webp";
 import AGEEK from "../styles/images/ageek.webp";
 import OpenAPIHub from "../styles/images/openapihub.webp";
@@ -1343,6 +1347,12 @@ export const designSystemList = [
 
 export const toolList = [
   {
+    title: "JSON Diff",
+    link: "http://www.jsondiff.com/",
+    image: JSONDiff,
+    description: "The semantic JSON compare tool",
+  },
+  {
     title: "Wordtune",
     link: "https://www.wordtune.com/",
     image: Wordtune,
@@ -2233,6 +2243,12 @@ export const generalList = [
     description: "",
   },
   {
+    title: "InformIT",
+    link: "https://www.informit.com/",
+    image: InformIT,
+    description: "The Trusted Technology Source for IT Pros and Developers",
+  },
+  {
     title: "NodeSource",
     link: "https://nodesource.com/",
     image: NodeSource,
@@ -2642,6 +2658,18 @@ export const statisticsList = [
 ];
 
 export const serviceList = [
+  {
+    title: "Fusebit",
+    link: "https://fusebit.io/",
+    image: Fusebit,
+    description: "Build integrations for your app with ease",
+  },
+  {
+    title: "Kode Kloud",
+    link: "https://kodekloud.com/",
+    image: KodeKloud,
+    description: "Learn DevOps Online",
+  },
   {
     title: "OpenAPIHub",
     link: "https://www.openapihub.com/",
