@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Wellsb from "../styles/images/wellsb.webp";
 import ItsLinuxFOSS from "../styles/images/itslinuxfoss.webp";
 import AGEEK from "../styles/images/ageek.webp";
 import OpenAPIHub from "../styles/images/openapihub.webp";
@@ -2212,6 +2213,12 @@ export const generalList = [
     link: "https://auth0.com/",
     image: Auth0,
     description: "Secure access for everyone. But not just anyone.",
+  },
+  {
+    title: "Learn C# Online for Free",
+    link: "https://wellsb.com/",
+    image: Wellsb,
+    description: "Free C# Programming Tutorials",
   },
   {
     title: "Cadena",
