@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Monorepo from "../styles/images/monorepo.webp";
 import Wellsb from "../styles/images/wellsb.webp";
 import JSONDiff from "../styles/images/jsondiff.webp";
 import InformIT from "../styles/images/informit.webp";
@@ -1159,6 +1160,12 @@ export const publishList = [
 ];
 
 export const tutorialList = [
+  {
+    title: "Monorepo Explained",
+    link: "https://monorepo.tools/",
+    image: Monorepo,
+    description: "",
+  },
   {
     title: "SourceMaking",
     link: "https://sourcemaking.com/",
