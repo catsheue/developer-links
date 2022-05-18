@@ -1,5 +1,5 @@
 import { languageList } from "./languageList";
-
+import CssIrl from "../styles/images/cssirl.webp";
 import Monorepo from "../styles/images/monorepo.webp";
 import Wellsb from "../styles/images/wellsb.webp";
 import JSONDiff from "../styles/images/jsondiff.webp";
@@ -1160,6 +1160,12 @@ export const publishList = [
 ];
 
 export const tutorialList = [
+  {
+    title: "CSS { In Real Life }",
+    link: "https://css-irl.info/",
+    image: CssIrl,
+    description: "",
+  },
   {
     title: "Monorepo Explained",
     link: "https://monorepo.tools/",
