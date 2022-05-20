@@ -1,4 +1,5 @@
 import { languageList } from "./languageList";
+import mssqltips from "../styles/images/mssqltips.webp";
 import CssIrl from "../styles/images/cssirl.webp";
 import Monorepo from "../styles/images/monorepo.webp";
 import Wellsb from "../styles/images/wellsb.webp";
@@ -464,6 +465,34 @@ import ModalWindowEffects from "../styles/images/modalwindoweffects.webp";
 import CiscoNetworkingAcademy from "../styles/images/netacad.webp";
 import CS50 from "../styles/images/cs50.webp";
 import AdGuardVPN from "../styles/images/adguardvpn.webp";
+import sqlstudies from "../styles/images/sqlstudies.webp";
+
+export const sqlList = [
+  {
+    title: "{coding}Sight",
+    link: "https://codingsight.com/",
+    image: CodingSight,
+    description: "Blog for SQL Server DBAs and Developers",
+  },
+  {
+    title: "SQL Studies",
+    link: "https://sqlstudies.com/",
+    image: sqlstudies,
+    description: "Live, Learn, Share",
+  },
+  {
+    title: "LearnSQL.com",
+    link: "https://learnsql.com/",
+    image: LearnSQL,
+    description: "SQL online courses - learn with us",
+  },
+  {
+    title: "SQL Server Tips, Techniques and Articles",
+    link: "https://www.mssqltips.com/",
+    image: mssqltips,
+    description: "",
+  },
+];
 
 export const computerScienceList = [
   {
@@ -1859,12 +1888,6 @@ export const blogList = [
     description: "Frontend developer in Uppsala",
   },
   {
-    title: "{coding}Sight",
-    link: "https://codingsight.com/",
-    image: CodingSight,
-    description: "Blog for SQL Server DBAs and Developers",
-  },
-  {
     title: "Event-Driven by Oskar Dudycz",
     link: "https://event-driven.io/en/",
     image: eventdriven,
@@ -3190,12 +3213,6 @@ export const courseList = [
     link: "https://www.datacamp.com/",
     image: DataCamp,
     description: "Learn R, Python & Data Science Online",
-  },
-  {
-    title: "LearnSQL.com",
-    link: "https://learnsql.com/",
-    image: LearnSQL,
-    description: "SQL online courses - learn with us",
   },
   {
     title: "edX",
