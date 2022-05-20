@@ -1190,6 +1190,19 @@ export const publishList = [
 
 export const tutorialList = [
   {
+    title: "Dot Net Perls",
+    link: "https://www.dotnetperls.com/",
+    image: DotNetPerls,
+    tag: [languageList.csharp],
+    description: "",
+  },
+  {
+    title: "RefactoringGuru",
+    link: "https://refactoring.guru/",
+    image: RealPython,
+    description: "Refactoring and Design Patterns",
+  },
+  {
     title: "CSS { In Real Life }",
     link: "https://css-irl.info/",
     image: CssIrl,
@@ -1206,12 +1219,6 @@ export const tutorialList = [
     link: "https://sourcemaking.com/",
     image: SourceMaking,
     description: "",
-  },
-  {
-    title: "RefactoringGuru",
-    link: "https://refactoring.guru/",
-    image: RealPython,
-    description: "Refactoring and Design Patterns",
   },
   {
     title: "Real Python",
@@ -1260,13 +1267,6 @@ export const tutorialList = [
     link: "https://betterexplained.com/",
     image: BetterExplained,
     description: "Math lessons that click",
-  },
-  {
-    title: "Dot Net Perls",
-    link: "https://www.dotnetperls.com/",
-    image: DotNetPerls,
-    tag: [languageList.csharp],
-    description: "",
   },
   {
     title: "C# in a Nutshell",
