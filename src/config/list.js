@@ -1,4 +1,5 @@
 import { languageList } from "./languageList";
+import Restfulapi from "../styles/images/restfulapi.webp";
 import mssqltips from "../styles/images/mssqltips.webp";
 import CssIrl from "../styles/images/cssirl.webp";
 import Monorepo from "../styles/images/monorepo.webp";
@@ -1255,6 +1256,12 @@ export const tutorialList = [
       languageList.go,
     ],
     description: "C#, Python, Java, JavaScript, Go programming",
+  },
+  {
+    title: "What is REST - REST API Tutorial",
+    link: "https://restfulapi.net/",
+    image: Restfulapi,
+    description: "",
   },
   {
     title: "Learn X in Y Minutes",
