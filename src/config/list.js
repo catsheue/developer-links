@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import SQLPerformance from "../styles/images/sqlperformance.webp";
 import SQLShack from "../styles/images/sqlshack.webp";
 import Restfulapi from "../styles/images/restfulapi.webp";
 import mssqltips from "../styles/images/mssqltips.webp";
@@ -501,6 +502,12 @@ export const sqlList = [
     image: SQLShack,
     description:
       "articles about database auditing, server performance, data recovery, and more",
+  },
+  {
+    title: "SQLPerformance.com",
+    link: "https://sqlperformance.com/",
+    image: SQLPerformance,
+    description: "SQL Server Performance Articles",
   },
 ];
 
