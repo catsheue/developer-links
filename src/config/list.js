@@ -1,4 +1,6 @@
 import { languageList } from "./languageList";
+
+import SQLShack from "../styles/images/sqlshack.webp";
 import Restfulapi from "../styles/images/restfulapi.webp";
 import mssqltips from "../styles/images/mssqltips.webp";
 import CssIrl from "../styles/images/cssirl.webp";
@@ -492,6 +494,13 @@ export const sqlList = [
     link: "https://www.mssqltips.com/",
     image: mssqltips,
     description: "",
+  },
+  {
+    title: "SQL Shack",
+    link: "https://www.sqlshack.com/",
+    image: SQLShack,
+    description:
+      "articles about database auditing, server performance, data recovery, and more",
   },
 ];
 
