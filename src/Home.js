@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import AdSense from "react-adsense";
+import { useEffect } from "react";
 
 const IndexWrapper = styled.div`
   padding: 6rem 0 0 10rem;
@@ -17,6 +18,9 @@ const CoffeeButton = styled.a`
 `;
 
 export default function Home() {
+  useEffect(() => {
+    (window.adsbygoogle = window.adsbygoogle || []).push({});
+  }, []);
   return (
     <IndexWrapper>
       <p>Hi, I collect some useful websites from web. </p>
@@ -32,7 +36,14 @@ export default function Home() {
           style={{ height: "60px", width: "217px" }}
         />
       </CoffeeButton>
-      <AdSense.Google client="ca-pub-2367606842074628" slot="9259816228" />
+      <ins
+        className="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-2367606842074628"
+        data-ad-slot="9259816228"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      />
     </IndexWrapper>
   );
 }
