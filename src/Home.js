@@ -28,12 +28,9 @@ const Ins = styled.ins`
 `;
 
 export default function Home() {
-  useEffect(() => {
-    (window.adsbygoogle = window.adsbygoogle || []).push({});
-  }, []);
   return (
     <IndexWrapper>
-      <p>Hi, I collect some useful websites from web. </p>
+      <p>Hi, I collect some useful websites from Internet.</p>
       <p>Contact me if you wish me put some website here.</p>
       <p>javaspringtea@gmail.com</p>
       <CoffeeButton
