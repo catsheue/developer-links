@@ -23,6 +23,7 @@ import {
   regexList,
   resumeList,
   serviceList,
+  sqlList,
   statisticsList,
   testList,
   toolList,
@@ -34,6 +35,7 @@ import {
 } from "./list";
 
 export const routeList = [
+  { path: "sql", text: "SQL", importList: sqlList },
   { path: "tool", text: "Tool", importList: toolList },
   { path: "news", text: "News", importList: newsList },
   { path: "general", text: "General", importList: generalList },

@@ -17,10 +17,14 @@ const CoffeeButton = styled.a`
   display: block;
 `;
 
-const AdsenseWrapper = styled.a`
+const AdsenseWrapper = styled.div`
   display: block;
   width: 50rem;
   height: 50rem;
+`;
+
+const Ins = styled.ins`
+  display: block;
 `;
 
 export default function Home() {
@@ -43,9 +47,8 @@ export default function Home() {
         />
       </CoffeeButton>
       <AdsenseWrapper>
-        <ins
+        <Ins
           className="adsbygoogle"
-          style="display:block"
           data-ad-client="ca-pub-2367606842074628"
           data-ad-slot="9259816228"
           data-ad-format="auto"
