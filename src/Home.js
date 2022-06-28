@@ -17,6 +17,12 @@ const CoffeeButton = styled.a`
   display: block;
 `;
 
+const AdsenseWrapper = styled.a`
+  display: block;
+  width: 50rem;
+  height: 50rem;
+`;
+
 export default function Home() {
   useEffect(() => {
     (window.adsbygoogle = window.adsbygoogle || []).push({});
@@ -36,14 +42,17 @@ export default function Home() {
           style={{ height: "60px", width: "217px" }}
         />
       </CoffeeButton>
-      <ins
-        className="adsbygoogle"
-        style="display:block"
-        data-ad-client="ca-pub-2367606842074628"
-        data-ad-slot="9259816228"
-        data-ad-format="auto"
-        data-full-width-responsive="true"
-      />
+      <AdsenseWrapper>
+        <ins
+          className="adsbygoogle"
+          style="display:block"
+          data-ad-client="ca-pub-2367606842074628"
+          data-ad-slot="9259816228"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+        />
+        <AdSense.Google client="ca-pub-2367606842074628" slot="9259816228" />
+      </AdsenseWrapper>
     </IndexWrapper>
   );
 }
