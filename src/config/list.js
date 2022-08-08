@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import DilshanKelsen from "../styles/images/dilshankelsen.webp";
 import SQLPerformance from "../styles/images/sqlperformance.webp";
 import SQLShack from "../styles/images/sqlshack.webp";
 import Restfulapi from "../styles/images/restfulapi.webp";
@@ -1801,6 +1802,12 @@ export const regexList = [
 ];
 
 export const blogList = [
+  {
+    title: "Dilshan Kelsen",
+    link: "https://dilshankelsen.com/",
+    image: DilshanKelsen,
+    description: "",
+  },
   {
     title: "AGEEK",
     link: "https://ageek.dev/",
