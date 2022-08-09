@@ -1,5 +1,7 @@
 import { languageList } from "./languageList";
 
+import bobbyhadz from "../styles/images/bobbyhadz.webp";
+import newline from "../styles/images/newline.webp";
 import learntypescript from "../styles/images/learntypescript.webp";
 import DilshanKelsen from "../styles/images/dilshankelsen.webp";
 import SQLPerformance from "../styles/images/sqlperformance.webp";
@@ -1219,6 +1221,13 @@ export const publishList = [
     image: Packt,
     description: "Programming Books, eBooks & Videos for Developers",
   },
+  {
+    title: "newline",
+    link: "https://www.newline.co/",
+    image: newline,
+    description:
+      "Learn to build React, Angular, Vue, GraphQL, and Node.js Apps with real-world projects",
+  },
 ];
 
 export const tutorialList = [
@@ -1817,6 +1826,12 @@ export const regexList = [
 ];
 
 export const blogList = [
+  {
+    title: "bobbyhadz",
+    link: "https://bobbyhadz.com/",
+    image: bobbyhadz,
+    description: "",
+  },
   {
     title: "Dilshan Kelsen",
     link: "https://dilshankelsen.com/",
