@@ -1,9 +1,11 @@
 import {
   agileList,
+  apiList,
   askQuestionList,
   blogList,
   bookList,
   comicList,
+  communityList,
   computerScienceList,
   courseList,
   databaseList,
@@ -28,14 +30,17 @@ import {
   testList,
   toolList,
   tutorialList,
+  typeScriptList,
   uiuxList,
   vpnList,
-  wordpressList,
   youtubeList,
 } from "./list";
 
 export const routeList = [
   { path: "sql", text: "SQL", importList: sqlList },
+  { path: "api", text: "API", importList: apiList },
+  { path: "typescript", text: "TypeScript", importList: typeScriptList },
+  { path: "community", text: "Community", importList: communityList },
   { path: "tool", text: "Tool", importList: toolList },
   { path: "news", text: "News", importList: newsList },
   { path: "general", text: "General", importList: generalList },

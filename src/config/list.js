@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import learntypescript from "../styles/images/learntypescript.webp";
 import DilshanKelsen from "../styles/images/dilshankelsen.webp";
 import SQLPerformance from "../styles/images/sqlperformance.webp";
 import SQLShack from "../styles/images/sqlshack.webp";
@@ -944,6 +945,20 @@ export const uiuxList = [
     link: "https://www.justinmind.com/",
     image: Justinmind,
     description: "Free prototyping tool for web & mobile apps",
+  },
+];
+export const typeScriptList = [
+  {
+    title: "FREE TypeScript course for JavaScript developers",
+    link: "https://learntypescript.dev/",
+    image: learntypescript,
+    description: "",
+  },
+  {
+    title: "TypeScript Deep Dive",
+    link: "https://basarat.gitbook.io/typescript/",
+    image: TypeScriptDeepDive,
+    description: "",
   },
 ];
 
@@ -3297,12 +3312,6 @@ export const bookList = [
     link: "https://2ality.com/index.html",
     image: twoAlity,
     description: "JavaScript and more",
-  },
-  {
-    title: "TypeScript Deep Dive",
-    link: "https://basarat.gitbook.io/typescript/",
-    image: TypeScriptDeepDive,
-    description: "",
   },
   {
     title: "Frontend Handbook",
