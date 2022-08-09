@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Weibenfalk from "../styles/images/weibenfalk.webp";
 import bobbyhadz from "../styles/images/bobbyhadz.webp";
 import newline from "../styles/images/newline.webp";
 import learntypescript from "../styles/images/learntypescript.webp";
@@ -1072,6 +1073,12 @@ export const jobList = [
 ];
 
 export const youtubeList = [
+  {
+    title: "Weibenfalk",
+    link: "https://www.youtube.com/c/Weibenfalk",
+    image: Weibenfalk,
+    description: "",
+  },
   {
     title: "CrashCourse",
     link: "https://www.youtube.com/channel/UCX6b17PVsYBQ0ip5gyeme-Q",
