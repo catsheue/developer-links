@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import MuhammadHassan from "../styles/images/hassantariqblog.webp";
 import JackHerrington from "../styles/images/jackherrington.webp";
 import Weibenfalk from "../styles/images/weibenfalk.webp";
 import bobbyhadz from "../styles/images/bobbyhadz.webp";
@@ -1840,6 +1841,13 @@ export const regexList = [
 ];
 
 export const blogList = [
+  {
+    title: "Muhammad Hassan",
+    link: "https://hassantariqblog.wordpress.com/",
+    image: MuhammadHassan,
+    description:
+      "Full Stack Developer | ASP.NET | MVC | WebAPI | Advanced Javascript | AngularJS | Angular2 | C# | ES6 | SQL | TypeScript | HTML5 | NodeJS, MS candidate @LUMS, Grad & EX-Adjunct Faculty @NUCES-FAST, seasonal blogger & open-source contributor. Seattle, WA.",
+  },
   {
     title: "bobbyhadz",
     link: "https://bobbyhadz.com/",
