@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import JackHerrington from "../styles/images/jackherrington.webp";
 import Weibenfalk from "../styles/images/weibenfalk.webp";
 import bobbyhadz from "../styles/images/bobbyhadz.webp";
 import newline from "../styles/images/newline.webp";
@@ -1073,6 +1074,12 @@ export const jobList = [
 ];
 
 export const youtubeList = [
+  {
+    title: "JackHerrington",
+    link: "https://www.youtube.com/c/JackHerrington",
+    image: JackHerrington,
+    description: "",
+  },
   {
     title: "Weibenfalk",
     link: "https://www.youtube.com/c/Weibenfalk",
