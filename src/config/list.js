@@ -1,5 +1,8 @@
 import { languageList } from "./languageList";
 
+import JakeArchibald from "../styles/images/jakearchibald.webp";
+import ProfyDev from "../styles/images/profy.webp";
+import cult from "../styles/images/cult.webp";
 import MuhammadHassan from "../styles/images/hassantariqblog.webp";
 import JackHerrington from "../styles/images/jackherrington.webp";
 import Weibenfalk from "../styles/images/weibenfalk.webp";
@@ -1253,6 +1256,12 @@ export const publishList = [
 
 export const tutorialList = [
   {
+    title: "Profy.dev",
+    link: "https://profy.dev/",
+    image: ProfyDev,
+    description: "Become a professional React developer",
+  },
+  {
     title: "Dot Net Perls",
     link: "https://www.dotnetperls.com/",
     image: DotNetPerls,
@@ -1855,6 +1864,12 @@ export const blogList = [
       "Full Stack Developer | ASP.NET | MVC | WebAPI | Advanced Javascript | AngularJS | Angular2 | C# | ES6 | SQL | TypeScript | HTML5 | NodeJS, MS candidate @LUMS, Grad & EX-Adjunct Faculty @NUCES-FAST, seasonal blogger & open-source contributor. Seattle, WA.",
   },
   {
+    title: "JakeArchibald.com",
+    link: "https://jakearchibald.com/",
+    image: JakeArchibald,
+    description: "",
+  },
+  {
     title: "bobbyhadz",
     link: "https://bobbyhadz.com/",
     image: bobbyhadz,
@@ -2342,6 +2357,12 @@ export const blogList = [
 ];
 
 export const generalList = [
+  {
+    title: ".cult by Honeypot",
+    link: "https://cult.honeypot.io/",
+    image: cult,
+    description: "Developer Salaries 2022 Report Netherlands",
+  },
   {
     title: "Auth0",
     link: "https://auth0.com/",
