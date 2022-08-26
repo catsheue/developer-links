@@ -1211,6 +1211,12 @@ export const askQuestionList = [
     image: StackExchange,
     description: "",
   },
+  {
+    title: "The freeCodeCamp Forum",
+    link: "https://forum.freecodecamp.org/",
+    image: StackExchange,
+    description: "Join the developer community and learn to code for free.",
+  },
 ];
 
 export const collectionList = [
