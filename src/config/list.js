@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import JakeArchibald from "../styles/images/jakearchibald.webp";
 import ProfyDev from "../styles/images/profy.webp";
 import cult from "../styles/images/cult.webp";
 import MuhammadHassan from "../styles/images/hassantariqblog.webp";
@@ -1855,6 +1856,12 @@ export const blogList = [
     image: MuhammadHassan,
     description:
       "Full Stack Developer | ASP.NET | MVC | WebAPI | Advanced Javascript | AngularJS | Angular2 | C# | ES6 | SQL | TypeScript | HTML5 | NodeJS, MS candidate @LUMS, Grad & EX-Adjunct Faculty @NUCES-FAST, seasonal blogger & open-source contributor. Seattle, WA.",
+  },
+  {
+    title: "JakeArchibald.com",
+    link: "https://jakearchibald.com/",
+    image: JakeArchibald,
+    description: "",
   },
   {
     title: "bobbyhadz",
