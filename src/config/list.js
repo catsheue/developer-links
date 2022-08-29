@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import PedroTech from "../styles/images/pedrotech.webp";
 import JakeArchibald from "../styles/images/jakearchibald.webp";
 import ProfyDev from "../styles/images/profy.webp";
 import cult from "../styles/images/cult.webp";
@@ -1078,6 +1079,12 @@ export const jobList = [
 ];
 
 export const youtubeList = [
+  {
+    title: "PedroTech",
+    link: "https://www.youtube.com/c/PedroTechnologies",
+    image: PedroTech,
+    description: "",
+  },
   {
     title: "JackHerrington",
     link: "https://www.youtube.com/c/JackHerrington",
