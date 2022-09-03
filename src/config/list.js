@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import PokéAPI from "../styles/images/pokeapi.webp";
 import PedroTech from "../styles/images/pedrotech.webp";
 import JakeArchibald from "../styles/images/jakearchibald.webp";
 import ProfyDev from "../styles/images/profy.webp";
@@ -1204,6 +1205,12 @@ export const apiList = [
     title: "Exchange Rates API",
     link: "https://exchangeratesapi.io/",
     image: ExchangeRatesAPI,
+    description: "",
+  },
+  {
+    title: "PokéAPI",
+    link: "https://pokeapi.co/",
+    image: PokéAPI,
     description: "",
   },
 ];
