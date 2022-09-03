@@ -1202,12 +1202,6 @@ export const apiList = [
     description: "",
   },
   {
-    title: "Exchange Rates API",
-    link: "https://exchangeratesapi.io/",
-    image: ExchangeRatesAPI,
-    description: "",
-  },
-  {
     title: "PokéAPI",
     link: "https://pokeapi.co/",
     image: PokéAPI,
