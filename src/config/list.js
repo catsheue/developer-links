@@ -1,7 +1,5 @@
 import { languageList } from "./languageList";
 
-import PokéAPI from "../styles/images/pokeapi.webp";
-import PedroTech from "../styles/images/pedrotech.webp";
 import JakeArchibald from "../styles/images/jakearchibald.webp";
 import ProfyDev from "../styles/images/profy.webp";
 import cult from "../styles/images/cult.webp";
@@ -1081,12 +1079,6 @@ export const jobList = [
 
 export const youtubeList = [
   {
-    title: "PedroTech",
-    link: "https://www.youtube.com/c/PedroTechnologies",
-    image: PedroTech,
-    description: "",
-  },
-  {
     title: "JackHerrington",
     link: "https://www.youtube.com/c/JackHerrington",
     image: JackHerrington,
@@ -1202,9 +1194,9 @@ export const apiList = [
     description: "",
   },
   {
-    title: "PokéAPI",
-    link: "https://pokeapi.co/",
-    image: PokéAPI,
+    title: "Exchange Rates API",
+    link: "https://exchangeratesapi.io/",
+    image: ExchangeRatesAPI,
     description: "",
   },
 ];
@@ -1221,12 +1213,6 @@ export const askQuestionList = [
     link: "https://stackexchange.com/",
     image: StackExchange,
     description: "",
-  },
-  {
-    title: "The freeCodeCamp Forum",
-    link: "https://forum.freecodecamp.org/",
-    image: StackExchange,
-    description: "Join the developer community and learn to code for free.",
   },
 ];
 
@@ -1575,12 +1561,6 @@ export const toolList = [
     link: "https://www.dbdesigner.net/",
     image: DBDesigner,
     description: "#1 Database Design & Modeling Tool Online",
-  },
-  {
-    title: "HackerRank",
-    link: "https://www.hackerrank.com/",
-    image: HackerRank,
-    description: "",
   },
   {
     title: "Python Tutor",
@@ -3554,6 +3534,12 @@ export const quizList = [
     title: "JS Is Weird",
     link: "https://jsisweird.com/",
     image: JSIsWeird,
+    description: "",
+  },
+  {
+    title: "HackerRank",
+    link: "https://www.hackerrank.com/",
+    image: HackerRank,
     description: "",
   },
 ];
