@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Devtrium from "../styles/images/devtrium.webp";
 import JakeArchibald from "../styles/images/jakearchibald.webp";
 import ProfyDev from "../styles/images/profy.webp";
 import cult from "../styles/images/cult.webp";
@@ -1844,6 +1845,12 @@ export const regexList = [
 ];
 
 export const blogList = [
+  {
+    title: "Devtrium",
+    link: "https://devtrium.com/",
+    image: Devtrium,
+    description: "React & TypeScript tutorials",
+  },
   {
     title: "Muhammad Hassan",
     link: "https://hassantariqblog.wordpress.com/",
