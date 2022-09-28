@@ -969,6 +969,12 @@ export const typeScriptList = [
     image: TypeScriptDeepDive,
     description: "",
   },
+  {
+    title: "Devtrium",
+    link: "https://devtrium.com/",
+    image: Devtrium,
+    description: "React & TypeScript tutorials",
+  },
 ];
 
 export const communityList = [
@@ -1845,12 +1851,6 @@ export const regexList = [
 ];
 
 export const blogList = [
-  {
-    title: "Devtrium",
-    link: "https://devtrium.com/",
-    image: Devtrium,
-    description: "React & TypeScript tutorials",
-  },
   {
     title: "Muhammad Hassan",
     link: "https://hassantariqblog.wordpress.com/",
