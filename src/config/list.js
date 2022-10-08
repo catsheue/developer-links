@@ -532,6 +532,28 @@ export const computerScienceList = [
   },
 ];
 
+export const dotnetList = [
+  {
+    title: "Dot Net Perls",
+    link: "https://www.dotnetperls.com/",
+    image: DotNetPerls,
+    tag: [languageList.csharp],
+    description: "",
+  },
+  {
+    title: "Talking Dotnet",
+    link: "https://www.talkingdotnet.com/",
+    image: TalkingDotnet,
+    description: "",
+  },
+  {
+    title: "Dot Net Tricks",
+    link: "https://www.dotnettricks.com/",
+    image: DotNetTricks,
+    description: "Project-based Training Programs for Professionals",
+  },
+];
+
 export const resumeList = [
   {
     title: "Zety",
@@ -1263,13 +1285,7 @@ export const tutorialList = [
     image: ProfyDev,
     description: "Become a professional React developer",
   },
-  {
-    title: "Dot Net Perls",
-    link: "https://www.dotnetperls.com/",
-    image: DotNetPerls,
-    tag: [languageList.csharp],
-    description: "",
-  },
+
   {
     title: "RefactoringGuru",
     link: "https://refactoring.guru/",
@@ -2633,18 +2649,7 @@ export const generalList = [
     image: Guru99,
     description: "Meet Guru99 - Free Training Tutorials & Video for IT Courses",
   },
-  {
-    title: "Talking Dotnet",
-    link: "https://www.talkingdotnet.com/",
-    image: TalkingDotnet,
-    description: "",
-  },
-  {
-    title: "Dot Net Tricks",
-    link: "https://www.dotnettricks.com/",
-    image: DotNetTricks,
-    description: "Project-based Training Programs for Professionals",
-  },
+
   {
     title: "Javatpoint",
     link: "https://www.talkingdotnet.com/",
