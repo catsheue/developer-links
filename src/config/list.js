@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import DotNetTricks from "../styles/images/dotnettricks.webp";
 import Devtrium from "../styles/images/devtrium.webp";
 import JakeArchibald from "../styles/images/jakearchibald.webp";
 import ProfyDev from "../styles/images/profy.webp";
@@ -2637,6 +2638,12 @@ export const generalList = [
     link: "https://www.talkingdotnet.com/",
     image: TalkingDotnet,
     description: "",
+  },
+  {
+    title: "Dot Net Tricks",
+    link: "https://www.dotnettricks.com/",
+    image: DotNetTricks,
+    description: "Project-based Training Programs for Professionals",
   },
   {
     title: "Javatpoint",
