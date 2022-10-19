@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Dofactory from "../styles/images/dofactory.webp";
 import DotNetTricks from "../styles/images/dotnettricks.webp";
 import Devtrium from "../styles/images/devtrium.webp";
 import JakeArchibald from "../styles/images/jakearchibald.webp";
@@ -558,6 +559,12 @@ export const dotnetList = [
     link: "https://www.dotnettricks.com/",
     image: DotNetTricks,
     description: "Project-based Training Programs for Professionals",
+  },
+  {
+    title: "Dofactory",
+    link: "https://www.dofactory.com/",
+    image: cult,
+    description: ".NET Success Platform",
   },
 ];
 
@@ -1287,12 +1294,11 @@ export const publishList = [
 
 export const tutorialList = [
   {
-    title: "Profy.dev",
-    link: "https://profy.dev/",
-    image: ProfyDev,
-    description: "Become a professional React developer",
+    title: "SourceMaking",
+    link: "https://sourcemaking.com/",
+    image: SourceMaking,
+    description: "",
   },
-
   {
     title: "RefactoringGuru",
     link: "https://refactoring.guru/",
@@ -1311,12 +1317,7 @@ export const tutorialList = [
     image: Monorepo,
     description: "",
   },
-  {
-    title: "SourceMaking",
-    link: "https://sourcemaking.com/",
-    image: SourceMaking,
-    description: "",
-  },
+
   {
     title: "Real Python",
     link: "https://realpython.com/",
@@ -3582,6 +3583,12 @@ export const reactList = [
     link: "https://usehooks.com/",
     image: useHooks,
     description: "Easy to understand React Hook recipes",
+  },
+  {
+    title: "Profy.dev",
+    link: "https://profy.dev/",
+    image: ProfyDev,
+    description: "Become a professional React developer",
   },
   {
     title: "React School",
