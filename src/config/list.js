@@ -482,8 +482,15 @@ import CiscoNetworkingAcademy from "../styles/images/netacad.webp";
 import CS50 from "../styles/images/cs50.webp";
 import AdGuardVPN from "../styles/images/adguardvpn.webp";
 import sqlstudies from "../styles/images/sqlstudies.webp";
+import MySQLTutorial from "../styles/images/mysqltutorial.webp";
 
 export const sqlList = [
+  {
+    title: "MySQL Tutorial",
+    link: "https://www.mysqltutorial.org/",
+    image: MySQLTutorial,
+    description: "MySQL Tutorial - Learn MySQL Fast, Easy and Fun.",
+  },
   {
     title: "{coding}Sight",
     link: "https://codingsight.com/",
