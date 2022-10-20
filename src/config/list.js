@@ -1,6 +1,9 @@
 import { languageList } from "./languageList";
 
 import JSRemote from "../styles/images/jsremote.webp";
+import TDD from "../styles/images/tdd.webp";
+import Dofactory from "../styles/images/dofactory.webp";
+import DotNetTricks from "../styles/images/dotnettricks.webp";
 import Devtrium from "../styles/images/devtrium.webp";
 import JakeArchibald from "../styles/images/jakearchibald.webp";
 import ProfyDev from "../styles/images/profy.webp";
@@ -482,8 +485,15 @@ import CiscoNetworkingAcademy from "../styles/images/netacad.webp";
 import CS50 from "../styles/images/cs50.webp";
 import AdGuardVPN from "../styles/images/adguardvpn.webp";
 import sqlstudies from "../styles/images/sqlstudies.webp";
+import MySQLTutorial from "../styles/images/mysqltutorial.webp";
 
 export const sqlList = [
+  {
+    title: "MySQL Tutorial",
+    link: "https://www.mysqltutorial.org/",
+    image: MySQLTutorial,
+    description: "MySQL Tutorial - Learn MySQL Fast, Easy and Fun.",
+  },
   {
     title: "{coding}Sight",
     link: "https://codingsight.com/",
@@ -529,6 +539,34 @@ export const computerScienceList = [
     link: "https://cs50.harvard.edu/",
     image: CS50,
     description: "",
+  },
+];
+
+export const dotnetList = [
+  {
+    title: "Dot Net Perls",
+    link: "https://www.dotnetperls.com/",
+    image: DotNetPerls,
+    tag: [languageList.csharp],
+    description: "",
+  },
+  {
+    title: "Talking Dotnet",
+    link: "https://www.talkingdotnet.com/",
+    image: TalkingDotnet,
+    description: "",
+  },
+  {
+    title: "Dot Net Tricks",
+    link: "https://www.dotnettricks.com/",
+    image: DotNetTricks,
+    description: "Project-based Training Programs for Professionals",
+  },
+  {
+    title: "Dofactory",
+    link: "https://www.dofactory.com/",
+    image: cult,
+    description: ".NET Success Platform",
   },
 ];
 
@@ -1264,16 +1302,15 @@ export const publishList = [
 
 export const tutorialList = [
   {
-    title: "Profy.dev",
-    link: "https://profy.dev/",
-    image: ProfyDev,
-    description: "Become a professional React developer",
+    title: "敏捷開發軍火庫",
+    link: "https://tdd.best/",
+    image: TDD,
+    description: "最好的 TDD 學習資源",
   },
   {
-    title: "Dot Net Perls",
-    link: "https://www.dotnetperls.com/",
-    image: DotNetPerls,
-    tag: [languageList.csharp],
+    title: "SourceMaking",
+    link: "https://sourcemaking.com/",
+    image: SourceMaking,
     description: "",
   },
   {
@@ -1294,12 +1331,7 @@ export const tutorialList = [
     image: Monorepo,
     description: "",
   },
-  {
-    title: "SourceMaking",
-    link: "https://sourcemaking.com/",
-    image: SourceMaking,
-    description: "",
-  },
+
   {
     title: "Real Python",
     link: "https://realpython.com/",
@@ -2639,12 +2671,7 @@ export const generalList = [
     image: Guru99,
     description: "Meet Guru99 - Free Training Tutorials & Video for IT Courses",
   },
-  {
-    title: "Talking Dotnet",
-    link: "https://www.talkingdotnet.com/",
-    image: TalkingDotnet,
-    description: "",
-  },
+
   {
     title: "Javatpoint",
     link: "https://www.talkingdotnet.com/",
@@ -3570,6 +3597,12 @@ export const reactList = [
     link: "https://usehooks.com/",
     image: useHooks,
     description: "Easy to understand React Hook recipes",
+  },
+  {
+    title: "Profy.dev",
+    link: "https://profy.dev/",
+    image: ProfyDev,
+    description: "Become a professional React developer",
   },
   {
     title: "React School",
