@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import JSRemote from "../styles/images/jsremote.webp";
 import Devtrium from "../styles/images/devtrium.webp";
 import JakeArchibald from "../styles/images/jakearchibald.webp";
 import ProfyDev from "../styles/images/profy.webp";
@@ -1015,6 +1016,12 @@ export const marketingList = [
 ];
 
 export const jobList = [
+  {
+    title: "JS Remote jobs",
+    link: "https://jsremote.jobs/",
+    image: JSRemote,
+    description: "Best JavaScript remote jobs listings today",
+  },
   {
     title: "We Work Remotely",
     link: "https://weworkremotely.com/",
