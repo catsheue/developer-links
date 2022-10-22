@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import CLIMB from "../styles/images/climbtheladder.webp";
 import JSRemote from "../styles/images/jsremote.webp";
 import TDD from "../styles/images/tdd.webp";
 import Dofactory from "../styles/images/dofactory.webp";
@@ -541,7 +542,14 @@ export const computerScienceList = [
     description: "",
   },
 ];
-
+export const careerList = [
+  {
+    title: "CLIMB",
+    link: "https://climbtheladder.com/",
+    image: CLIMB,
+    description: "Career news and advice you can trust.",
+  },
+];
 export const dotnetList = [
   {
     title: "Dot Net Perls",
