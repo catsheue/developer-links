@@ -25,7 +25,6 @@ import {
   quizList,
   reactList,
   regexList,
-  resumeList,
   serviceList,
   sqlList,
   statisticsList,

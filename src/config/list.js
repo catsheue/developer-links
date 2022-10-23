@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import ResumeGenius from "../styles/images/resumegenius.webp";
 import CLIMB from "../styles/images/climbtheladder.webp";
 import JSRemote from "../styles/images/jsremote.webp";
 import TDD from "../styles/images/tdd.webp";
@@ -544,10 +545,41 @@ export const computerScienceList = [
 ];
 export const careerList = [
   {
+    title: "Resume Genius",
+    link: "https://resumegenius.com/",
+    image: ResumeGenius,
+    description: "Career Resources for Jobseekers in 2022",
+  },
+  {
     title: "CLIMB",
     link: "https://climbtheladder.com/",
     image: CLIMB,
     description: "Career news and advice you can trust.",
+  },
+  {
+    title: "Zety",
+    link: "https://zety.com/",
+    image: Zety,
+    description: "Professional Resume & Cover Letter Tools For Any Job",
+  },
+  {
+    title: "Resume",
+    link: "https://resume.io/",
+    image: Resume,
+    description:
+      "Create Your Job-winning Resume - (Free) Resume maker · Resume.io",
+  },
+  {
+    title: "Novorésumé",
+    link: "https://novoresume.com/",
+    image: Novorésumé,
+    description: "Resume Builder for 2022 | Free Resume Builder",
+  },
+  {
+    title: "Jobseeker",
+    link: "https://www.jobseeker.com/en",
+    image: Jobseeker,
+    description: "Online tools to get you hired",
   },
 ];
 export const dotnetList = [
@@ -575,34 +607,6 @@ export const dotnetList = [
     link: "https://www.dofactory.com/",
     image: cult,
     description: ".NET Success Platform",
-  },
-];
-
-export const resumeList = [
-  {
-    title: "Zety",
-    link: "https://zety.com/",
-    image: Zety,
-    description: "Zety Online Resume Maker: Quick, Effective, Try for Free",
-  },
-  {
-    title: "Resume",
-    link: "https://resume.io/",
-    image: Resume,
-    description:
-      "Create Your Job-winning Resume - (Free) Resume maker · Resume.io",
-  },
-  {
-    title: "Novorésumé",
-    link: "https://novoresume.com/",
-    image: Novorésumé,
-    description: "Resume Builder for 2022 | Free Resume Builder",
-  },
-  {
-    title: "Jobseeker",
-    link: "https://www.jobseeker.com/en",
-    image: Jobseeker,
-    description: "Online tools to get you hired",
   },
 ];
 
