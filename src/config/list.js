@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import JSON from "../styles/images/json.webp";
 import JSRemote from "../styles/images/jsremote.webp";
 import TDD from "../styles/images/tdd.webp";
 import Dofactory from "../styles/images/dofactory.webp";
@@ -530,6 +531,14 @@ export const sqlList = [
     link: "https://sqlperformance.com/",
     image: SQLPerformance,
     description: "SQL Server Performance Articles",
+  },
+];
+export const docList = [
+  {
+    title: "JSON",
+    link: "https://www.json.org/json-en.html",
+    image: JSON,
+    description: "",
   },
 ];
 
