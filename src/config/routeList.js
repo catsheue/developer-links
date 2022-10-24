@@ -55,7 +55,6 @@ export const routeList = [
   { path: "vpn", text: "VPN", importList: vpnList },
   { path: "hosting", text: "Hosting", importList: hostingList },
   { path: "document", text: "Document", importList: documentList },
-  { path: "resume", text: "Resume", importList: resumeList },
   { path: "ask", text: "Ask", importList: askQuestionList },
   {
     path: "computerScience",
