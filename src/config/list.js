@@ -1,5 +1,7 @@
 import { languageList } from "./languageList";
 
+import enhancv from "../styles/images/enhancv.webp";
+import EPAM from "../styles/images/epam.webp";
 import JSON from "../styles/images/json.webp";
 import ResumeGenius from "../styles/images/resumegenius.webp";
 import CLIMB from "../styles/images/climbtheladder.webp";
@@ -600,7 +602,15 @@ export const careerList = [
     image: Jobseeker,
     description: "Online tools to get you hired",
   },
+  {
+    title: "Free-to-Use Online Resume Creator | Build a Stand-Out Resume",
+    link: "https://enhancv.com/",
+    image: enhancv,
+    description:
+      "Create Your Job-winning Resume - (Free) Resume maker · Resume.io",
+  },
 ];
+
 export const dotnetList = [
   {
     title: "Dot Net Perls",
@@ -1157,6 +1167,12 @@ export const jobList = [
     link: "https://builtin.com/",
     image: BuiltIn,
     description: "National Tech & Startups",
+  },
+  {
+    title: "EPAM Anywhere",
+    link: "https://anywhere.epam.com/en",
+    image: EPAM,
+    description: "",
   },
 ];
 
