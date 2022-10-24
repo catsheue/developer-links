@@ -488,6 +488,16 @@ import CS50 from "../styles/images/cs50.webp";
 import AdGuardVPN from "../styles/images/adguardvpn.webp";
 import sqlstudies from "../styles/images/sqlstudies.webp";
 import MySQLTutorial from "../styles/images/mysqltutorial.webp";
+import POWR from "../styles/images/powr.webp";
+
+export const websiteBuilderList = [
+  {
+    title: "POWR",
+    link: "https://www.powr.io/",
+    image: POWR,
+    description: "Create Free Beautiful Website Apps & Plugins",
+  },
+];
 
 export const sqlList = [
   {
