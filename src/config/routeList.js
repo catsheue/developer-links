@@ -35,6 +35,7 @@ import {
   typeScriptList,
   uiuxList,
   vpnList,
+  websiteBuilderList,
   youtubeList,
 } from "./list";
 
@@ -46,7 +47,13 @@ export const routeList = [
   { path: "react", text: "React", importList: reactList },
   { path: "job", text: "Job Hunting", importList: jobList },
   { path: "career", text: "Career", importList: careerList },
+
   { path: "community", text: "Community", importList: communityList },
+  {
+    path: "themeBuilder",
+    text: "Website Builder",
+    importList: websiteBuilderList,
+  },
   { path: "tool", text: "Tool", importList: toolList },
   { path: "docs", text: "Docs", importList: docList },
   { path: "news", text: "News", importList: newsList },

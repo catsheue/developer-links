@@ -1,6 +1,8 @@
 import { languageList } from "./languageList";
 
 import ReactTypeScriptCheatsheets from "../styles/images/react-typescript-cheatsheet.webp";
+import enhancv from "../styles/images/enhancv.webp";
+import EPAM from "../styles/images/epam.webp";
 import JSON from "../styles/images/json.webp";
 import ResumeGenius from "../styles/images/resumegenius.webp";
 import CLIMB from "../styles/images/climbtheladder.webp";
@@ -490,6 +492,16 @@ import CS50 from "../styles/images/cs50.webp";
 import AdGuardVPN from "../styles/images/adguardvpn.webp";
 import sqlstudies from "../styles/images/sqlstudies.webp";
 import MySQLTutorial from "../styles/images/mysqltutorial.webp";
+import POWR from "../styles/images/powr.webp";
+
+export const websiteBuilderList = [
+  {
+    title: "POWR",
+    link: "https://www.powr.io/",
+    image: POWR,
+    description: "Create Free Beautiful Website Apps & Plugins",
+  },
+];
 
 export const sqlList = [
   {
@@ -591,7 +603,15 @@ export const careerList = [
     image: Jobseeker,
     description: "Online tools to get you hired",
   },
+  {
+    title: "Free-to-Use Online Resume Creator | Build a Stand-Out Resume",
+    link: "https://enhancv.com/",
+    image: enhancv,
+    description:
+      "Create Your Job-winning Resume - (Free) Resume maker · Resume.io",
+  },
 ];
+
 export const dotnetList = [
   {
     title: "Dot Net Perls",
@@ -1154,6 +1174,12 @@ export const jobList = [
     link: "https://builtin.com/",
     image: BuiltIn,
     description: "National Tech & Startups",
+  },
+  {
+    title: "EPAM Anywhere",
+    link: "https://anywhere.epam.com/en",
+    image: EPAM,
+    description: "",
   },
 ];
 
