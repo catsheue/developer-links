@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import ReactTypeScriptCheatsheets from "../styles/images/react-typescript-cheatsheet.webp";
 import JSON from "../styles/images/json.webp";
 import ResumeGenius from "../styles/images/resumegenius.webp";
 import CLIMB from "../styles/images/climbtheladder.webp";
@@ -1034,6 +1035,12 @@ export const typeScriptList = [
     link: "https://devtrium.com/",
     image: Devtrium,
     description: "React & TypeScript tutorials",
+  },
+  {
+    title: "React TypeScript Cheatsheets",
+    link: "https://react-typescript-cheatsheet.netlify.app/",
+    image: ReactTypeScriptCheatsheets,
+    description: "",
   },
 ];
 
