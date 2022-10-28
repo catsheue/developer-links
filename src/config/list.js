@@ -493,6 +493,16 @@ import AdGuardVPN from "../styles/images/adguardvpn.webp";
 import sqlstudies from "../styles/images/sqlstudies.webp";
 import MySQLTutorial from "../styles/images/mysqltutorial.webp";
 import POWR from "../styles/images/powr.webp";
+import Backlinko from "../styles/images/backlinko.webp";
+
+export const seoList = [
+  {
+    title: "Backlinko",
+    link: "https://backlinko.com/",
+    image: Backlinko,
+    description: "SEO Training and Link Building Strategies – Backlinko",
+  },
+];
 
 export const websiteBuilderList = [
   {
