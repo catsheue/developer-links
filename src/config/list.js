@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Liquibase from "../styles/images/liquibase.webp";
 import ReactTypeScriptCheatsheets from "../styles/images/react-typescript-cheatsheet.webp";
 import enhancv from "../styles/images/enhancv.webp";
 import EPAM from "../styles/images/epam.webp";
@@ -2907,6 +2908,12 @@ export const serviceList = [
     link: "https://kodekloud.com/",
     image: KodeKloud,
     description: "Learn DevOps Online",
+  },
+  {
+    title: "Liquibase",
+    link: "https://www.liquibase.com/",
+    image: Liquibase,
+    description: "Database CI/CD & Automation | Database DevOps",
   },
   {
     title: "OpenAPIHub",
