@@ -1,5 +1,7 @@
 import { languageList } from "./languageList";
 
+import BMCBlogs from "../styles/images/bmcblogs.webp";
+import BMC from "../styles/images/bmc.webp";
 import Liquibase from "../styles/images/liquibase.webp";
 import ReactTypeScriptCheatsheets from "../styles/images/react-typescript-cheatsheet.webp";
 import enhancv from "../styles/images/enhancv.webp";
@@ -1987,6 +1989,12 @@ export const blogList = [
     description: "React Event Handling",
   },
   {
+    title: "BMC Blogs",
+    link: "https://www.bmc.com/blogs/",
+    image: BMCBlogs,
+    description: "BMC Software",
+  },
+  {
     title: "Max Rozen",
     link: "https://maxrozen.com/",
     image: MaxRozen,
@@ -2897,6 +2905,12 @@ export const statisticsList = [
 ];
 
 export const serviceList = [
+  {
+    title: "BMC Software",
+    link: "https://www.bmc.com/",
+    image: BMC,
+    description: "Run and Reinvent",
+  },
   {
     title: "Fusebit",
     link: "https://fusebit.io/",
