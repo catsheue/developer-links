@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import KirkpatrickPrice from "../styles/images/kirkpatrickprice.webp";
 import isquaredsoftware from "../styles/images/isquaredsoftware.webp";
 import BMCBlogs from "../styles/images/bmcblogs.webp";
 import BMC from "../styles/images/bmc.webp";
@@ -2912,6 +2913,12 @@ export const statisticsList = [
 ];
 
 export const serviceList = [
+  {
+    title: "KirkpatrickPrice",
+    link: "https://kirkpatrickprice.com/",
+    image: KirkpatrickPrice,
+    description: "Licensed CPA Firm | SSAE 18, SOC 1, SOC 2, PCI",
+  },
   {
     title: "BMC Software",
     link: "https://www.bmc.com/",
