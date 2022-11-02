@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import isquaredsoftware from "../styles/images/isquaredsoftware.webp";
 import BMCBlogs from "../styles/images/bmcblogs.webp";
 import BMC from "../styles/images/bmc.webp";
 import Liquibase from "../styles/images/liquibase.webp";
@@ -1963,6 +1964,12 @@ export const blogList = [
     image: MuhammadHassan,
     description:
       "Full Stack Developer | ASP.NET | MVC | WebAPI | Advanced Javascript | AngularJS | Angular2 | C# | ES6 | SQL | TypeScript | HTML5 | NodeJS, MS candidate @LUMS, Grad & EX-Adjunct Faculty @NUCES-FAST, seasonal blogger & open-source contributor. Seattle, WA.",
+  },
+  {
+    title: "Mark's Dev Blog",
+    link: "https://blog.isquaredsoftware.com/",
+    image: isquaredsoftware,
+    description: "",
   },
   {
     title: "JakeArchibald.com",
