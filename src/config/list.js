@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import ScrumInc from "../styles/images/scruminc.webp";
 import ResumeWorded from "../styles/images/resumeworded.webp";
 import LITSLINK from "../styles/images/litslink.webp";
 import KirkpatrickPrice from "../styles/images/kirkpatrickprice.webp";
@@ -1881,6 +1882,12 @@ export const interactiveLearnList = [
 ];
 
 export const agileList = [
+  {
+    title: "Scrum Inc.",
+    link: "https://www.scruminc.com/",
+    image: ScrumInc,
+    description: "Scrum Inc. Home - Better Results. Starting Now.",
+  },
   {
     title: "The Heart of Agile",
     link: "https://heartofagile.com/",
