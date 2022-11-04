@@ -1,5 +1,7 @@
 import { languageList } from "./languageList";
 
+import ResumeWorded from "../styles/images/resumeworded.webp";
+import LITSLINK from "../styles/images/litslink.webp";
 import KirkpatrickPrice from "../styles/images/kirkpatrickprice.webp";
 import isquaredsoftware from "../styles/images/isquaredsoftware.webp";
 import BMCBlogs from "../styles/images/bmcblogs.webp";
@@ -581,6 +583,12 @@ export const computerScienceList = [
   },
 ];
 export const careerList = [
+  {
+    title: "Resume Worded",
+    link: "https://resumeworded.com/index.php",
+    image: ResumeWorded,
+    description: "Free instant feedback on your resume and LinkedIn profile",
+  },
   {
     title: "Resume Genius",
     link: "https://resumegenius.com/",
@@ -2918,6 +2926,13 @@ export const serviceList = [
     link: "https://kirkpatrickprice.com/",
     image: KirkpatrickPrice,
     description: "Licensed CPA Firm | SSAE 18, SOC 1, SOC 2, PCI",
+  },
+  {
+    title: "LITSLINK",
+    link: "https://litslink.com/",
+    image: LITSLINK,
+    description:
+      "Software Development Company in US - LITSLINK. Top Software Developer",
   },
   {
     title: "BMC Software",
