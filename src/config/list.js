@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Fortinet from "../styles/images/fortinet.webp";
 import ScrumInc from "../styles/images/scruminc.webp";
 import ResumeWorded from "../styles/images/resumeworded.webp";
 import LITSLINK from "../styles/images/litslink.webp";
@@ -2946,6 +2947,13 @@ export const serviceList = [
     link: "https://www.bmc.com/",
     image: BMC,
     description: "Run and Reinvent",
+  },
+  {
+    title: "Fortinet",
+    link: "https://www.fortinet.com/",
+    image: Fortinet,
+    description:
+      "Global Leader of Cyber Security Solutions and Services | Fortinet",
   },
   {
     title: "Fusebit",
