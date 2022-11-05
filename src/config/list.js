@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Barracuda from "../styles/images/barracuda.webp";
 import Fortinet from "../styles/images/fortinet.webp";
 import ScrumInc from "../styles/images/scruminc.webp";
 import ResumeWorded from "../styles/images/resumeworded.webp";
@@ -2947,6 +2948,12 @@ export const serviceList = [
     link: "https://www.bmc.com/",
     image: BMC,
     description: "Run and Reinvent",
+  },
+  {
+    title: "Barracuda Networks",
+    link: "https://www.barracuda.com/",
+    image: Barracuda,
+    description: "",
   },
   {
     title: "Fortinet",
