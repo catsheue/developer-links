@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import ResumeHelp from "../styles/images/resumehelp.webp";
 import Barracuda from "../styles/images/barracuda.webp";
 import Fortinet from "../styles/images/fortinet.webp";
 import ScrumInc from "../styles/images/scruminc.webp";
@@ -636,6 +637,12 @@ export const careerList = [
     description:
       "Create Your Job-winning Resume - (Free) Resume maker · Resume.io",
   },
+  {
+    title: "ResumeHelp",
+    link: "https://www.resumehelp.com/",
+    image: ResumeHelp,
+    description: "Create a Resume Online with Our Resume Builder | ResumeHelp",
+  },
 ];
 
 export const dotnetList = [
@@ -661,7 +668,7 @@ export const dotnetList = [
   {
     title: "Dofactory",
     link: "https://www.dofactory.com/",
-    image: cult,
+    image: Dofactory,
     description: ".NET Success Platform",
   },
 ];
