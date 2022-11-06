@@ -1,5 +1,7 @@
 import { languageList } from "./languageList";
 
+import GCFGlobal from "../styles/images/gcfglobal.webp";
+import JetAdmin from "../styles/images/jetadmin.webp";
 import ResumeHelp from "../styles/images/resumehelp.webp";
 import Barracuda from "../styles/images/barracuda.webp";
 import Fortinet from "../styles/images/fortinet.webp";
@@ -1616,6 +1618,12 @@ export const toolList = [
     link: "https://fontawesome.com/",
     image: FontAwesome,
     description: "",
+  },
+  {
+    title: "Jet Admin",
+    link: "https://www.jetadmin.io/",
+    image: JetAdmin,
+    description: "No-Code Internal Tool Builder",
   },
   {
     title: "Similarweb",
@@ -3500,6 +3508,12 @@ export const courseList = [
     link: "https://www.edx.org/",
     image: edX,
     description: "Free Online Courses by Harvard, MIT, & more",
+  },
+  {
+    title: "GCFGlobal",
+    link: "https://edu.gcfglobal.org/en/",
+    image: GCFGlobal,
+    description: "Free Online Learning at GCFGlobal",
   },
   {
     title: "Learn Enough to Be Dangerous",
