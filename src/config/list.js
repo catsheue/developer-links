@@ -1,5 +1,7 @@
 import { languageList } from "./languageList";
 
+import F5 from "../styles/images/f5.webp";
+import AviNetworks from "../styles/images/avinetworks.webp";
 import GCFGlobal from "../styles/images/gcfglobal.webp";
 import JetAdmin from "../styles/images/jetadmin.webp";
 import ResumeHelp from "../styles/images/resumehelp.webp";
@@ -2945,6 +2947,18 @@ export const statisticsList = [
 ];
 
 export const serviceList = [
+  {
+    title: "F5",
+    link: "https://www.f5.com/",
+    image: F5,
+    description: "Multi-Cloud Security and Application Delivery",
+  },
+  {
+    title: "Avi Networks",
+    link: "https://avinetworks.com/",
+    image: AviNetworks,
+    description: "Multi-Cloud Application Services Platform",
+  },
   {
     title: "KirkpatrickPrice",
     link: "https://kirkpatrickprice.com/",
