@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import SolarWinds from "../styles/images/solarwinds.webp";
 import F5 from "../styles/images/f5.webp";
 import AviNetworks from "../styles/images/avinetworks.webp";
 import GCFGlobal from "../styles/images/gcfglobal.webp";
@@ -2958,6 +2959,12 @@ export const serviceList = [
     link: "https://avinetworks.com/",
     image: AviNetworks,
     description: "Multi-Cloud Application Services Platform",
+  },
+  {
+    title: "SolarWinds",
+    link: "https://www.solarwinds.com/",
+    image: SolarWinds,
+    description: "IT Management Software and Observability Platform",
   },
   {
     title: "KirkpatrickPrice",
