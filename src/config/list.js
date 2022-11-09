@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import LinuxHandbook from "../styles/images/linuxhandbook.webp";
 import SolarWinds from "../styles/images/solarwinds.webp";
 import F5 from "../styles/images/f5.webp";
 import AviNetworks from "../styles/images/avinetworks.webp";
@@ -867,6 +868,12 @@ export const linuxList = [
     title: "Linux man pages",
     link: "https://linux.die.net/man/",
     image: Linuxmanpages,
+    description: "",
+  },
+  {
+    title: "Linux Handbook",
+    link: "https://linuxhandbook.com/",
+    image: LinuxHandbook,
     description: "",
   },
   {
