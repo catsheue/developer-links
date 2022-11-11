@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import ThreatStack from "../styles/images/threatstack.webp";
 import SoftwareTestingClass from "../styles/images/softwaretestingclass.webp";
 import LinuxHandbook from "../styles/images/linuxhandbook.webp";
 import SolarWinds from "../styles/images/solarwinds.webp";
@@ -2961,6 +2962,12 @@ export const serviceList = [
     link: "https://www.f5.com/",
     image: F5,
     description: "Multi-Cloud Security and Application Delivery",
+  },
+  {
+    title: "Threat Stack",
+    link: "https://www.threatstack.com/",
+    image: ThreatStack,
+    description: "Cloud Security and Compliance",
   },
   {
     title: "Avi Networks",
