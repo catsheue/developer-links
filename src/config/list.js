@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import SoftwareTestingClass from "../styles/images/softwaretestingclass.webp";
 import LinuxHandbook from "../styles/images/linuxhandbook.webp";
 import SolarWinds from "../styles/images/solarwinds.webp";
 import F5 from "../styles/images/f5.webp";
@@ -3629,6 +3630,13 @@ export const testList = [
     link: "https://www.smartsheet.com/",
     image: Smartsheet,
     description: "Work Collaboration Software & Solutions",
+  },
+  {
+    title: "Software Testing Class",
+    link: "https://www.softwaretestingclass.com/",
+    image: SoftwareTestingClass,
+    description:
+      "Software Testing Classes in Pune, Bangalore, Hydrabad, Mumbai, Delhi, Kolkatta, Chennai & many more",
   },
   {
     title: "TestGuild",
