@@ -1,6 +1,12 @@
 import { languageList } from "./languageList";
 
 import JobSea from "../styles/images/jobsea.webp";
+import ThreatStack from "../styles/images/threatstack.webp";
+import SoftwareTestingClass from "../styles/images/softwaretestingclass.webp";
+import LinuxHandbook from "../styles/images/linuxhandbook.webp";
+import SolarWinds from "../styles/images/solarwinds.webp";
+import F5 from "../styles/images/f5.webp";
+import AviNetworks from "../styles/images/avinetworks.webp";
 import GCFGlobal from "../styles/images/gcfglobal.webp";
 import JetAdmin from "../styles/images/jetadmin.webp";
 import ResumeHelp from "../styles/images/resumehelp.webp";
@@ -865,6 +871,12 @@ export const linuxList = [
     title: "Linux man pages",
     link: "https://linux.die.net/man/",
     image: Linuxmanpages,
+    description: "",
+  },
+  {
+    title: "Linux Handbook",
+    link: "https://linuxhandbook.com/",
+    image: LinuxHandbook,
     description: "",
   },
   {
@@ -2953,6 +2965,30 @@ export const statisticsList = [
 
 export const serviceList = [
   {
+    title: "F5",
+    link: "https://www.f5.com/",
+    image: F5,
+    description: "Multi-Cloud Security and Application Delivery",
+  },
+  {
+    title: "Threat Stack",
+    link: "https://www.threatstack.com/",
+    image: ThreatStack,
+    description: "Cloud Security and Compliance",
+  },
+  {
+    title: "Avi Networks",
+    link: "https://avinetworks.com/",
+    image: AviNetworks,
+    description: "Multi-Cloud Application Services Platform",
+  },
+  {
+    title: "SolarWinds",
+    link: "https://www.solarwinds.com/",
+    image: SolarWinds,
+    description: "IT Management Software and Observability Platform",
+  },
+  {
     title: "KirkpatrickPrice",
     link: "https://kirkpatrickprice.com/",
     image: KirkpatrickPrice,
@@ -3608,6 +3644,13 @@ export const testList = [
     link: "https://www.smartsheet.com/",
     image: Smartsheet,
     description: "Work Collaboration Software & Solutions",
+  },
+  {
+    title: "Software Testing Class",
+    link: "https://www.softwaretestingclass.com/",
+    image: SoftwareTestingClass,
+    description:
+      "Software Testing Classes in Pune, Bangalore, Hydrabad, Mumbai, Delhi, Kolkatta, Chennai & many more",
   },
   {
     title: "TestGuild",
