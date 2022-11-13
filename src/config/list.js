@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import JobSea from "../styles/images/jobsea.webp";
 import GCFGlobal from "../styles/images/gcfglobal.webp";
 import JetAdmin from "../styles/images/jetadmin.webp";
 import ResumeHelp from "../styles/images/resumehelp.webp";
@@ -1148,6 +1149,12 @@ export const jobList = [
     link: "https://weworkremotely.com/",
     image: WeWorkRemotely,
     description: "Remote jobs in design, programming, marketing and more",
+  },
+  {
+    title: "Job-Sea.com",
+    link: "https://job-sea.com/",
+    image: JobSea,
+    description: "",
   },
   {
     title: "remoteok",
