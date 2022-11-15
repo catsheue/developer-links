@@ -1,5 +1,7 @@
 import { languageList } from "./languageList";
 
+import DocumentingAPIs from "../styles/images/learnapidoc.webp";
+import Apipheny from "../styles/images/apipheny.webp";
 import TestDriven from "../styles/images/testdriven.webp";
 import JobSea from "../styles/images/jobsea.webp";
 import ThreatStack from "../styles/images/threatstack.webp";
@@ -1341,6 +1343,19 @@ export const apiList = [
     link: "https://any-api.com/",
     image: AnyAPI,
     description: "",
+  },
+  {
+    title: "Apipheny",
+    link: "https://apipheny.io/",
+    image: Apipheny,
+    description: "API Connector for Google Sheets - Import API Data",
+  },
+  {
+    title: "Documenting APIs",
+    link: "https://idratherbewriting.com/learnapidoc/",
+    image: DocumentingAPIs,
+    description:
+      "Documenting APIs: A guide for technical writers and engineers",
   },
   {
     title: "API List",
