@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import AndrewLock from "../styles/images/andrewlock.webp";
 import DocumentingAPIs from "../styles/images/learnapidoc.webp";
 import Apipheny from "../styles/images/apipheny.webp";
 import TestDriven from "../styles/images/testdriven.webp";
@@ -2026,6 +2027,12 @@ export const regexList = [
 ];
 
 export const blogList = [
+  {
+    title: "Andrew Lock | .NET Escapades",
+    link: "https://andrewlock.net/",
+    image: AndrewLock,
+    description: "",
+  },
   {
     title: "Muhammad Hassan",
     link: "https://hassantariqblog.wordpress.com/",
