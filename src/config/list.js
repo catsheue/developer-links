@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import DevIQ from "../styles/images/deviq.webp";
 import AndrewLock from "../styles/images/andrewlock.webp";
 import DocumentingAPIs from "../styles/images/learnapidoc.webp";
 import Apipheny from "../styles/images/apipheny.webp";
@@ -1443,6 +1444,12 @@ export const tutorialList = [
     link: "https://refactoring.guru/",
     image: RealPython,
     description: "Refactoring and Design Patterns",
+  },
+  {
+    title: "DevIQ",
+    link: "https://deviq.com/",
+    image: DevIQ,
+    description: "",
   },
   {
     title: "CSS { In Real Life }",
