@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import TypeLevelTypeScript from "../styles/images/typeleveltypescript.webp";
 import DevIQ from "../styles/images/deviq.webp";
 import AndrewLock from "../styles/images/andrewlock.webp";
 import DocumentingAPIs from "../styles/images/learnapidoc.webp";
@@ -1091,6 +1092,12 @@ export const uiuxList = [
   },
 ];
 export const typeScriptList = [
+  {
+    title: "Type-Level TypeScript",
+    link: "https://type-level-typescript.com/",
+    image: TypeLevelTypeScript,
+    description: "",
+  },
   {
     title: "FREE TypeScript course for JavaScript developers",
     link: "https://learntypescript.dev/",
