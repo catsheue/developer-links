@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import dotnetthoughts from "../styles/images/dotnetthoughts.webp";
 import TypeLevelTypeScript from "../styles/images/typeleveltypescript.webp";
 import DevIQ from "../styles/images/deviq.webp";
 import AndrewLock from "../styles/images/andrewlock.webp";
@@ -685,6 +686,12 @@ export const dotnetList = [
     link: "https://www.dofactory.com/",
     image: Dofactory,
     description: ".NET Success Platform",
+  },
+  {
+    title: "dotnetthoughts",
+    link: "https://dotnetthoughts.net/",
+    image: dotnetthoughts,
+    description: "a dotnet developer’s technical journal",
   },
 ];
 
