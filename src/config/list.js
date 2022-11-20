@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import KhalidAbuhakmeh from "../styles/images/khalidabuhakmeh.webp";
 import dotnetthoughts from "../styles/images/dotnetthoughts.webp";
 import TypeLevelTypeScript from "../styles/images/typeleveltypescript.webp";
 import DevIQ from "../styles/images/deviq.webp";
@@ -692,6 +693,12 @@ export const dotnetList = [
     link: "https://dotnetthoughts.net/",
     image: dotnetthoughts,
     description: "a dotnet developer’s technical journal",
+  },
+  {
+    title: "Khalid Abuhakmeh",
+    link: "https://khalidabuhakmeh.com/",
+    image: KhalidAbuhakmeh,
+    description: "",
   },
 ];
 
