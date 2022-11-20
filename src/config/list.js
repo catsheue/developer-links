@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import UseTheIndexLuke from "../styles/images/usetheindexluke.webp";
 import KhalidAbuhakmeh from "../styles/images/khalidabuhakmeh.webp";
 import dotnetthoughts from "../styles/images/dotnetthoughts.webp";
 import TypeLevelTypeScript from "../styles/images/typeleveltypescript.webp";
@@ -825,6 +826,13 @@ export const databaseList = [
     link: "https://www.scylladb.com/",
     image: ScyllaDB,
     description: "The Real-Time Big Data Database",
+  },
+  {
+    title: "Use The Index, Luke",
+    link: "https://use-the-index-luke.com/",
+    image: UseTheIndexLuke,
+    description:
+      "SQL Indexing and Tuning e-Book for developers: Use The Index, Luke covers Oracle, MySQL, PostgreSQL, SQL Server, ...",
   },
 ];
 
