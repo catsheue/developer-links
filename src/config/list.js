@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import CodewithShadman from "../styles/images/codewithshadman.webp";
 import dotnettutorials from "../styles/images/dotnettutorials.webp";
 import UseTheIndexLuke from "../styles/images/usetheindexluke.webp";
 import KhalidAbuhakmeh from "../styles/images/khalidabuhakmeh.webp";
@@ -669,6 +670,13 @@ export const dotnetList = [
     title: "Dot Net Tutorials By Real-Time Experts",
     link: "https://dotnettutorials.net/",
     image: dotnettutorials,
+    tag: [languageList.csharp],
+    description: "",
+  },
+  {
+    title: "Code with Shadman",
+    link: "https://codewithshadman.com//",
+    image: CodewithShadman,
     tag: [languageList.csharp],
     description: "",
   },
