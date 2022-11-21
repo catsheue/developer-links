@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import chortle from "../styles/images/chortle.webp";
 import CodewithShadman from "../styles/images/codewithshadman.webp";
 import dotnettutorials from "../styles/images/dotnettutorials.webp";
 import UseTheIndexLuke from "../styles/images/usetheindexluke.webp";
@@ -1514,6 +1515,12 @@ export const tutorialList = [
     link: "https://realpython.com/",
     image: RealPython,
     description: "Python Tutorials",
+  },
+  {
+    title: "Programming Tutorials",
+    link: "https://chortle.ccsu.edu/",
+    image: chortle,
+    description: "",
   },
   {
     title: "Tutorialzine",
