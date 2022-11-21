@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import dotnettutorials from "../styles/images/dotnettutorials.webp";
 import UseTheIndexLuke from "../styles/images/usetheindexluke.webp";
 import KhalidAbuhakmeh from "../styles/images/khalidabuhakmeh.webp";
 import dotnetthoughts from "../styles/images/dotnetthoughts.webp";
@@ -664,6 +665,13 @@ export const careerList = [
 ];
 
 export const dotnetList = [
+  {
+    title: "Dot Net Tutorials By Real-Time Experts",
+    link: "https://dotnettutorials.net/",
+    image: dotnettutorials,
+    tag: [languageList.csharp],
+    description: "",
+  },
   {
     title: "Dot Net Perls",
     link: "https://www.dotnetperls.com/",
