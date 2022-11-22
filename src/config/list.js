@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import MakeSeleniumEasy from "../styles/images/makeseleniumeasy.webp";
 import chortle from "../styles/images/chortle.webp";
 import CodewithShadman from "../styles/images/codewithshadman.webp";
 import dotnettutorials from "../styles/images/dotnettutorials.webp";
@@ -3720,6 +3721,12 @@ export const testList = [
     link: "https://www.seleniumeasy.com/",
     image: SeleniumEasy,
     description: "Learn Selenium with Best Practices and Examples",
+  },
+  {
+    title: "Make Selenium Easy",
+    link: "http://makeseleniumeasy.com/",
+    image: MakeSeleniumEasy,
+    description: "",
   },
   {
     title: "TestDriven.io",
