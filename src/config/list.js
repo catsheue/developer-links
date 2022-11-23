@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import elmah from "../styles/images/elmah.webp";
 import MakeSeleniumEasy from "../styles/images/makeseleniumeasy.webp";
 import chortle from "../styles/images/chortle.webp";
 import CodewithShadman from "../styles/images/codewithshadman.webp";
@@ -3076,6 +3077,12 @@ export const serviceList = [
     link: "https://kirkpatrickprice.com/",
     image: KirkpatrickPrice,
     description: "Licensed CPA Firm | SSAE 18, SOC 1, SOC 2, PCI",
+  },
+  {
+    title: "elmah.io",
+    link: "https://elmah.io/",
+    image: elmah,
+    description: "Error logging and Uptime monitoring for .NET",
   },
   {
     title: "LITSLINK",
