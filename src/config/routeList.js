@@ -21,7 +21,9 @@ import {
   interactiveLearnList,
   jobList,
   libraryList,
+  linuxList,
   marketingList,
+  networkingList,
   newsList,
   quizList,
   reactList,
@@ -74,6 +76,8 @@ export const routeList = [
   { path: "youtube", text: "Youtube", importList: youtubeList },
   { path: "courses", text: "Online Courses", importList: courseList },
   { path: "book", text: "Book", importList: bookList },
+  { path: "networking", text: "Networking", importList: networkingList },
+  { path: "linux", text: "Linux", importList: linuxList },
   { path: "comic", text: "Comic", importList: comicList },
   {
     path: "interactive",

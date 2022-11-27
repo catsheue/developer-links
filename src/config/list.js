@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import CompTIA from "../styles/images/comptia.webp";
 import elmah from "../styles/images/elmah.webp";
 import MakeSeleniumEasy from "../styles/images/makeseleniumeasy.webp";
 import chortle from "../styles/images/chortle.webp";
@@ -3576,6 +3577,15 @@ export const serviceList = [
     link: "http://elementalselenium.com/",
     image: ElementalSelenium,
     description: "Receive a Free, Weekly Tip on Using Selenium like a Pro",
+  },
+];
+export const networkingList = [
+  {
+    title: "CompTIA",
+    link: "https://www.comptia.org/",
+    image: CompTIA,
+    description:
+      "IT Networking Specialist Career Path | Job Description & Salary",
   },
 ];
 export const remoteList = [
