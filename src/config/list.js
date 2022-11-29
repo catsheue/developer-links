@@ -1,6 +1,7 @@
 import { languageList } from "./languageList";
 
-import CompTIA from "../styles/images/comptia.webp";
+import SQLPlayer from "../styles/images/sqlplayer.webp";
+import Kinsta from "../styles/images/kinsta.webp";
 import elmah from "../styles/images/elmah.webp";
 import MakeSeleniumEasy from "../styles/images/makeseleniumeasy.webp";
 import chortle from "../styles/images/chortle.webp";
@@ -592,6 +593,12 @@ export const sqlList = [
     image: SQLPerformance,
     description: "SQL Server Performance Articles",
   },
+  {
+    title: "SQL Player",
+    link: "https://sqlplayer.net/",
+    image: SQLPlayer,
+    description: "Play with data & have fun!",
+  },
 ];
 export const docList = [
   {
@@ -801,6 +808,12 @@ export const hostingList = [
     image: Winhost,
     description:
       "ASP.NET Hosting | .NET Core Hosting | Windows Hosting at Winhost",
+  },
+  {
+    title: "Kinsta",
+    link: "https://kinsta.com/",
+    image: NodeChef,
+    description: "Kinsta® Cloud Hosting for All Your Web Projects",
   },
   {
     title: "NodeChef",
@@ -3577,15 +3590,6 @@ export const serviceList = [
     link: "http://elementalselenium.com/",
     image: ElementalSelenium,
     description: "Receive a Free, Weekly Tip on Using Selenium like a Pro",
-  },
-];
-export const networkingList = [
-  {
-    title: "CompTIA",
-    link: "https://www.comptia.org/",
-    image: CompTIA,
-    description:
-      "IT Networking Specialist Career Path | Job Description & Salary",
   },
 ];
 export const remoteList = [
