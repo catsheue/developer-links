@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import JavaInterviewPoint from "../styles/images/javainterviewpoint.webp";
 import SQLPlayer from "../styles/images/sqlplayer.webp";
 import Kinsta from "../styles/images/kinsta.webp";
 import elmah from "../styles/images/elmah.webp";
@@ -1619,6 +1620,13 @@ export const tutorialList = [
     image: Jenkov,
     tag: [languageList.java],
     description: "",
+  },
+  {
+    title: "Java Interview Point",
+    link: "https://www.javainterviewpoint.com/",
+    image: JavaInterviewPoint,
+    tag: [languageList.java],
+    description: "Java Tutorial for Beginners",
   },
 ];
 
