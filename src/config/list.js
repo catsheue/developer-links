@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Fullstackopen2022 from "../styles/images/fullstackopen.webp";
 import JavaInterviewPoint from "../styles/images/javainterviewpoint.webp";
 import SQLPlayer from "../styles/images/sqlplayer.webp";
 import Kinsta from "../styles/images/kinsta.webp";
@@ -1550,6 +1551,12 @@ export const tutorialList = [
     link: "https://www.tutorialsteacher.com/",
     image: TutorialsTeacher,
     description: "Learn Web Technologies",
+  },
+  {
+    title: "Full stack open 2022",
+    link: "https://fullstackopen.com/en/",
+    image: Fullstackopen2022,
+    description: "",
   },
   {
     title: "αlphαrithms",
