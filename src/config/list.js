@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import SqlQuantumLeap from "../styles/images/sqlquantumleap.webp";
 import Fullstackopen2022 from "../styles/images/fullstackopen.webp";
 import JavaInterviewPoint from "../styles/images/javainterviewpoint.webp";
 import SQLPlayer from "../styles/images/sqlplayer.webp";
@@ -600,6 +601,12 @@ export const sqlList = [
     link: "https://sqlplayer.net/",
     image: SQLPlayer,
     description: "Play with data & have fun!",
+  },
+  {
+    title: "Sql Quantum Leap",
+    link: "https://sqlquantumleap.com/",
+    image: SqlQuantumLeap,
+    description: "",
   },
 ];
 export const docList = [
