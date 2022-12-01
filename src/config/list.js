@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Devjobsscanner from "../styles/images/devjobsscanner.webp";
 import Playwright from "../styles/images/playwright.webp";
 import SqlQuantumLeap from "../styles/images/sqlquantumleap.webp";
 import Fullstackopen2022 from "../styles/images/fullstackopen.webp";
@@ -1263,6 +1264,12 @@ export const jobList = [
     link: "https://remote.co/",
     image: RemoteCo,
     description: "Remote Work: Jobs, Companies & Virtual Teams",
+  },
+  {
+    title: "Devjobsscanner",
+    link: "https://www.devjobsscanner.com/",
+    image: Devjobsscanner,
+    description: "Search developer jobs around the world",
   },
   {
     title: "AngelList Talent",
