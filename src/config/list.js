@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Playwright from "../styles/images/playwright.webp";
 import SqlQuantumLeap from "../styles/images/sqlquantumleap.webp";
 import Fullstackopen2022 from "../styles/images/fullstackopen.webp";
 import JavaInterviewPoint from "../styles/images/javainterviewpoint.webp";
@@ -3770,6 +3771,12 @@ export const testList = [
     link: "http://makeseleniumeasy.com/",
     image: MakeSeleniumEasy,
     description: "",
+  },
+  {
+    title: "Playwright",
+    link: "https://playwright.dev/",
+    image: Playwright,
+    description: "Fast and reliable end-to-end testing for modern web apps",
   },
   {
     title: "TestDriven.io",
