@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Octoparse from "../styles/images/octoparse.webp";
 import Devjobsscanner from "../styles/images/devjobsscanner.webp";
 import Playwright from "../styles/images/playwright.webp";
 import SqlQuantumLeap from "../styles/images/sqlquantumleap.webp";
@@ -1741,6 +1742,12 @@ export const toolList = [
     link: "http://www.jsondiff.com/",
     image: JSONDiff,
     description: "The semantic JSON compare tool",
+  },
+  {
+    title: "Octoparse",
+    link: "https://www.octoparse.com/",
+    image: Octoparse,
+    description: "Web Scraping Tool & Free Web Crawlers",
   },
   {
     title: "Wordtune",
