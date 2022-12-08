@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Dataquest from "../styles/images/dataquest.webp";
 import Octoparse from "../styles/images/octoparse.webp";
 import Devjobsscanner from "../styles/images/devjobsscanner.webp";
 import Playwright from "../styles/images/playwright.webp";
@@ -610,6 +611,12 @@ export const sqlList = [
     link: "https://sqlquantumleap.com/",
     image: SqlQuantumLeap,
     description: "",
+  },
+  {
+    title: "Dataquest",
+    link: "https://www.dataquest.io/",
+    image: Dataquest,
+    description: "Learn Data Science — Python, R, SQL, PowerBI",
   },
 ];
 export const docList = [
