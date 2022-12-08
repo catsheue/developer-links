@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import ComputerNetworkingNotes from "../styles/images/computernetworkingnotes.webp";
 import Dataquest from "../styles/images/dataquest.webp";
 import Octoparse from "../styles/images/octoparse.webp";
 import Devjobsscanner from "../styles/images/devjobsscanner.webp";
@@ -1537,6 +1538,12 @@ export const tutorialList = [
     link: "https://deviq.com/",
     image: DevIQ,
     description: "",
+  },
+  {
+    title: "Computer networking notes",
+    link: "https://www.computernetworkingnotes.com/",
+    image: ComputerNetworkingNotes,
+    description: "Complete Computer networking notes guides tutorials",
   },
   {
     title: "CSS { In Real Life }",
