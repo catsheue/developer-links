@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import PortSwigger from "../styles/images/portswigger.webp";
 import curl from "../styles/images/curl.webp";
 import ComputerNetworkingNotes from "../styles/images/computernetworkingnotes.webp";
 import Dataquest from "../styles/images/dataquest.webp";
@@ -3143,6 +3144,12 @@ export const serviceList = [
     link: "https://www.solarwinds.com/",
     image: SolarWinds,
     description: "IT Management Software and Observability Platform",
+  },
+  {
+    title: "PortSwigger",
+    link: "https://portswigger.net/",
+    image: PortSwigger,
+    description: "Web Application Security, Testing, & Scanning",
   },
   {
     title: "KirkpatrickPrice",
