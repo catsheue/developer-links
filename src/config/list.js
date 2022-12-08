@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import curl from "../styles/images/curl.webp";
 import ComputerNetworkingNotes from "../styles/images/computernetworkingnotes.webp";
 import Dataquest from "../styles/images/dataquest.webp";
 import Octoparse from "../styles/images/octoparse.webp";
@@ -1751,6 +1752,12 @@ export const designSystemList = [
 ];
 
 export const toolList = [
+  {
+    title: "curl",
+    link: "https://curl.se/",
+    image: curl,
+    description: "",
+  },
   {
     title: "JSON Diff",
     link: "http://www.jsondiff.com/",
