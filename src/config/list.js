@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import ByteByteGo from "../styles/images/bytebytego.webp";
 import PortSwigger from "../styles/images/portswigger.webp";
 import curl from "../styles/images/curl.webp";
 import ComputerNetworkingNotes from "../styles/images/computernetworkingnotes.webp";
@@ -3126,6 +3127,12 @@ export const serviceList = [
     link: "https://www.f5.com/",
     image: F5,
     description: "Multi-Cloud Security and Application Delivery",
+  },
+  {
+    title: "ByteByteGo",
+    link: "https://bytebytego.com/",
+    image: ByteByteGo,
+    description: "Ace Your Next System Design Interview",
   },
   {
     title: "Threat Stack",
