@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import CockroachDB from "../styles/images/cockroachlabs.webp";
 import ByteByteGo from "../styles/images/bytebytego.webp";
 import PortSwigger from "../styles/images/portswigger.webp";
 import curl from "../styles/images/curl.webp";
@@ -882,6 +883,12 @@ export const databaseList = [
     link: "https://www.scylladb.com/",
     image: ScyllaDB,
     description: "The Real-Time Big Data Database",
+  },
+  {
+    title: "CockroachDB",
+    link: "https://www.cockroachlabs.com/",
+    image: CockroachDB,
+    description: "Cockroach Labs, the company building CockroachDB",
   },
   {
     title: "Use The Index, Luke",
