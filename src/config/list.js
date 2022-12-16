@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import gleek from "../styles/images/gleek.webp";
 import CockroachDB from "../styles/images/cockroachlabs.webp";
 import ByteByteGo from "../styles/images/bytebytego.webp";
 import PortSwigger from "../styles/images/portswigger.webp";
@@ -1766,6 +1767,12 @@ export const toolList = [
     link: "https://curl.se/",
     image: curl,
     description: "",
+  },
+  {
+    title: "gleek",
+    link: "https://www.gleek.io/",
+    image: gleek,
+    description: "Diagram maker for developers",
   },
   {
     title: "JSON Diff",
