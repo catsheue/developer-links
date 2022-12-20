@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import SecureCodingHandbook from "../styles/images/securecoding.webp";
 import LiveAction from "../styles/images/liveaction.webp";
 import gleek from "../styles/images/gleek.webp";
 import CockroachDB from "../styles/images/cockroachlabs.webp";
@@ -1569,7 +1570,6 @@ export const tutorialList = [
     image: Monorepo,
     description: "",
   },
-
   {
     title: "Real Python",
     link: "https://realpython.com/",
@@ -1605,6 +1605,12 @@ export const tutorialList = [
     link: "https://www.alpharithms.com/",
     image: αlphαrithms,
     description: "Staying Ahead of the Curve",
+  },
+  {
+    title: "Secure Coding Handbook",
+    link: "https://vladtoie.gitbook.io/secure-coding/",
+    image: SecureCodingHandbook,
+    description: "",
   },
   {
     title: "ZetCode",
