@@ -1,5 +1,6 @@
 import { languageList } from "./languageList";
 
+import Integrate from "../styles/images/integrate.webp";
 import SecureCodingHandbook from "../styles/images/securecoding.webp";
 import LiveAction from "../styles/images/liveaction.webp";
 import gleek from "../styles/images/gleek.webp";
@@ -3196,6 +3197,12 @@ export const serviceList = [
     link: "https://elmah.io/",
     image: elmah,
     description: "Error logging and Uptime monitoring for .NET",
+  },
+  {
+    title: "Integrate.io",
+    link: "https://www.integrate.io/",
+    image: Integrate,
+    description: "Integrate.io data integration for e-commerce",
   },
   {
     title: "LITSLINK",
